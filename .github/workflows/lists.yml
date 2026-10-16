@@ -1,0 +1,33 @@
+name: Curated intern lists + quant firm sites
+
+# Plain GETs to raw.githubusercontent.com — no IP or login issues.
+on:
+  schedule:
+    - cron: '23,53 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: lists-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Fetch curated lists
+        run: node fetch-lists-feed.mjs
+      - name: Fetch Jane Street / SIG / D. E. Shaw
+        if: always()
+        run: node fetch-quant-sites.mjs
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh lists data/lists-feed.json data/scan-lists-heartbeat.json data/quant-sites-feed.json data/scan-quant-sites-heartbeat.json

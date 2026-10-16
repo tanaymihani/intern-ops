@@ -1,0 +1,30 @@
+{
+  "name": "intern-ops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI/ML + Quant internship finder: ATS reverse sweeps, curated intern lists, LinkedIn, Handshake, HiringCafe, JobRight and NextPlay feeds on GitHub Actions, with a Vercel dashboard.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "scan": "node run.mjs",
+    "scan:workday": "node run-workday.mjs",
+    "scan:tracked": "node run-tracked.mjs",
+    "scan:seeds": "node run-seeds.mjs",
+    "feed:lists": "node fetch-lists-feed.mjs",
+    "feed:quant-sites": "node fetch-quant-sites.mjs",
+    "feed:linkedin": "node fetch-linkedin-feed.mjs",
+    "feed:handshake": "node fetch-handshake-feed.mjs",
+    "feed:hc": "node run-hc.mjs",
+    "feed:nextplay": "node run-nextplay.mjs",
+    "feed:jr": "node run-jobright.mjs",
+    "liveness": "node check-liveness.mjs",
+    "dev": "node dev-server.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1",
+    "libsodium-wrappers": "^0.7.15"
+  }
+}

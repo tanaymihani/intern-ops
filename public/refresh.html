@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Refresh logins · intern-ops</title>
+<style>
+  :root { --bg: #09090b; --card: #1b1e24; --line: #2e323c; --text: #ededf0; --muted: #9b9fa8; --accent: #f472b6; --ok: #86c9a3; --bad: #f87171; }
+  body { font: 15px/1.5 system-ui, sans-serif; background: var(--bg); color: var(--text); max-width: 680px; margin: 40px auto; padding: 0 16px; }
+  h1 { font-size: 20px; }
+  h2 { font-size: 16px; margin-top: 32px; }
+  ol { padding-left: 20px; }
+  li { margin-bottom: 10px; }
+  textarea, input[type=password] { width: 100%; box-sizing: border-box; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+  textarea { height: 120px; }
+  input[type=password] { margin-bottom: 12px; }
+  button { background: var(--accent); color: #09090b; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; margin-top: 10px; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  #status { margin-top: 14px; font-size: 14px; }
+  code { background: var(--card); padding: 2px 6px; border-radius: 4px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+  <p><a href="/">← back to internships</a></p>
+  <h1>Refresh JobRight session</h1>
+  <p>When the Sources panel says JobRight needs sign-in, your session expired. Steps:</p>
+  <ol>
+    <li>Log into <a href="https://jobright.ai/jobs/recommend" target="_blank" rel="noopener">jobright.ai</a> in your normal browser (set your job preferences to <b>Internship</b> + ML / quant roles so recommendations match).</li>
+    <li>Open DevTools (<code>Cmd+Option+I</code>) → <strong>Network</strong>, filter for <code>swan</code>, and refresh the page.</li>
+    <li>Right-click a request to <code>swan-api.jobright.ai</code> → Copy → <strong>Copy as cURL</strong>, and paste it below.</li>
+  </ol>
+  <input type="password" id="pw" placeholder="Dashboard password" autocomplete="current-password" />
+  <textarea id="curl" placeholder="curl 'https://swan-api.jobright.ai/...' -b '...' ..."></textarea>
+  <br/>
+  <button id="submit">Update secret</button>
+  <div id="status" role="status"></div>
+  <p class="muted">The cookie is sealed with your repository's public key and stored as the <code>JOBRIGHT_COOKIE</code> GitHub Actions secret. It isn't saved anywhere else.</p>
+
+  <h2>Handshake</h2>
+  <p class="muted">Handshake runs on your own computer, not here: it opens a real Chrome window with your school sign-in. Run <code>npm run feed:handshake -- --login</code> once, then <code>npm run feed:handshake -- --push</code> whenever you want fresh Handshake postings on the site.</p>
+<script>
+  document.getElementById('submit').addEventListener('click', async () => {
+    const btn = document.getElementById('submit');
+    const status = document.getElementById('status');
+    const pw = document.getElementById('pw').value;
+    const curl = document.getElementById('curl').value;
+    if (!pw || !curl) { status.textContent = 'Fill in both fields.'; return; }
+    btn.disabled = true;
+    status.style.color = '';
+    status.textContent = 'Updating…';
+    try {
+      const res = await fetch('/api/refresh-cookie', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ password: pw, source: 'jobright', curl }),
+      });
+      const data = await res.json();
+      status.textContent = res.ok ? `✓ ${data.message}` : `✗ ${data.error || 'Failed.'}`;
+      status.style.color = res.ok ? 'var(--ok)' : 'var(--bad)';
+      if (res.ok) { document.getElementById('curl').value = ''; document.getElementById('pw').value = ''; }
+    } catch (err) {
+      status.textContent = `✗ ${err.message}`;
+      status.style.color = 'var(--bad)';
+    }
+    btn.disabled = false;
+  });
+</script>
+</body>
+</html>

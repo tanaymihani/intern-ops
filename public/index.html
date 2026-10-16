@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Internships · intern-ops</title>
+<meta name="description" content="AI/ML and quant internships, scraped from company boards, curated lists, LinkedIn, Handshake, HiringCafe and JobRight." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2309090b'/><text x='16' y='22' font-size='17' text-anchor='middle' fill='%23f472b6' font-family='Georgia,serif' font-style='italic'>io</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;650;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<div class="mirror-bar">
+  Live mirror — scrapers run on GitHub Actions every few minutes.
+  &nbsp;·&nbsp; <button type="button" class="linklike" id="sourcesLink">Sources</button>
+  <span id="refreshLinkWrap" hidden>&nbsp;·&nbsp; <a href="/refresh.html">Refresh Handshake / JobRight login</a></span>
+  <span id="authWrap" hidden>&nbsp;·&nbsp; <span id="authArea">loading…</span></span>
+</div>
+<div id="loginGate">
+  <div class="gate-brand">intern<span>-ops</span></div>
+  <div style="color:var(--muted)">Sign in to view internships and track what you've applied to.</div>
+  <button type="button" id="gateSignInBtn">Sign in with GitHub</button>
+</div>
+<header>
+  <div class="top-row">
+    <h1 class="brand">intern<span>-ops</span></h1>
+    <div class="track-tabs" id="trackTabs">
+      <button type="button" class="track-tab" data-track="ai">🤖 AI/ML</button>
+      <button type="button" class="track-tab" data-track="quant">📈 Quant</button>
+      <button type="button" class="track-tab" data-track="all">✨ All</button>
+    </div>
+    <div class="bar">
+      <input id="q" type="search" placeholder="Search internships…" autofocus />
+      <span class="stat" id="stat"></span>
+    </div>
+  </div>
+  <div class="simple-controls">
+    <select id="ageFilter" title="Found / posted">
+      <option value="">Any time</option>
+      <option value="1">Past 24h</option>
+      <option value="2">Past 2 days</option>
+      <option value="3">Past 3 days</option>
+      <option value="7" selected>Past 7 days</option>
+      <option value="14">Past 14 days</option>
+      <option value="30">Past 30 days</option>
+    </select>
+    <select id="seasonFilter" title="Season"><option value="">Any season</option></select>
+    <select id="degreeFilter" title="Degree">
+      <option value="">Any degree</option>
+      <option value="no-phd" selected>Hide PhD-only</option>
+      <option value="phd">PhD only</option>
+    </select>
+    <select id="geoFilter" title="Location">
+      <option value="us" selected>US only</option>
+      <option value="remote-us">Remote US</option>
+      <option value="">Any location</option>
+    </select>
+    <select id="workFilter" title="Workplace">
+      <option value="">Any workplace</option>
+      <option value="Remote">Remote</option>
+      <option value="Hybrid">Hybrid</option>
+      <option value="Onsite">Onsite</option>
+    </select>
+    <select id="sourceFilter" title="Source"><option value="">All sources</option></select>
+    <select id="sort" title="Sort">
+      <option value="discovered">Recently found</option>
+      <option value="posted">Employer newest</option>
+      <option value="company">Company</option>
+      <option value="title">Title</option>
+    </select>
+    <label class="toggle"><input type="checkbox" id="hideApplied" checked /> <span id="hideAppliedLabel">Hide applied</span></label>
+    <button type="button" class="ghost" id="moreToggle">More</button>
+    <button type="button" class="ghost" id="clearFilters">Reset</button>
+    <button type="button" class="ghost" id="hiddenToggle">Hidden</button>
+  </div>
+  <div class="filters-panel" id="filtersPanel">
+    <input id="companyFilter" type="search" placeholder="Company" />
+    <input id="locFilter" type="search" placeholder="Location text" />
+    <select id="atsFilter" title="Apply-link board"><option value="">All boards</option></select>
+    <label class="toggle"><input type="checkbox" id="hideOpened" /> Hide opened</label>
+    <label class="toggle"><input type="checkbox" id="hideCoop" /> Hide co-ops</label>
+    <label class="toggle"><input type="checkbox" id="hideReposts" /> Hide reposts</label>
+    <label class="toggle"><input type="checkbox" id="officialOnly" /> Direct-from-employer only</label>
+  </div>
+  <div class="sources-panel" id="sourcesPanel">
+    <div class="sources-grid" id="sourcesGrid"></div>
+    <div class="sources-note" id="sourcesNote"></div>
+  </div>
+</header>
+<main>
+  <div id="staleBanner" class="stale-banner" role="status"></div>
+  <div id="newBanner" class="banner" role="button" tabindex="0">New internships — jump to top</div>
+  <div id="empty" class="empty" style="display:none">No internships match. Try Reset.</div>
+  <div class="grid" id="grid"></div>
+</main>
+<div class="toast" id="toast"></div>
+<div class="hide-modal-backdrop" id="hideReasonModal" aria-hidden="true">
+  <div class="hide-dialog" role="dialog" aria-modal="true" aria-labelledby="hideDialogTitle">
+    <h2 id="hideDialogTitle">Why hide this internship?</h2>
+    <div class="hide-dialog-job" id="hideDialogJob"></div>
+    <div class="hide-suggestion">
+      <div class="hide-suggestion-label">Suggested</div>
+      <div class="hide-suggestion-value" id="hideSuggestionValue"></div>
+    </div>
+    <div class="hide-reason-picker" id="hideReasonPicker">
+      <select id="hideReasonSelect" aria-label="Choose a different hide reason"></select>
+    </div>
+    <p class="hide-dialog-note">Hiding only removes this posting from your feed. The reason is saved with your private state so you can review what you skip.</p>
+    <div class="hide-dialog-actions">
+      <button type="button" id="hideCancel">Cancel</button>
+      <button type="button" id="hideChange">Change reason</button>
+      <button type="button" class="confirm-hide" id="hideConfirm">Confirm hide</button>
+    </div>
+  </div>
+</div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

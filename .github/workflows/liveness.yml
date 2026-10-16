@@ -1,0 +1,29 @@
+name: Liveness (hide filled postings)
+
+on:
+  schedule:
+    - cron: '37 */6 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: liveness
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Check scanned postings are still open
+        run: node check-liveness.mjs
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh liveness data/closed-jobs.json data/scan-liveness-heartbeat.json

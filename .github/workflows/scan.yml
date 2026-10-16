@@ -1,0 +1,37 @@
+name: GHAL sweep (Greenhouse · Ashby · Lever)
+
+# Reverse sweep of ~16k public company boards for AI/ML + quant internships.
+# Run once by hand with since=45 to backfill the current cycle.
+on:
+  schedule:
+    - cron: '2-59/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Posted within N days'
+        default: '4'
+
+concurrency:
+  group: ghal-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Run GHAL sweep
+        run: node run.mjs
+        env:
+          GHAL_SINCE: ${{ inputs.since || '4' }}
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh scan data/

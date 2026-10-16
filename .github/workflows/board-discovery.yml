@@ -1,0 +1,29 @@
+name: Board discovery (promote aggregator leads to tracked boards)
+
+on:
+  schedule:
+    - cron: '50 */6 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: board-discovery
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Run board discovery
+        run: node discover-boards.mjs
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh board-discovery portals.yml data/

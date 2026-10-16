@@ -1,0 +1,35 @@
+name: Tracked boards (quant firms, AI labs, portals.yml)
+
+on:
+  schedule:
+    - cron: '8-59/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Posted within N days'
+        default: '2'
+
+concurrency:
+  group: tracked-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Run tracked-boards scan
+        run: node run-tracked.mjs
+        env:
+          TRACKED_SINCE: ${{ inputs.since || '2' }}
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh tracked data/

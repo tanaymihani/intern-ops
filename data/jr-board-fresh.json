@@ -1,0 +1,310 @@
+{
+  "fetchedAt": "2026-10-16T03:33:22.924Z",
+  "days": 2,
+  "leadCount": 12,
+  "jobCount": 22,
+  "boards": [
+    {
+      "key": "greenhouse:nlginterns",
+      "fetched": 20,
+      "kept": 1
+    },
+    {
+      "key": "greenhouse:businessolver",
+      "fetched": 30,
+      "kept": 1
+    },
+    {
+      "key": "greenhouse:point72",
+      "fetched": 221,
+      "kept": 3
+    },
+    {
+      "key": "workday:gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite",
+      "fetched": 20,
+      "kept": 0
+    },
+    {
+      "key": "workday:ardian.wd103.myworkdayjobs.com/ardiancareers",
+      "fetched": 20,
+      "kept": 1
+    },
+    {
+      "key": "lever:field-ai",
+      "fetched": 104,
+      "kept": 0
+    },
+    {
+      "key": "workday:gevernova.wd5.myworkdayjobs.com/vernova_externalsite",
+      "fetched": 20,
+      "kept": 0
+    },
+    {
+      "key": "workday:cff.wd504.myworkdayjobs.com/explore-career-opportunities",
+      "fetched": 16,
+      "kept": 1
+    },
+    {
+      "key": "workday:jj.wd5.myworkdayjobs.com/jj",
+      "fetched": 80,
+      "kept": 0
+    },
+    {
+      "key": "workday:alliance.wd3.myworkdayjobs.com/nissanjobs",
+      "fetched": 80,
+      "kept": 7
+    },
+    {
+      "key": "workday:generalmotors.wd5.myworkdayjobs.com/careers_gm",
+      "fetched": 80,
+      "kept": 7
+    },
+    {
+      "key": "workday:hitachi.wd1.myworkdayjobs.com/hitachi",
+      "fetched": 80,
+      "kept": 1
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Data Science Intern – Summer 2027",
+      "url": "https://job-boards.greenhouse.io/nlginterns/jobs/4449671009",
+      "company": "National Life Group - Interns",
+      "location": "Addison, TX; Montpelier, VT",
+      "postedAt": "2026-10-14T18:05:00.000Z",
+      "salary": "",
+      "ats": "Greenhouse",
+      "board": "nlginterns"
+    },
+    {
+      "title": "Copy of Business Intelligence Analyst Internship (Innovation & Data Science)",
+      "url": "https://www.businessolver.com/careers/openings/?gh_jid=8281727",
+      "company": "Businessolver",
+      "location": "Remote - United States",
+      "postedAt": "2026-10-14T15:38:11.000Z",
+      "salary": "",
+      "ats": "Greenhouse",
+      "board": "businessolver"
+    },
+    {
+      "title": "2027 Summer Internship – Software Engineer ",
+      "url": "https://boards.greenhouse.io/point72/jobs/8885733002?gh_jid=8885733002",
+      "company": "Point72",
+      "location": "New York, NY",
+      "postedAt": "2026-10-14T14:20:41.000Z",
+      "salary": "",
+      "ats": "Greenhouse",
+      "board": "point72"
+    },
+    {
+      "title": "2027 Summer Internship - Sector Analyst, Proprietary Research",
+      "url": "https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002",
+      "company": "Point72",
+      "location": "New York, NY",
+      "postedAt": "2026-10-14T14:19:56.000Z",
+      "salary": "",
+      "ats": "Greenhouse",
+      "board": "point72"
+    },
+    {
+      "title": "2027 Summer Internship - MS/PhD Data Scientist, Proprietary Research",
+      "url": "https://boards.greenhouse.io/point72/jobs/8885299002?gh_jid=8885299002",
+      "company": "Point72",
+      "location": "New York, NY",
+      "postedAt": "2026-10-14T14:13:20.000Z",
+      "salary": "",
+      "ats": "Greenhouse",
+      "board": "point72"
+    },
+    {
+      "title": "Data Scientist Intern - February 2027 | NYC",
+      "url": "https://ardian.wd103.myworkdayjobs.com/ardiancareers/job/New-York/Data-Scientist-Intern---February-2027---NYC_JR1002271",
+      "company": "Ardian",
+      "location": "New York",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "ardiancareers",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Data Science Intern",
+      "url": "https://cff.wd504.myworkdayjobs.com/explore-career-opportunities/job/Bethesda-MD---National-Headquarters/Data-Science-Intern_JR100711",
+      "company": "Cystic Fibrosis Foundation",
+      "location": "Bethesda, MD - National Headquarters",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "explore-career-opportunities",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Credit Risk Analytics Intern - Summer 2027 - Irving, TX",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Irving-Texas---United-States-of-America/Credit-Risk-Analytics-Intern---Summer-2027---Irving--TX_R00214224",
+      "company": "Nissan",
+      "location": "Irving, Texas - United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Machine Learning Research Mapping Intern - Spring 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Machine-Learning-Research-Mapping-Intern---Spring-2027---Santa-Clara--CA_R00214261",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "AI Robotics Research Intern - Summer 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Robotics-Research-Intern---Summer-2027---Santa-Clara--CA_R00214267",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Machine Learning Research Prediction and Planning Intern - Spring 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Machine-Learning-Research-Prediction-and-Planning-Intern---Spring-2027---Santa-Clara--CA_R00214262",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Machine Learning Research Intern - Spring 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Machine-Learning-Research-Intern---Spring-2027---Santa-Clara--CA_R00214268",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Machine Learning Research Perception Intern - Spring 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Machine-Learning-Research-Perception-Intern---Spring-2027---Santa-Clara--CA_R00214260",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Machine Learning Research Perception Intern - Spring 2027 - Santa Clara, CA",
+      "url": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/Machine-Learning-Research-Perception-Intern---Spring-2027---Santa-Clara--CA_R00215332",
+      "company": "Nissan",
+      "location": "Santa Clara, California - United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "nissanjobs",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern, Onboard Autonomy, Embodied AI (Masters)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern,  Data Scaling, Embodied AI (Masters)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Data-Scaling--Embodied-AI--Masters-_JR-202622540",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern, AI/ML Engineer, Mapping (Masters)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-ML-Engineer--Mapping--Masters-_JR-202622539",
+      "company": "General Motors",
+      "location": "Warren, Michigan, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern, SEAM, Embodied AI (Masters)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI--Masters-_JR-202622537",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern, AI Research, Embodied AI (Masters)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI--Masters-_JR-202622535",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Summer Intern, AI Research, Embodied AI (PhD)",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "2027 Intern - AI/ML Engineer - Capacity & Performance Engineering, Autonomous Vehicles",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Intern---AI-ML-Engineer---Capacity---Performance-Engineering--Autonomous-Vehicles_JR-202622406",
+      "company": "General Motors",
+      "location": "Sunnyvale, California, United States of America",
+      "postedAt": "2026-10-14T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "careers_gm",
+      "postedAtSource": "workday-detail"
+    },
+    {
+      "title": "Research Intern, Knowledge Engineering & Generative AI",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396",
+      "company": "Hitachi Rail",
+      "location": "Santa Clara, California, United States",
+      "postedAt": "2026-10-15T12:00:00.000Z",
+      "salary": "",
+      "ats": "Workday",
+      "board": "hitachi",
+      "postedAtSource": "workday-detail"
+    }
+  ],
+  "leadSources": [
+    "hiringcafe"
+  ]
+}

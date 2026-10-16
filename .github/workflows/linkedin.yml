@@ -1,0 +1,40 @@
+name: LinkedIn (public job search)
+
+# LinkedIn rate-limits datacenter IPs, so this routes through your Tailscale
+# exit node when TAILSCALE_AUTHKEY is set (see SETUP.md). Without it the run
+# still tries, and the heartbeat reports "blocked" if LinkedIn refuses.
+on:
+  schedule:
+    - cron: '11,41 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: linkedin-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      HAS_TAILSCALE: ${{ secrets.TAILSCALE_AUTHKEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Connect to Tailscale exit node
+        if: env.HAS_TAILSCALE == 'true'
+        uses: tailscale/github-action@v3
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          args: "--exit-node=${{ vars.TAILSCALE_EXIT_NODE }} --exit-node-allow-lan-access=false"
+      - name: Fetch LinkedIn
+        run: node fetch-linkedin-feed.mjs --days 2 --batch 6
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh linkedin data/linkedin-feed.json data/scan-linkedin-heartbeat.json data/cache/linkedin-cursor.json

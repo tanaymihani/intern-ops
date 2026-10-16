@@ -1,0 +1,42 @@
+name: Workday sweep
+
+# ~13k Workday tenants, newest postings first. For a backfill, dispatch with
+# search_text=intern and since=45 (text search is relevance-ordered, so it
+# walks a few pages per tenant instead of early-stopping by date).
+on:
+  schedule:
+    - cron: '5-59/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Posted within N days'
+        default: '1'
+      search_text:
+        description: 'Optional Workday keyword search (e.g. intern)'
+        default: ''
+
+concurrency:
+  group: workday-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Run Workday sweep
+        run: node run-workday.mjs
+        env:
+          WORKDAY_SINCE: ${{ inputs.since || '1' }}
+          WORKDAY_SEARCH_TEXT: ${{ inputs.search_text || '' }}
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh workday data/

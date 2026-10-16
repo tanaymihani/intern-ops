@@ -1,0 +1,35 @@
+name: VC seed scan (YC + a16z)
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Posted within N days'
+        default: '7'
+
+concurrency:
+  group: vc-seeds-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund
+      - name: Run VC seed scan
+        run: node run-seeds.mjs
+        env:
+          SEEDS_SINCE: ${{ inputs.since || '7' }}
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh seeds data/

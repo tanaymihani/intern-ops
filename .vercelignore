@@ -1,0 +1,31 @@
+# Vercel only needs the dashboard: public/, api/, lib/, package*.json.
+# Scraper data is read live from GitHub (DATA_REPO), never bundled.
+data/
+.venv/
+.idea/
+.github/
+node_modules/
+test/
+providers/
+plugins/
+seeds/
+scripts/
+*.py
+*.md
+portals.yml
+tracker-aliases.json
+run*.mjs
+scan*.mjs
+fetch-*.mjs
+discover-boards.mjs
+verify-portals.mjs
+check-liveness.mjs
+dev-server.mjs
+invite-match.mjs
+fingerprint-core.mjs
+pipeline-lock.mjs
+portal-health-lock.mjs
+tracker-parse.mjs
+tracker-utils.mjs
+path-resolver.mjs
+user-agent.mjs

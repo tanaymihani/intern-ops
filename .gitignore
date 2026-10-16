@@ -1,0 +1,27 @@
+node_modules/
+*.log
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+.vercel/
+.env
+.env.local
+
+# Browser profiles (logged-in sessions — never commit) and cookie files.
+data/hiringcafe-profile/
+data/jobright-profile/
+data/handshake-profile/
+data/jobright-cookies.txt
+data/*cookie*
+
+# Plaintext copies of login-gated feeds; only the *.enc.json versions are
+# committed (see lib/feed-crypto.mjs).
+data/jobright-hits.json
+data/handshake-feed.local.json
+
+# Scratch / lock files written mid-run.
+data/*.tmp.json
+data/*.tmp
+data/*.lock
+data/cache/*.tmp

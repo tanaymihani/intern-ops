@@ -1,0 +1,124 @@
+# Pipeline
+
+## Pendientes
+
+- [ ] https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002 | Duolingo | Data Scientist, Intern | New York, NY; Pittsburgh, PA | posted: 2026-10-15
+- [ ] https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002 | Duolingo | Data Scientist, Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-10-15
+- [ ] https://www.businessolver.com/careers/openings/?gh_jid=8281727 | Businessolver | Copy of Business Intelligence Analyst Internship (Innovation & Data Science) | Remote - United States | posted: 2026-10-14
+- [ ] https://boards.greenhouse.io/point72/jobs/8885733002?gh_jid=8885733002 | Point72 | 2027 Summer Internship – Software Engineer | New York, NY | posted: 2026-10-14
+- [ ] https://boards.greenhouse.io/point72/jobs/8885299002?gh_jid=8885299002 | Point72 | 2027 Summer Internship - MS/PhD Data Scientist, Proprietary Research | New York, NY | posted: 2026-10-14
+- [ ] https://job-boards.greenhouse.io/mirakl/jobs/6222277004 | Mirakl | AI Analyst Co-op | Boston, Massachusetts, United States | posted: 2026-10-13
+- [ ] https://jobs.lever.co/azul/8f41ceaf-8835-4fc7-ba57-9384487d59db | azul | IT Intern, AI and Operations | Sunnyvale, CA; United States - Remote | posted: 2026-10-12
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4742962005 | DV Trading | Data Center Engineer Intern - Summer 2027 | Chicago | posted: 2026-10-12
+- [ ] https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002 | Point72 | Data Research Fellowship | New York, NY | posted: 2026-10-12
+- [ ] https://jobs.ashbyhq.com/brainco/c93cdb4a-1ca8-40e0-b49c-205922772930 | brainco | AI Security Engineer Co-Op Intern, Winter 2027 | San Francisco Bay Area | posted: 2026-10-09
+- [ ] https://jobs.ashbyhq.com/brainco/aadc490a-0d72-4be0-891b-4c362d491c3a | brainco | AI Platform Engineer Co-Op Intern, Winter 2027 | San Francisco Bay Area | posted: 2026-10-09
+- [ ] https://jobs.ashbyhq.com/brainco/b6adda4c-490c-4e9e-8354-e55c05d3c6ac | brainco | Machine Learning Engineer, Applied AI Co-Op Intern, Winter 2027 | San Francisco Bay Area | posted: 2026-10-09
+- [ ] https://jobs.ashbyhq.com/brainco/7ce0af56-d15e-4fc8-91a5-9e56cdb9cf42 | brainco | AI Product Engineer Co-Op Intern, Winter 2027 | San Francisco Bay Area | posted: 2026-10-09
+- [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719514006 | SageSure | Data Scientist Intern | Cheshire, Connecticut, United States; Jersey City, New Jersey, United States | posted: 2026-10-09
+- [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719539006 | SageSure | Data Science Intern | Jersey City, New Jersey, United States | posted: 2026-10-09
+- [ ] https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8882130002 | Capstone Investment Advisors | Summer 2027 - Execution Tech Internship | New York, New York | posted: 2026-10-09
+- [ ] https://jobs.ashbyhq.com/mach9/6189f940-38ab-4235-80fb-1dda13966435 | mach9 | Perception Intern | San Francisco | posted: 2026-10-08
+- [ ] https://job-boards.greenhouse.io/perpay/jobs/5260960007 | Perpay - Career's Page | Super Day - Data Science Internship | Philadelphia, Pennsylvania, United States | posted: 2026-10-08
+- [ ] https://boards.greenhouse.io/guidepointsecurity/jobs/6218650004?gh_jid=6218650004 | GuidePoint Security | AI & Data Science Intern - GPSU/NE | Remote · GuidePoint University (GPSU) | posted: 2026-10-08
+- [ ] https://job-boards.eu.greenhouse.io/imc/jobs/4962456101 | IMC | Machine Learning Engineer Intern - Summer 2027 | New York, United States | posted: 2026-10-08
+- [ ] https://careers.roblox.com/jobs/8242619?gh_jid=8242619 | Roblox | \[2027\] Data Scientist - PhD Intern | San Mateo, CA, United States | posted: 2026-10-08
+- [ ] https://careers.roblox.com/jobs/8242621?gh_jid=8242621 | Roblox | \[2027\] Applied Scientist - PhD Intern | San Mateo, CA, United States | posted: 2026-10-08
+- [ ] https://job-boards.greenhouse.io/marshallwace/jobs/8879188002 | Marshall Wace | 2027 Summer Operations Intern | New York | posted: 2026-10-08
+- [ ] https://job-boards.greenhouse.io/pdtpartners/jobs/8263031 | PDT Partners | Summer 2027 Quantitative Research Intern - PhD/Postdoctoral | New York, NY | posted: 2026-10-07
+- [ ] https://www.opswat.com/jobs/4740022005?gh_jid=4740022005 | OPSWAT | Support Engineering Intern (AI & Automation Focus) | Tampa, Florida, United States | posted: 2026-10-07
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/8015269003 | Sigma Computing | AI/ML PhD Intern (Summer 2027) | New York, New York | posted: 2026-10-07
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7861424003 | Sigma Computing | AI/ML PhD Intern (Summer 2027) | San Francisco, CA | posted: 2026-10-06
+- [ ] https://boards.greenhouse.io/faire/jobs/8870975002?gh_jid=8870975002 | Faire | Applied AI/ML Scientist, Intern | San Francisco, CA | posted: 2026-10-06
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002 | Lyft | PhD Machine Learning Software Engineer Intern (Summer 2027) | San Francisco, CA | posted: 2026-10-06
+- [ ] https://job-boards.greenhouse.io/drwuniversityjobs/jobs/8259714 | DRW - University Jobs | Quantitative Trading Analyst Intern - IAP Winternship (MIT Students Only) | Chicago, IL | posted: 2026-10-06
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4741016005 | DV Trading | Database Engineer Intern - Summer 2027 | Chicago | posted: 2026-10-06
+- [ ] https://jobs.ashbyhq.com/bobyard/ae7aa71b-5ed2-4066-b173-fc0618f2ed8f | bobyard | Computer Vision Research Engineer - Intern | San Francisco | posted: 2026-10-05
+- [ ] https://jobs.ashbyhq.com/mercor/e6502490-37c6-471a-9ffb-cf397764c518 | mercor | Research Intern | San Francisco | posted: 2026-10-05
+- [ ] https://boards.greenhouse.io/figma/jobs/6207801004?gh_jid=6207801004 | Figma | PhD Intern, AI Applied Scientist (2027) | San Francisco, CA • New York, NY | posted: 2026-10-05
+- [ ] https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002 | Capstone Investment Advisors | Summer 2027 - Risk Tech Internship | London, New York | posted: 2026-10-05
+- [ ] https://jobs.lever.co/brooksrunning/af8e5a0b-0383-486d-9096-d029a6a83a48 | brooksrunning | Run Perception Graduate Internship, R&D - Winter 2027 | US, Washington, Seattle | posted: 2026-10-03
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/8008645003 | Affirm | Software Engineer (Machine Learning) Intern (Summer 2027) | San Francisco, California, United States | posted: 2026-10-02
+- [ ] https://jobs.ashbyhq.com/harvey/06d64648-b84b-48ae-94a2-d9c06dfdcb5d | harvey | Software Engineering Intern (Summer 2027) | New York | posted: 2026-10-02
+- [ ] https://jobs.ashbyhq.com/harvey/3a34578d-d42e-45bb-ac5c-0c3357e8cbb7 | harvey | Software Engineering Intern (Summer 2027) | San Francisco | posted: 2026-10-02
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/96a6423e-7439-4cb4-9109-117b14e47f7c | bedrock-robotics | 2027 Internship Behavior ML Engineer, Learned Manipulation Policies | San Francisco, CA | posted: 2026-10-02
+- [ ] https://jobs.ashbyhq.com/ema/c6ec72b0-dce1-422c-895f-9f22c4762a76 | ema | AI Resident UK/EMEA | United Kingdom (Remote) | posted: 2026-10-01
+- [ ] https://job-boards.greenhouse.io/datacor/jobs/5242412007 | Datacor | Summer 2027 AI Engineer Intern | Remote, US | posted: 2026-10-01
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8138090 | Pinterest | Master's Machine Learning Internship 2027 (USA) | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | posted: 2026-10-01
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8138097 | Pinterest | Master's Data Science Internship 2027 (USA) | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | posted: 2026-10-01
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8140140 | Pinterest | PhD Machine Learning Internship 2027 (USA) | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | posted: 2026-10-01
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8140169 | Pinterest | PhD Data Science Internship 2027 (USA) | San Francisco, CA, US; Palo Alto, CA, US; Seattle, WA, US; New York, NY, US | posted: 2026-10-01
+- [ ] https://stripe.com/jobs/search?gh_jid=8194283 | Stripe | PhD Data Scientist, Intern | New York, Seattle, South San Francisco HQ | posted: 2026-10-01
+- [ ] https://job-boards.greenhouse.io/genscript/jobs/5253581007 | GenScript | AI Intern, Enterprise Agent Development | Piscataway, New Jersey, United States | posted: 2026-09-30
+- [ ] https://www.zipline.com/open-roles/7992001003?gh_jid=7992001003 | Zipline | Zip Motion Planning Intern (Summer 2027) | South San Francisco, California, USA | posted: 2026-09-30
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/77759050-75f5-45ed-a3a8-35b665daaadc | bedrock-robotics | 2027 Internship Simulation Engineer, Neural Rendering | San Francisco, CA | posted: 2026-09-28
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002 | Lyft | Applied Scientist Intern, PhD (Summer 2027) | San Francisco, CA | posted: 2026-09-28
+- [ ] https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820 | field-ai | Robotics Research, Humanoid Manipulation Intern (Summer 2027) / PhD | Boston, MA | posted: 2026-09-27
+- [ ] https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba | field-ai | Robotics Research, Humanoid Manipulation Intern (Spring 2027) / PhD | Boston, MA | posted: 2026-09-27
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/cb06dc4f-3e78-4546-897d-b39ba12a9178 | bedrock-robotics | 2027 Internship Safety Engineer, Agentic Safety Case Assessment | San Francisco, CA | posted: 2026-09-25
+- [ ] https://job-boards.greenhouse.io/gelbergroup/jobs/4716779006 | Gelber Group | Discretionary Trading Internship - Summer 2027 | Chicago, IL | posted: 2026-09-25
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/8c7bad61-50e3-4702-be36-72e9b72a9760 | bedrock-robotics | 2027 Internship State Estimation, Learned Mapping & Semantic SLAM | San Francisco, CA | posted: 2026-09-25
+- [ ] https://job-boards.greenhouse.io/doordashusa/jobs/8233953 | DoorDash USA | Machine Learning Intern (PhD) - Summer 2027 | San Francisco, CA; Sunnyvale, CA ; New York City, NY; Seattle, WA | posted: 2026-09-25
+- [ ] https://job-boards.greenhouse.io/mill/jobs/4737741005 | Mill | Computer Vision Intern, Fall/Winter 2026 | San Bruno, California | posted: 2026-09-24
+- [ ] https://job-boards.greenhouse.io/doordashusa/jobs/8204111 | DoorDash USA | Machine Learning Intern (Masters) - Summer 2027 | San Francisco, CA; Sunnyvale, CA ; New York City, NY; Seattle, WA | posted: 2026-09-24
+- [ ] https://job-boards.eu.greenhouse.io/imc/jobs/4975945101 | IMC | Hardware Machine Learning PhD Research Internship | New York, United States | posted: 2026-09-23
+- [ ] https://www.zipline.com/open-roles/8002829003?gh_jid=8002829003 | Zipline | Droid Autonomy Intern (Summer 2027) | South San Francisco, California, USA | posted: 2026-09-23
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5242190007 | Geneva Trading | Trade Support Engineer Intern | Chicago Office | posted: 2026-09-22
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5242246007 | Geneva Trading | Systems Support Analyst Intern | Chicago Office | posted: 2026-09-22
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5242196007 | Geneva Trading | Python Developer Intern | Chicago Office | posted: 2026-09-22
+- [ ] https://epicgames.com/careers/jobs/6202675004?gh_jid=6202675004 | Epic Games | Data Science Intern | Cary,North Carolina,United States | posted: 2026-09-21
+- [ ] https://jobs.ashbyhq.com/oneapp/84beb108-c04b-42d3-a9ae-9a91210201b7 | oneapp | AI Research Intern | United States (Remote) | posted: 2026-09-21
+- [ ] https://jobs.ashbyhq.com/g2/64dcc04a-a0e7-493b-b899-dd4c56e561fd | g2 | Intern, AI Agent Evaluations | San Francisco, CA | posted: 2026-09-21
+- [ ] https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8827973002 | Capstone Investment Advisors | Summer 2027 - Investment Internship NYC | New York, New York | posted: 2026-09-21
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5242180007 | Geneva Trading | PMO Data Engineering Intern | Chicago Office | posted: 2026-09-21
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5242063007 | Geneva Trading | C++ Developer (Intern) | Chicago Office | posted: 2026-09-21
+- [ ] https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004 | Figma | PhD Intern, Data Science (2027) | San Francisco, CA • New York, NY | posted: 2026-09-21
+- [ ] https://jobs.ashbyhq.com/perplexity/ab076e26-adf1-414f-a006-7b1bdc9247c8 | perplexity | Perplexity Research Fellowship | San Francisco · Palo Alto · United States · New York City | posted: 2026-09-20
+- [ ] https://boards.greenhouse.io/point72/jobs/8811167002?gh_jid=8811167002 | Point72 | 2027 Summer Internship - Investment Services | New York, New York, United States, Stamford, Connecticut, United States | posted: 2026-09-18
+- [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713793006 | SharkNinja | Applied AI & Analytics Co-op Opportunities | Miami, Florida, United States; Needham, MA, United States; New York, New York, United States | posted: 2026-09-17
+- [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4713808006 | SharkNinja | Applied AI & Analytics Intern Opportunities | Miami, Florida, United States; Needham, MA, United States | posted: 2026-09-17
+- [ ] https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75 | kitware | AI Research Internship | Clifton Park, New York; Carrboro, North Carolina; Minneapolis, MN | posted: 2026-09-16
+- [ ] https://jobs.ashbyhq.com/gecko-robotics/c097505b-0a28-4a33-a917-268f463641e8 | gecko-robotics | AI/Machine Learning Engineering Intern | New York City | posted: 2026-09-16
+- [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5422432008 | EQT Corporation | Commodities Trading Intern | Remote · Remote | posted: 2026-09-16
+- [ ] https://jobs.ashbyhq.com/inferact/2b6032f9-12a5-4083-b5e6-4bec5376cbaa | inferact | Inference Engineering, Co-op | San Francisco | posted: 2026-09-15
+- [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5421186008 | EQT Corporation | Commodities Trading Intern | Remote · Remote | posted: 2026-09-15
+- [ ] https://job-boards.greenhouse.io/fiveringsllc/jobs/5420708008 | Five Rings LLC - Careers | Summer 2027 - Trading Operations Engineer Intern | New York | posted: 2026-09-15
+- [ ] https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956 | ramp | Applied Scientist Intern | New York, NY (HQ) | posted: 2026-09-15
+- [ ] https://boards.greenhouse.io/grahamcapitalmanagement/jobs/4721074005?gh_jid=4721074005 | Graham Capital Management, L.P. | 2027 Graham Capital Summer Internship – CT / NYC | New York, New York, United States; Norwalk, Connecticut, United States | posted: 2026-09-14
+- [ ] https://boards.greenhouse.io/figma/jobs/6178857004?gh_jid=6178857004 | Figma | Data Science Intern (2027) | San Francisco, CA • New York, NY | posted: 2026-09-14
+- [ ] https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e | base-power | Quantitative Developer Intern | Austin, TX | posted: 2026-09-14
+- [ ] https://jobs.ashbyhq.com/cyvl/8bfc4116-b0bb-47f8-bca1-7069a37db328 | cyvl | Software Engineering Intern - SWE/ML (Summer 2027) | Boston, Massachusetts · Somerville, Massachusetts · Somerville · United States | posted: 2026-09-14
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8796124002?gh_jid=8796124002 | Lyft | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | New York, NY | posted: 2026-09-11
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002 | Lyft | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | San Francisco, CA | posted: 2026-09-11
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4733138005 | DV Trading | Software Developer Intern - Summer 2027 (DV Equities) | New York | posted: 2026-09-11
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4733133005 | DV Trading | Quantitative Research Intern - Summer 2027 (DV Equities) | New York | posted: 2026-09-11
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4702083005 | DV Trading | Quantitative Trading Intern - Summer 2027 (DV Equities) | New York | posted: 2026-09-11
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8 | bedrock-robotics | 2027 Internship Onboard Infrastructure Engineer, ML Inference | San Francisco, CA | posted: 2026-09-10
+- [ ] https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1 | bedrock-robotics | 2027 Internship Behavior Machine Learning Engineer, World Models | San Francisco, CA | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/genevatrading/jobs/5232641007 | Geneva Trading | Quantitative Trading Internship – Summer 2027 | Chicago Office | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171699 | Schonfeld | 2027 Platform Engineering Intern | New York, New York, United States | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4732697005 | DV Trading | Client Platforms Engineer Intern - Summer 2027 | New York | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4732683005 | DV Trading | Client Platforms Engineer Intern - Summer 2027 | Chicago | posted: 2026-09-10
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4732429005 | DV Trading | AI Engineer Intern - Summer 2027 | Chicago | posted: 2026-09-09
+- [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4730886005 | DV Trading | DevOps Engineer Intern - Summer 2027 | Chicago | posted: 2026-09-09
+- [ ] https://jobs.ashbyhq.com/interplay/bdf67758-1f20-4a01-8bb3-ccebfa79e9ac | interplay | AI Labs Intern | New York | posted: 2026-09-09
+- [ ] https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441 | Coinbase | Machine Learning Engineer Intern | Hybrid - San Francisco, CA | posted: 2026-09-08
+- [ ] https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462 | Coinbase | Data Science Intern | Hybrid - New York, NY | posted: 2026-09-08
+- [ ] https://jobs.ashbyhq.com/talos-trading/d6d0c99a-f281-4efe-89c4-026f7f5edc2b | talos-trading | Quantitative Analyst Intern | London, NYC | posted: 2026-09-08
+- [ ] https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777855002 | Qube Research & Technologies | 2027 – Internship or Graduate, FPGA Engineering | London, Paris, New York | posted: 2026-09-08
+- [ ] https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8777760002 | Qube Research & Technologies | 2027 Internship – Security Engineer | London, Paris, New York | posted: 2026-09-08
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8172074 | Schonfeld | 2027 PhD Quantitative Research Intern | New York, New York, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8172076 | Schonfeld | 2027 PhD Quantitative Research Intern | Miami, Florida, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8172064 | Schonfeld | 2027 Corporate Strategy & Transformation Intern | Miami, Florida, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8172059 | Schonfeld | 2027 Systematic COO Intern | New York, New York, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8172070 | Schonfeld | 2027 Core Operations Intern | Miami, Florida, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171696 | Schonfeld | 2027 Cybersecurity Operations Intern | New York, New York, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171703 | Schonfeld | 2027 Business Analytics Intern | New York, New York, United States | posted: 2026-09-04
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4730845005 | Scale AI | Software Engineering Intern (Summer 2027) | San Francisco, CA | posted: 2026-09-04
+- [ ] https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9 | skydio | Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027 | San Mateo, California, United States | posted: 2026-09-03
+- [ ] https://job-boards.greenhouse.io/newsbreak/jobs/4711146006 | NewsBreak | New Market Launch Intern (MBA), Nearby AI | Bellevue, Washington, United States; Mountain View, California, United States; New York, New York, United States; Remote | posted: 2026-09-03
+- [ ] https://jobs.lever.co/zoox/dafe2927-74bf-4bef-8df0-cb0874595819 | zoox | Contract Student Worker - Autonomy Safety Data Engineer | Foster City, CA; Boston, MA; Seattle, WA | posted: 2026-09-03
+- [ ] https://job-boards.greenhouse.io/axq/jobs/6181069004 | AXQ Capital | Quantitative Research Intern (PhD, Summer 2027) | New York | posted: 2026-09-03
+- [ ] https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813 | hadrian-automation | Data Science/ Data Engineer Intern | Los Angeles, CA | posted: 2026-09-02
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6163540004 | Garda Capital Partners | Trading Analyst Intern, Credit | New York, New York, United States | posted: 2026-09-02
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6179468004 | Garda Capital Partners | Trading Analyst Intern, Mortgages | New York, New York, United States | posted: 2026-09-02

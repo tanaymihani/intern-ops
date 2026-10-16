@@ -1,0 +1,51 @@
+name: JobRight (your recommendations + company boards)
+
+# Needs the JOBRIGHT_COOKIE secret (your own session; see SETUP.md) and
+# FEED_KEY (recommendations are committed encrypted). Without the cookie it
+# still checks the boards of companies discovered via HiringCafe.
+on:
+  schedule:
+    - cron: '47 */2 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: jobright-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HAS_TAILSCALE: ${{ secrets.TAILSCALE_AUTHKEY != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --no-audit --no-fund
+      - name: Install patchright
+        run: |
+          pip install patchright
+          python3 -m patchright install chromium --with-deps
+      - name: Connect to Tailscale exit node
+        if: env.HAS_TAILSCALE == 'true'
+        uses: tailscale/github-action@v3
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          args: "--exit-node=${{ vars.TAILSCALE_EXIT_NODE }} --exit-node-allow-lan-access=false"
+      - name: Run JobRight feed
+        run: node run-jobright.mjs
+        env:
+          JOBRIGHT_COOKIE: ${{ secrets.JOBRIGHT_COOKIE }}
+          FEED_KEY: ${{ secrets.FEED_KEY }}
+          HC_PYTHON: python3
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh jobright data/
