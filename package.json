@@ -21,6 +21,7 @@
     "feed:jr": "node run-jobright.mjs",
     "liveness": "node check-liveness.mjs",
     "dev": "node dev-server.mjs",
+    "refresh": "node scripts/refresh-all.mjs",
     "test": "node --test test/"
   },
   "dependencies": {

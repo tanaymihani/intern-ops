@@ -81,12 +81,14 @@ Applied / hidden state lives in your browser by default; set up Supabase
 ```
 npm install
 python3 -m venv .venv && .venv/bin/pip install patchright   # HiringCafe / JobRight / Handshake
-npm run feed:lists          # curated lists
-npm run feed:linkedin       # LinkedIn (one batch of queries)
-npm run scan                # GHAL sweep   (GHAL_SINCE=45 for a backfill)
-npm run feed:handshake -- --login
+npm run refresh             # run every scraper once (add -- --workday for the slow Workday sweep)
+npm run feed:handshake -- --login   # Handshake, with your own sign-in
 npm run dev                 # dashboard on http://localhost:3000
 ```
+
+Individual sources: `npm run feed:lists`, `feed:quant-sites`, `feed:linkedin`,
+`feed:hc`, `feed:nextplay`, `feed:jr`, `scan` (GHAL; `GHAL_SINCE=45` to
+backfill), `scan:tracked`, `scan:workday`, `liveness`.
 
 Setup for the full pipeline (repo, secrets, Vercel, Tailscale, logins) is in
 [SETUP.md](SETUP.md).
