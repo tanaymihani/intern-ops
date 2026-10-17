@@ -47,6 +47,9 @@ const JR_BOARD = join(DATA, 'jr-board-fresh.json');
 const JR_COMPANIES = join(DATA, 'jr-companies.json');
 const HC_FEED = join(DATA, 'hiringcafe-feed.json');
 const ENC_FEED = join(DATA, 'jobright-feed.enc.json');
+// Without FEED_KEY (local-only use) recommendations go here instead —
+// git-ignored, read only by the local dev server.
+const LOCAL_FEED = join(DATA, 'jobright-feed.local.json');
 const PY = process.env.HC_PYTHON || 'python3';
 const SCRAPE = join(ROOT, 'scrape-jobright.py');
 /** How often we re-scrape JobRight for new companies. Board checks are cheaper. */
@@ -103,22 +106,16 @@ function relevantJobs(hits) {
 }
 
 function writeEncryptedFeed(hits) {
-  if (!hasFeedKey()) {
-    console.error('FEED_KEY not set — JobRight recommendations stay local (not written for the dashboard).');
-    return 0;
-  }
+  const encrypted = hasFeedKey();
   let previous = [];
   try {
-    if (existsSync(ENC_FEED)) previous = decryptJson(JSON.parse(readFileSync(ENC_FEED, 'utf8')))?.jobs || [];
+    if (encrypted && existsSync(ENC_FEED)) previous = decryptJson(JSON.parse(readFileSync(ENC_FEED, 'utf8')))?.jobs || [];
+    else if (!encrypted && existsSync(LOCAL_FEED)) previous = JSON.parse(readFileSync(LOCAL_FEED, 'utf8'))?.jobs || [];
   } catch { /* key rotated or first run */ }
   const jobs = mergeSnapshot(previous, relevantJobs(hits));
-  writeFileSync(ENC_FEED, JSON.stringify(encryptJson({
-    fetchedAt: new Date().toISOString(),
-    provider: 'jobright',
-    count: jobs.length,
-    jobs,
-    hits,
-  })));
+  const feed = { fetchedAt: new Date().toISOString(), provider: 'jobright', count: jobs.length, jobs, hits };
+  if (encrypted) writeFileSync(ENC_FEED, JSON.stringify(encryptJson(feed)));
+  else writeFileSync(LOCAL_FEED, JSON.stringify(feed));
   return jobs.length;
 }
 

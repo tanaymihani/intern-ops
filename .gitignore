@@ -19,6 +19,7 @@ data/*cookie*
 # committed (see lib/feed-crypto.mjs).
 data/jobright-hits.json
 data/handshake-feed.local.json
+data/jobright-feed.local.json
 
 # Scratch / lock files written mid-run.
 data/*.tmp.json
