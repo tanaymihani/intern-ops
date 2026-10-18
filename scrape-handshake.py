@@ -68,6 +68,10 @@ query JobSearchQuery($first: Int, $after: String, $input: JobSearchInput) {
 
 FILTER_IDS_QUERY = "query JobSearchFilterIds { jobTypes { id name behaviorIdentifier } }"
 
+# Same query Handshake's profile pages send; returns the user only when the
+# session is genuinely signed in.
+CURRENT_USER_QUERY = "query CurrentUserProbe { currentUser { id userType } }"
+
 # Runs inside the Handshake page: same-origin fetch, exactly like the site's
 # own Apollo client (cookies via credentials, CSRF from the page's meta tag).
 IN_PAGE_GRAPHQL = """
@@ -102,11 +106,16 @@ def offset_cursor(offset: int) -> str:
 
 
 def signed_in(page) -> bool:
-    url = page.url or ""
-    if any(seg in url for seg in ("/login", "/access", "login.microsoftonline.com", "/sso")):
+    """True only when Handshake's own API answers `currentUser` for this tab."""
+    url = (page.url or "").lower()
+    if "joinhandshake.com" not in url or any(seg in url for seg in ("/login", "/access", "/sso", "/saml")):
         return False
     try:
-        return bool(page.evaluate("() => Boolean(document.querySelector('meta[name=\"csrf-token\"]')) && !document.querySelector('form[action*=\"login\"]')"))
+        r = page.evaluate(IN_PAGE_GRAPHQL, {"operationName": "CurrentUserProbe", "query": CURRENT_USER_QUERY, "variables": {}})
+        if r.get("status") != 200:
+            return False
+        user = (json.loads(r.get("text") or "{}").get("data") or {}).get("currentUser") or {}
+        return bool(user.get("id"))
     except Exception:
         return False
 
@@ -166,8 +175,9 @@ def scrape(args) -> dict:
             if not signed_in(page):
                 if not args.login:
                     raise NotSignedIn("not signed in")
-                print("\n>>> Sign in to Handshake in the opened window (school SSO). Waiting up to 5 minutes…\n", flush=True)
-                deadline = time.time() + 300
+                print("\n>>> Sign in to Handshake in the Chrome window that just opened (Northeastern SSO).", flush=True)
+                print(">>> Leave the window open when you're done — it continues on its own. Waiting up to 10 minutes…\n", flush=True)
+                deadline = time.time() + 600
                 while time.time() < deadline:
                     page.wait_for_timeout(2_000)
                     if "job-search" not in (page.url or "") and signed_in(page):
@@ -177,7 +187,7 @@ def scrape(args) -> dict:
                         break
                 else:
                     raise NotSignedIn("login timed out")
-                print(">>> Signed in — session saved for future runs.", flush=True)
+                print(">>> Signed in — session saved for future runs. Searching for internships now…", flush=True)
 
             type_ids = intern_type_ids(page)
             for q in args.queries:
