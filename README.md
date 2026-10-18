@@ -13,18 +13,20 @@ fork retargets everything from full-time software roles to internships and
 adds LinkedIn, Handshake and the community internship lists.
 
 ```
- GitHub Actions (public repo = unmetered minutes)            Your Mac
- ┌──────────────────────────────────────────────┐   ┌──────────────────────┐
- │ GHAL sweep ·· Workday sweep ·· tracked boards│   │ Handshake (your own  │
- │ YC/a16z seeds ·· curated lists ·· liveness   │   │ signed-in Chrome)    │
- │ LinkedIn ·· HiringCafe ·· NextPlay ·· JobRight│◀──┤ Tailscale exit node  │
- └──────────────┬───────────────────────────────┘   │ (residential IP for  │
-                │ commit data/*.json|tsv            │  LinkedIn/HC/NextPlay)│
-                ▼                                   └──────────┬───────────┘
-        this repo's data/  ◀───────── git push (encrypted) ────┘
-                │  raw.githubusercontent.com, read live per request
-                ▼
-        Vercel dashboard  (api/jobs → lib/jobs-store → lib/classify)
+ GitHub Actions (public repo = unmetered, 24/7)       Your Mac (launchd, every 6 h)
+ ┌──────────────────────────────────────────┐   ┌─────────────────────────────────┐
+ │ GHAL sweep · Workday sweep · tracked     │   │ Handshake (your own sign-in)    │
+ │ boards · YC/a16z · curated lists ·       │   │ LinkedIn · HiringCafe · NextPlay│
+ │ Jane Street/SIG/D.E.Shaw · JobRight ·    │   │ (sites that block datacenter IPs│
+ │ liveness                                 │   │  — your home IP gets through)   │
+ └───────────────┬──────────────────────────┘   └────────────────┬────────────────┘
+                 │ commit data/*                git push data/*  │ (Handshake encrypted)
+                 ▼                                               ▼
+                         this repo's data/  (public, except *.enc.json)
+                 │ read live per request (raw.githubusercontent.com)
+                 ▼
+   Vercel dashboard — password gate (middleware.js) · api/jobs → lib/jobs-store
+   → lib/classify · your applied/hidden marks synced in a private Vercel Blob
 ```
 
 ## Sources
@@ -36,11 +38,12 @@ adds LinkedIn, Handshake and the community internship lists.
 | Tracked boards | `portals.yml`: quant firms, AI labs, + boards auto-promoted from aggregator leads | 15 min | — |
 | YC + a16z portfolios | Seed companies' boards | 3 h | — |
 | Simplify · CSCareers · SpeedyApply (AI) · NU FinTech (quant) · JobRight daily lists | Curated GitHub internship lists | 30 min | — |
-| LinkedIn | Public (logged-out) job search, experience level = Internship | 30 min, rotating queries | Tailscale exit node recommended |
-| HiringCafe | Headed Chrome (patchright) under Xvfb | hourly | Tailscale exit node |
-| NextPlay | Public startup-jobs API | 2 h | Tailscale exit node |
+| LinkedIn | Public (logged-out) job search, experience level = Internship | 6 h from your Mac, rotating queries | Mac awake |
+| HiringCafe | Headed Chrome (patchright), window off-screen | 6 h from your Mac | Mac awake |
+| NextPlay | Public startup-jobs API | 6 h from your Mac | Mac awake |
 | JobRight | Your recommendations (session cookie) + their companies' boards | 2 h | `JOBRIGHT_COOKIE`, `FEED_KEY` |
-| Handshake | Your own signed-in session, run on your Mac | when you run it | school login, `FEED_KEY` |
+| Handshake | Your own signed-in session in a real Chrome window | 6 h from your Mac | school login once, `FEED_KEY` |
+| Jane Street · SIG · D. E. Shaw | Their own careers JSON / pages (internships invisible to title scans) | 30 min | — |
 | Liveness | Re-checks scanned postings against their boards; hides filled ones | 6 h | — |
 
 Postings from login-gated sources (Handshake, JobRight recommendations) are
@@ -73,8 +76,11 @@ marking applied, hide-with-reason. Internship additions: AI/ML · Quant · All
 tracks, season filter (Summer 2027…), "Hide PhD-only", co-op flag, source and
 board filters, and a Sources panel showing each scraper's last run.
 
-Applied / hidden state lives in your browser by default; set up Supabase
-(SETUP.md) to sync it across devices behind GitHub sign-in.
+The site sits behind a password (`SITE_PASSWORD`, checked by
+`middleware.js` on every page and API call; HttpOnly signed session cookie).
+Applied / hidden / opened marks sync across your devices through a private
+Vercel Blob (`api/state.js`), with this browser's copy as an offline cache.
+Supabase + GitHub sign-in is still supported if you'd rather (SETUP.md).
 
 ## Running locally
 

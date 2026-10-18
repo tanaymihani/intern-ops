@@ -2,9 +2,10 @@ name: HiringCafe (headed Chrome via Xvfb + Tailscale)
 
 # Cloudflare blocks headless Chrome and datacenter IPs here: patchright runs a
 # real headed Chrome inside Xvfb, routed through your Tailscale exit node.
+# Scheduled on your Mac instead (scripts/mac-sync.sh, every 6 h): these sites
+# block GitHub's datacenter IPs. Run this workflow by hand only if you've set
+# up the Tailscale exit node (SETUP.md).
 on:
-  schedule:
-    - cron: '27 * * * *'
   workflow_dispatch: {}
 
 concurrency:

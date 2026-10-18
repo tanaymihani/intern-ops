@@ -21,26 +21,34 @@ jobs:
     timeout-minutes: 15
     env:
       HAS_TAILSCALE: ${{ secrets.TAILSCALE_AUTHKEY != '' }}
+      HAS_COOKIE: ${{ secrets.JOBRIGHT_COOKIE != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - uses: actions/setup-python@v5
+        if: env.HAS_COOKIE == 'true'
         with:
           python-version: '3.12'
       - run: npm ci --no-audit --no-fund
       - name: Install patchright
+        if: env.HAS_COOKIE == 'true'
         run: |
           pip install patchright
           python3 -m patchright install chromium --with-deps
       - name: Connect to Tailscale exit node
-        if: env.HAS_TAILSCALE == 'true'
+        if: env.HAS_TAILSCALE == 'true' && env.HAS_COOKIE == 'true'
         uses: tailscale/github-action@v3
         with:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           args: "--exit-node=${{ vars.TAILSCALE_EXIT_NODE }} --exit-node-allow-lan-access=false"
+      # No cookie yet: still check the boards of companies HiringCafe surfaced.
+      - name: Check discovered company boards
+        if: env.HAS_COOKIE != 'true'
+        run: node fetch-jobright-feed.mjs --boards-only
       - name: Run JobRight feed
+        if: env.HAS_COOKIE == 'true'
         run: node run-jobright.mjs
         env:
           JOBRIGHT_COOKIE: ${{ secrets.JOBRIGHT_COOKIE }}

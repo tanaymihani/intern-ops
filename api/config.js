@@ -6,8 +6,10 @@ export function GET() {
   return new Response(JSON.stringify({
     supabase: supabaseUrl && supabaseAnonKey ? { url: supabaseUrl, anonKey: supabaseAnonKey } : null,
     refreshLogin: Boolean(process.env.GH_TOKEN && process.env.DASHBOARD_PASSWORD && process.env.DATA_REPO),
+    sync: Boolean(process.env.BLOB_READ_WRITE_TOKEN),
+    gate: Boolean(process.env.SITE_PASSWORD),
     repo: process.env.DATA_REPO || '',
   }), {
-    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'public, max-age=0, s-maxage=300' },
+    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'private, no-store' },
   });
 }

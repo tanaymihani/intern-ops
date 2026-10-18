@@ -824,3 +824,20 @@ body.signed-in #loginGate, body:not(.gated) #loginGate { display: none !importan
   .banner, .stale-banner { margin-left: 0; margin-right: 0; }
 }
 .stale-banner a { color: var(--accent); font-weight: 600; }
+/* ===== Login page ===== */
+body.login-page { display: flex; align-items: center; justify-content: center; padding: 16px; }
+.login-card {
+  width: min(380px, 100%);
+  display: flex; flex-direction: column; gap: 12px;
+  padding: 28px 24px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 24px 80px rgba(0,0,0,.45);
+}
+.login-card .brand { font-size: 30px; }
+.login-sub { color: var(--muted); margin: 0 0 6px; font-size: 13px; }
+.login-card input { width: 100%; }
+.login-card button { background: var(--accent); color: #111; border: none; font-weight: 650; padding: 10px 14px; }
+.login-card button:disabled { opacity: .6; }
+.login-status { color: var(--muted); font-size: 13px; min-height: 18px; }

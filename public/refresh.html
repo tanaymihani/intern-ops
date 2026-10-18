@@ -40,32 +40,6 @@
 
   <h2>Handshake</h2>
   <p class="muted">Handshake runs on your own computer, not here: it opens a real Chrome window with your school sign-in. Run <code>npm run feed:handshake -- --login</code> once, then <code>npm run feed:handshake -- --push</code> whenever you want fresh Handshake postings on the site.</p>
-<script>
-  document.getElementById('submit').addEventListener('click', async () => {
-    const btn = document.getElementById('submit');
-    const status = document.getElementById('status');
-    const pw = document.getElementById('pw').value;
-    const curl = document.getElementById('curl').value;
-    if (!pw || !curl) { status.textContent = 'Fill in both fields.'; return; }
-    btn.disabled = true;
-    status.style.color = '';
-    status.textContent = 'Updating…';
-    try {
-      const res = await fetch('/api/refresh-cookie', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ password: pw, source: 'jobright', curl }),
-      });
-      const data = await res.json();
-      status.textContent = res.ok ? `✓ ${data.message}` : `✗ ${data.error || 'Failed.'}`;
-      status.style.color = res.ok ? 'var(--ok)' : 'var(--bad)';
-      if (res.ok) { document.getElementById('curl').value = ''; document.getElementById('pw').value = ''; }
-    } catch (err) {
-      status.textContent = `✗ ${err.message}`;
-      status.style.color = 'var(--bad)';
-    }
-    btn.disabled = false;
-  });
-</script>
+<script src="/refresh.js"></script>
 </body>
 </html>

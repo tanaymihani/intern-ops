@@ -5,7 +5,7 @@ export async function GET() {
   return new Response(JSON.stringify(await loadHeartbeats()), {
     headers: {
       'content-type': 'application/json; charset=utf-8',
-      'cache-control': 'public, max-age=0, s-maxage=60, stale-while-revalidate=300',
+      'cache-control': 'private, max-age=30',
     },
   });
 }

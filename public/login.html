@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sign in · intern-ops</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;650;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body class="login-page">
+  <form id="loginForm" class="login-card" autocomplete="on">
+    <h1 class="brand">intern<span>-ops</span></h1>
+    <p class="login-sub">AI/ML + quant internships. Enter your password to continue.</p>
+    <input id="password" type="password" name="password" placeholder="Password" autocomplete="current-password" required autofocus />
+    <button type="submit" id="submit">Sign in</button>
+    <div id="status" class="login-status" role="status"></div>
+  </form>
+  <script src="/login.js"></script>
+</body>
+</html>

@@ -45,13 +45,18 @@ function savePrefs() {
   try { localStorage.setItem(PREFS_KEY, JSON.stringify(prefs)); } catch { /* ignore */ }
 }
 
-// ── State store: localStorage, or Supabase when configured ───────────
+// ── State store: localStorage, synced through /api/state when the
+// deployment has storage (or Supabase when configured) ───────────────
+
+const SYNC_DEBOUNCE_MS = 2500;
 
 const store = {
-  mode: 'local',
+  mode: 'local', // local | sync | supabase
   client: null,
   userId: null,
   map: new Map(),
+  pending: new Map(), // key → patch waiting to be sent to /api/state
+  flushTimer: null,
 
   loadLocal() {
     try {
@@ -76,6 +81,47 @@ const store = {
       viewedAt: r.viewed_at, appliedAt: r.applied_at, hiddenAt: r.hidden_at, hideReason: r.hide_reason, url: r.url,
     }]));
   },
+  /** Pull the synced marks; marks this browser made before syncing get uploaded. */
+  async loadSync() {
+    const res = await fetch('/api/state', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`state ${res.status}`);
+    const { marks } = await res.json();
+    const localOnly = [...this.map].filter(([k]) => !marks[k]);
+    this.map = new Map(Object.entries(marks).map(([k, r]) => [k, {
+      viewedAt: r.viewedAt, appliedAt: r.appliedAt, hiddenAt: r.hiddenAt, hideReason: r.hideReason, url: r.url,
+    }]));
+    for (const [k, v] of this.pending) this.map.set(k, { ...this.map.get(k), ...v });
+    for (const [k, v] of localOnly) {
+      this.map.set(k, v);
+      this.pending.set(k, { ...v });
+    }
+    this.saveLocal();
+    if (this.pending.size) this.scheduleFlush(0);
+  },
+  scheduleFlush(ms = SYNC_DEBOUNCE_MS) {
+    clearTimeout(this.flushTimer);
+    this.flushTimer = setTimeout(() => this.flush(), ms);
+  },
+  /** Send queued marks in one request (a burst of clicks = one write). */
+  async flush(keepalive = false) {
+    if (this.mode !== 'sync' || !this.pending.size) return;
+    const patches = Object.fromEntries(this.pending);
+    this.pending.clear();
+    try {
+      const res = await fetch('/api/state', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ patches }),
+        keepalive,
+      });
+      if (!res.ok) throw new Error(`state ${res.status}`);
+    } catch {
+      // Keep them (newer local edits win) and retry; they're already in localStorage.
+      for (const [k, v] of Object.entries(patches)) this.pending.set(k, { ...v, ...(this.pending.get(k) || {}) });
+      this.scheduleFlush(20_000);
+      showToast('Saved on this device — will sync when back online');
+    }
+  },
   get(key) {
     return this.map.get(key) || {};
   },
@@ -98,6 +144,10 @@ const store = {
       if (error) throw error;
     } else {
       this.saveLocal();
+      if (this.mode === 'sync') {
+        this.pending.set(job.key, { ...(this.pending.get(job.key) || {}), ...patch, url: job.url, title: job.title, company: job.company });
+        this.scheduleFlush();
+      }
     }
     return next;
   },
@@ -937,13 +987,40 @@ async function boot() {
     CONFIG = await (await fetch('/api/config')).json();
   } catch { /* defaults */ }
   $('refreshLinkWrap').hidden = !CONFIG.refreshLogin;
+  if (CONFIG.gate) {
+    $('authWrap').hidden = false;
+    $('authArea').innerHTML = '<button type="button" class="linklike" id="signOutLink">Sign out</button>';
+    $('signOutLink').onclick = async () => {
+      await store.flush(true);
+      await fetch('/api/logout', { method: 'POST' }).catch(() => {});
+      location.replace('/login.html');
+    };
+  }
   if (CONFIG.supabase) {
     try { await setupSupabase(CONFIG.supabase); } catch (err) { console.error('Supabase setup failed', err); }
+  } else if (CONFIG.sync) {
+    store.mode = 'sync';
+    try { await store.loadSync(); } catch (err) { console.error('sync load failed', err); }
   }
   document.querySelectorAll('.track-tab').forEach((b) => b.classList.toggle('active', b.dataset.track === prefs.track));
   await refresh();
   setInterval(() => { if (!document.hidden) refresh(); }, POLL_MS);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+  document.addEventListener('visibilitychange', async () => {
+    if (document.hidden) {
+      store.flush(true);
+      return;
+    }
+    // Back on this tab: pick up marks made on another device, then refresh.
+    if (store.mode === 'sync' && !store.pending.size) {
+      try {
+        await store.loadSync();
+        JOBS = JOBS.map(applyState);
+        render();
+      } catch { /* keep local copy */ }
+    }
+    refresh();
+  });
+  window.addEventListener('pagehide', () => store.flush(true));
 }
 
 boot();

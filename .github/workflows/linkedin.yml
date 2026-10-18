@@ -3,9 +3,10 @@ name: LinkedIn (public job search)
 # LinkedIn rate-limits datacenter IPs, so this routes through your Tailscale
 # exit node when TAILSCALE_AUTHKEY is set (see SETUP.md). Without it the run
 # still tries, and the heartbeat reports "blocked" if LinkedIn refuses.
+# Scheduled on your Mac instead (scripts/mac-sync.sh, every 6 h): these sites
+# block GitHub's datacenter IPs. Run this workflow by hand only if you've set
+# up the Tailscale exit node (SETUP.md).
 on:
-  schedule:
-    - cron: '11,41 * * * *'
   workflow_dispatch: {}
 
 concurrency:
