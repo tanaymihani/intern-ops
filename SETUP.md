@@ -6,7 +6,7 @@ storage), and your Mac.
 
 ## Secrets — where each one lives
 
-| Secret | GitHub Actions | Vercel env | Your Mac (`.env.local`, git-ignored) |
+| Secret | GitHub Actions | Vercel env | Your Mac (`.secrets.env`, git- and vercel-ignored) |
 |---|---|---|---|
 | `FEED_KEY` — encrypts Handshake/JobRight feeds | ✓ | ✓ | ✓ |
 | `SITE_PASSWORD` — dashboard password | | ✓ | ✓ |
@@ -15,7 +15,7 @@ storage), and your Mac.
 | `DATA_REPO` — e.g. `tanaymihani/intern-ops` | | ✓ | |
 | `JOBRIGHT_COOKIE` — optional | ✓ | | |
 
-Nothing secret is in the repo: browser profiles, cookies, `.env.local` and
+Nothing secret is in the repo: browser profiles, cookies, `.secrets.env` (not `.env.local` — the Vercel CLI rewrites that one) and
 plaintext copies of login-gated feeds are all in `.gitignore`.
 
 ## 1. GitHub repo (scrapers, 24/7)
@@ -24,7 +24,7 @@ Must be public — Actions minutes are unlimited only for public repos.
 
 ```bash
 gh repo create intern-ops --public --source . --push
-gh secret set FEED_KEY < <(grep ^FEED_KEY= .env.local | cut -d= -f2-)
+gh secret set FEED_KEY < <(grep ^FEED_KEY= .secrets.env | cut -d= -f2-)
 ```
 
 One-time backfills (optional): `gh workflow run scan.yml -f since=45`,
@@ -36,7 +36,7 @@ One-time backfills (optional): `gh workflow run scan.yml -f since=45`,
 vercel link --yes --project intern-ops
 vercel blob create-store intern-ops-state --access private --yes   # adds BLOB_READ_WRITE_TOKEN
 for k in FEED_KEY SITE_PASSWORD SITE_SECRET; do
-  grep "^$k=" .env.local | cut -d= -f2- | tr -d '\n' | vercel env add "$k" production
+  grep "^$k=" .secrets.env | cut -d= -f2- | tr -d '\n' | vercel env add "$k" production
 done
 printf tanaymihani/intern-ops | vercel env add DATA_REPO production
 vercel deploy --prod --yes
@@ -46,7 +46,7 @@ The site reads `data/` live from GitHub on each request, so scraper runs
 never need a redeploy (`vercel.json` also turns off git-triggered deploys).
 
 **Change the password:** `vercel env rm SITE_PASSWORD production`, add the new
-one the same way, update `.env.local`, then `vercel deploy --prod --yes`.
+one the same way, update `.secrets.env`, then `vercel deploy --prod --yes`.
 Changing it signs every device out.
 
 ## 3. Mac job (Handshake, LinkedIn, HiringCafe, NextPlay)

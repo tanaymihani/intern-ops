@@ -19,9 +19,11 @@ import { webcrypto } from 'crypto';
 if (!globalThis.crypto) globalThis.crypto = webcrypto;
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-// Same secrets as production, from the git-ignored .env.local (never overrides real env).
-if (existsSync(join(ROOT, '.env.local'))) {
-  for (const line of readFileSync(join(ROOT, '.env.local'), 'utf8').split('\n')) {
+// Same secrets as production, from the git-ignored .secrets.env (and whatever
+// `vercel env pull` put in .env.local). Never overrides the real environment.
+for (const file of ['.secrets.env', '.env.local']) {
+  if (!existsSync(join(ROOT, file))) continue;
+  for (const line of readFileSync(join(ROOT, file), 'utf8').split('\n')) {
     const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*?)\s*$/);
     if (m && !(m[1] in process.env)) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
   }

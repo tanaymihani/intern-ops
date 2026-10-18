@@ -30,9 +30,9 @@ const HEARTBEAT = resolve(ROOT, 'data/scan-handshake-heartbeat.json');
 const TMP = resolve(ROOT, 'data/hs-hits.tmp.json');
 const PY = process.env.HC_PYTHON || (existsSync(join(ROOT, '.venv/bin/python')) ? join(ROOT, '.venv/bin/python') : 'python3');
 
-// FEED_KEY may live in a git-ignored .env.local so local runs can encrypt.
-if (!process.env.FEED_KEY && existsSync(join(ROOT, '.env.local'))) {
-  const m = readFileSync(join(ROOT, '.env.local'), 'utf8').match(/^FEED_KEY=(.+)$/m);
+// FEED_KEY lives in the git-ignored .secrets.env so local runs can encrypt.
+if (!process.env.FEED_KEY && existsSync(join(ROOT, '.secrets.env'))) {
+  const m = readFileSync(join(ROOT, '.secrets.env'), 'utf8').match(/^FEED_KEY=(.+)$/m);
   if (m) process.env.FEED_KEY = m[1].trim().replace(/^["']|["']$/g, '');
 }
 

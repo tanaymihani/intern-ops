@@ -1,3 +1,8 @@
+# Secrets never leave this machine.
+.env
+.env.*
+.secrets.env
+
 # Vercel only needs the dashboard: public/, api/, lib/, package*.json.
 # Scraper data is read live from GitHub (DATA_REPO), never bundled.
 data/

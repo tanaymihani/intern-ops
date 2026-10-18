@@ -7,6 +7,8 @@ __pycache__/
 .vercel/
 .env
 .env.local
+.env.*
+.secrets.env
 
 # Browser profiles (logged-in sessions — never commit) and cookie files.
 data/hiringcafe-profile/
@@ -26,3 +28,5 @@ data/*.tmp.json
 data/*.tmp
 data/*.lock
 data/cache/*.tmp
+.vercel
+.env*.local
