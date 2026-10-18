@@ -22,6 +22,8 @@ test('Quant internships by title', () => {
   assert.deepEqual(tracks('Quantitative Research and Development Labs Sales and Trading Intern'), ['quant']);
   assert.deepEqual(tracks('Model Risk Management Intern - 2027 Internship Program'), ['quant']);
   assert.deepEqual(tracks('2027 Summer Analyst - Global Markets Strats'), ['quant']);
+  assert.deepEqual(tracks('Desk Strat Summer Analyst'), ['quant']);
+  assert.equal(tracks('TDS Digital Ops & Strat Co-Op'), null);
 });
 
 test('firm context: any technical intern role at a quant / AI firm', () => {
