@@ -13,20 +13,18 @@ fork retargets everything from full-time software roles to internships and
 adds LinkedIn, Handshake and the community internship lists.
 
 ```
- GitHub Actions (public repo = unmetered, 24/7)       Your Mac (launchd, every 6 h)
- ┌──────────────────────────────────────────┐   ┌─────────────────────────────────┐
- │ GHAL sweep · Workday sweep · tracked     │   │ Handshake (your own sign-in)    │
- │ boards · YC/a16z · curated lists ·       │   │ LinkedIn · HiringCafe · NextPlay│
- │ Jane Street/SIG/D.E.Shaw · JobRight ·    │   │ (sites that block datacenter IPs│
- │ liveness                                 │   │  — your home IP gets through)   │
- └───────────────┬──────────────────────────┘   └────────────────┬────────────────┘
-                 │ commit data/*                git push data/*  │ (Handshake encrypted)
-                 ▼                                               ▼
-                         this repo's data/  (public, except *.enc.json)
-                 │ read live per request (raw.githubusercontent.com)
-                 ▼
-   Vercel dashboard — password gate (middleware.js) · api/jobs → lib/jobs-store
-   → lib/classify · your applied/hidden marks synced in a private Vercel Blob
+ GitHub Actions (public repo = free, unmetered, 24/7)
+ ┌─────────────────────────────────────────────────────────────────────┐
+ │ GHAL sweep · Workday sweep · tracked boards · YC/a16z · curated     │
+ │ lists · Jane Street/SIG/D.E.Shaw · LinkedIn · Handshake (your       │
+ │ session, real Chrome on a virtual display) · JobRight · liveness    │
+ └──────────────────────────────┬──────────────────────────────────────┘
+                                │ commit data/*  (login-gated feeds encrypted)
+                                ▼
+                  this repo's data/  — read live per request
+                                ▼
+   Vercel (free): password gate (middleware.js) · api/jobs → lib/classify
+   · your applied/hidden marks + refreshed logins in a private Blob store
 ```
 
 ## Sources
@@ -38,13 +36,15 @@ adds LinkedIn, Handshake and the community internship lists.
 | Tracked boards | `portals.yml`: quant firms, AI labs, + boards auto-promoted from aggregator leads | 15 min | — |
 | YC + a16z portfolios | Seed companies' boards | 3 h | — |
 | Simplify · CSCareers · SpeedyApply (AI) · NU FinTech (quant) · JobRight daily lists | Curated GitHub internship lists | 30 min | — |
-| LinkedIn | Public (logged-out) job search, experience level = Internship | 6 h from your Mac, rotating queries | Mac awake |
-| HiringCafe | Headed Chrome (patchright), window off-screen | 6 h from your Mac | Mac awake |
-| NextPlay | Public startup-jobs API | 6 h from your Mac | Mac awake |
+| LinkedIn | Public (logged-out) job search, experience level = Internship | 2 h, rotating queries | — |
 | JobRight | Your recommendations (session cookie) + their companies' boards | 2 h | `JOBRIGHT_COOKIE`, `FEED_KEY` |
-| Handshake | Your own signed-in session in a real Chrome window | 6 h from your Mac | school login once, `FEED_KEY` |
+| Handshake | Your own session (saved login) in a real Chrome under Xvfb | 6 h | `HANDSHAKE_SESSION` / login saved on the site |
 | Jane Street · SIG · D. E. Shaw | Their own careers JSON / pages (internships invisible to title scans) | 30 min | — |
 | Liveness | Re-checks scanned postings against their boards; hides filled ones | 6 h | — |
+
+Not included: HiringCafe and NextPlay block GitHub's datacenter IPs outright
+(Cloudflare challenge / HTTP 403), so they'd need a residential connection;
+their scrapers are still in the repo for local use.
 
 Postings from login-gated sources (Handshake, JobRight recommendations) are
 committed only **encrypted** (`*.enc.json`, AES-256-GCM with `FEED_KEY`);
@@ -86,7 +86,7 @@ Supabase + GitHub sign-in is still supported if you'd rather (SETUP.md).
 
 ```
 npm install
-python3 -m venv .venv && .venv/bin/pip install patchright   # HiringCafe / JobRight / Handshake
+python3 -m venv .venv && .venv/bin/pip install patchright   # JobRight / Handshake (+ HiringCafe locally)
 npm run refresh             # run every scraper once (add -- --workday for the slow Workday sweep)
 npm run feed:handshake -- --login   # Handshake, with your own sign-in
 npm run dev                 # dashboard on http://localhost:3000
@@ -96,7 +96,7 @@ Individual sources: `npm run feed:lists`, `feed:quant-sites`, `feed:linkedin`,
 `feed:hc`, `feed:nextplay`, `feed:jr`, `scan` (GHAL; `GHAL_SINCE=45` to
 backfill), `scan:tracked`, `scan:workday`, `liveness`.
 
-Setup for the full pipeline (repo, secrets, Vercel, Tailscale, logins) is in
+Setup for the full pipeline (repo, secrets, Vercel, logins) is in
 [SETUP.md](SETUP.md).
 
 ## Layout

@@ -845,15 +845,13 @@ document.querySelectorAll('.track-tab').forEach((b) => b.addEventListener('click
 const SOURCES = [
   { key: 'lists', label: 'Curated lists', staleH: 6, count: (h) => h.newMatches },
   { key: 'quantSites', label: 'Jane Street · SIG · D. E. Shaw', staleH: 6, count: (h) => h.newMatches },
-  { key: 'linkedin', label: 'LinkedIn', staleH: 8, count: (h) => h.total },
+  { key: 'linkedin', label: 'LinkedIn', staleH: 6, count: (h) => h.total },
   { key: 'ghal', label: 'Greenhouse · Ashby · Lever', staleH: 2 },
   { key: 'workday', label: 'Workday', staleH: 3 },
   { key: 'tracked', label: 'Tracked boards', staleH: 3 },
   { key: 'seeds', label: 'YC + a16z', staleH: 12 },
-  { key: 'hc', label: 'HiringCafe', staleH: 6, count: (h) => h.newMatches },
-  { key: 'nextplay', label: 'NextPlay', staleH: 6, count: (h) => h.newMatches },
   { key: 'jr', label: 'JobRight', staleH: 12, count: (h) => h.newMatches, login: true },
-  { key: 'handshake', label: 'Handshake', staleH: 72, count: (h) => h.total ?? h.newMatches, login: true },
+  { key: 'handshake', label: 'Handshake', staleH: 14, count: (h) => h.total ?? h.newMatches, login: true },
   { key: 'liveness', label: 'Closed-posting check', staleH: 12, count: (h) => h.totalClosed },
 ];
 

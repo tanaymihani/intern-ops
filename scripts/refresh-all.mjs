@@ -24,9 +24,7 @@ const only = onlyArg >= 0 ? new Set(String(process.argv[onlyArg + 1] || '').spli
 const STEPS = [
   { id: 'lists', label: 'Curated intern lists', cmd: ['fetch-lists-feed.mjs'] },
   { id: 'quant-sites', label: 'Jane Street · SIG · D. E. Shaw', cmd: ['fetch-quant-sites.mjs'] },
-  { id: 'nextplay', label: 'NextPlay', cmd: ['fetch-nextplay-feed.mjs'] },
   { id: 'linkedin', label: 'LinkedIn (next batch of queries)', cmd: ['fetch-linkedin-feed.mjs', '--days', '2'] },
-  { id: 'hc', label: 'HiringCafe (opens Chrome off-screen)', cmd: ['fetch-hiringcafe-feed.mjs', '--days', '2', '--pages', '8', '--hours', '168'], env: { HC_PYTHON: PY } },
   { id: 'jobright', label: 'JobRight (recommendations if signed in + company boards)', cmd: ['fetch-jobright-feed.mjs', '--max', '200', '--if-stale-companies'], env: { HC_PYTHON: PY } },
   { id: 'ghal', label: 'Greenhouse · Ashby · Lever sweep', cmd: ['run.mjs'], env: { GHAL_SINCE: '4' } },
   { id: 'tracked', label: 'Tracked boards', cmd: ['run-tracked.mjs'], env: { TRACKED_SINCE: '3' } },

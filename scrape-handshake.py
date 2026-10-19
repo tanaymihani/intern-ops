@@ -106,6 +106,20 @@ class NotSignedIn(Exception):
     pass
 
 
+def session_cookies(raw: str, origin: str) -> list:
+    """HANDSHAKE_SESSION is either exported JSON cookies or a raw Cookie header
+    (pasted on the site's Refresh page)."""
+    raw = raw.strip()
+    if raw.startswith("["):
+        return json.loads(raw)
+    cookies = []
+    for part in raw.split(";"):
+        name, sep, value = part.strip().partition("=")
+        if sep and name and name not in ("__cf_bm", "_cfuvid", "cf_clearance"):
+            cookies.append({"name": name, "value": value, "url": origin})
+    return cookies
+
+
 def minimize(page) -> None:
     """Minimize the window (macOS can clamp an off-screen position back into view)."""
     try:
@@ -192,7 +206,7 @@ def scrape(args) -> dict:
             launch["args"] = ["--window-position=-32000,-32000", "--window-size=1000,800"]
         ctx = p.chromium.launch_persistent_context(user_data_dir=str(profile), **launch)
         if session_json:
-            ctx.add_cookies(json.loads(session_json))
+            ctx.add_cookies(session_cookies(session_json, origin))
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         try:
             page.goto(f"{origin}/job-search?jobType=3&sort=posted_date_desc", wait_until="domcontentloaded", timeout=90_000)

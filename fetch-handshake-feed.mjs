@@ -22,6 +22,7 @@ import { fileURLToPath } from 'url';
 import { classifyJob, seasonIsPast } from './lib/classify.mjs';
 import { mergeSnapshot, writeJsonAtomic, readJson } from './lib/feed-io.mjs';
 import { encryptJson, decryptJson, hasFeedKey } from './lib/feed-crypto.mjs';
+import { fetchRemoteSession } from './lib/remote-session.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const ENC_OUT = resolve(ROOT, 'data/handshake-feed.enc.json');
@@ -104,11 +105,21 @@ function pushFeed() {
   console.error('handshake: push failed — run `git push` yourself');
 }
 
-function main() {
+async function main() {
   const started = Date.now();
   const passthrough = process.argv.slice(2).filter((a) => a !== '--push');
+  // In GitHub Actions: a login saved on the site's Refresh page wins over the
+  // HANDSHAKE_SESSION secret (it's the newer one).
+  const env = { ...process.env };
+  const remote = await fetchRemoteSession('handshake');
+  if (remote) {
+    env.HANDSHAKE_SESSION = remote.cookie;
+    if (remote.host) env.HANDSHAKE_HOST = remote.host;
+    console.error(`handshake: using the login saved on the site (${remote.savedAt})`);
+  }
   const r = spawnSync(PY, [join(ROOT, 'scrape-handshake.py'), '--out', TMP, ...passthrough], {
     cwd: ROOT,
+    env,
     stdio: ['inherit', 'pipe', 'inherit'],
     encoding: 'utf8',
     timeout: 15 * 60_000,
@@ -164,4 +175,7 @@ function main() {
   }
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

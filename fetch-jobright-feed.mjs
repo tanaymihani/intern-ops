@@ -34,6 +34,7 @@ import { jrPauseActive, jrPauseMessage } from './lib/jr-pause.mjs';
 import { classifyJob, seasonIsPast } from './lib/classify.mjs';
 import { encryptJson, decryptJson, hasFeedKey } from './lib/feed-crypto.mjs';
 import { mergeSnapshot } from './lib/feed-io.mjs';
+import { fetchRemoteSession } from './lib/remote-session.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const DATA = join(ROOT, 'data');
@@ -435,6 +436,12 @@ async function main() {
       return;
     }
     const env = { ...process.env };
+    // A login saved on the site's Refresh page wins over the JOBRIGHT_COOKIE secret.
+    const remote = await fetchRemoteSession('jobright');
+    if (remote) {
+      env.JOBRIGHT_COOKIE = remote.cookie;
+      console.error(`jobright: using the login saved on the site (${remote.savedAt})`);
+    }
     if (String(env.PLAYWRIGHT_BROWSERS_PATH || '').includes('cursor-sandbox-cache')) {
       delete env.PLAYWRIGHT_BROWSERS_PATH;
     }

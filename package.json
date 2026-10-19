@@ -16,20 +16,14 @@
     "feed:quant-sites": "node fetch-quant-sites.mjs",
     "feed:linkedin": "node fetch-linkedin-feed.mjs",
     "feed:handshake": "node fetch-handshake-feed.mjs",
-    "feed:hc": "node run-hc.mjs",
-    "feed:nextplay": "node run-nextplay.mjs",
     "feed:jr": "node run-jobright.mjs",
     "liveness": "node check-liveness.mjs",
     "dev": "node dev-server.mjs",
     "refresh": "node scripts/refresh-all.mjs",
-    "mac-sync": "bash scripts/mac-sync.sh",
-    "mac-sync:install": "bash scripts/install-mac-sync.sh",
-    "mac-sync:remove": "bash scripts/install-mac-sync.sh --remove",
     "test": "node --test test/"
   },
   "dependencies": {
     "@vercel/blob": "2.8.0",
-    "js-yaml": "^4.1.1",
-    "libsodium-wrappers": "^0.7.15"
+    "js-yaml": "^4.1.1"
   }
 }

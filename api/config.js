@@ -5,7 +5,7 @@ export function GET() {
   const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || '';
   return new Response(JSON.stringify({
     supabase: supabaseUrl && supabaseAnonKey ? { url: supabaseUrl, anonKey: supabaseAnonKey } : null,
-    refreshLogin: Boolean(process.env.GH_TOKEN && process.env.DASHBOARD_PASSWORD && process.env.DATA_REPO),
+    refreshLogin: Boolean(process.env.BLOB_READ_WRITE_TOKEN && process.env.FEED_KEY),
     sync: Boolean(process.env.BLOB_READ_WRITE_TOKEN),
     gate: Boolean(process.env.SITE_PASSWORD),
     repo: process.env.DATA_REPO || '',

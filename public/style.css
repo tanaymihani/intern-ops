@@ -841,3 +841,16 @@ body.login-page { display: flex; align-items: center; justify-content: center; p
 .login-card button { background: var(--accent); color: #111; border: none; font-weight: 650; padding: 10px 14px; }
 .login-card button:disabled { opacity: .6; }
 .login-status { color: var(--muted); font-size: 13px; min-height: 18px; }
+/* ===== Refresh-login page ===== */
+body.refresh-page { display: block; }
+.refresh-wrap { max-width: 680px; margin: 32px auto; padding: 0 16px; display: flex; flex-direction: column; gap: 12px; }
+.refresh-wrap h1 { font-family: "Instrument Serif", serif; font-weight: 400; font-size: 30px; margin: 4px 0; }
+.refresh-wrap a { color: var(--accent); }
+.refresh-wrap .muted { color: var(--muted); font-size: 13px; line-height: 1.5; margin: 0; }
+.refresh-wrap .field { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: 13px; }
+.refresh-wrap .steps { margin: 0; padding-left: 20px; line-height: 1.55; }
+.refresh-wrap .steps li { margin-bottom: 6px; }
+.refresh-wrap code { background: var(--card); padding: 1px 6px; border-radius: 4px; font-size: 12px; }
+.refresh-wrap textarea { width: 100%; min-height: 130px; font: 12px/1.4 ui-monospace, monospace; background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+.refresh-wrap button { background: var(--accent); color: #111; border: none; font-weight: 650; align-self: flex-start; padding: 10px 18px; }
+.refresh-wrap button:disabled { opacity: .6; }

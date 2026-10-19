@@ -4,8 +4,8 @@ name: Handshake (your session, headed Chrome via Xvfb)
 # login, exported by scripts/export-handshake-session.py). Handshake sits
 # behind Cloudflare, which turns away headless browsers, so this runs a real
 # Chrome on a virtual display. Results are committed encrypted (FEED_KEY).
-# When the Sources panel says the Handshake session expired, re-export it
-# (see SETUP.md).
+# A login saved later on the site's Refresh page (from any computer) takes
+# precedence over the secret — that's how the session gets renewed.
 on:
   schedule:
     - cron: '41 */6 * * *'
@@ -41,6 +41,7 @@ jobs:
         env:
           HANDSHAKE_SESSION: ${{ secrets.HANDSHAKE_SESSION }}
           FEED_KEY: ${{ secrets.FEED_KEY }}
+          SESSION_SOURCE_URL: ${{ vars.SITE_URL }}
           HC_PYTHON: python3
       - name: Commit results
         if: always()

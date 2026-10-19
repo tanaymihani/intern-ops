@@ -1,30 +1,34 @@
 # Setup
 
-How this deployment is wired, and how to redo any piece of it. Everything
-runs on free tiers: GitHub Actions (public repo), Vercel Hobby (site + Blob
-storage), and your Mac.
+How this deployment is wired, and how to redo any piece of it. Everything is
+free and runs without your computer: GitHub Actions (public repo) does the
+scraping, Vercel Hobby serves the site and stores your marks and logins.
 
-## Secrets — where each one lives
+## Where each secret lives
 
-| Secret | GitHub Actions | Vercel env | Your Mac (`.secrets.env`, git- and vercel-ignored) |
+| Secret | GitHub Actions | Vercel env | Local `.secrets.env` (git- and vercel-ignored) |
 |---|---|---|---|
-| `FEED_KEY` — encrypts Handshake/JobRight feeds | ✓ | ✓ | ✓ |
-| `SITE_PASSWORD` — dashboard password | | ✓ | ✓ |
+| `FEED_KEY` — encrypts login-gated feeds + saved logins; signs the runners' session requests | ✓ | ✓ | ✓ |
+| `SITE_PASSWORD` — the site password | | ✓ | ✓ |
 | `SITE_SECRET` — signs login cookies | | ✓ | ✓ |
-| `BLOB_READ_WRITE_TOKEN` — synced marks | | ✓ (added by the Blob store) | |
-| `DATA_REPO` — e.g. `tanaymihani/intern-ops` | | ✓ | |
+| `BLOB_READ_WRITE_TOKEN` — private storage (marks, saved logins) | | ✓ (added by the Blob store) | |
+| `DATA_REPO` — `tanaymihani/intern-ops` | | ✓ | |
+| `HANDSHAKE_SESSION` — your Handshake login (initial copy) | ✓ | | |
 | `JOBRIGHT_COOKIE` — optional | ✓ | | |
+| `SITE_URL` (variable, not secret) | ✓ | | |
 
-Nothing secret is in the repo: browser profiles, cookies, `.secrets.env` (not `.env.local` — the Vercel CLI rewrites that one) and
-plaintext copies of login-gated feeds are all in `.gitignore`.
+Nothing secret is in the repo: browser profiles, cookies, `.secrets.env`
+(not `.env.local` — the Vercel CLI rewrites that one) and plaintext copies
+of login-gated feeds are all in `.gitignore` / `.vercelignore`.
 
-## 1. GitHub repo (scrapers, 24/7)
+## 1. GitHub repo (scrapers)
 
-Must be public — Actions minutes are unlimited only for public repos.
+Public, because Actions minutes are unlimited only for public repos.
 
 ```bash
 gh repo create intern-ops --public --source . --push
-gh secret set FEED_KEY < <(grep ^FEED_KEY= .secrets.env | cut -d= -f2-)
+grep ^FEED_KEY= .secrets.env | cut -d= -f2- | tr -d '\n' | gh secret set FEED_KEY
+gh variable set SITE_URL --body https://<your-site>.vercel.app
 ```
 
 One-time backfills (optional): `gh workflow run scan.yml -f since=45`,
@@ -42,47 +46,45 @@ printf tanaymihani/intern-ops | vercel env add DATA_REPO production
 vercel deploy --prod --yes
 ```
 
-The site reads `data/` live from GitHub on each request, so scraper runs
-never need a redeploy (`vercel.json` also turns off git-triggered deploys).
+The site reads `data/` live from GitHub, so scraper runs never need a
+redeploy (`vercel.json` also turns off git-triggered deploys).
 
-**Change the password:** `vercel env rm SITE_PASSWORD production`, add the new
-one the same way, update `.secrets.env`, then `vercel deploy --prod --yes`.
+**Change the password:** `vercel env rm SITE_PASSWORD production`, add the
+new one as above, update `.secrets.env`, then `vercel deploy --prod --yes`.
 Changing it signs every device out.
 
-## 3. Mac job (Handshake, LinkedIn, HiringCafe, NextPlay)
+## 3. Handshake
 
-These sites block GitHub's datacenter IPs (and Handshake needs your login),
-so your Mac runs them every 6 hours and pushes the results:
+The `handshake` workflow searches Handshake as you every 6 hours: a real
+Chrome on a virtual display (Handshake's Cloudflare turns away headless
+browsers) with your saved login.
 
-```bash
-npm run feed:handshake -- --login     # once: sign in to Handshake (Northeastern SSO)
-npm run mac-sync:install              # LaunchAgent: runs now, then every 6 h
-npm run mac-sync                      # run it by hand any time
-npm run mac-sync:remove               # uninstall
-tail -f ~/Library/Logs/intern-ops/mac-sync.log
-```
+- **Renewing the login** (when the Sources panel says it expired): open the
+  site's **Refresh logins** page from any computer and follow the three
+  steps there (sign in to Handshake → DevTools → Copy as cURL → paste).
+  The login is encrypted into the site's private storage; the next run
+  fetches it from `/api/session` with an HMAC proof made from `FEED_KEY`.
+- *First-time alternative:* sign in once with
+  `npm run feed:handshake -- --login`, then
+  `.venv/bin/python scripts/export-handshake-session.py | gh secret set HANDSHAKE_SESSION`.
 
-It only runs while you're logged in and the Mac is awake (missed runs happen
-on wake). If the Handshake pill in the site's **Sources** panel says
-"session expired", run the `--login` command again.
-
-**Heads-up:** Handshake's and LinkedIn's terms restrict automated access. The
-job is deliberately light (≈18 Handshake and 8 LinkedIn searches per run,
-seconds apart) — keep it that way.
-
-*Alternative:* the `linkedin`, `hc` and `nextplay` workflows can run on
-GitHub instead if you route them through a Tailscale exit node
-(`TAILSCALE_AUTHKEY` secret + `TAILSCALE_EXIT_NODE` variable). That still
-needs your Mac online, so the Mac job is simpler.
+**Heads-up:** Handshake's and LinkedIn's terms restrict automated access.
+The jobs are deliberately light (≈18 Handshake searches every 6 h, 6
+LinkedIn searches every 2 h, seconds apart) — keep them that way.
 
 ## 4. JobRight (optional)
 
-1. On jobright.ai set your preferences to **Internship** + ML / data science / quant.
-2. `.venv/bin/python scrape-jobright.py --login` (sign in in the window).
-3. For the GitHub workflow too: DevTools → Network → a `swan-api.jobright.ai`
-   request → Copy as cURL → `node scripts/set-cookie.mjs jobright`.
+On jobright.ai set your preferences to **Internship** + ML / data science /
+quant, then save your login on the site's **Refresh logins** page (choose
+JobRight). The `jobright` workflow uses it from the next run.
 
-## 5. Optional: GitHub sign-in instead of a password
+## 5. Not included: HiringCafe, NextPlay
+
+Both block GitHub's datacenter IPs (Cloudflare challenge / HTTP 403). They
+work from a home connection — `node fetch-hiringcafe-feed.mjs` (opens a
+Chrome window) and `node fetch-nextplay-feed.mjs` — but aren't scheduled.
+
+## 6. Optional: GitHub sign-in instead of a password
 
 Supabase (free) can replace the password gate with per-user GitHub login:
 create a project, run the SQL below, enable the GitHub provider, then set
@@ -107,7 +109,7 @@ create policy "own rows" on public.job_state
 
 - What counts as AI/ML or quant: `lib/classify.mjs` (+ `npm test`).
 - Boards to watch: `tracked_companies` in `portals.yml` (`category: quant | ai`
-  makes every technical intern role there count — only use it for quant
-  firms / AI-native companies, not banks or big tech).
-- Queries: LinkedIn `QUERIES` in `fetch-linkedin-feed.mjs`, HiringCafe
-  `lib/hiringcafe-query.mjs`, Handshake `DEFAULT_QUERIES` in `scrape-handshake.py`.
+  makes every technical intern role there count — only for quant firms /
+  AI-native companies, not banks or big tech).
+- Queries: LinkedIn `QUERIES` in `fetch-linkedin-feed.mjs`, Handshake
+  `DEFAULT_QUERIES` in `scrape-handshake.py`.

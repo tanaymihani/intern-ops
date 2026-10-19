@@ -3,44 +3,40 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2309090b'/><text x='16' y='22' font-size='17' text-anchor='middle' fill='%23f472b6' font-family='Georgia,serif' font-style='italic'>io</text></svg>" />
 <title>Refresh logins · intern-ops</title>
-<style>
-  :root { --bg: #09090b; --card: #1b1e24; --line: #2e323c; --text: #ededf0; --muted: #9b9fa8; --accent: #f472b6; --ok: #86c9a3; --bad: #f87171; }
-  body { font: 15px/1.5 system-ui, sans-serif; background: var(--bg); color: var(--text); max-width: 680px; margin: 40px auto; padding: 0 16px; }
-  h1 { font-size: 20px; }
-  h2 { font-size: 16px; margin-top: 32px; }
-  ol { padding-left: 20px; }
-  li { margin-bottom: 10px; }
-  textarea, input[type=password] { width: 100%; box-sizing: border-box; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
-  textarea { height: 120px; }
-  input[type=password] { margin-bottom: 12px; }
-  button { background: var(--accent); color: #09090b; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; margin-top: 10px; }
-  button:disabled { opacity: 0.5; cursor: default; }
-  #status { margin-top: 14px; font-size: 14px; }
-  code { background: var(--card); padding: 2px 6px; border-radius: 4px; }
-  a { color: var(--accent); }
-  .muted { color: var(--muted); font-size: 13px; }
-</style>
+<link rel="stylesheet" href="/style.css" />
 </head>
-<body>
-  <p><a href="/">← back to internships</a></p>
-  <h1>Refresh JobRight session</h1>
-  <p>When the Sources panel says JobRight needs sign-in, your session expired. Steps:</p>
-  <ol>
-    <li>Log into <a href="https://jobright.ai/jobs/recommend" target="_blank" rel="noopener">jobright.ai</a> in your normal browser (set your job preferences to <b>Internship</b> + ML / quant roles so recommendations match).</li>
-    <li>Open DevTools (<code>Cmd+Option+I</code>) → <strong>Network</strong>, filter for <code>swan</code>, and refresh the page.</li>
-    <li>Right-click a request to <code>swan-api.jobright.ai</code> → Copy → <strong>Copy as cURL</strong>, and paste it below.</li>
-  </ol>
-  <input type="password" id="pw" placeholder="Dashboard password" autocomplete="current-password" />
-  <textarea id="curl" placeholder="curl 'https://swan-api.jobright.ai/...' -b '...' ..."></textarea>
-  <br/>
-  <button id="submit">Update secret</button>
-  <div id="status" role="status"></div>
-  <p class="muted">The cookie is sealed with your repository's public key and stored as the <code>JOBRIGHT_COOKIE</code> GitHub Actions secret. It isn't saved anywhere else.</p>
+<body class="refresh-page">
+  <main class="refresh-wrap">
+    <p><a href="/">← back to internships</a></p>
+    <h1>Refresh a login</h1>
+    <p class="muted">Handshake and JobRight are searched as you. When the <b>Sources</b> panel says a login expired, renew it here from any computer — no app or command line needed.</p>
 
-  <h2>Handshake</h2>
-  <p class="muted">Handshake runs on your own computer, not here: it opens a real Chrome window with your school sign-in. Run <code>npm run feed:handshake -- --login</code> once, then <code>npm run feed:handshake -- --push</code> whenever you want fresh Handshake postings on the site.</p>
-<script src="/refresh.js"></script>
+    <label class="field">Which site
+      <select id="source">
+        <option value="handshake">Handshake</option>
+        <option value="jobright">JobRight</option>
+      </select>
+    </label>
+
+    <ol id="steps-handshake" class="steps">
+      <li>In Chrome, sign in at <a href="https://app.joinhandshake.com/job-search" target="_blank" rel="noopener">app.joinhandshake.com</a> (Northeastern SSO) and stay on the job search page.</li>
+      <li>Open DevTools (<code>Cmd+Option+I</code> on Mac, <code>F12</code> on Windows) → <b>Network</b> tab, type <code>graphql</code> in the filter box, then click any filter or scroll the results so a request appears.</li>
+      <li>Right-click a <code>graphql</code> request → <b>Copy</b> → <b>Copy as cURL</b>, and paste it below.</li>
+    </ol>
+    <ol id="steps-jobright" class="steps" hidden>
+      <li>Sign in at <a href="https://jobright.ai/jobs/recommend" target="_blank" rel="noopener">jobright.ai</a> (set your preferences to <b>Internship</b> + ML / quant roles).</li>
+      <li>DevTools → <b>Network</b>, filter <code>swan</code>, refresh the page.</li>
+      <li>Right-click a <code>swan-api.jobright.ai</code> request → <b>Copy</b> → <b>Copy as cURL</b>, and paste it below.</li>
+    </ol>
+
+    <textarea id="curl" placeholder="curl 'https://app.joinhandshake.com/hs/graphql' -H '…' -b '…'"></textarea>
+    <input type="password" id="pw" placeholder="Site password" autocomplete="current-password" />
+    <button id="submit" type="button">Save login</button>
+    <div id="status" role="status"></div>
+    <p class="muted">Only the login cookie is kept, encrypted, in this site's private storage; the scheduled GitHub job picks it up on its next run.</p>
+  </main>
+  <script src="/refresh.js"></script>
 </body>
 </html>
