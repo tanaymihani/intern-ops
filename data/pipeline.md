@@ -124,3 +124,5 @@
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6179468004 | Garda Capital Partners | Trading Analyst Intern, Mortgages | New York, New York, United States | posted: 2026-09-02
 
 - [ ] https://job-boards.greenhouse.io/eulerity/jobs/4722871006 | Eulerity | AI Intern - Office of CEO & Head of Product | New York, NY | posted: 2026-10-17
+
+- [ ] https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002 | Graviton Research Capital LLP | Quantitative Researcher - 2027 Summer Internship | Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore | posted: 2026-10-19
