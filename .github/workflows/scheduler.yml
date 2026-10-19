@@ -1,0 +1,60 @@
+name: Scheduler (backup for GitHub cron)
+
+# GitHub's cron never fired for this repo, so this keeps every scraper on its
+# cadence by dispatching it when its last run is older than its interval
+# (workflow_dispatch from GITHUB_TOKEN is allowed to start runs). A workflow
+# that ran recently — by cron or by hand — is left alone, so nothing runs
+# twice. Each run lasts ~5.5 h and then hands off to a fresh run. It retires
+# itself as soon as GitHub's own schedules start firing.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '7 */4 * * *'
+
+concurrency:
+  group: scheduler
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: Dispatch due workflows, then hand off
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -u
+          # workflow file → minutes between runs (same cadence as their cron lines)
+          declare -A EVERY=(
+            [scan.yml]=10 [workday.yml]=15 [tracked.yml]=15 [lists.yml]=30
+            [linkedin.yml]=120 [jobright.yml]=120 [seeds.yml]=180
+            [handshake.yml]=360 [liveness.yml]=360 [board-discovery.yml]=360
+          )
+          epoch() { date -d "$1" +%s 2>/dev/null || echo 0; }
+          deadline=$(( $(date +%s) + 335 * 60 ))
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            # GitHub's cron works now (a schedule-triggered run of some other workflow) → step aside.
+            sched=$(gh run list -R "$REPO" -e schedule -L 20 --json createdAt,workflowName \
+              -q '[.[] | select(.workflowName | startswith("Scheduler") | not)][0].createdAt // empty')
+            if [ -n "$sched" ] && [ $(( $(date +%s) - $(epoch "$sched") )) -lt 7200 ]; then
+              echo "GitHub cron is firing again — backup scheduler retiring."
+              exit 0
+            fi
+            for wf in "${!EVERY[@]}"; do
+              last=$(gh run list -R "$REPO" -w "$wf" -L 1 --json createdAt,status -q '.[0] | "\(.createdAt) \(.status)"' 2>/dev/null)
+              created="${last%% *}"; status="${last##* }"
+              age=999999
+              [ -n "$created" ] && age=$(( $(date +%s) - $(epoch "$created") ))
+              if [ "$status" != "queued" ] && [ "$status" != "in_progress" ] && [ "$age" -ge $(( ${EVERY[$wf]} * 60 )) ]; then
+                gh workflow run "$wf" -R "$REPO" && echo "$(date -u +%H:%M) dispatched $wf (last run ${age}s ago)"
+              fi
+            done
+            sleep 120
+          done
+          gh workflow run scheduler.yml -R "$REPO" && echo "Handed off to a fresh scheduler run."
