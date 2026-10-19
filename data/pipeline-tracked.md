@@ -426,4 +426,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://ms.wd5.myworkdayjobs.com/External/job/Pasadena-California-United-States-of-America/Intern---Bilingual-Eglish-Mandarin_JR037650 | Morgan Stanley | Intern - Bilingual Eglish/Mandarin | Pasadena, California, United States of America | posted: 2026-09-15
 - [ ] https://ms.wd5.myworkdayjobs.com/External/job/Pasadena-California-United-States-of-America/Intern---Bilingual-English-Spanish_JR037647 | Morgan Stanley | Intern - Bilingual English/Spanish | Pasadena, California, United States of America | posted: 2026-09-15
 
+- [ ] https://jj.wd5.myworkdayjobs.com/jj/job/Cambridge-Massachusetts-United-States-of-America/Summer-intern--Digital-Signal--Imaging-AI_R-103933 | Jj | Summer intern, Digital Signal/ Imaging AI | 5 Locations | posted: 2026-10-17
+
 ## Processed
