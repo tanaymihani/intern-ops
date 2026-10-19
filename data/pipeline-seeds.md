@@ -17,4 +17,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002 | Graviton Research Capital LLP | Quantitative Researcher - 2027 Summer Internship | Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore | posted: 2026-10-19
 
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Science | Seattle, WA | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4735665005 | Scale AI | Machine Learning Research Intern (Summer 2027) | New York, NY; San Francisco, CA | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/inversionspace/jobs/4745076005 | Inversion | AI & Internal Tools Software Engineer - Summer Internship 2027 | Playa Vista, California, United States | posted: 2026-10-19
+
 ## Processed
