@@ -44,6 +44,12 @@ jobs:
           WORKDAY_SINCE: ${{ inputs.since || '1' }}
           WORKDAY_SEARCH_TEXT: ${{ inputs.search_text || '' }}
           WORKDAY_FRESH: ${{ inputs.fresh || false }}
+      # Only this workflow writes workday-posted-at.json (tracked boards' Workday
+      # rows included), so no two workflows ever push the same file.
+      - name: Look up real posting dates
+        if: always()
+        continue-on-error: true
+        run: node scripts/workday-posted-at.mjs data/scan-history-workday.tsv data/scan-history-tracked.tsv
       - name: Commit results
         if: always()
         run: scripts/commit-data.sh workday data/
