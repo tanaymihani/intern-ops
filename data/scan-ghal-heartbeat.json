@@ -1,13 +1,14 @@
 {
-  "at": "2026-10-19T02:10:31.271Z",
+  "at": "2026-10-19T02:20:45.224Z",
   "since": 4,
   "exitCode": 0,
-  "elapsedSec": 112.2,
+  "elapsedSec": 95.6,
   "incomplete": false,
   "mode": "ghal-reverse-actions",
   "ats": [
     "greenhouse",
     "ashby",
     "lever"
-  ]
+  ],
+  "lastOkAt": "2026-10-19T02:20:45.224Z"
 }
