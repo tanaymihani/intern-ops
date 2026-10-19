@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import os
 import sys
 import time
 import urllib.parse
@@ -21,6 +22,11 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_PROFILE = ROOT / "data" / "hiringcafe-profile"
 DEFAULT_OUT = ROOT / "data" / "hc-hits.tmp.json"
 ORIGIN = "https://hiringcafe.com"
+
+# Keep Chrome's sandbox on (Playwright launches with --no-sandbox by default,
+# which weakens isolation and shows a warning bar). Linux CI runners can't
+# start the sandbox, so it stays off there unless CHROME_SANDBOX=1.
+CHROME_SANDBOX = sys.platform != "linux" or os.environ.get("CHROME_SANDBOX") == "1"
 
 NEXT_DATA_RE = re.compile(
     r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>',
@@ -85,6 +91,7 @@ def scrape(pages: int, days: int, query: str, sleep_s: float, profile: Path) -> 
             channel="chrome",
             headless=False,
             no_viewport=True,
+            chromium_sandbox=CHROME_SANDBOX,
             args=[
                 "--window-position=-32000,-32000",
                 "--window-size=800,600",

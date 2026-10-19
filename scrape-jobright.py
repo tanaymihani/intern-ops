@@ -33,6 +33,11 @@ ROOT = Path(__file__).resolve().parent
 DEFAULT_COOKIE_FILE = ROOT / "data" / "jobright-cookies.txt"
 DEFAULT_PROFILE = ROOT / "data" / "jobright-profile"
 DEFAULT_OUT = ROOT / "data" / "jobright-hits.json"
+# Keep Chrome's sandbox on (Playwright launches with --no-sandbox by default,
+# which weakens isolation and shows a warning bar). Linux CI runners can't
+# start the sandbox, so it stays off there unless CHROME_SANDBOX=1.
+CHROME_SANDBOX = sys.platform != "linux" or os.environ.get("CHROME_SANDBOX") == "1"
+
 API = "https://swan-api.jobright.ai"
 RECOMMEND_URL = "https://jobright.ai/jobs/recommend"
 
@@ -508,7 +513,7 @@ def scrape(
     html = ""
     use_profile = login or profile.exists()
     with sync_playwright() as p:
-        launch = {"headless": not login}
+        launch = {"headless": not login, "chromium_sandbox": CHROME_SANDBOX}
         if channel and channel != "chromium":
             launch["channel"] = channel
         if use_profile:

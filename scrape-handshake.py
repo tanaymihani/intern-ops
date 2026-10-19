@@ -29,6 +29,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_PROFILE = ROOT / "data" / "handshake-profile"
+# Keep Chrome's sandbox on (Playwright launches with --no-sandbox by default,
+# which weakens isolation and shows a warning bar). Linux CI runners can't
+# start the sandbox, so it stays off there unless CHROME_SANDBOX=1.
+CHROME_SANDBOX = sys.platform != "linux" or os.environ.get("CHROME_SANDBOX") == "1"
+
 DEFAULT_QUERIES = [
     "machine learning",
     "artificial intelligence",
@@ -101,6 +106,16 @@ class NotSignedIn(Exception):
     pass
 
 
+def minimize(page) -> None:
+    """Minimize the window (macOS can clamp an off-screen position back into view)."""
+    try:
+        cdp = page.context.new_cdp_session(page)
+        info = cdp.send("Browser.getWindowForTarget")
+        cdp.send("Browser.setWindowBounds", {"windowId": info["windowId"], "bounds": {"windowState": "minimized"}})
+    except Exception:
+        pass
+
+
 def offset_cursor(offset: int) -> str:
     return base64.b64encode(str(offset).encode()).decode()
 
@@ -160,7 +175,7 @@ def scrape(args) -> dict:
     per_query: dict[str, int] = {}
 
     with sync_playwright() as p:
-        launch = {"headless": False, "no_viewport": True}
+        launch = {"headless": False, "no_viewport": True, "chromium_sandbox": CHROME_SANDBOX}
         channel = os.environ.get("HS_BROWSER_CHANNEL", "chrome")
         if channel != "chromium":
             launch["channel"] = channel
@@ -171,6 +186,8 @@ def scrape(args) -> dict:
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         try:
             page.goto(f"{origin}/job-search?jobType=3&sort=posted_date_desc", wait_until="domcontentloaded", timeout=90_000)
+            if not args.login:
+                minimize(page)
             page.wait_for_timeout(3_000)
             if not signed_in(page):
                 if not args.login:

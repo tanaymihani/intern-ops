@@ -5,7 +5,7 @@
   "type": "module",
   "description": "AI/ML + Quant internship finder: ATS reverse sweeps, curated intern lists, LinkedIn, Handshake, HiringCafe, JobRight and NextPlay feeds on GitHub Actions, with a Vercel dashboard.",
   "engines": {
-    "node": ">=18"
+    "node": "22.x"
   },
   "scripts": {
     "scan": "node run.mjs",
