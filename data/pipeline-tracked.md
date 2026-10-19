@@ -436,4 +436,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-Op---Summer-2027_R-103629 | Jj | Quality Data Science Co-Op , Summer 2027 | Cincinnati, Ohio, United States of America | posted: 2026-10-19
 
+- [ ] https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002 | Graviton Research Capital LLP | Quantitative Researcher - 2027 Summer Internship | Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore | posted: 2026-10-19
+- [ ] https://autodesk.wd1.myworkdayjobs.com/Uni/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-1 | Autodesk (University) | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
+- [ ] https://autodesk.wd1.myworkdayjobs.com/Ext/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-2 | Autodesk | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
+
 ## Processed
