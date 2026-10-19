@@ -126,3 +126,6 @@
 - [ ] https://job-boards.greenhouse.io/eulerity/jobs/4722871006 | Eulerity | AI Intern - Office of CEO & Head of Product | New York, NY | posted: 2026-10-17
 
 - [ ] https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002 | Graviton Research Capital LLP | Quantitative Researcher - 2027 Summer Internship | Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore | posted: 2026-10-19
+
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4735665005 | Scale AI | Machine Learning Research Intern (Summer 2027) | New York, NY; San Francisco, CA | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/inversionspace/jobs/4745076005 | Inversion | AI & Internal Tools Software Engineer - Summer Internship 2027 | Playa Vista, California, United States | posted: 2026-10-19
