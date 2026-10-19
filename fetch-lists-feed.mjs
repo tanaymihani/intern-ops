@@ -122,6 +122,7 @@ async function speedyapply() {
     const job = keep({
       title,
       company,
+      company_url: cellLinks(col('company'))[0] || '',
       url,
       location: cellText(col('location')),
       salary: header.includes('salary') ? cellText(col('salary')) : '',
@@ -167,9 +168,12 @@ async function nwquant() {
   const out = [];
   let firm = '';
   let locations = '';
+  let website = '';
   for (const line of md.split('\n')) {
     const h = line.match(/^## (.+)$/);
-    if (h) { firm = h[1].trim(); locations = ''; continue; }
+    if (h) { firm = h[1].trim(); locations = ''; website = ''; continue; }
+    const site = line.match(/^\*\*Website\*\*:.*?\((https?:\/\/[^)\s]+)\)/);
+    if (site) { website = site[1]; continue; }
     const loc = line.match(/^\*\*Locations\*\*:\s*(.*)$/);
     if (loc) { locations = loc[1].trim(); continue; }
     if (!firm || /^(contributing|using this repository)$/i.test(firm)) continue;
@@ -186,6 +190,7 @@ async function nwquant() {
       const job = keep({
         title,
         company: firm,
+        company_url: website,
         url,
         location: locations,
         postedAt: null,
@@ -218,6 +223,7 @@ async function jrlist() {
     }
     let header = null;
     let lastCompany = '';
+    let lastHomepage = '';
     for (const line of md.split('\n')) {
       const cells = splitRow(line);
       if (!cells) { header = null; continue; }
@@ -230,7 +236,9 @@ async function jrlist() {
       // Repeated-company rows use "↳" in the company cell.
       const companyCell = cellText(col('company'));
       const company = /^↳?$/.test(companyCell) ? lastCompany : companyCell;
+      const homepage = cellLinks(col('company'))[0] || (company === lastCompany ? lastHomepage : '');
       lastCompany = company;
+      lastHomepage = homepage;
       const titleCell = col('job title');
       const title = cellText(titleCell);
       const url = cellLinks(titleCell)[0];
@@ -238,6 +246,7 @@ async function jrlist() {
       const job = keep({
         title,
         company,
+        company_url: homepage,
         url,
         location: cellText(col('location')),
         workplace: cellText(col('work model')).replace(/^on ?site$/i, 'Onsite'),

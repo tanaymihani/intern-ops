@@ -1,4 +1,5 @@
 // intern-ops dashboard — adapted from career-ops' jobs view.
+import { guessDomain, emailFromPattern, COMMON_PATTERNS, outreachLinks, personLinks } from './people-core.js';
 // Data: GET /api/jobs?track=… (shared, cacheable). Per-user state (opened /
 // applied / hidden) lives in localStorage, or in Supabase when /api/config
 // says it's configured (then GitHub sign-in is required, like career-ops).
@@ -475,6 +476,7 @@ function cardHtml(j) {
     + stackHtml
     + '<div class="actions">'
     + '<button type="button" class="open-btn">Open</button>'
+    + `<button type="button" class="people-btn" title="Recruiters, the team, alumni, emails">People${j.contacts?.length ? ` · ${j.contacts.length}` : ''}</button>`
     + `<button type="button" class="apply-btn">${j.applied ? 'Unmark applied' : 'Mark applied'}</button>`
     + `<button type="button" class="flag-btn${j.doubtful ? ' on' : ''}">${j.doubtful ? 'Unhide' : 'Hide'}</button>`
     + '</div></article>';
@@ -746,6 +748,11 @@ grid.addEventListener('click', async (e) => {
     await toggleApplied(job, card);
     return;
   }
+  if (e.target.closest('.people-btn')) {
+    e.preventDefault();
+    openPeople(job);
+    return;
+  }
   e.preventDefault();
   window.open(job.url, '_blank', 'noopener');
   await markViewed(job, card);
@@ -770,6 +777,200 @@ $('hideConfirm').addEventListener('click', async () => {
 hideReasonModal.addEventListener('click', (e) => { if (e.target === hideReasonModal) closeHideDialog(); });
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape' && hideReasonModal.classList.contains('show')) closeHideDialog();
+});
+
+// ── People panel ────────────────────────────────────────────────────
+
+const peopleModal = $('peopleModal');
+const normCo = (s) => String(s || '').toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ')
+  .replace(/\b(inc|llc|lp|ltd|corp|corporation|co|company|the|group|holdings|technologies|technology)\b/g, ' ').replace(/\s+/g, ' ').trim();
+let peopleState = null; // { job, domain, configured, result, contacts }
+
+function closePeople() {
+  peopleState = null;
+  peopleModal.classList.remove('show');
+  peopleModal.setAttribute('aria-hidden', 'true');
+}
+
+/** Hiring-team contacts for this posting, plus ones from the company's other Handshake postings. */
+function companyContacts(job) {
+  const out = [];
+  const seen = new Set();
+  const add = (c, fromJob) => {
+    const k = c.name.toLowerCase();
+    if (seen.has(k)) return;
+    seen.add(k);
+    out.push({ ...c, fromUrl: fromJob.url, fromTitle: fromJob.title, here: fromJob === job });
+  };
+  for (const c of job.contacts || []) add(c, job);
+  const co = normCo(job.company);
+  for (const j of JOBS) if (j !== job && j.contacts?.length && normCo(j.company) === co) for (const c of j.contacts) add(c, j);
+  return out;
+}
+
+function copyBtn(text) {
+  return `<button type="button" class="mini" data-copy="${escapeHtml(text)}">Copy</button>`;
+}
+
+function emailFor(name) {
+  const st = peopleState;
+  const pattern = st?.result?.pattern;
+  const domain = st?.result?.domain || st?.domain;
+  return pattern && domain ? emailFromPattern(pattern, name, domain) : '';
+}
+
+function renderPeople() {
+  const st = peopleState;
+  if (!st) return;
+  const { job, configured, result, contacts } = st;
+  const domain = result?.domain || st.domain;
+  const parts = [];
+
+  if (contacts.length) {
+    parts.push('<h3>Hiring team on Handshake</h3><ul class="people-list">' + contacts.map((c) => {
+      const email = emailFor(c.name);
+      const find = result?.finds?.[c.name.toLowerCase()];
+      return '<li><div class="who">'
+        + `<b>${escapeHtml(c.name)}</b>${c.title ? ` · <span>${escapeHtml(c.title)}</span>` : ''}`
+        + (c.here ? '' : `<div class="via">on “${escapeHtml(c.fromTitle)}”</div>`)
+        + (find?.email ? `<div class="mail">${escapeHtml(find.email)}${find.verified ? ' ✓ verified' : ''} ${copyBtn(find.email)}</div>`
+          : email ? `<div class="mail">${escapeHtml(email)} <span class="guess">likely, from ${escapeHtml(domain)}'s format</span> ${copyBtn(email)}</div>` : '')
+        + '</div><div class="acts">'
+        + `<a class="mini" href="${escapeHtml(c.fromUrl)}" target="_blank" rel="noopener">Message on Handshake</a>`
+        + `<a class="mini" href="${escapeHtml(personLinks(c, job.company).linkedin)}" target="_blank" rel="noopener">LinkedIn</a>`
+        + (configured && !find ? `<button type="button" class="mini" data-find="${escapeHtml(c.name)}">Find exact email</button>` : '')
+        + '</div></li>';
+    }).join('') + '</ul>');
+  }
+
+  parts.push('<h3>Find people on LinkedIn</h3><ul class="people-links">' + outreachLinks(job).map((l) => (
+    `<li><a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)} ↗</a><span>${escapeHtml(l.hint)}</span></li>`
+  )).join('') + '</ul>');
+
+  parts.push('<h3>Email</h3>');
+  if (result) {
+    parts.push(`<p class="people-note">${result.pattern
+      ? `${escapeHtml(result.company || job.company)} emails look like <code>${escapeHtml(emailFromPattern(result.pattern, 'Jane Doe', result.domain))}</code> (<code>${escapeHtml(result.pattern)}@${escapeHtml(result.domain)}</code>).`
+      : `Hunter didn't find an email format for ${escapeHtml(result.domain || job.company)}.`}</p>`);
+    if (result.emails?.length) {
+      parts.push('<ul class="people-list">' + result.emails.map((e) => '<li><div class="who">'
+        + `<b>${escapeHtml(e.name || e.email)}</b>${e.position ? ` · <span>${escapeHtml(e.position)}</span>` : ''}`
+        + `<div class="mail">${escapeHtml(e.email)}${e.verified ? ' ✓ verified' : ''} ${copyBtn(e.email)}</div></div>`
+        + `<div class="acts">${e.linkedin ? `<a class="mini" href="${escapeHtml(e.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>` : ''}</div></li>`).join('') + '</ul>');
+    }
+  } else if (configured) {
+    parts.push(`<p class="people-note">Look up how ${escapeHtml(job.company)} formats emails, plus a few recruiting contacts — uses up to 3 of your 50 free monthly Hunter credits, then it's saved.</p>`
+      + `<button type="button" class="mini primary" id="peopleLookup">Look up ${escapeHtml(domain || job.company)}</button>`);
+  } else {
+    parts.push('<p class="people-note">Add a free Hunter.io key to unlock real email formats and recruiter emails (see SETUP.md).</p>');
+    if (domain) {
+      parts.push(`<p class="people-note">Until then, the usual formats at <b>${escapeHtml(domain)}</b> (unverified): `
+        + COMMON_PATTERNS.map((p) => `<code>${escapeHtml(emailFromPattern(p, 'Jane Doe', domain))}</code>`).join(' · ') + '</p>');
+    }
+  }
+  const canGuess = Boolean(domain || configured);
+  parts.push('<div class="people-name">'
+    + `<input id="peopleName" type="text" placeholder="${canGuess ? "Type someone's full name (e.g. from LinkedIn) to get their email" : 'No company email domain known yet'}" autocomplete="off" ${canGuess ? '' : 'disabled'} />`
+    + '<div id="peopleNameOut" class="mail"></div></div>');
+  if (st.error) parts.push(`<p class="people-error">${escapeHtml(st.error)}</p>`);
+  $('peopleBody').innerHTML = parts.join('');
+}
+
+/** Email domain for the company — this posting's, or any other posting from the same company. */
+function companyDomain(job) {
+  const own = guessDomain(job);
+  if (own) return own;
+  const co = normCo(job.company);
+  for (const j of JOBS) {
+    if (j !== job && normCo(j.company) === co) {
+      const d = guessDomain(j);
+      if (d) return d;
+    }
+  }
+  return '';
+}
+
+async function openPeople(job) {
+  peopleState = { job, domain: companyDomain(job), configured: false, result: null, contacts: companyContacts(job), error: '' };
+  $('peopleJob').textContent = `${job.title} · ${job.company}`;
+  peopleModal.classList.add('show');
+  peopleModal.setAttribute('aria-hidden', 'false');
+  renderPeople();
+  try {
+    const q = new URLSearchParams({ company: job.company, domain: peopleState.domain });
+    const data = await (await fetch(`/api/people?${q}`)).json();
+    if (peopleState?.job !== job) return;
+    peopleState.configured = Boolean(data.configured);
+    peopleState.result = data.result || null;
+    renderPeople();
+  } catch { /* links still work */ }
+}
+
+async function peopleCall(body) {
+  const st = peopleState;
+  const res = await fetch('/api/people', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ company: st.job.company, domain: st.result?.domain || st.domain, ...body }),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+  return data;
+}
+
+peopleModal.addEventListener('click', async (e) => {
+  if (e.target === peopleModal || e.target.closest('#peopleClose')) { closePeople(); return; }
+  const st = peopleState;
+  if (!st) return;
+  const copy = e.target.closest('[data-copy]');
+  if (copy) {
+    try { await navigator.clipboard.writeText(copy.dataset.copy); showToast('Copied'); } catch { showToast(copy.dataset.copy); }
+    return;
+  }
+  if (e.target.closest('#peopleLookup')) {
+    e.target.disabled = true;
+    e.target.textContent = 'Looking up…';
+    try {
+      st.result = (await peopleCall({ action: 'lookup' })).result;
+      st.error = '';
+    } catch (err) { st.error = err.message; }
+    renderPeople();
+    return;
+  }
+  const find = e.target.closest('[data-find]');
+  if (find || e.target.closest('#peopleFindName')) {
+    const name = find ? find.dataset.find : $('peopleName').value.trim();
+    (find || e.target).disabled = true;
+    try {
+      const { find: f } = await peopleCall({ action: 'find', name });
+      st.result = st.result || { company: st.job.company, domain: st.domain, pattern: '', emails: [], finds: {} };
+      st.result.finds = { ...(st.result.finds || {}), [name.toLowerCase()]: f };
+      st.error = f.email ? '' : `Hunter couldn't find an email for ${name}.`;
+    } catch (err) { st.error = err.message; }
+    renderPeople();
+  }
+});
+
+peopleModal.addEventListener('input', (e) => {
+  if (e.target.id !== 'peopleName') return;
+  const name = e.target.value.trim();
+  const out = $('peopleNameOut');
+  const email = emailFor(name);
+  const known = peopleState?.result?.finds?.[name.toLowerCase()];
+  const domain = peopleState?.result?.domain || peopleState?.domain;
+  // No verified format yet: show the usual formats, clearly marked as guesses.
+  const guesses = !email && domain && /\S+\s+\S+/.test(name)
+    ? COMMON_PATTERNS.map((p) => emailFromPattern(p, name, domain)).filter(Boolean)
+    : [];
+  out.innerHTML = known?.email
+    ? `${escapeHtml(known.email)}${known.verified ? ' ✓ verified' : ''} ${copyBtn(known.email)}`
+    : (email ? `${escapeHtml(email)} <span class="guess">likely</span> ${copyBtn(email)}` : '')
+      + guesses.map((g) => `<div>${escapeHtml(g)} <span class="guess">unverified guess</span> ${copyBtn(g)}</div>`).join('')
+      + (peopleState?.configured && /\S+\s+\S+/.test(name) ? ' <button type="button" class="mini" id="peopleFindName">Find exact email</button>' : '');
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && peopleModal.classList.contains('show')) closePeople();
 });
 
 // ── Controls ────────────────────────────────────────────────────────

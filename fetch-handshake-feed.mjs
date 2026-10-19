@@ -60,6 +60,12 @@ function toRecord(job, origin) {
   const cls = classifyJob({ title, company, internHint, commitment: job.jobType?.name || '' });
   if (!cls || (cls.season && seasonIsPast(cls.season))) return null;
   const locations = (job.locations || []).map((l) => l.displayName || l.name).filter(Boolean);
+  // The recruiters the employer attached to this posting ("hiring team").
+  const contacts = (job.jobContactableUsers || [])
+    .map((c) => c?.user)
+    .filter((u) => u && (u.firstName || u.lastName))
+    .map((u) => ({ name: [u.firstName, u.lastName].filter(Boolean).join(' ').trim(), title: u.title || '', handshakeId: String(u.id || '') }))
+    .slice(0, 6);
   return {
     title,
     company,
@@ -70,6 +76,7 @@ function toRecord(job, origin) {
     workplace: job.remote ? 'Remote' : job.hybrid ? 'Hybrid' : job.onSite ? 'Onsite' : '',
     commitment: job.jobType?.name || '',
     expiresAt: job.expirationDate || '',
+    ...(contacts.length ? { contacts } : {}),
     promoted: job._promoted || undefined,
     feed: 'handshake',
     internHint,

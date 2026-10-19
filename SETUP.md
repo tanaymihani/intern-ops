@@ -14,6 +14,7 @@ scraping, Vercel Hobby serves the site and stores your marks and logins.
 | `SITE_SECRET` — signs login cookies | | ✓ | ✓ |
 | `BLOB_READ_WRITE_TOKEN` — private storage (marks, saved logins) | | ✓ (added by the Blob store) | |
 | `DATA_REPO` — `tanaymihani/intern-ops` | | ✓ | |
+| `HUNTER_API_KEY` — optional, email lookups in the People panel | | ✓ | |
 | `HANDSHAKE_SESSION` — your Handshake login (initial copy) | ✓ | | |
 | `JOBRIGHT_COOKIE` — optional | ✓ | | |
 | `SITE_URL` (variable, not secret) | ✓ | | |
@@ -79,13 +80,31 @@ On jobright.ai set your preferences to **Internship** + ML / data science /
 quant, then save your login on the site's **Refresh logins** page (choose
 JobRight). The `jobright` workflow uses it from the next run.
 
-## 5. Not included: HiringCafe, NextPlay
+## 5. People panel + email lookups
+
+Every card has a **People** button: the posting's hiring team from
+Handshake (and recruiters seen on the company's other Handshake postings),
+one-click LinkedIn searches (recruiters, the team, Northeastern alumni at
+the company), and email help.
+
+Emails work without anything extra as *unverified guesses* in the usual
+formats. For real formats and recruiter emails, add a free Hunter.io key
+(50 credits/month; a company lookup uses at most 3, and every result is
+cached for 60 days so a company never costs twice):
+
+```bash
+# hunter.io → sign up (free) → API → copy your key, then:
+vercel env add HUNTER_API_KEY production      # paste the key
+vercel deploy --prod --yes
+```
+
+## 6. Not included: HiringCafe, NextPlay
 
 Both block GitHub's datacenter IPs (Cloudflare challenge / HTTP 403). They
 work from a home connection — `node fetch-hiringcafe-feed.mjs` (opens a
 Chrome window) and `node fetch-nextplay-feed.mjs` — but aren't scheduled.
 
-## 6. Optional: GitHub sign-in instead of a password
+## 7. Optional: GitHub sign-in instead of a password
 
 Supabase (free) can replace the password gate with per-user GitHub login:
 create a project, run the SQL below, enable the GitHub provider, then set

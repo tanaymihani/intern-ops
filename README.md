@@ -74,7 +74,10 @@ Same design as career-ops: Today / Yesterday / Older sections with "X of Y
 applied" progress, fresh-first ordering, "new jobs" banner, grace period after
 marking applied, hide-with-reason. Internship additions: AI/ML · Quant · All
 tracks, season filter (Summer 2027…), "Hide PhD-only", co-op flag, source and
-board filters, and a Sources panel showing each scraper's last run.
+board filters, a Sources panel showing each scraper's last run, and a
+**People** panel per posting: the Handshake hiring team, one-click LinkedIn
+searches (recruiters, the team, your school's alumni there) and email help
+(company email format + recruiter emails via Hunter.io, cached).
 
 The site sits behind a username + password (`SITE_USERNAME` / `SITE_PASSWORD`, checked by
 `middleware.js` on every page and API call; HttpOnly signed session cookie).

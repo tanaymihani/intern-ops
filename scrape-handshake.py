@@ -64,6 +64,7 @@ query JobSearchQuery($first: Int, $after: String, $input: JobSearchInput) {
           employmentType { id name behaviorIdentifier }
           salaryType { behaviorIdentifier }
           salaryRange { min max currency paySchedule { behaviorIdentifier } }
+          jobContactableUsers { id user { id firstName lastName title } }
         }
       }
     }
