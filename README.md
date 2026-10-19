@@ -76,7 +76,7 @@ marking applied, hide-with-reason. Internship additions: AI/ML · Quant · All
 tracks, season filter (Summer 2027…), "Hide PhD-only", co-op flag, source and
 board filters, and a Sources panel showing each scraper's last run.
 
-The site sits behind a password (`SITE_PASSWORD`, checked by
+The site sits behind a username + password (`SITE_USERNAME` / `SITE_PASSWORD`, checked by
 `middleware.js` on every page and API call; HttpOnly signed session cookie).
 Applied / hidden / opened marks sync across your devices through a private
 Vercel Blob (`api/state.js`), with this browser's copy as an offline cache.

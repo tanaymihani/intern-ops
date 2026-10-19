@@ -9,6 +9,7 @@ scraping, Vercel Hobby serves the site and stores your marks and logins.
 | Secret | GitHub Actions | Vercel env | Local `.secrets.env` (git- and vercel-ignored) |
 |---|---|---|---|
 | `FEED_KEY` — encrypts login-gated feeds + saved logins; signs the runners' session requests | ✓ | ✓ | ✓ |
+| `SITE_USERNAME` — the site username (`admin`) | | ✓ | ✓ |
 | `SITE_PASSWORD` — the site password | | ✓ | ✓ |
 | `SITE_SECRET` — signs login cookies | | ✓ | ✓ |
 | `BLOB_READ_WRITE_TOKEN` — private storage (marks, saved logins) | | ✓ (added by the Blob store) | |
@@ -39,7 +40,7 @@ One-time backfills (optional): `gh workflow run scan.yml -f since=45`,
 ```bash
 vercel link --yes --project intern-ops
 vercel blob create-store intern-ops-state --access private --yes   # adds BLOB_READ_WRITE_TOKEN
-for k in FEED_KEY SITE_PASSWORD SITE_SECRET; do
+for k in FEED_KEY SITE_USERNAME SITE_PASSWORD SITE_SECRET; do
   grep "^$k=" .secrets.env | cut -d= -f2- | tr -d '\n' | vercel env add "$k" production
 done
 printf tanaymihani/intern-ops | vercel env add DATA_REPO production
@@ -49,9 +50,9 @@ vercel deploy --prod --yes
 The site reads `data/` live from GitHub, so scraper runs never need a
 redeploy (`vercel.json` also turns off git-triggered deploys).
 
-**Change the password:** `vercel env rm SITE_PASSWORD production`, add the
-new one as above, update `.secrets.env`, then `vercel deploy --prod --yes`.
-Changing it signs every device out.
+**Change the username or password:** `vercel env rm SITE_PASSWORD production`
+(or `SITE_USERNAME`), add the new value as above, update `.secrets.env`, then
+`vercel deploy --prod --yes`. Changing either signs every device out.
 
 ## 3. Handshake
 
