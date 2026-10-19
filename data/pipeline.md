@@ -122,3 +122,5 @@
 - [ ] https://jobs.ashbyhq.com/hadrian-automation/f718bcfe-3f5b-4682-a294-697499caf813 | hadrian-automation | Data Science/ Data Engineer Intern | Los Angeles, CA | posted: 2026-09-02
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6163540004 | Garda Capital Partners | Trading Analyst Intern, Credit | New York, New York, United States | posted: 2026-09-02
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6179468004 | Garda Capital Partners | Trading Analyst Intern, Mortgages | New York, New York, United States | posted: 2026-09-02
+
+- [ ] https://job-boards.greenhouse.io/eulerity/jobs/4722871006 | Eulerity | AI Intern - Office of CEO & Head of Product | New York, NY | posted: 2026-10-17
