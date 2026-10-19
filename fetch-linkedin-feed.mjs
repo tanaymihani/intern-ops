@@ -20,7 +20,7 @@
  *   node fetch-linkedin-feed.mjs --days 30 --pages 4   # backfill
  */
 import { resolve, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { classifyJob, seasonIsPast } from './lib/classify.mjs';
 import { readJson, writeJsonAtomic, writeFeedFile, mergeRolling, cellText } from './lib/feed-io.mjs';
 
@@ -123,8 +123,23 @@ function searchUrl(keywords, start, api = false) {
   return `${base}?${p}`;
 }
 
+/**
+ * The card says "14 hours ago" in the <time> text but only a date in its
+ * datetime attribute — use the text when it's minutes/hours, so a posting
+ * from this morning isn't shown as just "today".
+ */
+export function postedFromCard(timeText, date, now = Date.now()) {
+  const m = String(timeText || '').toLowerCase().match(/(\d+)\s*(minute|min|hour|hr)s?\s+ago/);
+  if (m) {
+    const ms = Number(m[1]) * (m[2].startsWith('h') ? 3600000 : 60000);
+    return new Date(now - ms).toISOString();
+  }
+  if (/just now|moments? ago/.test(String(timeText || '').toLowerCase())) return new Date(now).toISOString();
+  return date || null;
+}
+
 /** Parse guest job cards (search page and pagination fragment share markup). */
-export function parseCards(html) {
+export function parseCards(html, now = Date.now()) {
   const out = [];
   const chunks = String(html || '').split(/(?=<div[^>]+data-entity-urn="urn:li:jobPosting:\d+")/);
   for (const chunk of chunks) {
@@ -133,8 +148,9 @@ export function parseCards(html) {
     const title = cellText(chunk.match(/base-search-card__title">([\s\S]*?)<\/h3>/)?.[1]);
     const company = cellText(chunk.match(/base-search-card__subtitle">([\s\S]*?)<\/h4>/)?.[1]);
     const location = cellText(chunk.match(/job-search-card__location">([\s\S]*?)<\/span>/)?.[1]);
-    const date = chunk.match(/<time[^>]+class="job-search-card__listdate[^"]*"[^>]+datetime="(\d{4}-\d{2}-\d{2})"/)?.[1]
-      || chunk.match(/datetime="(\d{4}-\d{2}-\d{2})"/)?.[1] || '';
+    const timeTag = chunk.match(/<time[^>]*datetime="(\d{4}-\d{2}-\d{2})"[^>]*>([\s\S]*?)<\/time>/);
+    const date = timeTag?.[1] || chunk.match(/datetime="(\d{4}-\d{2}-\d{2})"/)?.[1] || '';
+    const timeText = cellText(timeTag?.[2] || '');
     const salary = cellText(chunk.match(/job-search-card__salary-info">([\s\S]*?)<\/span>/)?.[1]);
     if (!title || !company) continue;
     out.push({
@@ -142,8 +158,8 @@ export function parseCards(html) {
       title,
       company,
       location,
-      // Date-only on purpose: LinkedIn shows a day, not a time.
-      postedAt: date || null,
+      // Exact time for "N hours ago" cards, otherwise the day LinkedIn gives.
+      postedAt: postedFromCard(timeText, date, now),
       salary,
       url: `https://www.linkedin.com/jobs/view/${id}/`,
       repost: /\breposted\b/i.test(chunk),
@@ -278,7 +294,8 @@ async function main() {
   process.exit(0);
 }
 
-main().catch((err) => {
+// Only run when executed directly (tests import the parsers).
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch((err) => {
   console.error(err);
   process.exit(1);
 });

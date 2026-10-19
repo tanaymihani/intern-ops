@@ -15,6 +15,7 @@ const staleBanner = $('staleBanner');
 const hideReasonModal = $('hideReasonModal');
 
 const PREFS_KEY = 'intern-ops-prefs-v1';
+const PREFS_VERSION = 2;
 const STATE_KEY = 'intern-ops-state-v1';
 const APPLIED_GRACE_MS = 4000;
 const POLL_MS = 60_000;
@@ -37,11 +38,13 @@ let toastTimer;
 
 const DEFAULT_PREFS = {
   track: 'ai', age: '7', season: '', degree: 'no-phd', geo: 'us', work: '', source: '', ats: '',
-  sort: 'discovered', hideApplied: true, hideOpened: false, hideCoop: false, hideReposts: false,
+  sort: 'posted', hideApplied: true, hideOpened: false, hideCoop: false, hideReposts: false,
   officialOnly: false, company: '', loc: '', filtersOpen: false,
 };
 let prefs = { ...DEFAULT_PREFS };
 try { prefs = { ...DEFAULT_PREFS, ...JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') }; } catch { /* private mode */ }
+// v2: cards are dated and sorted by when the employer posted, not when we found it.
+if ((prefs.v || 1) < PREFS_VERSION) prefs = { ...prefs, sort: 'posted', v: PREFS_VERSION };
 function savePrefs() {
   try { localStorage.setItem(PREFS_KEY, JSON.stringify(prefs)); } catch { /* ignore */ }
 }
@@ -228,9 +231,12 @@ function isTodayLocal(iso) {
   return key != null && key === todayDayKey();
 }
 
-/** Today / Yesterday / Older section for a job's discovery date. */
-function discoveryBucket(j) {
-  const key = discoveryDayKey(j);
+/** When the employer posted it, or — if the source gives no date — when we found it. */
+const postedOrFound = (j) => j.posted_at_full || j.posted_at || j.first_seen || '';
+
+/** Today / Yesterday / Older, by posting date (or discovery date in "Recently found" sort). */
+function dayBucket(j) {
+  const key = localDayKey(prefs.sort === 'discovered' ? (j.first_seen || '') : postedOrFound(j));
   if (key == null) return 'older';
   if (key === todayDayKey()) return 'today';
   const yest = new Date();
@@ -254,6 +260,20 @@ function compareByPosted(a, b) {
   if (aHas && bHas && ap !== bp) return bp - ap;
   if (aHas && !bHas) return -1;
   if (!aHas && bHas) return 1;
+  return stableJobTieBreak(a, b);
+}
+
+/** Newest posting first; postings without an employer date slot in by when we found them. */
+function compareByNewest(a, b) {
+  const at = parseJobTime(postedOrFound(a));
+  const bt = parseJobTime(postedOrFound(b));
+  const aHas = Number.isFinite(at);
+  const bHas = Number.isFinite(bt);
+  if (aHas && bHas && at !== bt) return bt - at;
+  if (aHas !== bHas) return aHas ? -1 : 1;
+  const af = discoveryEpoch(a);
+  const bf = discoveryEpoch(b);
+  if (Number.isFinite(af) && Number.isFinite(bf) && af !== bf) return bf - af;
   return stableJobTieBreak(a, b);
 }
 
@@ -289,11 +309,18 @@ function timeWithin(iso, maxAgeMs) {
   return Number.isFinite(t) && (Date.now() - t) <= maxAgeMs;
 }
 
-/** "New to you" window: found recently, or posted recently by the employer. */
+/** "Past N days" = posted in the last N days; postings with no employer date use when we found them. */
 function withinAge(j, maxAgeMs) {
   if (!maxAgeMs) return true;
-  if (timeWithin(j.first_seen || '', maxAgeMs)) return true;
-  return timeWithin(j.posted_at_full || j.posted_at || '', maxAgeMs);
+  return timeWithin(postedOrFound(j), maxAgeMs);
+}
+
+/** Posted well before we found it — still worth a look, so it gets a "new to you" tag. */
+function isLateFind(j) {
+  const posted = employerEpoch(j);
+  const found = discoveryEpoch(j);
+  return Number.isFinite(posted) && Number.isFinite(found)
+    && Date.now() - found < 24 * 3600000 && found - posted > 48 * 3600000;
 }
 
 function formatRel(iso) {
@@ -321,14 +348,28 @@ function formatRel(iso) {
   return iso.slice(0, 10);
 }
 
-/** "found" is the primary signal; the employer's posted date is demoted subtext. */
+/** "14h ago", "3d ago · Oct 15", "today", "yesterday". */
+function formatAgo(iso) {
+  const rel = formatRel(iso);
+  if (/^\d+h$/.test(rel)) return `${rel} ago`;
+  return rel.replace(/^(\d+d)( · )/, '$1 ago$2');
+}
+
+/** Big label = when the employer posted it; small = when we found it (if notably later). */
 function ageParts(j) {
-  const found = j.first_seen ? formatRel(j.first_seen) : '';
   const postedRaw = j.posted_at_full || j.posted_at;
-  const posted = postedRaw ? `posted ${formatRel(postedRaw)}` : '';
-  if (found) return { foundText: found, postedText: posted };
-  if (posted) return { foundText: posted, postedText: '' };
-  return { foundText: '—', postedText: '' };
+  if (postedRaw) {
+    const posted = employerEpoch(j);
+    const found = discoveryEpoch(j);
+    // Date-only postings ("today") have no clock time: only mention when we
+    // found it if that was a later day. Timestamped ones: if 12h+ later.
+    const showFound = Number.isFinite(found) && Number.isFinite(posted) && (isDateOnly(postedRaw)
+      ? (localDayKey(j.first_seen) || 0) > (localDayKey(postedRaw) || 0)
+      : found - posted > 12 * 3600000);
+    return { mainText: `posted ${formatAgo(postedRaw)}`, subText: showFound ? `found ${formatAgo(j.first_seen)}` : '' };
+  }
+  if (j.first_seen) return { mainText: `found ${formatAgo(j.first_seen)}`, subText: 'posting date not listed' };
+  return { mainText: '—', subText: '' };
 }
 
 /** Client copy of lib/us-location.mjs. */
@@ -404,10 +445,10 @@ function filtered(opts = {}) {
     rows.sort((a, b) => (a.company || '').localeCompare(b.company || '') || (a.title || '').localeCompare(b.title || ''));
   } else if (prefs.sort === 'title') {
     rows.sort((a, b) => (a.title || '').localeCompare(b.title || '') || (a.company || '').localeCompare(b.company || ''));
-  } else if (prefs.sort === 'posted') {
-    rows.sort(compareByPosted);
-  } else {
+  } else if (prefs.sort === 'discovered') {
     rows.sort(compareByDiscovered);
+  } else {
+    rows.sort(compareByNewest);
   }
   return rows;
 }
@@ -415,7 +456,7 @@ function filtered(opts = {}) {
 // ── Rendering ───────────────────────────────────────────────────────
 
 function cardHtml(j) {
-  const bucket = discoveryBucket(j);
+  const bucket = dayBucket(j);
   const cls = ['card', `bucket-${bucket}`];
   if (pendingNewKeys.has(j.key)) cls.push('just-in');
   if (pendingHideKeys.has(j.key)) cls.push('pending-hide');
@@ -424,8 +465,8 @@ function cardHtml(j) {
   else if (j.viewed) cls.push('viewed');
   const ageP = ageParts(j);
   const whenTitle = [
-    j.posted_at ? `Employer posted: ${j.posted_at_full || j.posted_at}` : 'No employer date',
-    j.first_seen ? `first found: ${j.first_seen}` : '',
+    j.posted_at ? `Posted by the employer: ${j.posted_at_full || j.posted_at}` : 'The source gives no posting date',
+    j.first_seen ? `First found by intern-ops: ${j.first_seen}` : '',
   ].filter(Boolean).join(' · ');
 
   const chips = [];
@@ -438,6 +479,9 @@ function cardHtml(j) {
   const others = sources.filter((s, i) => (isOfficial(j) ? s !== 'Direct ATS scan' : i > 0));
   if (others.length) {
     chips.push(`<span class="chip sources-more" title="Also on: ${escapeHtml(others.join(', '))}">+${others.length} source${others.length > 1 ? 's' : ''}</span>`);
+  }
+  if (isLateFind(j)) {
+    chips.push(`<span class="chip new-to-you" title="Posted ${escapeHtml(formatAgo(j.posted_at_full || j.posted_at))}, but intern-ops only found it in the last day">🆕 new to you</span>`);
   }
   if (prefs.track === 'all') {
     for (const t of j.tracks || []) chips.push(`<span class="chip track-${t}">${t === 'ai' ? 'AI/ML' : 'Quant'}</span>`);
@@ -466,8 +510,8 @@ function cardHtml(j) {
   return `<article class="${cls.join(' ')}" data-key="${escapeHtml(j.key)}" data-url="${escapeHtml(j.url)}">`
     + '<div class="meta">'
     + `<span class="company">${escapeHtml(j.company || 'Unknown')}</span>`
-    + `<span class="when when-found bucket-${bucket}" title="${escapeHtml(whenTitle)}">${escapeHtml(ageP.foundText)}`
-    + (ageP.postedText ? `<span class="when-posted-sub">${escapeHtml(ageP.postedText)}</span>` : '')
+    + `<span class="when when-found bucket-${bucket}" title="${escapeHtml(whenTitle)}">${escapeHtml(ageP.mainText)}`
+    + (ageP.subText ? `<span class="when-posted-sub">${escapeHtml(ageP.subText)}</span>` : '')
     + '</span></div>'
     + `<h2 class="title">${escapeHtml(j.title || 'Untitled')}</h2>`
     + `<div class="loc">${escapeHtml(j.location || 'Location n/a')}</div>`
@@ -498,12 +542,13 @@ function paintCard(card, job) {
 }
 
 const BUCKET_LABELS = { today: 'Today', yesterday: 'Yesterday', older: 'Older' };
+const bucketLabel = (key) => (key === 'older' ? 'Older' : `${prefs.sort === 'discovered' ? 'Found' : 'Posted'} ${BUCKET_LABELS[key].toLowerCase()}`);
 const OLDER_COLLAPSE_COUNT = 9;
 
 function bucketHeadHtml(bucketKey, total, appliedCount) {
   const pct = total ? Math.round((appliedCount / total) * 100) : 0;
   return '<div class="bucket-head"><div class="bucket-head-top">'
-    + `<div class="bucket-title ${bucketKey}">${BUCKET_LABELS[bucketKey]}</div>`
+    + `<div class="bucket-title ${bucketKey}">${bucketLabel(bucketKey)}</div>`
     + `<div class="bucket-progress"><b>${appliedCount}</b> of ${total} applied</div>`
     + '</div></div>'
     + `<div class="bucket-bar"><div class="bucket-bar-fill ${bucketKey}" style="width:${pct}%"></div></div>`;
@@ -511,12 +556,12 @@ function bucketHeadHtml(bucketKey, total, appliedCount) {
 
 /** Today / Yesterday / Older sections, each with its own applied progress. */
 function buildGridHtml(rows) {
-  if (sourceMode === 'hidden' || prefs.sort !== 'discovered') return rows.map(cardHtml).join('');
+  if (sourceMode === 'hidden' || (prefs.sort !== 'posted' && prefs.sort !== 'discovered')) return rows.map(cardHtml).join('');
   const fullRows = prefs.hideApplied ? filtered({ hideApplied: false }) : rows;
   const fullBy = { today: [], yesterday: [], older: [] };
-  for (const j of fullRows) fullBy[discoveryBucket(j)].push(j);
+  for (const j of fullRows) fullBy[dayBucket(j)].push(j);
   const shownBy = { today: [], yesterday: [], older: [] };
-  for (const j of rows) shownBy[discoveryBucket(j)].push(j);
+  for (const j of rows) shownBy[dayBucket(j)].push(j);
   let html = '';
   for (const key of ['today', 'yesterday', 'older']) {
     const total = fullBy[key].length;

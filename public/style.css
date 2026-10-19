@@ -881,3 +881,8 @@ body.refresh-page { display: block; }
 .people-error { color: #f87171; font-size: 13px; margin-top: 10px; }
 .actions .people-btn { flex: 0 0 auto; min-width: 64px; }
 @media (max-width: 520px) { .people-list li { flex-direction: column; } .people-list .acts { justify-content: flex-start; } }
+.chip.new-to-you { color: #fde68a; border-color: #7a5a1e; background: rgba(253,230,138,.06); }
+/* Four card buttons: keep labels on one line, let "Mark applied" take the slack. */
+.actions button { white-space: nowrap; padding: 7px 8px; }
+.actions .open-btn, .actions .people-btn, .actions .flag-btn { flex: 0 0 auto; min-width: 0; }
+.actions .apply-btn { flex: 1 1 auto; }
