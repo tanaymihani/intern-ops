@@ -1,0 +1,47 @@
+name: Handshake (your session, headed Chrome via Xvfb)
+
+# Searches Handshake as you, using the HANDSHAKE_SESSION secret (your saved
+# login, exported by scripts/export-handshake-session.py). Handshake sits
+# behind Cloudflare, which turns away headless browsers, so this runs a real
+# Chrome on a virtual display. Results are committed encrypted (FEED_KEY).
+# When the Sources panel says the Handshake session expired, re-export it
+# (see SETUP.md).
+on:
+  schedule:
+    - cron: '41 */6 * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: handshake-feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci --no-audit --no-fund
+      - name: Install patchright + Xvfb
+        run: |
+          pip install patchright
+          python3 -m patchright install chromium --with-deps
+          sudo apt-get update -y && sudo apt-get install -y xvfb
+      - name: Search Handshake (under Xvfb)
+        run: xvfb-run --auto-servernum --server-args="-screen 0 1920x1080x24" node fetch-handshake-feed.mjs
+        env:
+          HANDSHAKE_SESSION: ${{ secrets.HANDSHAKE_SESSION }}
+          FEED_KEY: ${{ secrets.FEED_KEY }}
+          HC_PYTHON: python3
+      - name: Commit results
+        if: always()
+        run: scripts/commit-data.sh handshake data/handshake-feed.enc.json data/scan-handshake-heartbeat.json

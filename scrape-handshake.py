@@ -168,8 +168,16 @@ def scrape(args) -> dict:
 
     host = os.environ.get("HANDSHAKE_HOST", args.host).strip().rstrip("/")
     origin = host if host.startswith("http") else f"https://{host}"
-    profile = Path(args.profile)
-    profile.mkdir(parents=True, exist_ok=True)
+    # In GitHub Actions there's no saved profile: the session arrives as the
+    # HANDSHAKE_SESSION secret (cookies exported by scripts/export-handshake-session.py)
+    # and is loaded into a throwaway profile.
+    session_json = os.environ.get("HANDSHAKE_SESSION", "").strip()
+    if session_json:
+        import tempfile
+        profile = Path(tempfile.mkdtemp(prefix="hs-profile-"))
+    else:
+        profile = Path(args.profile)
+        profile.mkdir(parents=True, exist_ok=True)
     cutoff_ms = (time.time() - args.days * 86400) * 1000
     hits: dict[str, dict] = {}
     per_query: dict[str, int] = {}
@@ -183,11 +191,18 @@ def scrape(args) -> dict:
             # Same trick as the HiringCafe scraper: a real headed window, parked off-screen.
             launch["args"] = ["--window-position=-32000,-32000", "--window-size=1000,800"]
         ctx = p.chromium.launch_persistent_context(user_data_dir=str(profile), **launch)
+        if session_json:
+            ctx.add_cookies(json.loads(session_json))
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         try:
             page.goto(f"{origin}/job-search?jobType=3&sort=posted_date_desc", wait_until="domcontentloaded", timeout=90_000)
-            if not args.login:
+            if not args.login and not session_json:
                 minimize(page)
+            # A real (headed) browser clears Cloudflare's "Just a moment…" check on its own.
+            for _ in range(20):
+                if "just a moment" not in (page.title() or "").lower():
+                    break
+                page.wait_for_timeout(1_500)
             page.wait_for_timeout(3_000)
             if not signed_in(page):
                 if not args.login:
