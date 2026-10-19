@@ -22,6 +22,8 @@ data/*cookie*
 data/jobright-hits.json
 data/handshake-feed.local.json
 data/jobright-feed.local.json
+# Scraper scratch output (raw hits before encryption) — never commit.
+data/*.tmp.json
 
 # Scratch / lock files written mid-run.
 data/*.tmp.json
