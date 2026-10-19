@@ -450,4 +450,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Science | Seattle, WA | posted: 2026-10-19
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641 | The Allen Institute for Artificial Intelligence | Research Internship, Robotics | Seattle, WA | posted: 2026-10-19
 
+- [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Santa-Clara-California---United-States-of-America/AI-Autonomous-Driving-Verification---Validation-Intern---Summer-2027---Santa-Clara--CA_R00214263 | Nissan | AI Autonomous Driving Verification & Validation Intern - Summer 2027 - Santa Clara, CA | Santa Clara, California - United States of America | posted: 2026-10-19
+
 ## Processed
