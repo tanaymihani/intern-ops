@@ -440,4 +440,14 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://autodesk.wd1.myworkdayjobs.com/Uni/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-1 | Autodesk (University) | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
 - [ ] https://autodesk.wd1.myworkdayjobs.com/Ext/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-2 | Autodesk | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
 
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4735665005 | Scale AI | Machine Learning Research Intern (Summer 2027) | New York, NY; San Francisco, CA | posted: 2026-10-19
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8289816 | Waymo | 2027 Summer Intern, PhD, Research, Behavior Post-training | Mountain View, CA, USA; San Francisco, CA, USA | posted: 2026-10-19
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8292367 | Waymo | 2027 Summer Intern, PhD, Research Scientist, Visual Reasoning | Mountain View, CA, USA | posted: 2026-10-19
+- [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Franklin-Tennessee---United-States-of-America/Applied-AI---Business-Innovation-Intern---Summer-2027---Franklin--TN_R00214225 | Nissan | Applied AI & Business Innovation Intern - Summer 2027 - Franklin, TN | Franklin, Tennessee - United States of America | posted: 2026-10-19
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Data-Science-R-D-Graduate-Intern_J287175 | Highmark Health | Summer 2027 Data Science R&D Graduate Intern | 51 Locations | posted: 2026-10-19
+- [ ] https://jainglobal.wd5.myworkdayjobs.com/externalsite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1 | Jain Global | Quantitative Research Intern – Equity Arbitrage | New York, New York | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/inversionspace/jobs/4745076005 | Inversion | AI & Internal Tools Software Engineer - Summer Internship 2027 | Playa Vista, California, United States | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Science | Seattle, WA | posted: 2026-10-19
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641 | The Allen Institute for Artificial Intelligence | Research Internship, Robotics | Seattle, WA | posted: 2026-10-19
+
 ## Processed
