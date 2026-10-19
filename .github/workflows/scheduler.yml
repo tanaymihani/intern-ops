@@ -47,14 +47,22 @@ jobs:
               exit 0
             fi
             for wf in "${!EVERY[@]}"; do
-              last=$(gh run list -R "$REPO" -w "$wf" -L 1 --json createdAt,status -q '.[0] | "\(.createdAt) \(.status)"' 2>/dev/null)
+              # An API hiccup must not look like "never ran" — skip this round instead.
+              last=$(gh run list -R "$REPO" -w "$wf" -L 1 --json createdAt,status \
+                -q '.[0] // empty | "\(.createdAt) \(.status)"') || continue
               created="${last%% *}"; status="${last##* }"
               age=999999
               [ -n "$created" ] && age=$(( $(date +%s) - $(epoch "$created") ))
-              if [ "$status" != "queued" ] && [ "$status" != "in_progress" ] && [ "$age" -ge $(( ${EVERY[$wf]} * 60 )) ]; then
+              # queued / pending / in_progress all mean a run is already on its way.
+              if { [ -z "$last" ] || [ "$status" = "completed" ]; } && [ "$age" -ge $(( ${EVERY[$wf]} * 60 )) ]; then
                 gh workflow run "$wf" -R "$REPO" && echo "$(date -u +%H:%M) dispatched $wf (last run ${age}s ago)"
               fi
             done
             sleep 120
           done
-          gh workflow run scheduler.yml -R "$REPO" && echo "Handed off to a fresh scheduler run."
+          for attempt in 1 2 3 4 5; do
+            gh workflow run scheduler.yml -R "$REPO" && { echo "Handed off to a fresh scheduler run."; exit 0; }
+            sleep 30
+          done
+          echo "::error::Could not start the next scheduler run — dispatch scheduler.yml by hand."
+          exit 1
