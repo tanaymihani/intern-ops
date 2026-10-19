@@ -226,4 +226,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR363678 | salesforce | AI Labs Rotational Fellowship, Emerging Talent | 3 Locations | posted: 2026-10-17
 
+- [ ] https://autodesk.wd1.myworkdayjobs.com/ext/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-2 | autodesk | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
+- [ ] https://autodesk.wd1.myworkdayjobs.com/uni/job/United-Kingdom---Remote/Intern--Research---Context-and-Knowledge-Systems-for-AI_26WD101097-1 | autodesk | Intern, Research - Context and Knowledge Systems for AI | United Kingdom - Remote | posted: 2026-10-19
+
 ## Processed
