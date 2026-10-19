@@ -224,4 +224,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Fort-Worth-Texas/XMLNAME-2027-Summer-Software--Data---AI-Engineering-Interns_R-2026-49480 | alcon | 2027 Summer Software, Data & AI Engineering Interns | 5 Locations | posted: 2026-09-18
 - [ ] https://albemarle.wd5.myworkdayjobs.com/ketjenexternal/job/Houston-Texas-United-States-of-America/Ketjen-Summer-2027-Data-Science-Internship_REQ-31411 | albemarle | Ketjen Summer 2027 Data Science Internship | Houston, Texas, United States of America | posted: 2026-09-18
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR363678 | salesforce | AI Labs Rotational Fellowship, Emerging Talent | 3 Locations | posted: 2026-10-17
+
 ## Processed
