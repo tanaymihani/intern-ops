@@ -1,8 +1,10 @@
 {
-  "at": "2026-10-19T02:08:36.568Z",
-  "since": 1,
+  "at": "2026-10-19T02:22:08.951Z",
+  "since": 45,
   "exitCode": 0,
-  "elapsedSec": 697.4,
+  "elapsedSec": 634.8,
   "incomplete": false,
-  "mode": "workday-reverse-via-actions"
+  "mode": "workday-reverse-via-actions",
+  "searchText": "internship|intern",
+  "lastOkAt": "2026-10-19T02:22:08.951Z"
 }
