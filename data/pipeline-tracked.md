@@ -428,4 +428,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jj.wd5.myworkdayjobs.com/jj/job/Cambridge-Massachusetts-United-States-of-America/Summer-intern--Digital-Signal--Imaging-AI_R-103933 | Jj | Summer intern, Digital Signal/ Imaging AI | 5 Locations | posted: 2026-10-17
 
+- [ ] https://job-boards.greenhouse.io/togetherai/jobs/5267198007 | Together AI | Research Intern, Frontier Speculative Decoding (Summer 2027) | San Francisco | posted: 2026-10-16
+- [ ] https://job-boards.greenhouse.io/togetherai/jobs/5267197007 | Together AI | Research Intern, Frontier Speculative Decoding (Winter 2027) | San Francisco | posted: 2026-10-16
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR363678-1 | Salesforce | AI Labs Rotational Fellowship, Emerging Talent | 3 Locations | posted: 2026-10-17
+- [ ] https://job-boards.greenhouse.io/weissassetmanagement/jobs/8894673002 | Weiss Asset Management | Summer 2028 Internship Interest Form | Boston, Massachusetts, United States | posted: 2026-10-16
+- [ ] https://ardian.wd103.myworkdayjobs.com/ardiancareers/job/New-York/Data-Scientist-Intern---February-2027---NYC_JR1002271 | Ardian | Data Scientist Intern - February 2027 / NYC | New York | posted: 2026-10-16
+
 ## Processed
