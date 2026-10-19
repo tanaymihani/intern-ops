@@ -434,4 +434,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/weissassetmanagement/jobs/8894673002 | Weiss Asset Management | Summer 2028 Internship Interest Form | Boston, Massachusetts, United States | posted: 2026-10-16
 - [ ] https://ardian.wd103.myworkdayjobs.com/ardiancareers/job/New-York/Data-Scientist-Intern---February-2027---NYC_JR1002271 | Ardian | Data Scientist Intern - February 2027 / NYC | New York | posted: 2026-10-16
 
+- [ ] https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Quality-Data-Science-Co-Op---Summer-2027_R-103629 | Jj | Quality Data Science Co-Op , Summer 2027 | Cincinnati, Ohio, United States of America | posted: 2026-10-19
+
 ## Processed
