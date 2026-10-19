@@ -1,24 +1,8 @@
 {
-  "at": "2026-10-19T01:56:57.482Z",
-  "leadsScanned": 22,
-  "totalBoardsKnown": 7,
-  "alreadyTracked": 4,
-  "newlyPromoted": 3,
-  "newBoards": [
-    {
-      "name": "National Life Group - Interns",
-      "careers_url": "https://job-boards.greenhouse.io/nlginterns",
-      "provider": "greenhouse"
-    },
-    {
-      "name": "Ardian",
-      "careers_url": "https://ardian.wd103.myworkdayjobs.com/ardiancareers",
-      "provider": "workday"
-    },
-    {
-      "name": "Cystic Fibrosis Foundation",
-      "careers_url": "https://cff.wd504.myworkdayjobs.com/explore-career-opportunities",
-      "provider": "workday"
-    }
-  ]
+  "at": "2026-10-19T14:00:18.297Z",
+  "leadsScanned": 0,
+  "totalBoardsKnown": 3,
+  "alreadyTracked": 3,
+  "newlyPromoted": 0,
+  "newBoards": []
 }

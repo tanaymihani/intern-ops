@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T01:56:57.472Z",
-  "boardCount": 7,
-  "candidateCount": 7,
-  "acceptedCount": 0,
-  "alreadyTrackedCount": 4,
+  "generatedAt": "2026-10-19T14:00:18.289Z",
+  "boardCount": 3,
+  "candidateCount": 0,
+  "acceptedCount": 3,
+  "alreadyTrackedCount": 3,
   "boards": [
     {
       "key": "greenhouse:nlginterns",
@@ -24,54 +24,6 @@
       "firstSeenAt": "2026-10-16T03:33:22.924Z",
       "lastSeenAt": "2026-10-16T03:33:22.924Z",
       "state": "accepted",
-      "alreadyTracked": false,
-      "verification": {
-        "status": "not_checked"
-      }
-    },
-    {
-      "key": "greenhouse:point72",
-      "ats": "greenhouse",
-      "slug": "point72",
-      "boardUrl": "https://boards.greenhouse.io/point72",
-      "companyClaims": [
-        "Point72"
-      ],
-      "sources": [
-        {
-          "source": "jobright",
-          "sampleJobUrl": "https://boards.greenhouse.io/point72/jobs/8885733002?gh_jid=8885733002",
-          "firstSeenAt": "2026-10-16T03:33:22.924Z",
-          "lastSeenAt": "2026-10-16T03:33:22.924Z"
-        }
-      ],
-      "firstSeenAt": "2026-10-16T03:33:22.924Z",
-      "lastSeenAt": "2026-10-16T03:33:22.924Z",
-      "state": "candidate",
-      "alreadyTracked": true,
-      "verification": {
-        "status": "not_checked"
-      }
-    },
-    {
-      "key": "workday:alliance.wd3.myworkdayjobs.com/nissanjobs",
-      "ats": "workday",
-      "slug": "nissanjobs",
-      "boardUrl": "https://alliance.wd3.myworkdayjobs.com/nissanjobs",
-      "companyClaims": [
-        "Nissan"
-      ],
-      "sources": [
-        {
-          "source": "jobright",
-          "sampleJobUrl": "https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Irving-Texas---United-States-of-America/Credit-Risk-Analytics-Intern---Summer-2027---Irving--TX_R00214224",
-          "firstSeenAt": "2026-10-16T03:33:22.924Z",
-          "lastSeenAt": "2026-10-16T03:33:22.924Z"
-        }
-      ],
-      "firstSeenAt": "2026-10-16T03:33:22.924Z",
-      "lastSeenAt": "2026-10-16T03:33:22.924Z",
-      "state": "candidate",
       "alreadyTracked": true,
       "verification": {
         "status": "not_checked"
@@ -96,7 +48,7 @@
       "firstSeenAt": "2026-10-16T03:33:22.924Z",
       "lastSeenAt": "2026-10-16T03:33:22.924Z",
       "state": "accepted",
-      "alreadyTracked": false,
+      "alreadyTracked": true,
       "verification": {
         "status": "not_checked"
       }
@@ -120,54 +72,6 @@
       "firstSeenAt": "2026-10-16T03:33:22.924Z",
       "lastSeenAt": "2026-10-16T03:33:22.924Z",
       "state": "accepted",
-      "alreadyTracked": false,
-      "verification": {
-        "status": "not_checked"
-      }
-    },
-    {
-      "key": "workday:generalmotors.wd5.myworkdayjobs.com/careers_gm",
-      "ats": "workday",
-      "slug": "careers_gm",
-      "boardUrl": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm",
-      "companyClaims": [
-        "General Motors"
-      ],
-      "sources": [
-        {
-          "source": "jobright",
-          "sampleJobUrl": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--Onboard-Autonomy--Embodied-AI--Masters-_JR-202622543",
-          "firstSeenAt": "2026-10-16T03:33:22.924Z",
-          "lastSeenAt": "2026-10-16T03:33:22.924Z"
-        }
-      ],
-      "firstSeenAt": "2026-10-16T03:33:22.924Z",
-      "lastSeenAt": "2026-10-16T03:33:22.924Z",
-      "state": "candidate",
-      "alreadyTracked": true,
-      "verification": {
-        "status": "not_checked"
-      }
-    },
-    {
-      "key": "workday:hitachi.wd1.myworkdayjobs.com/hitachi",
-      "ats": "workday",
-      "slug": "hitachi",
-      "boardUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi",
-      "companyClaims": [
-        "Hitachi Rail"
-      ],
-      "sources": [
-        {
-          "source": "jobright",
-          "sampleJobUrl": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Research-Intern--Knowledge-Engineering---Generative-AI_R0148396",
-          "firstSeenAt": "2026-10-16T03:33:22.924Z",
-          "lastSeenAt": "2026-10-16T03:33:22.924Z"
-        }
-      ],
-      "firstSeenAt": "2026-10-16T03:33:22.924Z",
-      "lastSeenAt": "2026-10-16T03:33:22.924Z",
-      "state": "candidate",
       "alreadyTracked": true,
       "verification": {
         "status": "not_checked"
