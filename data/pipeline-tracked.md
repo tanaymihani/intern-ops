@@ -454,4 +454,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143 | General Motors | 2027 Summer Intern, SEAM, Embodied AI (PhD) | Sunnyvale, California, United States of America | posted: 2026-10-19
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8283558 | Waymo | 2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training | Mountain View, California, United States | posted: 2026-10-19
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8301804 | Waymo | 2027 Summer Intern, PhD, Research, Perception Foundation Models | Mountain View, CA, USA | posted: 2026-10-19
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8301854 | Waymo | 2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning | Mountain View, CA, USA | posted: 2026-10-19
+
 ## Processed
