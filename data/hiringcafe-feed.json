@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T00:01:08.586Z",
+  "fetchedAt": "2026-10-19T00:18:06.180Z",
   "provider": "hiringcafe",
   "window": "168h",
   "hcDaysRequested": 2,
@@ -18,20 +18,20 @@
     "quantitative developer intern"
   ],
   "days": 2,
-  "pagesFetched": 10,
+  "pagesFetched": 0,
   "truncated": false,
   "transport": "patchright",
   "hcTotals": {
-    "machine learning intern": 0,
-    "artificial intelligence intern": 0,
-    "AI engineer intern": 0,
-    "data science intern": 2,
-    "research scientist intern": 0,
-    "deep learning intern": 0,
-    "computer vision intern": 0,
-    "quantitative research intern": 0,
-    "quantitative trading intern": 0,
-    "quantitative developer intern": 0
+    "machine learning intern": null,
+    "artificial intelligence intern": null,
+    "AI engineer intern": null,
+    "data science intern": null,
+    "research scientist intern": null,
+    "deep learning intern": null,
+    "computer vision intern": null,
+    "quantitative research intern": null,
+    "quantitative trading intern": null,
+    "quantitative developer intern": null
   },
   "count": 89,
   "jobs": [
