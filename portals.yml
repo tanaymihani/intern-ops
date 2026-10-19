@@ -9434,6 +9434,21 @@ tracked_companies:
     enabled: true
     category: ai
     notes: verified 2026-10-15, 67 open jobs, 0 intern-titled
+  - name: "National Life Group - Interns"
+    careers_url: https://job-boards.greenhouse.io/nlginterns
+    provider: greenhouse
+    enabled: true
+    notes: auto-discovered from jobright
+  - name: "Ardian"
+    careers_url: https://ardian.wd103.myworkdayjobs.com/ardiancareers
+    provider: workday
+    enabled: true
+    notes: auto-discovered from jobright
+  - name: "Cystic Fibrosis Foundation"
+    careers_url: https://cff.wd504.myworkdayjobs.com/explore-career-opportunities
+    provider: workday
+    enabled: true
+    notes: auto-discovered from jobright
 job_boards:
   - name: Hiring Cafe — US SE (entry/mid, last 4 days)
     provider: hiringcafe
