@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-16T03:30:15.840Z",
+  "fetchedAt": "2026-10-19T00:01:08.586Z",
   "provider": "hiringcafe",
   "window": "168h",
-  "hcDaysRequested": 4,
+  "hcDaysRequested": 2,
   "searchProfile": "hc-saved-search",
   "query": "machine learning intern | artificial intelligence intern | AI engineer intern | data science intern | research scientist intern | deep learning intern | computer vision intern | quantitative research intern | quantitative trading intern | quantitative developer intern",
   "queries": [
@@ -17,24 +17,49 @@
     "quantitative trading intern",
     "quantitative developer intern"
   ],
-  "days": 4,
-  "pagesFetched": 21,
+  "days": 2,
+  "pagesFetched": 10,
   "truncated": false,
   "transport": "patchright",
   "hcTotals": {
-    "machine learning intern": 72,
-    "artificial intelligence intern": 3,
-    "AI engineer intern": 92,
-    "data science intern": 152,
-    "research scientist intern": 27,
-    "deep learning intern": 16,
-    "computer vision intern": 15,
-    "quantitative research intern": 13,
-    "quantitative trading intern": 1,
-    "quantitative developer intern": 15
+    "machine learning intern": 0,
+    "artificial intelligence intern": 0,
+    "AI engineer intern": 0,
+    "data science intern": 2,
+    "research scientist intern": 0,
+    "deep learning intern": 0,
+    "computer vision intern": 0,
+    "quantitative research intern": 0,
+    "quantitative trading intern": 0,
+    "quantitative developer intern": 0
   },
-  "count": 88,
+  "count": 89,
   "jobs": [
+    {
+      "title": "Data Science INTERN (200062523)",
+      "url": "https://hcm41.sapsf.com/career?career_ns=job_listing&company=microsoftAP1&career_job_req_id=200062523",
+      "company": "Microsoft",
+      "location": "United States",
+      "postedAt": 1792308515000,
+      "salary": "",
+      "workplace": "Onsite",
+      "commitment": "Internship",
+      "yoe": "",
+      "summary": "No specific requirements stated; internship role in data science.",
+      "tools": [],
+      "company_tagline": "A global technology company offering software, services, and devices.",
+      "ats_source": "successfactors",
+      "feed": "hc",
+      "internHint": false,
+      "tracks": [
+        "ai"
+      ],
+      "season": "",
+      "degree": "",
+      "coop": false,
+      "discoveredAt": "2026-10-19T00:01:08.567Z",
+      "lastSeenAt": "2026-10-19T00:01:08.567Z"
+    },
     {
       "title": "Software Engineering Intern - Machine Learning Research, Perception (Spring 2027 Co-Op)",
       "url": "https://careers.rivian.com/jobs/33801?lang=en-us",
