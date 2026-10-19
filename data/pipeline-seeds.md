@@ -15,4 +15,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/dvtrading/jobs/4742962005 | DV Trading | Data Center Engineer Intern - Summer 2027 | Chicago | posted: 2026-10-12
 - [ ] https://boards.greenhouse.io/point72/jobs/8883820002?gh_jid=8883820002 | Point72 | Data Research Fellowship | New York, NY | posted: 2026-10-12
 
+- [ ] https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8899673002 | Graviton Research Capital LLP | Quantitative Researcher - 2027 Summer Internship | Amsterdam, North Holland, Netherlands; London, England, United Kingdom; New York; Singapore | posted: 2026-10-19
+
 ## Processed
