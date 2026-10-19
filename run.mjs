@@ -11,12 +11,15 @@ import { spawnSync } from 'child_process';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import { catchUpSince, readLastOk } from './lib/catch-up.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const CHECKPOINT = join(ROOT, 'data', 'cache', 'ats-ghal-checkpoint.json');
 const HEARTBEAT = join(ROOT, 'data', 'scan-ghal-heartbeat.json');
 const ATS = 'greenhouse,ashby,lever';
-const SINCE = process.env.GHAL_SINCE || '4';
+// Fresh sweeps reach back past any missed runs; a resumed one keeps its checkpoint's cutoff.
+const lastOk = readLastOk(HEARTBEAT);
+const SINCE = String(catchUpSince(process.env.GHAL_SINCE || '4', lastOk));
 
 mkdirSync(dirname(CHECKPOINT), { recursive: true });
 
@@ -40,14 +43,16 @@ const r = spawnSync(process.execPath, args, {
 const elapsed = ((Date.now() - started) / 1000).toFixed(1);
 
 const incomplete = existsSync(CHECKPOINT);
+const at = new Date().toISOString();
 writeFileSync(HEARTBEAT, JSON.stringify({
-  at: new Date().toISOString(),
+  at,
   since: Number(SINCE),
   exitCode: r.status ?? 1,
   elapsedSec: Number(elapsed),
   incomplete,
   mode: 'ghal-reverse-actions',
   ats: ATS.split(','),
+  lastOkAt: r.status === 0 && !incomplete ? at : lastOk,
 }, null, 2));
 
 console.log(`[${new Date().toISOString()}] ${r.status === 0 ? 'ok' : 'fail'} exit=${r.status} after ${elapsed}s`);

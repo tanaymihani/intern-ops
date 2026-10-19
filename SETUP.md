@@ -34,7 +34,15 @@ gh variable set SITE_URL --body https://<your-site>.vercel.app
 ```
 
 One-time backfills (optional): `gh workflow run scan.yml -f since=45`,
-`gh workflow run workday.yml -f since=45 -f search_text=intern`.
+`gh workflow run workday.yml -f since=45 -f search_text='internship|intern' -f fresh=true`.
+
+Scheduling: each workflow has its own cron line, and `scheduler.yml` backs
+them up — GitHub's cron never fired while this repo was new, so the
+scheduler dispatches any scraper whose last run is older than its interval,
+hands off to a fresh run every ~5.5 h, and retires itself once real
+scheduled runs appear. Start it once with `gh workflow run scheduler.yml`.
+After any gap, the scans widen their look-back window to cover the days
+they missed.
 
 ## 2. Vercel (the website)
 

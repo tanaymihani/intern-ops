@@ -296,6 +296,26 @@ export default {
    * @returns {Promise<Array<{title: string, url: string, company: string, location: string, postedAt?: number}>>}
    */
   async fetch(entry, ctx) {
+    // Several keyword searches, `|`-separated ("internship|intern"): each is
+    // its own relevance-ranked query, and which term surfaces a tenant's
+    // interns varies (J&J ranks "intern" description matches like "internal"
+    // above every intern posting; NVIDIA's "Intern" titles rarely say
+    // "internship"), so run each and merge.
+    const terms = String(entry.search_text ?? process.env.WORKDAY_SEARCH_TEXT ?? '')
+      .split('|').map((s) => s.trim()).filter(Boolean);
+    if (terms.length > 1) {
+      const seen = new Set();
+      const merged = [];
+      for (const term of terms) {
+        const part = await this.fetch({ ...entry, search_text: term }, ctx);
+        for (const job of part) {
+          if (!seen.has(job.url)) { seen.add(job.url); merged.push(job); }
+        }
+        if (part.workdayTruncated) merged.workdayTruncated = true;
+      }
+      return merged;
+    }
+
     const ep = resolveEndpoint(entry);
     if (!ep) throw new Error(`workday: cannot derive CXS endpoint for ${entry.name}`);
 

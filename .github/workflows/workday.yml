@@ -1,8 +1,10 @@
 name: Workday sweep
 
 # ~13k Workday tenants, newest postings first. For a backfill, dispatch with
-# search_text=intern and since=45 (text search is relevance-ordered, so it
-# walks a few pages per tenant instead of early-stopping by date).
+# search_text="internship|intern", since=45 and fresh=true: each term is a
+# relevance-ordered search (a few pages per tenant instead of a date walk,
+# which can't stop early past Workday's "30+ Days Ago" label). The sweep
+# spans several runs; resumed runs keep its search terms.
 on:
   schedule:
     - cron: '6-59/15 * * * *'
@@ -12,8 +14,12 @@ on:
         description: 'Posted within N days'
         default: '1'
       search_text:
-        description: 'Optional Workday keyword search (e.g. intern)'
+        description: 'Optional Workday keyword search; | separates terms (e.g. internship|intern)'
         default: ''
+      fresh:
+        description: 'Discard an unfinished sweep and start over with these settings'
+        type: boolean
+        default: false
 
 concurrency:
   group: workday-scan
@@ -37,6 +43,7 @@ jobs:
         env:
           WORKDAY_SINCE: ${{ inputs.since || '1' }}
           WORKDAY_SEARCH_TEXT: ${{ inputs.search_text || '' }}
+          WORKDAY_FRESH: ${{ inputs.fresh || false }}
       - name: Commit results
         if: always()
         run: scripts/commit-data.sh workday data/

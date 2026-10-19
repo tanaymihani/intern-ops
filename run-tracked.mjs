@@ -7,8 +7,11 @@
  */
 import { spawnSync } from 'child_process';
 import { writeFileSync } from 'fs';
+import { catchUpSince, readLastOk } from './lib/catch-up.mjs';
 
-const SINCE = process.env.TRACKED_SINCE || '1';
+const HEARTBEAT = 'data/scan-tracked-heartbeat.json';
+const lastOk = readLastOk(HEARTBEAT);
+const SINCE = String(catchUpSince(process.env.TRACKED_SINCE || '1', lastOk));
 
 console.log(`[${new Date().toISOString()}] tracked-boards scan --since ${SINCE}`);
 
@@ -26,13 +29,15 @@ process.stdout.write(out);
 const elapsed = ((Date.now() - started) / 1000).toFixed(1);
 
 const m = out.match(/New matches:\s*(\d+)/i);
-writeFileSync('data/scan-tracked-heartbeat.json', JSON.stringify({
-  at: new Date().toISOString(),
+const at = new Date().toISOString();
+writeFileSync(HEARTBEAT, JSON.stringify({
+  at,
   since: Number(SINCE),
   exitCode: r.status ?? 1,
   elapsedSec: Number(elapsed),
   newMatches: m ? Number(m[1]) : null,
   mode: 'tracked-boards-via-actions',
+  lastOkAt: r.status === 0 ? at : lastOk,
 }, null, 2));
 
 console.log(`[${new Date().toISOString()}] ${r.status === 0 ? 'ok' : 'fail'} exit=${r.status} after ${elapsed}s`);
