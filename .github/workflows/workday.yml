@@ -5,7 +5,7 @@ name: Workday sweep
 # walks a few pages per tenant instead of early-stopping by date).
 on:
   schedule:
-    - cron: '5-59/15 * * * *'
+    - cron: '6-59/15 * * * *'
   workflow_dispatch:
     inputs:
       since:

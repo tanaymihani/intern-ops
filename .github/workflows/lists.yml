@@ -3,7 +3,7 @@ name: Curated intern lists + quant firm sites
 # Plain GETs to raw.githubusercontent.com — no IP or login issues.
 on:
   schedule:
-    - cron: '23,53 * * * *'
+    - cron: '24,54 * * * *'
   workflow_dispatch: {}
 
 concurrency:

@@ -2,7 +2,7 @@ name: VC seed scan (YC + a16z)
 
 on:
   schedule:
-    - cron: '17 */3 * * *'
+    - cron: '18 */3 * * *'
   workflow_dispatch:
     inputs:
       since:

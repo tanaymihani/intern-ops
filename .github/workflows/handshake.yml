@@ -8,7 +8,7 @@ name: Handshake (your session, headed Chrome via Xvfb)
 # precedence over the secret — that's how the session gets renewed.
 on:
   schedule:
-    - cron: '41 */6 * * *'
+    - cron: '42 */6 * * *'
   workflow_dispatch: {}
 
 concurrency:

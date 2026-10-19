@@ -2,7 +2,7 @@ name: Tracked boards (quant firms, AI labs, portals.yml)
 
 on:
   schedule:
-    - cron: '8-59/15 * * * *'
+    - cron: '9-59/15 * * * *'
   workflow_dispatch:
     inputs:
       since:
