@@ -247,4 +247,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1 | toyota | 2027 TFS Data Science Internship | Plano, Texas | posted: 2026-10-20
 
+- [ ] https://rakuten.wd1.myworkdayjobs.com/rakutenamericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437 | rakuten | Early Career AI Engineer, Intern | Bellevue, Washington | posted: 2026-10-20
+
 ## Processed
