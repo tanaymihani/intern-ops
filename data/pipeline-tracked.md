@@ -461,4 +461,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--VTeamer-for-a-Day--Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102417 | Verizon | Basking Ridge, NJ: VTeamer for a Day: Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
 - [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102419 | Verizon | Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
 
+- [ ] https://jobs.ashbyhq.com/skydio/370da6a5-5ae6-48fe-8e08-9b1dcc63bf34 | Skydio | Embedded Software Engineer Intern - Winer 2027 | San Mateo, California, United States | posted: 2026-10-20
+
 ## Processed
