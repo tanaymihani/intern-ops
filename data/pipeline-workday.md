@@ -245,4 +245,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1 | zillow | Applied Scientist (Economics) Intern | Seattle-WA-2nd Ave | posted: 2026-10-20
 
+- [ ] https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1 | toyota | 2027 TFS Data Science Internship | Plano, Texas | posted: 2026-10-20
+
 ## Processed
