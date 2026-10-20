@@ -249,4 +249,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://rakuten.wd1.myworkdayjobs.com/rakutenamericas/job/Bellevue-Washington/Intern---Software-Engineering--AI-User-Experience_1031437 | rakuten | Early Career AI Engineer, Intern | Bellevue, Washington | posted: 2026-10-20
 
+- [ ] https://rakuten.wd1.myworkdayjobs.com/rakutenamericas/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171 | rakuten | Intern - Software Engineer, AI User Experience | San Mateo, California | posted: 2026-10-20
+
 ## Processed
