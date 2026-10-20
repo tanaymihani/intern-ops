@@ -458,4 +458,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8301804 | Waymo | 2027 Summer Intern, PhD, Research, Perception Foundation Models | Mountain View, CA, USA | posted: 2026-10-19
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8301854 | Waymo | 2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning | Mountain View, CA, USA | posted: 2026-10-19
 
+- [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--VTeamer-for-a-Day--Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102417 | Verizon | Basking Ridge, NJ: VTeamer for a Day: Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
+- [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102419 | Verizon | Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
+
 ## Processed
