@@ -239,4 +239,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--VTeamer-for-a-Day--Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102417 | verizon | Basking Ridge, NJ: VTeamer for a Day: Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
 - [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102419 | verizon | Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
 
+- [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526 | cbrands | Intern, AI Enablement | Rochester, New York | posted: 2026-10-20
+
 ## Processed
