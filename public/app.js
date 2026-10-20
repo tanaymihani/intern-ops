@@ -107,11 +107,12 @@ const store = {
     clearTimeout(this.flushTimer);
     this.flushTimer = setTimeout(() => this.flush(), ms);
   },
-  /** Send queued marks in one request (a burst of clicks = one write). */
+  /** Send queued marks (a burst of clicks = one write; a big backlog goes 200 at a time). */
   async flush(keepalive = false) {
     if (this.mode !== 'sync' || !this.pending.size) return;
-    const patches = Object.fromEntries(this.pending);
-    this.pending.clear();
+    const batch = [...this.pending].slice(0, 200);
+    const patches = Object.fromEntries(batch);
+    for (const [k] of batch) this.pending.delete(k);
     try {
       const res = await fetch('/api/state', {
         method: 'POST',
@@ -121,6 +122,7 @@ const store = {
       });
       if (!res.ok) throw new Error(`state ${res.status}`);
       this.retryMs = 0;
+      if (this.pending.size) this.scheduleFlush(0);
     } catch {
       // Keep them (newer local edits win) and retry, backing off up to 10 min;
       // they're already in localStorage. Say so once per outage, not per retry.
