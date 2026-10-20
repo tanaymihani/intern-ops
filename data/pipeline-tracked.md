@@ -465,4 +465,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1 | Salesforce | Summer 2027 Intern - AI Research | California - Palo Alto | posted: 2026-10-20
 
+- [ ] https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52 | Skydio | Mobile Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-10-20
+
 ## Processed
