@@ -129,3 +129,5 @@
 
 - [ ] https://job-boards.greenhouse.io/scaleai/jobs/4735665005 | Scale AI | Machine Learning Research Intern (Summer 2027) | New York, NY; San Francisco, CA | posted: 2026-10-19
 - [ ] https://job-boards.greenhouse.io/inversionspace/jobs/4745076005 | Inversion | AI & Internal Tools Software Engineer - Summer Internship 2027 | Playa Vista, California, United States | posted: 2026-10-19
+
+- [ ] http://prizepicks.com/position?gh_jid=8038883003 | PrizePicks | Machine Learning Internship - Spring 2027 | Atlanta, Georgia, United States | posted: 2026-10-20
