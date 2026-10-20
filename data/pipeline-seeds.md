@@ -23,4 +23,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] http://prizepicks.com/position?gh_jid=8038883003 | PrizePicks | Machine Learning Internship - Spring 2027 | Atlanta, Georgia, United States | posted: 2026-10-20
 
+- [ ] https://www.fanduel.careers/open-positions?gh_jid=8300829 | FanDuel | Sports Trader Intern - Summer 2027 | Jersey City, New Jersey, United States | posted: 2026-10-20
+
 ## Processed
