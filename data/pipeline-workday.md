@@ -236,4 +236,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143 | generalmotors | 2027 Summer Intern, SEAM, Embodied AI (PhD) | Sunnyvale, California, United States of America | posted: 2026-10-19
 
+- [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Basking-Ridge--NJ--VTeamer-for-a-Day--Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102417 | verizon | Basking Ridge, NJ: VTeamer for a Day: Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
+- [ ] https://verizon.wd12.myworkdayjobs.com/verizon-careers/job/Basking-Ridge-New-Jersey/Verizon-Consumer-Group--Data-Science-Summer-2027-Internship_R-1102419 | verizon | Verizon Consumer Group: Data Science Summer 2027 Internship | Basking Ridge, New Jersey | posted: 2026-10-20
+
 ## Processed
