@@ -131,3 +131,5 @@
 - [ ] https://job-boards.greenhouse.io/inversionspace/jobs/4745076005 | Inversion | AI & Internal Tools Software Engineer - Summer Internship 2027 | Playa Vista, California, United States | posted: 2026-10-19
 
 - [ ] http://prizepicks.com/position?gh_jid=8038883003 | PrizePicks | Machine Learning Internship - Spring 2027 | Atlanta, Georgia, United States | posted: 2026-10-20
+
+- [ ] https://www.fanduel.careers/open-positions?gh_jid=8300829 | FanDuel | Sports Trader Intern - Summer 2027 | Jersey City, New Jersey, United States | posted: 2026-10-20
