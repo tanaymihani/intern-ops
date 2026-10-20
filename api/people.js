@@ -6,10 +6,10 @@
 //
 // Hunter's free plan is 50 credits/month (1 per email found, nothing if
 // nothing's found), so lookups only happen when you click, and every result
-// is cached for 60 days in the private Blob store — a company never costs
+// is cached for 60 days in the private state repo — a company never costs
 // twice. Behind the password gate (middleware.js); HUNTER_API_KEY is a
 // Vercel env var.
-import { get, put } from '@vercel/blob';
+import { readDoc, writeDoc, storeConfigured } from '../lib/doc-store.mjs';
 
 const HUNTER = 'https://api.hunter.io/v2';
 const CACHE_DAYS = 60;
@@ -25,22 +25,18 @@ const cacheKey = ({ company, domain }) => {
 };
 
 async function readCache(path) {
-  if (!path || !process.env.BLOB_READ_WRITE_TOKEN) return null;
+  if (!path || !storeConfigured()) return null;
   try {
-    const r = await get(path, { access: 'private', useCache: false });
-    if (!r || r.statusCode !== 200 || !r.stream) return null;
-    const doc = JSON.parse(await new Response(r.stream).text());
-    return Date.now() - Date.parse(doc.fetchedAt || 0) < CACHE_DAYS * 86400000 ? doc : null;
+    const doc = (await readDoc(path)).data;
+    return doc && Date.now() - Date.parse(doc.fetchedAt || 0) < CACHE_DAYS * 86400000 ? doc : null;
   } catch {
     return null;
   }
 }
 
 async function writeCache(path, doc) {
-  if (!path || !process.env.BLOB_READ_WRITE_TOKEN) return;
-  await put(path, JSON.stringify(doc), {
-    access: 'private', addRandomSuffix: false, allowOverwrite: true, contentType: 'application/json', cacheControlMaxAge: 60,
-  });
+  if (!path || !storeConfigured()) return;
+  await writeDoc(path, doc, { message: `email lookup ${path}` });
 }
 
 class HunterError extends Error {}
@@ -90,8 +86,10 @@ export async function GET(request) {
   const q = new URL(request.url).searchParams;
   const company = q.get('company') || '';
   const domain = q.get('domain') || '';
-  const cached = await readCache(cacheKey({ company, domain }));
-  return json(200, { configured: Boolean(process.env.HUNTER_API_KEY), result: cached });
+  const configured = Boolean(process.env.HUNTER_API_KEY);
+  // Without a Hunter key there's never anything cached — skip the storage read.
+  const cached = configured ? await readCache(cacheKey({ company, domain })) : null;
+  return json(200, { configured, result: cached });
 }
 
 export async function POST(request) {

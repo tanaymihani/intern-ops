@@ -20,10 +20,10 @@
     "liveness": "node check-liveness.mjs",
     "dev": "node dev-server.mjs",
     "refresh": "node scripts/refresh-all.mjs",
+    "set-state-token": "node scripts/set-state-token.mjs",
     "test": "node --test test/"
   },
   "dependencies": {
-    "@vercel/blob": "2.8.0",
     "js-yaml": "^4.1.1"
   }
 }

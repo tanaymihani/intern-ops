@@ -1,12 +1,13 @@
 // POST /api/refresh-cookie {password, source, curl} — save a fresh login for
 // Handshake or JobRight. Paste a DevTools "Copy as cURL" from a signed-in tab
-// on any computer; the cookie is encrypted (FEED_KEY) into the private Blob
-// store, and the next scheduled GitHub run picks it up via /api/session.
+// on any computer; the cookie is encrypted (FEED_KEY) into the private state
+// repo, and the next scheduled GitHub run picks it up via /api/session.
 // Behind the site's password gate, and asks for the password again.
 import { passwordMatches } from '../lib/auth.mjs';
 import { extractCookie, curlHost } from '../lib/cookie.mjs';
 import { saveSession, SESSION_SOURCES } from '../lib/session-store.mjs';
 import { hasFeedKey } from '../lib/feed-crypto.mjs';
+import { storeConfigured } from '../lib/doc-store.mjs';
 
 const json = (status, body) => new Response(JSON.stringify(body), {
   status,
@@ -14,7 +15,7 @@ const json = (status, body) => new Response(JSON.stringify(body), {
 });
 
 export async function POST(request) {
-  if (!process.env.BLOB_READ_WRITE_TOKEN || !hasFeedKey()) {
+  if (!storeConfigured() || !hasFeedKey()) {
     return json(501, { error: 'Login refresh is not configured on this deployment.' });
   }
   const { password, source, curl } = await request.json().catch(() => ({}));

@@ -24,7 +24,7 @@ adds LinkedIn, Handshake and the community internship lists.
                   this repo's data/  — read live per request
                                 ▼
    Vercel (free): password gate (middleware.js) · api/jobs → lib/classify
-   · your applied/hidden marks + refreshed logins in a private Blob store
+   · your applied/hidden marks + refreshed logins in a private GitHub repo
 ```
 
 ## Sources
@@ -82,7 +82,9 @@ searches (recruiters, the team, your school's alumni there) and email help
 The site sits behind a username + password (`SITE_USERNAME` / `SITE_PASSWORD`, checked by
 `middleware.js` on every page and API call; HttpOnly signed session cookie).
 Applied / hidden / opened marks sync across your devices through a private
-Vercel Blob (`api/state.js`), with this browser's copy as an offline cache.
+GitHub repo (`api/state.js` → `lib/doc-store.mjs`; free, no monthly quota —
+Vercel Blob's Hobby allowance ran out in two days), with this browser's copy
+as an offline cache.
 Supabase + GitHub sign-in is still supported if you'd rather (SETUP.md).
 
 ## Running locally

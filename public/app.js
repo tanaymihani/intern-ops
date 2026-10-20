@@ -61,6 +61,7 @@ const store = {
   map: new Map(),
   pending: new Map(), // key → patch waiting to be sent to /api/state
   flushTimer: null,
+  retryMs: 0, // current back-off after a failed sync (0 = last sync worked)
 
   loadLocal() {
     try {
@@ -119,11 +120,14 @@ const store = {
         keepalive,
       });
       if (!res.ok) throw new Error(`state ${res.status}`);
+      this.retryMs = 0;
     } catch {
-      // Keep them (newer local edits win) and retry; they're already in localStorage.
+      // Keep them (newer local edits win) and retry, backing off up to 10 min;
+      // they're already in localStorage. Say so once per outage, not per retry.
       for (const [k, v] of Object.entries(patches)) this.pending.set(k, { ...v, ...(this.pending.get(k) || {}) });
-      this.scheduleFlush(20_000);
-      showToast('Saved on this device — will sync when back online');
+      if (!this.retryMs) showToast('Saved on this device — will sync when back online');
+      this.retryMs = Math.min((this.retryMs || 10_000) * 2, 600_000);
+      this.scheduleFlush(this.retryMs);
     }
   },
   get(key) {

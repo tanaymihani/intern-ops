@@ -12,7 +12,8 @@ scraping, Vercel Hobby serves the site and stores your marks and logins.
 | `SITE_USERNAME` — the site username (`admin`) | | ✓ | ✓ |
 | `SITE_PASSWORD` — the site password | | ✓ | ✓ |
 | `SITE_SECRET` — signs login cookies | | ✓ | ✓ |
-| `BLOB_READ_WRITE_TOKEN` — private storage (marks, saved logins) | | ✓ (added by the Blob store) | |
+| `STATE_REPO` — private storage repo (`tanaymihani/intern-ops-state`) | | ✓ | ✓ |
+| `STATE_TOKEN` — fine-grained token for that repo only (marks, saved logins) | | ✓ | ✓ |
 | `DATA_REPO` — `tanaymihani/intern-ops` | | ✓ | |
 | `HUNTER_API_KEY` — optional, email lookups in the People panel | | ✓ | |
 | `HANDSHAKE_SESSION` — your Handshake login (initial copy) | ✓ | | |
@@ -48,7 +49,6 @@ they missed.
 
 ```bash
 vercel link --yes --project intern-ops
-vercel blob create-store intern-ops-state --access private --yes   # adds BLOB_READ_WRITE_TOKEN
 for k in FEED_KEY SITE_USERNAME SITE_PASSWORD SITE_SECRET; do
   grep "^$k=" .secrets.env | cut -d= -f2- | tr -d '\n' | vercel env add "$k" production
 done
@@ -58,6 +58,19 @@ vercel deploy --prod --yes
 
 The site reads `data/` live from GitHub, so scraper runs never need a
 redeploy (`vercel.json` also turns off git-triggered deploys).
+
+**Private storage** (synced marks, saved logins, email lookups) lives in a
+private GitHub repo, written through the Contents API — free, 5,000 calls an
+hour, no monthly cap:
+
+1. `gh repo create <you>/intern-ops-state --private --add-readme`
+2. Make a fine-grained token at github.com/settings/personal-access-tokens/new:
+   **Only select repositories** → `intern-ops-state`; **Repository
+   permissions → Contents: Read and write**; expiration as long as offered.
+3. Copy it, then `npm run set-state-token` — checks the token, saves
+   `STATE_REPO` + `STATE_TOKEN` to Vercel and `.secrets.env`, redeploys.
+
+Without it the site still works; marks just stay on each device.
 
 **Change the username or password:** `vercel env rm SITE_PASSWORD production`
 (or `SITE_USERNAME`), add the new value as above, update `.secrets.env`, then
