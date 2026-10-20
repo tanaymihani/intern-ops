@@ -241,4 +241,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI-Enablement_R-41526 | cbrands | Intern, AI Enablement | Rochester, New York | posted: 2026-10-20
 
+- [ ] https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---New-York/Engineering-Intern--AI-Ethics-_JR-119784 | sonyglobal | Research Engineer Intern (Ethical Creative and Protective AI Lab) | 7 Locations | posted: 2026-10-20
+
 ## Processed
