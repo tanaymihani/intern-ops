@@ -256,4 +256,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cree.wd108.myworkdayjobs.com/ext/job/Marcy-New-York/Diffusion-Engineering-Intern_26-952 | cree | Diffusion Engineering Intern | Marcy, New York | posted: 2026-10-21
 
+- [ ] https://travelhrportal.wd1.myworkdayjobs.com/jobs/job/United-States/AI-Intern---Experience-Studio_J-85175 | travelhrportal | AI Intern - Experience Studio | United States | posted: 2026-10-21
+
 ## Processed
