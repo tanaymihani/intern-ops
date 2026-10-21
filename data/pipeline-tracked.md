@@ -473,4 +473,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646 | General Dynamics Information Technology | Summer 2027 AI and Estimation Intern | USA VA Falls Church | posted: 2026-10-21
 
+- [ ] https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5 | Crusoe | Software Engineering Intern, Summer 2027 | San Francisco, CA - US | posted: 2026-10-21
+
 ## Processed
