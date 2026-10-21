@@ -258,4 +258,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://travelhrportal.wd1.myworkdayjobs.com/jobs/job/United-States/AI-Intern---Experience-Studio_J-85175 | travelhrportal | AI Intern - Experience Studio | United States | posted: 2026-10-21
 
+- [ ] https://massgeneralbrigham.wd1.myworkdayjobs.com/physicianorganization/job/Boston-MA/Postdoctoral-Research-Fellowship---Medical-Artificial-Intelligence_RQ4083804-1 | massgeneralbrigham | Postdoctoral Research Fellowship – Medical Artificial Intelligence | Boston-MA | posted: 2026-10-21
+
 ## Processed
