@@ -467,4 +467,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52 | Skydio | Mobile Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-10-20
 
+- [ ] https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797 | Shield AI | Summer 2027 - Data Science Intern (R6324) | San Diego, California | posted: 2026-10-21
+
 ## Processed
