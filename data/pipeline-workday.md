@@ -260,4 +260,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://massgeneralbrigham.wd1.myworkdayjobs.com/physicianorganization/job/Boston-MA/Postdoctoral-Research-Fellowship---Medical-Artificial-Intelligence_RQ4083804-1 | massgeneralbrigham | Postdoctoral Research Fellowship – Medical Artificial Intelligence | Boston-MA | posted: 2026-10-21
 
+- [ ] https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646 | gdit | Summer 2027 AI and Estimation Intern | USA VA Falls Church | posted: 2026-10-21
+
 ## Processed
