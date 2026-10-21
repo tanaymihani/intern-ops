@@ -25,4 +25,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.fanduel.careers/open-positions?gh_jid=8300829 | FanDuel | Sports Trader Intern - Summer 2027 | Jersey City, New Jersey, United States | posted: 2026-10-20
 
+- [ ] https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797 | shieldai | Summer 2027 - Data Science Intern (R6324) | San Diego, California | posted: 2026-10-21
+
 ## Processed
