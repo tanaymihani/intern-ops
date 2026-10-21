@@ -29,4 +29,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/julius/8e228c39-4a79-4202-bdbf-dddb703693cc | julius | Investment Banking - AI Research (MBA Intern) | Remote | posted: 2026-10-21
 
+- [ ] https://jobs.lever.co/analyticpartners/006928a3-9a6d-49a3-be4f-46d77f0bb302 | analyticpartners | Data Science Co-Op / January 2027 | Miami, Florida, United States | posted: 2026-10-21
+
 ## Processed
