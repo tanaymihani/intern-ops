@@ -254,4 +254,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://gnw.wd1.myworkdayjobs.com/gnw/job/Raleigh-North-Carolina/Risk-Modeling-Intern_REQ-260365-1 | gnw | Risk Modeling Intern | Raleigh, North Carolina | posted: 2026-10-21
 - [ ] https://gnw.wd1.myworkdayjobs.com/enact_mi/job/Raleigh-North-Carolina/Risk-Modeling-Intern_REQ-260365 | gnw | Risk Modeling Intern | Raleigh, North Carolina | posted: 2026-10-21
 
+- [ ] https://cree.wd108.myworkdayjobs.com/ext/job/Marcy-New-York/Diffusion-Engineering-Intern_26-952 | cree | Diffusion Engineering Intern | Marcy, New York | posted: 2026-10-21
+
 ## Processed
