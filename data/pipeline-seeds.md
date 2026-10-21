@@ -27,4 +27,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/aa71c28a-be00-43ca-8aa7-b764b2143797 | shieldai | Summer 2027 - Data Science Intern (R6324) | San Diego, California | posted: 2026-10-21
 
+- [ ] https://jobs.ashbyhq.com/julius/8e228c39-4a79-4202-bdbf-dddb703693cc | julius | Investment Banking - AI Research (MBA Intern) | Remote | posted: 2026-10-21
+
 ## Processed
