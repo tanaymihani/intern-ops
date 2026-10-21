@@ -471,4 +471,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/julius/8e228c39-4a79-4202-bdbf-dddb703693cc | Julius AI | Investment Banking - AI Research (MBA Intern) | Remote | posted: 2026-10-21
 
+- [ ] https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646 | General Dynamics Information Technology | Summer 2027 AI and Estimation Intern | USA VA Falls Church | posted: 2026-10-21
+
 ## Processed
