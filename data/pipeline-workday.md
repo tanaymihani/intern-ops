@@ -251,4 +251,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://rakuten.wd1.myworkdayjobs.com/rakutenamericas/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171 | rakuten | Intern - Software Engineer, AI User Experience | San Mateo, California | posted: 2026-10-20
 
+- [ ] https://gnw.wd1.myworkdayjobs.com/gnw/job/Raleigh-North-Carolina/Risk-Modeling-Intern_REQ-260365-1 | gnw | Risk Modeling Intern | Raleigh, North Carolina | posted: 2026-10-21
+- [ ] https://gnw.wd1.myworkdayjobs.com/enact_mi/job/Raleigh-North-Carolina/Risk-Modeling-Intern_REQ-260365 | gnw | Risk Modeling Intern | Raleigh, North Carolina | posted: 2026-10-21
+
 ## Processed
