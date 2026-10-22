@@ -262,4 +262,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Technical-Intern---AI-and-Estimation_RQ230646 | gdit | Summer 2027 AI and Estimation Intern | USA VA Falls Church | posted: 2026-10-21
 
+- [ ] https://globalfoundries.wd1.myworkdayjobs.com/external/job/USA---California---Santa-Clara/AI-Software-Intern--Summer-2027-_JR-2604029 | globalfoundries | AI Software Intern (Summer 2027) | 2 Locations | posted: 2026-10-22
+
 ## Processed
