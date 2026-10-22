@@ -141,3 +141,5 @@
 - [ ] https://jobs.lever.co/analyticpartners/006928a3-9a6d-49a3-be4f-46d77f0bb302 | analyticpartners | Data Science Co-Op / January 2027 | Miami, Florida, United States | posted: 2026-10-21
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8174538 | Schonfeld | 2027 PhD Centralized Research Intern | New York, New York, United States | posted: 2026-10-22
+
+- [ ] https://boards.greenhouse.io/opensesame/jobs/8313424?gh_jid=8313424 | OpenSesame | AI Product Builder Intern | Remote · Austin | posted: 2026-10-22
