@@ -268,4 +268,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012 | philips | Intern - AI & Analytics Analyst - Nashville, TN - Spring 2027 | Nashville, Tennessee, United States | posted: 2026-10-22
 
+- [ ] https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/Remote---Virginia/Research-Intern---Self-evolving-Multimodal-Foundation-Models_JR-119804 | sonyglobal | Research Intern – Self-evolving Multimodal Foundation Models | Remote - Virginia | posted: 2026-10-22
+- [ ] https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Virginia-Dulles/XMLNAME-2027-Systems-Engineering-Internship--AI-Experience----Dulles-VA_R10257423 | ngc | 2027 Systems Engineering Internship (AI Experience) - Dulles VA | United States-Virginia-Dulles | posted: 2026-10-22
+- [ ] https://allstate.wd5.myworkdayjobs.com/sourcing_event/job/USA---IL-Remote/Arity---Data-Science-Intern--Core-Telematics-_R36285 | allstate | Arity - Data Science Intern (Core Telematics) | USA - IL (Remote) | posted: 2026-10-22
+
 ## Processed
