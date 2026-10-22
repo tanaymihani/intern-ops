@@ -484,4 +484,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd | Skydio | Frontend Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-10-22
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8306841 | Waymo | 2027 Summer Intern, PhD, AI Foundations - Recipes | Mountain View, CA, USA | posted: 2026-10-22
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8306867 | Waymo | 2027 Summer Intern, PhD, Research, Multimodal Foundation Models | Mountain View, CA, USA | posted: 2026-10-22
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8306779 | Waymo | 2027 Summer Intern, PhD, Research, RSI for Autonomous Driving | Mountain View, CA, USA | posted: 2026-10-22
+- [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012806101 | Man Group | Systematic Quant Intern | Boston; Massachusetts | posted: 2026-10-22
+
 ## Processed
