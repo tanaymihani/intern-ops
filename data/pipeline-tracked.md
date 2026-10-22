@@ -477,4 +477,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8174538 | Schonfeld | 2027 PhD Centralized Research Intern | New York, New York, United States | posted: 2026-10-22
 
+- [ ] https://job-boards.greenhouse.io/cssmerge/jobs/8909115002 | ATOMS Careers page | ML/AI Research Internship - PhD | San Francisco, CA | posted: 2026-10-22
+- [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Development---Data-Science-Internship_2134404 | Fidelity Investments | Quantitative Development & Data Science Internship | 2 Locations | posted: 2026-10-22
+
 ## Processed
