@@ -480,4 +480,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/cssmerge/jobs/8909115002 | ATOMS Careers page | ML/AI Research Internship - PhD | San Francisco, CA | posted: 2026-10-22
 - [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Development---Data-Science-Internship_2134404 | Fidelity Investments | Quantitative Development & Data Science Internship | 2 Locations | posted: 2026-10-22
 
+- [ ] https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012 | Royal Philips | Intern - AI & Analytics Analyst - Nashville, TN - Spring 2027 | Nashville, Tennessee, United States | posted: 2026-10-22
+
 ## Processed
