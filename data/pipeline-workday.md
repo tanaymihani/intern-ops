@@ -266,4 +266,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657 | roche | 2027 Spring Intern - Data Science & Machine Learning | South San Francisco | posted: 2026-10-22
 
+- [ ] https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012 | philips | Intern - AI & Analytics Analyst - Nashville, TN - Spring 2027 | Nashville, Tennessee, United States | posted: 2026-10-22
+
 ## Processed
