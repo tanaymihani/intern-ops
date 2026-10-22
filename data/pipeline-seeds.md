@@ -33,4 +33,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8174538 | Schonfeld | 2027 PhD Centralized Research Intern | New York, New York, United States | posted: 2026-10-22
 
+- [ ] https://boards.greenhouse.io/opensesame/jobs/8313424?gh_jid=8313424 | OpenSesame | AI Product Builder Intern | Remote · Austin | posted: 2026-10-22
+
 ## Processed
