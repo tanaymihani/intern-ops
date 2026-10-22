@@ -482,4 +482,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012 | Royal Philips | Intern - AI & Analytics Analyst - Nashville, TN - Spring 2027 | Nashville, Tennessee, United States | posted: 2026-10-22
 
+- [ ] https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd | Skydio | Frontend Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-10-22
+
 ## Processed
