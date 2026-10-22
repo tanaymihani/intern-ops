@@ -489,4 +489,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8306779 | Waymo | 2027 Summer Intern, PhD, Research, RSI for Autonomous Driving | Mountain View, CA, USA | posted: 2026-10-22
 - [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012806101 | Man Group | Systematic Quant Intern | Boston; Massachusetts | posted: 2026-10-22
 
+- [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038 | Cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Graduate) | NY - New York | posted: 2026-10-22
+- [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067 | Cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Undergraduate) | NY - New York | posted: 2026-10-22
+
 ## Processed
