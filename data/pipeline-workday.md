@@ -264,4 +264,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://globalfoundries.wd1.myworkdayjobs.com/external/job/USA---California---Santa-Clara/AI-Software-Intern--Summer-2027-_JR-2604029 | globalfoundries | AI Software Intern (Summer 2027) | 2 Locations | posted: 2026-10-22
 
+- [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657 | roche | 2027 Spring Intern - Data Science & Machine Learning | South San Francisco | posted: 2026-10-22
+
 ## Processed
