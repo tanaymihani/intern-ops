@@ -274,4 +274,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038 | cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Graduate) | NY - New York | posted: 2026-10-22
 
+- [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067 | cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Undergraduate) | NY - New York | posted: 2026-10-22
+
 ## Processed
