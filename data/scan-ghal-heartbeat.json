@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-22T10:57:20.919Z",
+  "at": "2026-10-22T11:15:00.123Z",
   "since": 4,
   "exitCode": 0,
-  "elapsedSec": 110.7,
+  "elapsedSec": 169.8,
   "incomplete": false,
   "mode": "ghal-reverse-actions",
   "ats": [
@@ -10,5 +10,5 @@
     "ashby",
     "lever"
   ],
-  "lastOkAt": "2026-10-22T10:57:20.919Z"
+  "lastOkAt": "2026-10-22T11:15:00.123Z"
 }
