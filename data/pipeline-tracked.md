@@ -475,4 +475,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/crusoe/07a8a6a9-975e-471c-ac31-b5aaa97f9af5 | Crusoe | Software Engineering Intern, Summer 2027 | San Francisco, CA - US | posted: 2026-10-21
 
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8174538 | Schonfeld | 2027 PhD Centralized Research Intern | New York, New York, United States | posted: 2026-10-22
+
 ## Processed
