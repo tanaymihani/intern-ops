@@ -285,4 +285,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---Data--AI--and-Genome-Sciences---Intern_R423333 | msd | 2027 Future Talent Program - Data, AI, and Genome Sciences - Intern | USA - Massachusetts - Cambridge (320 Bent Street) | posted: 2026-10-23
 
+- [ ] https://sunlife.wd3.myworkdayjobs.com/experienced-jobs/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666 | sunlife | Data Science Intern - Summer 2027 Intern | Wellesley Hills, Massachusetts | posted: 2026-10-23
+- [ ] https://sunlife.wd3.myworkdayjobs.com/campus/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1 | sunlife | Data Science Intern - Summer 2027 Intern | Wellesley Hills, Massachusetts | posted: 2026-10-23
+
 ## Processed
