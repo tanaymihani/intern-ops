@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-23T05:08:52.525Z",
+  "at": "2026-10-23T05:46:14.187Z",
   "exitCode": 0,
   "elapsedSec": 1,
-  "newMatches": 81,
+  "newMatches": 82,
   "counts": {
     "janestreet": 34,
     "sig": 40,
-    "deshaw": 7
+    "deshaw": 8
   },
   "errors": {},
   "mode": "quant-firm-sites"
