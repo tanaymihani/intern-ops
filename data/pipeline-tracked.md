@@ -502,4 +502,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8287385 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency | Mountain View, CA, USA | posted: 2026-10-23
 
+- [ ] https://jobs.ashbyhq.com/skydio/d79ccbaa-2901-4303-bd90-675db7802366 | Skydio | Embedded Software Engineer Intern - Winter 2027 | San Mateo, California, United States | posted: 2026-10-23
+
 ## Processed
