@@ -496,4 +496,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nike.wd1.myworkdayjobs.com/nke/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256 | Nike | Converse AI Enablement Graduate Internship | Boston, Massachusetts | posted: 2026-10-23
 
+- [ ] https://jobs.smartrecruiters.com/Bertelsmann-Jobs/744000157546634 | Bertelsmann Jobs | Data Science Intern | New York, New York (NY), United States | posted: 2026-10-23
+
 ## Processed
