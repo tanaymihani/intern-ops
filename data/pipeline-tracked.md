@@ -500,4 +500,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/bef440ce-0365-4de7-9b1e-b1288cdaf7f3 | Shield AI | June 2027 Co-op - Reliability Engineering #5953 | Seattle, Washington; San Diego, California; Boston, Massachusetts | posted: 2026-10-23
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8287385 | Waymo | 2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency | Mountain View, CA, USA | posted: 2026-10-23
+
 ## Processed
