@@ -494,4 +494,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2 | Itron | Intern - Data Science, Distributed Intelligence | United States of America, Washington, Liberty Lake | posted: 2026-10-23
 
+- [ ] https://nike.wd1.myworkdayjobs.com/nke/job/Boston-Massachusetts/Converse-AI-Enablement-Graduate-Internship_R-96256 | Nike | Converse AI Enablement Graduate Internship | Boston, Massachusetts | posted: 2026-10-23
+
 ## Processed
