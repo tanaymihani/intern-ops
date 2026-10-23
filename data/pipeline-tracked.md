@@ -504,4 +504,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/skydio/d79ccbaa-2901-4303-bd90-675db7802366 | Skydio | Embedded Software Engineer Intern - Winter 2027 | San Mateo, California, United States | posted: 2026-10-23
 
+- [ ] https://job-boards.greenhouse.io/amperesand/jobs/4465899009 | Amperesand | AI/ML Engineering Intern | Sunnyvale, California, United States | posted: 2026-10-23
+
 ## Processed
