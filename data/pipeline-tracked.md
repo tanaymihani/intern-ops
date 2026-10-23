@@ -492,4 +492,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Graduate-_R1081038 | Cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Graduate) | NY - New York | posted: 2026-10-22
 - [ ] https://cvshealth.wd1.myworkdayjobs.com/cvs_health_careers/job/NY---New-York/Innovation---Technology-Internship---Data-Science---Summer-2027--Undergraduate-_R1081067 | Cvshealth | Innovation & Technology Internship - Data Science - Summer 2027 (Undergraduate) | NY - New York | posted: 2026-10-22
 
+- [ ] https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2 | Itron | Intern - Data Science, Distributed Intelligence | United States of America, Washington, Liberty Lake | posted: 2026-10-23
+
 ## Processed
