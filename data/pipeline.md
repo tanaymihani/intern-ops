@@ -143,3 +143,5 @@
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8174538 | Schonfeld | 2027 PhD Centralized Research Intern | New York, New York, United States | posted: 2026-10-22
 
 - [ ] https://boards.greenhouse.io/opensesame/jobs/8313424?gh_jid=8313424 | OpenSesame | AI Product Builder Intern | Remote · Austin | posted: 2026-10-22
+
+- [ ] https://job-boards.greenhouse.io/amperesand/jobs/4465899009 | Amperesand | A/ML Engineering Intern | Reno, Nevada, United States | posted: 2026-10-23
