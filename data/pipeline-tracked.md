@@ -498,4 +498,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/Bertelsmann-Jobs/744000157546634 | Bertelsmann Jobs | Data Science Intern | New York, New York (NY), United States | posted: 2026-10-23
 
+- [ ] https://jobs.lever.co/shieldai/bef440ce-0365-4de7-9b1e-b1288cdaf7f3 | Shield AI | June 2027 Co-op - Reliability Engineering #5953 | Seattle, Washington; San Diego, California; Boston, Massachusetts | posted: 2026-10-23
+
 ## Processed
