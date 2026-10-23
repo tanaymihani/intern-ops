@@ -279,4 +279,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://itron.wd5.myworkdayjobs.com/early_careers/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942-2 | itron | Intern - Data Science, Distributed Intelligence | United States of America, Washington, Liberty Lake | posted: 2026-10-23
 - [ ] https://itron.wd5.myworkdayjobs.com/itron/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942 | itron | Intern - Data Science, Distributed Intelligence | United States of America, Washington, Liberty Lake | posted: 2026-10-23
 
+- [ ] https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---Massachusetts---Cambridge-320-Bent-Street/XMLNAME-2027-Future-Talent-Program---AI-ML-Biomedical-Imaging-and-Computational-Pathology---Intern_R423515 | msd | 2027 Future Talent Program - AI/ML Biomedical Imaging and Computational Pathology - Intern | USA - Massachusetts - Cambridge (320 Bent Street) | posted: 2026-10-23
+
 ## Processed
