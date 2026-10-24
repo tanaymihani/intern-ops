@@ -35,4 +35,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://boards.greenhouse.io/opensesame/jobs/8313424?gh_jid=8313424 | OpenSesame | AI Product Builder Intern | Remote · Austin | posted: 2026-10-22
 
+- [ ] https://job-boards.greenhouse.io/amperesand/jobs/4465899009 | Amperesand | AI/ML Engineering Intern | Sunnyvale, California, United States | posted: 2026-10-23
+
 ## Processed
