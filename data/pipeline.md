@@ -145,3 +145,7 @@
 - [ ] https://boards.greenhouse.io/opensesame/jobs/8313424?gh_jid=8313424 | OpenSesame | AI Product Builder Intern | Remote · Austin | posted: 2026-10-22
 
 - [ ] https://job-boards.greenhouse.io/amperesand/jobs/4465899009 | Amperesand | A/ML Engineering Intern | Reno, Nevada, United States | posted: 2026-10-23
+
+- [ ] https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b | skydio | Autonomy Engineer Intern, 2027 | San Mateo, California, United States | posted: 2026-10-25
+- [ ] https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c | skydio | PhD Autonomy Engineer Intern, 2027 | San Mateo, California, United States | posted: 2026-10-25
+- [ ] https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f | skydio | PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027 | San Mateo, California, United States | posted: 2026-10-25
