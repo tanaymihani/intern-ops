@@ -295,4 +295,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005-1 | salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005 | salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
 
+- [ ] https://generac.wd5.myworkdayjobs.com/external/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736 | generac | Intern AI Engineering | Waukesha, WI - USA | posted: 2026-10-26
+
 ## Processed
