@@ -524,4 +524,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17 | Skydio | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
 - [ ] https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048 | Skydio | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
 
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8319350 | The Allen Institute for Artificial Intelligence | Research Internship, Open Ecosystem | Seattle, WA | posted: 2026-10-26
+
 ## Processed
