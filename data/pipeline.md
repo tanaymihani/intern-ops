@@ -155,3 +155,6 @@
 - [ ] https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17 | skydio | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
 - [ ] https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048 | skydio | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
 - [ ] https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb | skydio | Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465059009 | Lila Sciences | Co-Op, Agentic Simulations for Materials Science | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-26
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4444240009 | Lila Sciences | AI Residency Program, Physical Sciences | Cambridge, MA USA | posted: 2026-10-26
