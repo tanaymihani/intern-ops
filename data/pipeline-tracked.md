@@ -528,4 +528,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005-1 | Salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
 
+- [ ] https://job-boards.greenhouse.io/togetherai/jobs/5271149007 | Together AI | Technical Writer Intern, Developer Experience (Summer 2027) | San Francisco | posted: 2026-10-26
+
 ## Processed
