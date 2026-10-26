@@ -530,4 +530,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/togetherai/jobs/5271149007 | Together AI | Technical Writer Intern, Developer Experience (Summer 2027) | San Francisco | posted: 2026-10-26
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4444240009 | Lila Sciences | AI Residency Program, Physical Sciences | Cambridge, MA USA | posted: 2026-10-26
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465059009 | Lila Sciences | Co-Op, Agentic Simulations for Materials Science | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-26
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4462594009 | Lila Sciences | Co-Op, Automated Systems Engineer | Cambridge, MA USA | posted: 2026-10-26
+
 ## Processed
