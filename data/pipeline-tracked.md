@@ -512,4 +512,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012802101 | Man Group | Solutions Intern | New York | posted: 2026-10-26
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413 | Hewlett Packard Enterprise | AI/ML Developer Intern | San Jose, California | posted: 2026-10-26
+- [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101 | Man Group | Systematic Fast Trading Intern | New York | posted: 2026-10-26
+
 ## Processed
