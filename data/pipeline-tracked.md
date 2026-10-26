@@ -519,4 +519,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Applied-Gen-AI-Data-Scientist-Graduate-Intern_J288007 | Highmark Health | Summer 2027 Applied Gen AI/Data Scientist Graduate Intern | 51 Locations | posted: 2026-10-26
 
+- [ ] https://prologis.wd5.myworkdayjobs.com/prologis_external_careers/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883 | Prologis | AI and Automation (IT) Intern | Denver, Colorado | posted: 2026-10-26
+- [ ] https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb | Skydio | Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+- [ ] https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17 | Skydio | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+- [ ] https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048 | Skydio | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+
 ## Processed
