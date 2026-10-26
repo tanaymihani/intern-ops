@@ -288,4 +288,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://sunlife.wd3.myworkdayjobs.com/experienced-jobs/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666 | sunlife | Data Science Intern - Summer 2027 Intern | Wellesley Hills, Massachusetts | posted: 2026-10-23
 - [ ] https://sunlife.wd3.myworkdayjobs.com/campus/job/Wellesley-Hills-Massachusetts/Data-Science-Intern---Summer-2027-Intern_JR00127666-1 | sunlife | Data Science Intern - Summer 2027 Intern | Wellesley Hills, Massachusetts | posted: 2026-10-23
 
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Applied-Gen-AI-Data-Scientist-Graduate-Intern_J288007 | highmarkhealth | Summer 2027 Applied Gen AI/Data Scientist Graduate Intern | 51 Locations | posted: 2026-10-26
+
 ## Processed
