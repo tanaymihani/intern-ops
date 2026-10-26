@@ -292,4 +292,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://prologis.wd5.myworkdayjobs.com/prologis_external_careers/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883 | prologis | AI and Automation (IT) Intern | Denver, Colorado | posted: 2026-10-26
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005-1 | salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005 | salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
+
 ## Processed
