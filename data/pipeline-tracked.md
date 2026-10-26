@@ -517,4 +517,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8870423002 | Qube Research & Technologies | 2027 Internship - Technology | New York, Chicago | posted: 2026-10-26
 
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Applied-Gen-AI-Data-Scientist-Graduate-Intern_J288007 | Highmark Health | Summer 2027 Applied Gen AI/Data Scientist Graduate Intern | 51 Locations | posted: 2026-10-26
+
 ## Processed
