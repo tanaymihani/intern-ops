@@ -290,4 +290,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Applied-Gen-AI-Data-Scientist-Graduate-Intern_J288007 | highmarkhealth | Summer 2027 Applied Gen AI/Data Scientist Graduate Intern | 51 Locations | posted: 2026-10-26
 
+- [ ] https://prologis.wd5.myworkdayjobs.com/prologis_external_careers/job/Denver-Colorado/AI-and-Automation--IT--Intern_R6883 | prologis | AI and Automation (IT) Intern | Denver, Colorado | posted: 2026-10-26
+
 ## Processed
