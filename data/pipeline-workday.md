@@ -297,4 +297,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://generac.wd5.myworkdayjobs.com/external/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736 | generac | Intern AI Engineering | Waukesha, WI - USA | posted: 2026-10-26
 
+- [ ] https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/Seattle-WA-2nd-Ave/Data-Science-Intern_P751677-1 | zillow | Data Science Intern | Seattle-WA-2nd Ave | posted: 2026-10-26
+
 ## Processed
