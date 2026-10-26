@@ -526,4 +526,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8319350 | The Allen Institute for Artificial Intelligence | Research Internship, Open Ecosystem | Seattle, WA | posted: 2026-10-26
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-Scientist--Optimization_JR363005-1 | Salesforce | Summer 2027 Intern - Applied Scientist, Optimization | 2 Locations | posted: 2026-10-26
+
 ## Processed
