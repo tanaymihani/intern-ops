@@ -151,3 +151,7 @@
 - [ ] https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f | skydio | PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027 | San Mateo, California, United States | posted: 2026-10-25
 
 - [ ] https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8870423002 | Qube Research & Technologies | 2027 Internship - Technology | New York, Chicago | posted: 2026-10-26
+
+- [ ] https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17 | skydio | Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+- [ ] https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048 | skydio | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
+- [ ] https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb | skydio | Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ) | San Mateo, California, United States | posted: 2026-10-26
