@@ -510,4 +510,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c | Skydio | PhD Autonomy Engineer Intern, 2027 | San Mateo, California, United States | posted: 2026-10-25
 - [ ] https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b | Skydio | Autonomy Engineer Intern, 2027 | San Mateo, California, United States | posted: 2026-10-25
 
+- [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012802101 | Man Group | Solutions Intern | New York | posted: 2026-10-26
+
 ## Processed
