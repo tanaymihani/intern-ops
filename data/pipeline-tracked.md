@@ -538,4 +538,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Predictive-Modeling---Data-Science-Graduate-Intern_J288333 | Highmark Health | Summer 2027 Predictive Modeling & Data Science Graduate Intern | 51 Locations | posted: 2026-10-27
 
+- [ ] https://jobs.ashbyhq.com/NormalComputing/edfcbcf6-047f-4c12-801b-c78b199e0080 | Normal Computing | AI Research Resident (Algorithms Codesign) | New York | posted: 2026-10-27
+
 ## Processed
