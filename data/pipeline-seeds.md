@@ -52,4 +52,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/normalcomputing/edfcbcf6-047f-4c12-801b-c78b199e0080 | normalcomputing | AI Research Resident (Algorithms Codesign) | New York | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5462562008 | EQT Corporation | AI Intern | Remote · Remote | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467398009 | Lila Sciences | Co-Op, Robot Perception & State Estimation | Cambridge, MA USA | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465061009 | Lila Sciences | Co-Op, AI Nucleic Acid Design | San Francisco, CA USA | posted: 2026-10-27
+
 ## Processed
