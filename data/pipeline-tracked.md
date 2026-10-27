@@ -555,4 +555,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8319171 | Waymo | 2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern | Mountain View, CA, USA | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/tudorgroup/jobs/8103095 | Tudor Group | Summer Internship 2027 | NYC; Stamford, Connecticut; London, Singapore | posted: 2026-10-27
+
 ## Processed
