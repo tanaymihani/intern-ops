@@ -551,4 +551,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Irving-Texas---United-States-of-America/AI-Intern---Summer-2027---Dallas--TX-or-Franklin--TN_R00214219 | Nissan | AI Intern - Summer 2027 - Dallas, TX or Franklin, TN | 2 Locations | posted: 2026-10-27
 
+- [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Smyrna-Tennessee---United-States-of-America/Physical-AI-Manufacturing-Intern---Summer-2027---Smyrna--TN_R00214526 | Nissan | Physical AI Manufacturing Intern - Summer 2027 - Smyrna, TN | Smyrna, Tennessee - United States of America | posted: 2026-10-27
+
 ## Processed
