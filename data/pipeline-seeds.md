@@ -56,4 +56,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467398009 | Lila Sciences | Co-Op, Robot Perception & State Estimation | Cambridge, MA USA | posted: 2026-10-27
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465061009 | Lila Sciences | Co-Op, AI Nucleic Acid Design | San Francisco, CA USA | posted: 2026-10-27
 
+- [ ] https://jobs.ashbyhq.com/42dot/da2487a2-afa1-464e-9f08-bf448e2b2f3b | 42dot | Internship, Foundation Models | Sunnyvale, United States | posted: 2026-10-27
+
 ## Processed
