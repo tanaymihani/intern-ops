@@ -557,4 +557,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/tudorgroup/jobs/8103095 | Tudor Group | Summer Internship 2027 | NYC; Stamford, Connecticut; London, Singapore | posted: 2026-10-27
 
+- [ ] https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037 | NXP Semiconductors | Data Science / Structured Problem Solving Intern - Summer 2027 | Austin (Ed Bluestein, Office) | posted: 2026-10-27
+- [ ] https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1 | Workiva | Summer 2027 Intern - Machine Learning Engineering | USA - Remote | posted: 2026-10-27
+
 ## Processed
