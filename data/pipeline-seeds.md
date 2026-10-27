@@ -50,4 +50,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465059009 | Lila Sciences | Co-Op, Agentic Simulations for Materials Science | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-26
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4444240009 | Lila Sciences | AI Residency Program, Physical Sciences | Cambridge, MA USA | posted: 2026-10-26
 
+- [ ] https://jobs.ashbyhq.com/normalcomputing/edfcbcf6-047f-4c12-801b-c78b199e0080 | normalcomputing | AI Research Resident (Algorithms Codesign) | New York | posted: 2026-10-27
+
 ## Processed
