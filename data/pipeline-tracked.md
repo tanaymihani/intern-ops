@@ -540,4 +540,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/NormalComputing/edfcbcf6-047f-4c12-801b-c78b199e0080 | Normal Computing | AI Research Resident (Algorithms Codesign) | New York | posted: 2026-10-27
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Software-Engineering-Intern--AI-Agents---Backend-Infrastructure---2027_JR2027942 | NVIDIA | Software Engineering Intern, AI Agents & Backend Infrastructure – 2027 | 6 Locations | posted: 2026-10-27
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939 | NVIDIA | Software Engineering Intern, AI Agents and Backend Infrastructure – 2027 | 4 Locations | posted: 2026-10-27
+
 ## Processed
