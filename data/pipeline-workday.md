@@ -306,4 +306,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Software-Engineering-Intern--AI-Agents---Backend-Infrastructure---2027_JR2027942 | nvidia | Software Engineering Intern, AI Agents & Backend Infrastructure – 2027 | 6 Locations | posted: 2026-10-27
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939 | nvidia | Software Engineering Intern, AI Agents and Backend Infrastructure – 2027 | 4 Locations | posted: 2026-10-27
 
+- [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Irving-Texas---United-States-of-America/AI-Intern---Summer-2027---Dallas--TX-or-Franklin--TN_R00214219 | alliance | AI Intern - Summer 2027 - Dallas, TX or Franklin, TN | 2 Locations | posted: 2026-10-27
+
 ## Processed
