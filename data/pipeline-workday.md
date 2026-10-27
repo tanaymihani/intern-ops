@@ -303,4 +303,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413 | hpe | AI/ML Developer Intern | San Jose, California | posted: 2026-10-26
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Software-Engineering-Intern--AI-Agents---Backend-Infrastructure---2027_JR2027942 | nvidia | Software Engineering Intern, AI Agents & Backend Infrastructure – 2027 | 6 Locations | posted: 2026-10-27
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939 | nvidia | Software Engineering Intern, AI Agents and Backend Infrastructure – 2027 | 4 Locations | posted: 2026-10-27
+
 ## Processed
