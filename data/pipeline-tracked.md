@@ -536,4 +536,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://generac.wd5.myworkdayjobs.com/external/job/Waukesha-WI---USA/Intern-AI-Engineering_JR17736 | Generac | Intern AI Engineering | Waukesha, WI - USA | posted: 2026-10-26
 
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Predictive-Modeling---Data-Science-Graduate-Intern_J288333 | Highmark Health | Summer 2027 Predictive Modeling & Data Science Graduate Intern | 51 Locations | posted: 2026-10-27
+
 ## Processed
