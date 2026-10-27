@@ -543,4 +543,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Software-Engineering-Intern--AI-Agents---Backend-Infrastructure---2027_JR2027942 | NVIDIA | Software Engineering Intern, AI Agents & Backend Infrastructure – 2027 | 6 Locations | posted: 2026-10-27
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/Software-Engineering-Intern--AI-Agents-and-Backend-Infrastructure---2027_JR2027939 | NVIDIA | Software Engineering Intern, AI Agents and Backend Infrastructure – 2027 | 4 Locations | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465061009 | Lila Sciences | Co-Op, AI Nucleic Acid Design | San Francisco, CA USA | posted: 2026-10-27
+
 ## Processed
