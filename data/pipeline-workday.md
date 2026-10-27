@@ -301,4 +301,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Predictive-Modeling---Data-Science-Graduate-Intern_J288333 | highmarkhealth | Summer 2027 Predictive Modeling & Data Science Graduate Intern | 51 Locations | posted: 2026-10-27
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413 | hpe | AI/ML Developer Intern | San Jose, California | posted: 2026-10-26
+
 ## Processed
