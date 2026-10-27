@@ -299,4 +299,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/Seattle-WA-2nd-Ave/Data-Science-Intern_P751677-1 | zillow | Data Science Intern | Seattle-WA-2nd Ave | posted: 2026-10-26
 
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Predictive-Modeling---Data-Science-Graduate-Intern_J288333 | highmarkhealth | Summer 2027 Predictive Modeling & Data Science Graduate Intern | 51 Locations | posted: 2026-10-27
+
 ## Processed
