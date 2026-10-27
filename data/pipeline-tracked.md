@@ -560,4 +560,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037 | NXP Semiconductors | Data Science / Structured Problem Solving Intern - Summer 2027 | Austin (Ed Bluestein, Office) | posted: 2026-10-27
 - [ ] https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1 | Workiva | Summer 2027 Intern - Machine Learning Engineering | USA - Remote | posted: 2026-10-27
 
+- [ ] https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca | MERCOR | Research Engineer Intern - Environments, Data and Post-Training | San Francisco | posted: 2026-10-27
+
 ## Processed
