@@ -167,3 +167,5 @@
 - [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5462562008 | EQT Corporation | AI Intern | Remote · Remote | posted: 2026-10-27
 
 - [ ] https://jobs.ashbyhq.com/42dot/da2487a2-afa1-464e-9f08-bf448e2b2f3b | 42dot | Internship, Foundation Models | Sunnyvale, United States | posted: 2026-10-27
+
+- [ ] https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca | mercor | Research Engineer Intern - Environments, Data and Post-Training | San Francisco | posted: 2026-10-27
