@@ -160,3 +160,6 @@
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4444240009 | Lila Sciences | AI Residency Program, Physical Sciences | Cambridge, MA USA | posted: 2026-10-26
 
 - [ ] https://jobs.ashbyhq.com/normalcomputing/edfcbcf6-047f-4c12-801b-c78b199e0080 | normalcomputing | AI Research Resident (Algorithms Codesign) | New York | posted: 2026-10-27
+
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467398009 | Lila Sciences | Co-Op, Robot Perception & State Estimation | Cambridge, MA USA | posted: 2026-10-27
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4465061009 | Lila Sciences | Co-Op, AI Nucleic Acid Design | San Francisco, CA USA | posted: 2026-10-27
