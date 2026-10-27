@@ -312,4 +312,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Ed-Bluestein-Office/Data-Science---Structured-Problem-Solving-Intern---Summer-2027_R-10065037 | nxp | Data Science / Structured Problem Solving Intern - Summer 2027 | Austin (Ed Bluestein, Office) | posted: 2026-10-27
 
+- [ ] https://aaaie.wd1.myworkdayjobs.com/csaacareers2/job/Arizona---Home-Teleworkers/Data-Science-Intern_R8002 | aaaie | Data Science Intern | Arizona - Home Teleworkers | posted: 2026-10-27
+
 ## Processed
