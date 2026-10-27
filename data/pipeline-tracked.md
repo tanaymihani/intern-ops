@@ -549,4 +549,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5462562008 | EQT Corporation | AI Intern | Remote · Remote | posted: 2026-10-27
 
+- [ ] https://alliance.wd3.myworkdayjobs.com/nissanjobs/job/Irving-Texas---United-States-of-America/AI-Intern---Summer-2027---Dallas--TX-or-Franklin--TN_R00214219 | Nissan | AI Intern - Summer 2027 - Dallas, TX or Franklin, TN | 2 Locations | posted: 2026-10-27
+
 ## Processed
