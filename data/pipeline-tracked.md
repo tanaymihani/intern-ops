@@ -547,4 +547,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467398009 | Lila Sciences | Co-Op, Robot Perception & State Estimation | Cambridge, MA USA | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/eqtcorporation/jobs/5462562008 | EQT Corporation | AI Intern | Remote · Remote | posted: 2026-10-27
+
 ## Processed
