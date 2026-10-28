@@ -58,4 +58,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/42dot/da2487a2-afa1-464e-9f08-bf448e2b2f3b | 42dot | Internship, Foundation Models | Sunnyvale, United States | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046859003 | Samsung Semiconductor | Intern, Thermal Modeling & Simulation Engineer (AI Memory / HBM) | San Jose, California, United States | posted: 2026-10-28
+- [ ] https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae | mercor | Research Engineer, Intern – Benchmarking | San Francisco | posted: 2026-10-27
+- [ ] https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca | mercor | Research Engineer Intern - Environments, Data and Post-Training | San Francisco | posted: 2026-10-27
+
 ## Processed
