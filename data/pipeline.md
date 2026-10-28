@@ -173,3 +173,5 @@
 - [ ] https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae | mercor | Research Engineer, Intern – Benchmarking | San Francisco | posted: 2026-10-27
 
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046859003 | Samsung Semiconductor | Intern, Thermal Modeling & Simulation Engineer (AI Memory / HBM) | San Jose, California, United States | posted: 2026-10-28
+
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8324611 | Schonfeld | 2027 DMFI Intern | New York, New York, United States | posted: 2026-10-28
