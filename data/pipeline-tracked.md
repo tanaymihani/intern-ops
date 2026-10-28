@@ -566,4 +566,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8324611 | Schonfeld | 2027 DMFI Intern | New York, New York, United States | posted: 2026-10-28
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469150009 | Lila Sciences | Co-Op, Structuring Scientific Data for Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-28
+
 ## Processed
