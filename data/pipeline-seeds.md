@@ -62,4 +62,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae | mercor | Research Engineer, Intern – Benchmarking | San Francisco | posted: 2026-10-27
 - [ ] https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca | mercor | Research Engineer Intern - Environments, Data and Post-Training | San Francisco | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8324611 | Schonfeld | 2027 DMFI Intern | New York, New York, United States | posted: 2026-10-28
+
 ## Processed
