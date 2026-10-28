@@ -316,4 +316,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Summer-2027-Intern---Machine-Learning-Engineering_R12194-1 | workiva | Summer 2027 Intern - Machine Learning Engineering | USA - Remote | posted: 2026-10-28
 
+- [ ] https://revantage.wd1.myworkdayjobs.com/revantage/job/Chicago-IL/Insurance-Technology---AI-Analytics-Intern--Summer-2027_JR104539 | revantage | Insurance Technology & AI Analytics Intern, Summer 2027 | 2 Locations | posted: 2026-10-28
+
 ## Processed
