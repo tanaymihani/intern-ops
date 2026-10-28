@@ -570,4 +570,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171694 | Schonfeld | 2027 Enterprise AI Intern | New York, New York, United States | posted: 2026-10-28
 
+- [ ] https://jobs.lever.co/shieldai/5fb0fc3c-3747-4351-92fd-459b3df7c82c | Shield AI | Summer 2027 - Product Support Engineering Intern #6470 & #6442 | Dallas, Texas | posted: 2026-10-28
+
 ## Processed
