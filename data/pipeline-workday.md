@@ -320,4 +320,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846 | abb | AI Robotics Intern- Fall 2026 | Milpitas, California, USA | posted: 2026-10-28
 
+- [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737 | centene | AI Design Systems Intern (Master's - Summer 2027) | Remote-MO | posted: 2026-10-28
+
 ## Processed
