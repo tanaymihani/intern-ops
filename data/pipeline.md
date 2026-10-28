@@ -175,3 +175,6 @@
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046859003 | Samsung Semiconductor | Intern, Thermal Modeling & Simulation Engineer (AI Memory / HBM) | San Jose, California, United States | posted: 2026-10-28
 
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8324611 | Schonfeld | 2027 DMFI Intern | New York, New York, United States | posted: 2026-10-28
+
+- [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171694 | Schonfeld | 2027 Enterprise AI Intern | New York, New York, United States | posted: 2026-10-28
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5438311008 | Anthropic | Anthropic Research Resident | San Francisco, CA / New York City, NY | posted: 2026-10-28
