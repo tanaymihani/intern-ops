@@ -318,4 +318,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://revantage.wd1.myworkdayjobs.com/revantage/job/Chicago-IL/Insurance-Technology---AI-Analytics-Intern--Summer-2027_JR104539 | revantage | Insurance Technology & AI Analytics Intern, Summer 2027 | 2 Locations | posted: 2026-10-28
 
+- [ ] https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/AI-Robotics-Intern--Fall-2026_JR00044846 | abb | AI Robotics Intern- Fall 2026 | Milpitas, California, USA | posted: 2026-10-28
+
 ## Processed
