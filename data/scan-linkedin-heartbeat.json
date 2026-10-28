@@ -1,19 +1,19 @@
 {
-  "at": "2026-10-28T19:00:54.949Z",
+  "at": "2026-10-28T21:27:01.943Z",
   "exitCode": 0,
-  "elapsedSec": 68,
-  "newMatches": 115,
-  "total": 1096,
+  "elapsedSec": 65,
+  "newMatches": 134,
+  "total": 1106,
   "errors": 0,
   "days": 2,
   "queries": 6,
   "batch": [
-    "algorithmic trading intern",
-    "quant co-op",
-    "machine learning intern",
-    "machine learning engineer intern",
-    "AI engineer intern",
-    "artificial intelligence intern"
+    "AI research intern",
+    "data science intern",
+    "data scientist intern",
+    "deep learning intern",
+    "computer vision intern",
+    "NLP intern"
   ],
   "mode": "linkedin-guest-search"
 }
