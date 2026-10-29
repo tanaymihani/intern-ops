@@ -182,3 +182,5 @@
 - [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719503006 | SageSure | Data Science Product Analyst Intern | Fairfield, California, United States | posted: 2026-10-27
 
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6238021004 | Garda Capital Partners | Software Engineer Intern (C#) | Wayzata, Minnesota, United States | posted: 2026-10-28
+
+- [ ] https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002 | Path Robotics | Machine Learning & Robotics Internship 2027 | Columbus, Ohio | posted: 2026-10-29
