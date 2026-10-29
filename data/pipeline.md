@@ -180,3 +180,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5438311008 | Anthropic | Anthropic Research Resident | San Francisco, CA / New York City, NY | posted: 2026-10-28
 
 - [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719503006 | SageSure | Data Science Product Analyst Intern | Fairfield, California, United States | posted: 2026-10-27
+
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6238021004 | Garda Capital Partners | Software Engineer Intern (C#) | Wayzata, Minnesota, United States | posted: 2026-10-28
