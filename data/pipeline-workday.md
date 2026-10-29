@@ -324,4 +324,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739 | centene | AI Engineer Intern (Undergraduate - Summer 2027) | Remote-MO | posted: 2026-10-29
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170 | nvidia | AI Systems Software Engineering Intern – Summer 2027 | US, TX, Austin | posted: 2026-10-29
+- [ ] https://globalfoundries.wd1.myworkdayjobs.com/external/job/USA---California---Santa-Clara/Digital-Design-Backend-Engineering-Intern--3D-and-AI-Flows_JR-2604355 | globalfoundries | Digital Design Backend Engineering Intern, 3D and AI Flows | USA - California - Santa Clara | posted: 2026-10-29
+
 ## Processed
