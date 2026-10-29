@@ -577,4 +577,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122 | Fidelity Investments | Quantitative Research Intern- Equity Quantitative Research Team | 200 Seaport Blvd, Boston MA | posted: 2026-10-29
 - [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Fixed-Income-Team_2135109 | Fidelity Investments | Quantitative Research Intern- Fixed Income Team | 2 Locations | posted: 2026-10-29
 
+- [ ] https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002 | Path Robotics | Machine Learning & Robotics Internship 2027 | Columbus, Ohio | posted: 2026-10-29
+
 ## Processed
