@@ -71,4 +71,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6238021004 | Garda Capital Partners | Software Engineer Intern (C#) | Wayzata, Minnesota, United States | posted: 2026-10-28
 
+- [ ] https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002 | Path Robotics | Machine Learning & Robotics Internship 2027 | Columbus, Ohio | posted: 2026-10-29
+
 ## Processed
