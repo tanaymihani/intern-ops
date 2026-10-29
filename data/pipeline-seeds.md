@@ -67,4 +67,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/schonfeld/jobs/8171694 | Schonfeld | 2027 Enterprise AI Intern | New York, New York, United States | posted: 2026-10-28
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5438311008 | Anthropic | Anthropic Research Resident | San Francisco, CA / New York City, NY | posted: 2026-10-28
 
+- [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719503006 | SageSure | Data Science Product Analyst Intern | Fairfield, California, United States | posted: 2026-10-27
+
 ## Processed
