@@ -574,4 +574,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6238021004 | Garda Capital Partners | Software Engineer Intern (C#) | Wayzata, Minnesota, United States | posted: 2026-10-28
 
+- [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122 | Fidelity Investments | Quantitative Research Intern- Equity Quantitative Research Team | 200 Seaport Blvd, Boston MA | posted: 2026-10-29
+- [ ] https://fmr.wd1.myworkdayjobs.com/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Fixed-Income-Team_2135109 | Fidelity Investments | Quantitative Research Intern- Fixed Income Team | 2 Locations | posted: 2026-10-29
+
 ## Processed
