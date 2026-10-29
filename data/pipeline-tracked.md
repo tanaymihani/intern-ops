@@ -572,4 +572,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/5fb0fc3c-3747-4351-92fd-459b3df7c82c | Shield AI | Summer 2027 - Product Support Engineering Intern #6470 & #6442 | Dallas, Texas | posted: 2026-10-28
 
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6238021004 | Garda Capital Partners | Software Engineer Intern (C#) | Wayzata, Minnesota, United States | posted: 2026-10-28
+
 ## Processed
