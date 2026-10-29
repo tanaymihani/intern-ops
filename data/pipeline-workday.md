@@ -322,4 +322,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Design-Systems-Design-Intern--Master-s---Summer-2027-_1667737 | centene | AI Design Systems Intern (Master's - Summer 2027) | Remote-MO | posted: 2026-10-28
 
+- [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Engineer-Intern--Undergraduate---Summer-2027-_1667739 | centene | AI Engineer Intern (Undergraduate - Summer 2027) | Remote-MO | posted: 2026-10-29
+
 ## Processed
