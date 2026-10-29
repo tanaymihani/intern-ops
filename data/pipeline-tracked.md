@@ -579,4 +579,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002 | Path Robotics | Machine Learning & Robotics Internship 2027 | Columbus, Ohio | posted: 2026-10-29
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Systems-Software-Engineering-Intern---Summer-2027_JR2027170 | NVIDIA | AI Systems Software Engineering Intern – Summer 2027 | US, TX, Austin | posted: 2026-10-29
+
 ## Processed
