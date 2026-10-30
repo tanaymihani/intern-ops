@@ -187,3 +187,6 @@
 
 - [ ] https://jobs.lever.co/stradaeducation/407e6cd0-5789-4366-9449-23461c5e77bb | stradaeducation | Strada Education Foundation Internship: Employer Alignment/Institute for the Future of Work Intern | Washington, DC | posted: 2026-10-27
 - [ ] https://jobs.lever.co/stradaeducation/d8109e92-5156-48e2-879f-c9ea299e971b | stradaeducation | Strada Education Foundation Internship: Clear Outcomes and Data Science Intern | Washington, DC | posted: 2026-10-27
+
+- [ ] https://stripe.com/jobs/search?gh_jid=8328662 | Stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+- [ ] https://stripe.com/jobs/search?gh_jid=8333074 | Stripe | Master's Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
