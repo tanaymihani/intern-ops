@@ -597,4 +597,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469152009 | Lila Sciences | Co-Op, AI-Driven Equation Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-30
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6239821004 | Garda Capital Partners | Infrastructure Engineer Intern | Wayzata, Minnesota, United States | posted: 2026-10-30
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8337719 | Waymo | 2027 Summer Intern, PhD, Research Scientist Intern | Mountain View, CA, USA | posted: 2026-10-30
+
 ## Processed
