@@ -583,4 +583,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439 | General Motors | 2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles | Sunnyvale, California, United States of America | posted: 2026-10-29
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8335511 | Waymo | 2027 Summer Intern, MS/PhD, Weather Perception | San Francisco, CA, USA | posted: 2026-10-30
+
 ## Processed
