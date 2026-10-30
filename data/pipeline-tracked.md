@@ -589,4 +589,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467407009 | Lila Sciences | Co-Op, SCADA Engineer | Cambridge, MA USA | posted: 2026-10-30
 
+- [ ] https://stripe.com/jobs/search?gh_jid=8333074 | Stripe | Master's Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+- [ ] https://stripe.com/jobs/search?gh_jid=8328662 | Stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+
 ## Processed
