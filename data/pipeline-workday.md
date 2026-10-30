@@ -331,4 +331,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://donaldson.wd115.myworkdayjobs.com/donaldsoncareers/job/Bloomington-MN-USA/Graduate-Intern---Modeling-and-Data-Science_JR-28305-1 | donaldson | Graduate Intern - Modeling and Data Science | Bloomington, MN (USA) | posted: 2026-10-29
 
+- [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045795 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
+- [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045794 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
+- [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045793 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
+- [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045792 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
+- [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045791 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
+
 ## Processed
