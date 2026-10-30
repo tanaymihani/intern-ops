@@ -594,4 +594,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248 | Salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469152009 | Lila Sciences | Co-Op, AI-Driven Equation Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-30
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6239821004 | Garda Capital Partners | Infrastructure Engineer Intern | Wayzata, Minnesota, United States | posted: 2026-10-30
+
 ## Processed
