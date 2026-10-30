@@ -340,4 +340,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248 | salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248-2 | salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
 
+- [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746 | generalmotors | 2027 Summer Intern – Research and Development – Vehicle Aerodynamics and Machine Learning | Warren, Michigan, United States of America | posted: 2026-10-30
+
 ## Processed
