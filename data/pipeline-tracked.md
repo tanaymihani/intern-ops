@@ -599,4 +599,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8337719 | Waymo | 2027 Summer Intern, PhD, Research Scientist Intern | Mountain View, CA, USA | posted: 2026-10-30
 
+- [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---Vehicle-Aerodynamics-and-Machine-Learning_JR-202622746 | General Motors | 2027 Summer Intern – Research and Development – Vehicle Aerodynamics and Machine Learning | Warren, Michigan, United States of America | posted: 2026-10-30
+
 ## Processed
