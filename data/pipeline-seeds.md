@@ -78,4 +78,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.lever.co/stradaeducation/407e6cd0-5789-4366-9449-23461c5e77bb | stradaeducation | Strada Education Foundation Internship: Employer Alignment/Institute for the Future of Work Intern | Washington, DC | posted: 2026-10-27
 - [ ] https://jobs.lever.co/stradaeducation/d8109e92-5156-48e2-879f-c9ea299e971b | stradaeducation | Strada Education Foundation Internship: Clear Outcomes and Data Science Intern | Washington, DC | posted: 2026-10-27
 
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6239821004 | Garda Capital Partners | Infrastructure Engineer Intern | Wayzata, Minnesota, United States | posted: 2026-10-30
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469152009 | Lila Sciences | Co-Op, AI-Driven Equation Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-30
+
 ## Processed
