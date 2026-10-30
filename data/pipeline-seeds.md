@@ -73,4 +73,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://boards.greenhouse.io/pathrobotics/jobs/8924241002?gh_jid=8924241002 | Path Robotics | Machine Learning & Robotics Internship 2027 | Columbus, Ohio | posted: 2026-10-29
 
+- [ ] https://stripe.com/jobs/search?gh_jid=8328662 | Stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+- [ ] https://stripe.com/jobs/search?gh_jid=8333074 | Stripe | Master's Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+- [ ] https://jobs.lever.co/stradaeducation/407e6cd0-5789-4366-9449-23461c5e77bb | stradaeducation | Strada Education Foundation Internship: Employer Alignment/Institute for the Future of Work Intern | Washington, DC | posted: 2026-10-27
+- [ ] https://jobs.lever.co/stradaeducation/d8109e92-5156-48e2-879f-c9ea299e971b | stradaeducation | Strada Education Foundation Internship: Clear Outcomes and Data Science Intern | Washington, DC | posted: 2026-10-27
+
 ## Processed
