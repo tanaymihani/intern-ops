@@ -190,3 +190,6 @@
 
 - [ ] https://stripe.com/jobs/search?gh_jid=8328662 | Stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
 - [ ] https://stripe.com/jobs/search?gh_jid=8333074 | Stripe | Master's Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
+
+- [ ] https://job-boards.greenhouse.io/gardacp/jobs/6239821004 | Garda Capital Partners | Infrastructure Engineer Intern | Wayzata, Minnesota, United States | posted: 2026-10-30
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469152009 | Lila Sciences | Co-Op, AI-Driven Equation Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-30
