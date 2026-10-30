@@ -587,4 +587,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Markets---Sales-and-Trading--Summer-Analyst--New-York-City---US--2027_25928736 | Citi | Markets - Sales and Trading, Summer Analyst, New York City - US, 2027 | New York New York United States | posted: 2026-10-30
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4467407009 | Lila Sciences | Co-Op, SCADA Engineer | Cambridge, MA USA | posted: 2026-10-30
+
 ## Processed
