@@ -592,4 +592,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://stripe.com/jobs/search?gh_jid=8333074 | Stripe | Master's Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
 - [ ] https://stripe.com/jobs/search?gh_jid=8328662 | Stripe | PhD Machine Learning Engineer, Intern | San Francisco, New York City, Seattle | posted: 2026-10-30
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248 | Salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
+
 ## Processed
