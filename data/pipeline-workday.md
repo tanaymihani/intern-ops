@@ -337,4 +337,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045792 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
 - [ ] https://revvity.wd103.myworkdayjobs.com/external/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045791 | revvity | Full-stack AI Developer Intern | CAD Remote – ON | posted: 2026-10-30
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248 | salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---San-Francisco/AI-Labs-Summer-Internship--Emerging-Talent_JR366248-2 | salesforce | AI Labs Summer Internship, Emerging Talent | 2 Locations | posted: 2026-10-30
+
 ## Processed
