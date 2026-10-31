@@ -344,4 +344,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://vsp.wd1.myworkdayjobs.com/vspvisioncareers/job/Remote-US/Internship--AI---Agentic---Machine-Learning-Development_R-10072 | vsp | Internship, AI – Agentic & Machine Learning Development | Remote US | posted: 2026-10-30
 
+- [ ] https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679 | ngc | 2027 Intern Product Support – Data Scientist | United States-California-San Diego | posted: 2026-10-31
+
 ## Processed
