@@ -83,4 +83,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.weareroku.com/jobs/8258241?gh_jid=8258241 | Roku | SW Engineer Intern, AI Engineering | San Jose, California | posted: 2026-11-02
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4462613009 | Lila Sciences | Co-op, Agentic and Generative Protein Design | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-11-02
+
 ## Processed
