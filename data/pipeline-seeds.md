@@ -81,4 +81,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/gardacp/jobs/6239821004 | Garda Capital Partners | Infrastructure Engineer Intern | Wayzata, Minnesota, United States | posted: 2026-10-30
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4469152009 | Lila Sciences | Co-Op, AI-Driven Equation Discovery | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-10-30
 
+- [ ] https://www.weareroku.com/jobs/8258241?gh_jid=8258241 | Roku | SW Engineer Intern, AI Engineering | San Jose, California | posted: 2026-11-02
+
 ## Processed
