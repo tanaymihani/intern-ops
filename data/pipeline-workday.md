@@ -352,4 +352,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI-Intern_JR105180 | jmfamily | AI Intern | Florida - Deerfield Beach | posted: 2026-11-02
 - [ ] https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397 | entrust | AI Developer Intern | United States - Shakopee, MN (GHQ) | posted: 2026-11-02
 
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762 | rbc | 2028 Capital Markets, Global Markets Origination Summer Analyst | New York, New York, United States of America | posted: 2026-11-02
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Global-Markets-Summer-Associate--Equity-Research_R-0000191769 | rbc | 2028 Global Markets Summer Associate, Equity Research | New York, New York, United States of America | posted: 2026-11-02
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762-1 | rbc | 2028 Capital Markets, Global Markets Origination Summer Analyst | New York, New York, United States of America | posted: 2026-11-02
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Global-Markets-Summer-Associate--Equity-Research_R-0000191769-1 | rbc | 2028 Global Markets Summer Associate, Equity Research | New York, New York, United States of America | posted: 2026-11-02
+
 ## Processed
