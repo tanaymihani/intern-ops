@@ -201,3 +201,5 @@
 - [ ] https://job-boards.greenhouse.io/matteprojects/jobs/6240634004 | MATTE PROJECTS | Creative & AI Intern - Winter/Spring 2027 (On-Site) | NEW YORK, New York | posted: 2026-11-02
 
 - [ ] https://boards.greenhouse.io/flagshippioneeringinc/jobs/8782467002?gh_jid=8782467002 | Flagship Pioneering, Inc. | Flagship Pioneering ML Internship | Cambridge, MA USA | posted: 2026-11-02
+
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003 | Samsung Semiconductor | Intern, AI Application Engineer | Folsom, California, United States | posted: 2026-11-02
