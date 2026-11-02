@@ -359,4 +359,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Relational-Foundation-Model-Intern--Modern-Data-Stack---2027_JR2027829 | nvidia | Relational Foundation Model Intern, Modern Data Stack – 2027 | 2 Locations | posted: 2026-11-02
 
+- [ ] https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1 | abb | Physical AI Robotics Simulation Intern- Fall 2026 | Milpitas, California, USA | posted: 2026-11-02
+
 ## Processed
