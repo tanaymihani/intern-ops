@@ -603,4 +603,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Artificial-Intelligence-Intern_R5042294-1 | GE Aerospace | Artificial Intelligence Intern | Remote | posted: 2026-11-02
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4462613009 | Lila Sciences | Co-op, Agentic and Generative Protein Design | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-11-02
+
 ## Processed
