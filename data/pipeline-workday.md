@@ -357,4 +357,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762-1 | rbc | 2028 Capital Markets, Global Markets Origination Summer Analyst | New York, New York, United States of America | posted: 2026-11-02
 - [ ] https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Global-Markets-Summer-Associate--Equity-Research_R-0000191769-1 | rbc | 2028 Global Markets Summer Associate, Equity Research | New York, New York, United States of America | posted: 2026-11-02
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Germany-Remote/Relational-Foundation-Model-Intern--Modern-Data-Stack---2027_JR2027829 | nvidia | Relational Foundation Model Intern, Modern Data Stack – 2027 | 2 Locations | posted: 2026-11-02
+
 ## Processed
