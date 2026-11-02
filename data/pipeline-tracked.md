@@ -605,4 +605,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4462613009 | Lila Sciences | Co-op, Agentic and Generative Protein Design | Cambridge, MA USA; San Francisco, CA USA | posted: 2026-11-02
 
+- [ ] https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397 | Entrust | AI Developer Intern | United States - Shakopee, MN (GHQ) | posted: 2026-11-02
+
 ## Processed
