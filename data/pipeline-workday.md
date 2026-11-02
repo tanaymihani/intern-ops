@@ -346,4 +346,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-California-San-Diego/XMLNAME-2027-Intern-Product-Support---Data-Scientist_R10258679 | ngc | 2027 Intern Product Support – Data Scientist | United States-California-San Diego | posted: 2026-10-31
 
+- [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Artificial-Intelligence-Intern_R5042294-1 | geaerospace | Artificial Intelligence Intern | Remote | posted: 2026-11-02
+- [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Artificial-Intelligence-Intern_R5042291-1 | geaerospace | Artificial Intelligence Intern | Remote | posted: 2026-11-02
+
 ## Processed
