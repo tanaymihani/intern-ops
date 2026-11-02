@@ -349,4 +349,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Artificial-Intelligence-Intern_R5042294-1 | geaerospace | Artificial Intelligence Intern | Remote | posted: 2026-11-02
 - [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Artificial-Intelligence-Intern_R5042291-1 | geaerospace | Artificial Intelligence Intern | Remote | posted: 2026-11-02
 
+- [ ] https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI-Intern_JR105180 | jmfamily | AI Intern | Florida - Deerfield Beach | posted: 2026-11-02
+- [ ] https://entrust.wd1.myworkdayjobs.com/entrustcareers/job/United-States---Shakopee-MN-GHQ/AI-Developer-Intern_R004397 | entrust | AI Developer Intern | United States - Shakopee, MN (GHQ) | posted: 2026-11-02
+
 ## Processed
