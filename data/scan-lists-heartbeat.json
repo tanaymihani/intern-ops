@@ -1,14 +1,14 @@
 {
-  "at": "2026-11-02T20:59:35.589Z",
+  "at": "2026-11-02T21:36:54.300Z",
   "exitCode": 0,
   "elapsedSec": 2,
-  "newMatches": 2459,
+  "newMatches": 2449,
   "counts": {
     "simplify": 1214,
-    "cscareers": 439,
-    "speedyapply": 668,
+    "cscareers": 440,
+    "speedyapply": 653,
     "nwquant": 71,
-    "jrlist": 67
+    "jrlist": 71
   },
   "errors": {},
   "mode": "curated-github-lists"
