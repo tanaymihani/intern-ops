@@ -361,4 +361,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://abb.wd3.myworkdayjobs.com/external_career_page/job/Milpitas-California-USA/Physical-AI-Robotics-Simulation-Intern--Fall-2026_JR00044848-1 | abb | Physical AI Robotics Simulation Intern- Fall 2026 | Milpitas, California, USA | posted: 2026-11-02
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1 | nvidia | AI Compiler and Kernel Intern – Summer 2027 | US, TX, Austin | posted: 2026-11-03
+
 ## Processed
