@@ -612,4 +612,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/WellmarkInc/744000159260670 | WellmarkInc | Software Engineer Internship – AI Platform Team | Des Moines, IA, United States | posted: 2026-11-02
 
+- [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101 | Man Group | Systematic Quant Intern - PhD | Massachusetts | posted: 2026-11-03
+
 ## Processed
