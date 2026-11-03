@@ -90,4 +90,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003 | Samsung Semiconductor | Intern, AI Application Engineer | Folsom, California, United States | posted: 2026-11-02
 - [ ] https://boards.greenhouse.io/flagshippioneeringinc/jobs/8782467002?gh_jid=8782467002 | Flagship Pioneering, Inc. | Flagship Pioneering ML Internship | Cambridge, MA USA | posted: 2026-11-02
 
+- [ ] https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6242350004 | Galaxy | 2027 Sales and Trading Internships - NYC | New York | posted: 2026-11-03
+- [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8926019002 | Samsung Research America Internship | 2027 Spring/Summer Intern, Agentic AI Solutions | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-03
+
 ## Processed
