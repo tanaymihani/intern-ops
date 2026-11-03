@@ -370,4 +370,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Responsible-AI-Undergraduate-Intern_J288327 | highmarkhealth | Summer 2027 Responsible AI Undergraduate Intern | 51 Locations | posted: 2026-11-03
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737 | asml | Internship- Business Systems AI | San Diego, CA, USA | posted: 2026-11-03
 
+- [ ] https://hp.wd5.myworkdayjobs.com/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--AIML-Platform---HP-IQ_UNI4800-1 | hp | Software Engineering Intern, AIML Platform - HP IQ | San Francisco, California, United States of America | posted: 2026-11-03
+- [ ] https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--AIML-Platform---HP-IQ_UNI4800 | hp | Software Engineering Intern, AIML Platform - HP IQ | San Francisco, California, United States of America | posted: 2026-11-03
+
 ## Processed
