@@ -626,4 +626,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-AI-Services-and-Platforms-Software-Engineer-Graduate-Intern_J288322 | Highmark Health | Summer 2027 AI Services and Platforms Software Engineer Graduate Intern | 51 Locations | posted: 2026-11-03
 - [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Healthcare-Analytics-Data-Science-Graduate-Intern_J288345 | Highmark Health | Summer 2027 Healthcare Analytics Data Science Graduate Intern | 51 Locations | posted: 2026-11-03
 
+- [ ] https://hp.wd5.myworkdayjobs.com/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--AIML-Platform---HP-IQ_UNI4800-1 | HP Inc. | Software Engineering Intern, AIML Platform - HP IQ | San Francisco, California, United States of America | posted: 2026-11-03
+
 ## Processed
