@@ -363,4 +363,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1 | nvidia | AI Compiler and Kernel Intern – Summer 2027 | US, TX, Austin | posted: 2026-11-03
 
+- [ ] https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095 | jmfamily | AI & Decision Science Intern | Florida - Deerfield Beach | posted: 2026-11-03
+
 ## Processed
