@@ -365,4 +365,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI---Decision-Science-Intern_JR105095 | jmfamily | AI & Decision Science Intern | Florida - Deerfield Beach | posted: 2026-11-03
 
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-AI-Services-and-Platforms-Software-Engineer-Graduate-Intern_J288322 | highmarkhealth | Summer 2027 AI Services and Platforms Software Engineer Graduate Intern | 51 Locations | posted: 2026-11-03
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Healthcare-Analytics-Data-Science-Graduate-Intern_J288345 | highmarkhealth | Summer 2027 Healthcare Analytics Data Science Graduate Intern | 51 Locations | posted: 2026-11-03
+- [ ] https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Responsible-AI-Undergraduate-Intern_J288327 | highmarkhealth | Summer 2027 Responsible AI Undergraduate Intern | 51 Locations | posted: 2026-11-03
+- [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737 | asml | Internship- Business Systems AI | San Diego, CA, USA | posted: 2026-11-03
+
 ## Processed
