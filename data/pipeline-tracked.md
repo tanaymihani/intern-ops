@@ -616,4 +616,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1 | NVIDIA | AI Compiler and Kernel Intern – Summer 2027 | US, TX, Austin | posted: 2026-11-03
 
+- [ ] https://jobs.ashbyhq.com/aurora-operations-inc/058e3b3a-dd13-4736-84a8-b19d5de2c9f5 | Aurora Innovation, Inc. | Safety & Systems Engineering Intern | Mountain View, CA · Pittsburgh, PA · Pittsburgh · United States | posted: 2026-11-03
+
 ## Processed
