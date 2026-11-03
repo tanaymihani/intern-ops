@@ -614,4 +614,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101 | Man Group | Systematic Quant Intern - PhD | Massachusetts | posted: 2026-11-03
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/AI-Compiler-and-Kernel-Intern---Summer-2027_JR2029220-1 | NVIDIA | AI Compiler and Kernel Intern – Summer 2027 | US, TX, Austin | posted: 2026-11-03
+
 ## Processed
