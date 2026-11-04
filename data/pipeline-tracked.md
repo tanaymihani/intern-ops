@@ -628,4 +628,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hp.wd5.myworkdayjobs.com/externalcareersite/job/San-Francisco-California-United-States-of-America/Software-Engineering-Intern--AIML-Platform---HP-IQ_UNI4800-1 | HP Inc. | Software Engineering Intern, AIML Platform - HP IQ | San Francisco, California, United States of America | posted: 2026-11-03
 
+- [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002 | Samsung Research America Internship | 2027 Spring Intern, Robotics Lab | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-04
+
 ## Processed
