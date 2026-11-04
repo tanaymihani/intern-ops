@@ -4,6 +4,11 @@
 # writes only its own files, so the rebase is clean). Fails loudly if the
 # push never lands — a green run that published nothing is worse than red.
 #
+# The only conflict left is with another run of the same scraper (GitHub's
+# cron and scheduler.yml can start it minutes apart). This run is the newer
+# one, so its copy of a conflicted file wins; append-only logs keep both
+# runs' rows instead (merge=union in .gitattributes).
+#
 #   scripts/commit-data.sh <label> [paths...]     (paths default: data/)
 set -uo pipefail
 label="$1"; shift
@@ -16,9 +21,27 @@ if git diff --cached --quiet; then
   exit 0
 fi
 git commit -q -m "$label: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+rebase_onto_remote() {
+  git pull --rebase --quiet && return 0
+  local conflicted
+  conflicted=$(git diff --name-only --diff-filter=U)
+  [ -n "$conflicted" ] || return 1
+  echo "conflict with another $label run — keeping this run's copy of: $(echo $conflicted)"
+  while IFS= read -r f; do
+    # In a rebase, stage 3 ("theirs") is the commit being replayed: this run's.
+    if git cat-file -e ":3:$f" 2>/dev/null; then
+      git checkout --theirs -- "$f" && git add -- "$f"
+    else
+      git rm -q -- "$f"
+    fi
+  done <<< "$conflicted"
+  GIT_EDITOR=true git rebase --continue >/dev/null
+}
+
 for attempt in 1 2 3 4 5; do
   git rebase --abort >/dev/null 2>&1 || true
-  if git pull --rebase --quiet && git push --quiet; then
+  if rebase_onto_remote && git push --quiet; then
     echo "pushed $label"
     exit 0
   fi

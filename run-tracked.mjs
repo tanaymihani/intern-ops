@@ -8,11 +8,13 @@
 import { spawnSync } from 'child_process';
 import { writeFileSync } from 'fs';
 import { catchUpSince, readLastOk } from './lib/catch-up.mjs';
+import { trimPortalHealth } from './lib/portal-health-trim.mjs';
 
 const HEARTBEAT = 'data/scan-tracked-heartbeat.json';
 const lastOk = readLastOk(HEARTBEAT);
 const SINCE = String(catchUpSince(process.env.TRACKED_SINCE || '1', lastOk));
 
+trimPortalHealth('data/portal-health.tsv'); // scan.mjs reads all of it every run
 console.log(`[${new Date().toISOString()}] tracked-boards scan --since ${SINCE}`);
 
 const started = Date.now();
@@ -28,7 +30,9 @@ const out = `${r.stdout || ''}${r.stderr || ''}`;
 process.stdout.write(out);
 const elapsed = ((Date.now() - started) / 1000).toFixed(1);
 
-const m = out.match(/New matches:\s*(\d+)/i);
+trimPortalHealth('data/portal-health.tsv');
+
+const m = out.match(/New (?:matches|offers added):\s*(\d+)/i);
 const at = new Date().toISOString();
 writeFileSync(HEARTBEAT, JSON.stringify({
   at,

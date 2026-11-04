@@ -18,7 +18,7 @@ const PREFS_KEY = 'intern-ops-prefs-v1';
 const PREFS_VERSION = 2;
 const STATE_KEY = 'intern-ops-state-v1';
 const APPLIED_GRACE_MS = 4000;
-const POLL_MS = 60_000;
+const POLL_MS = 5 * 60_000; // data changes every ~10 min; tab focus also refreshes
 const STALE_POSTED_DAYS = 60;
 
 let JOBS = [];

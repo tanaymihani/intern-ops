@@ -1,0 +1,5 @@
+# Append-only logs written by the scrapers: when two runs of the same scraper
+# both append (scripts/commit-data.sh), keep both sides' rows, not a conflict.
+data/scan-history*.tsv merge=union
+data/pipeline*.md merge=union
+data/scan-runs.tsv merge=union
