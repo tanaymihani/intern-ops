@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-04T18:01:21.973Z",
+  "at": "2026-11-04T18:38:59.358Z",
   "exitCode": 0,
-  "elapsedSec": 2,
+  "elapsedSec": 106,
   "newMatches": 2516,
   "counts": {
     "simplify": 1255,
@@ -10,6 +10,8 @@
     "nwquant": 71,
     "jrlist": 52
   },
-  "errors": {},
+  "errors": {
+    "simplify": "HTTP 503 between bytes timeout"
+  },
   "mode": "curated-github-lists"
 }
