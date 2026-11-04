@@ -630,4 +630,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8927812002 | Samsung Research America Internship | 2027 Spring Intern, Robotics Lab | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-04
 
+- [ ] https://job-boards.eu.greenhouse.io/imc/jobs/4823946101 | IMC | Research Analyst Intern - Summer 2027 | Chicago, United States | posted: 2026-11-04
+
 ## Processed
