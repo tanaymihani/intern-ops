@@ -379,4 +379,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655 | cbrands | Intern, AI & Automation Engineering | Rochester, New York | posted: 2026-11-04
 
+- [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---R-D-TSRS-Data-Sciences-Operations---Analytic--Summer-2027-_R-260585 | amgen | Grad Intern – R&D TSRS Data Sciences Operations & Analytic (Summer 2027) | United States - Remote | posted: 2026-11-04
+
 ## Processed
