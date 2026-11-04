@@ -1,17 +1,15 @@
 {
-  "at": "2026-11-04T22:37:31.819Z",
+  "at": "2026-11-04T23:14:52.552Z",
   "exitCode": 0,
-  "elapsedSec": 154,
-  "newMatches": 2514,
+  "elapsedSec": 1,
+  "newMatches": 2515,
   "counts": {
-    "simplify": 1244,
+    "simplify": 1241,
     "cscareers": 497,
     "speedyapply": 648,
     "nwquant": 71,
-    "jrlist": 54
+    "jrlist": 58
   },
-  "errors": {
-    "simplify": "This operation was aborted"
-  },
+  "errors": {},
   "mode": "curated-github-lists"
 }
