@@ -375,4 +375,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/AI-Center-of-Excellence--COE--Delivery-Team-Intern_JR105176 | jmfamily | AI Center of Excellence (COE) Delivery Team Intern | Florida - Deerfield Beach | posted: 2026-11-03
 
+- [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Business-Strategy-Intern--Undergraduate-Summer-2027-_1667703-1 | centene | AI Business Strategy Intern (Undergraduate Summer 2027) | Remote-MO | posted: 2026-11-04
+
 ## Processed
