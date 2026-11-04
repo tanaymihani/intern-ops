@@ -1,7 +1,7 @@
 {
-  "at": "2026-11-04T22:00:04.198Z",
+  "at": "2026-11-04T22:37:31.819Z",
   "exitCode": 0,
-  "elapsedSec": 1,
+  "elapsedSec": 154,
   "newMatches": 2514,
   "counts": {
     "simplify": 1244,
@@ -10,6 +10,8 @@
     "nwquant": 71,
     "jrlist": 54
   },
-  "errors": {},
+  "errors": {
+    "simplify": "This operation was aborted"
+  },
   "mode": "curated-github-lists"
 }
