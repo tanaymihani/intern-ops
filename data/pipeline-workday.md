@@ -377,4 +377,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://centene.wd5.myworkdayjobs.com/centene_external/job/Remote-MO/AI-Business-Strategy-Intern--Undergraduate-Summer-2027-_1667703-1 | centene | AI Business Strategy Intern (Undergraduate Summer 2027) | Remote-MO | posted: 2026-11-04
 
+- [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI---Automation-Engineering_R-41655 | cbrands | Intern, AI & Automation Engineering | Rochester, New York | posted: 2026-11-04
+
 ## Processed
