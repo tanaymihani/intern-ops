@@ -1,17 +1,15 @@
 {
-  "at": "2026-11-04T18:38:59.358Z",
+  "at": "2026-11-04T19:16:45.475Z",
   "exitCode": 0,
-  "elapsedSec": 106,
-  "newMatches": 2516,
+  "elapsedSec": 1,
+  "newMatches": 2507,
   "counts": {
-    "simplify": 1255,
-    "cscareers": 496,
+    "simplify": 1247,
+    "cscareers": 495,
     "speedyapply": 642,
     "nwquant": 71,
     "jrlist": 52
   },
-  "errors": {
-    "simplify": "HTTP 503 between bytes timeout"
-  },
+  "errors": {},
   "mode": "curated-github-lists"
 }
