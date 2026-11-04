@@ -632,4 +632,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.eu.greenhouse.io/imc/jobs/4823946101 | IMC | Research Analyst Intern - Summer 2027 | Chicago, United States | posted: 2026-11-04
 
+- [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---R-D-TSRS-Data-Sciences-Operations---Analytic--Summer-2027-_R-260585 | Amgen | Grad Intern – R&D TSRS Data Sciences Operations & Analytic (Summer 2027) | United States - Remote | posted: 2026-11-04
+
 ## Processed
