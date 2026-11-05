@@ -383,4 +383,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship----Machine-Learning-and-image-based-EUV-system-setup_J-00356567 | asml | Internship - Machine Learning and image-based EUV system setup | San Diego, CA, USA | posted: 2026-11-04
 
+- [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Data-Scientist-Intern---Summer-2027_R0138582 | paypal | Data Scientist Intern - Summer 2027 | San Jose, California, United States of America | posted: 2026-11-05
+- [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581 | paypal | Machine Learning Engineer Intern - Summer 2027 | San Jose, California, United States of America | posted: 2026-11-05
+- [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-PhD-Intern---Summer-2027_R0138579 | paypal | Machine Learning Engineer PhD Intern - Summer 2027 | San Jose, California, United States of America | posted: 2026-11-05
+
 ## Processed
