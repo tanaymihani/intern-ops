@@ -634,4 +634,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---R-D-TSRS-Data-Sciences-Operations---Analytic--Summer-2027-_R-260585 | Amgen | Grad Intern – R&D TSRS Data Sciences Operations & Analytic (Summer 2027) | United States - Remote | posted: 2026-11-04
 
+- [ ] https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949 | Shield AI | June 2027 Co-Op - Software Engineer Intern | Dallas, Texas; Washington, D.C.; Seattle, Washington; San Diego, California | posted: 2026-11-05
+
 ## Processed
