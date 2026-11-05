@@ -636,4 +636,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949 | Shield AI | June 2027 Co-Op - Software Engineer Intern | Dallas, Texas; Washington, D.C.; Seattle, Washington; San Diego, California | posted: 2026-11-05
 
+- [ ] https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312 | Palantir Technologies | Software Engineer, Internship - Sovereign AI Systems | New York, NY | posted: 2026-11-05
+- [ ] https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Generative-AI-Internship_100231 | Nationwide | Summer 2027 Generative AI Internship | Ohio Columbus Metro
+
 ## Processed
