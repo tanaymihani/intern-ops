@@ -389,4 +389,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI-Innovation_R-41656 | cbrands | Intern, AI Innovation | 2 Locations | posted: 2026-11-05
 
+- [ ] https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Atlanta-GA/Summer-Student---Risk-Analytics-and-Reporting_JR0033364 | godirect | Summer Student - Risk Analytics and Reporting | Atlanta, GA | posted: 2026-11-05
+
 ## Processed
