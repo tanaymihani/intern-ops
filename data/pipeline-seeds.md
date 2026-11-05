@@ -93,4 +93,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6242350004 | Galaxy | 2027 Sales and Trading Internships - NYC | New York | posted: 2026-11-03
 - [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8926019002 | Samsung Research America Internship | 2027 Spring/Summer Intern, Agentic AI Solutions | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-03
 
+- [ ] https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312 | palantir | Software Engineer, Internship - Sovereign AI Systems | New York, NY | posted: 2026-11-05
+
 ## Processed
