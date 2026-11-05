@@ -391,4 +391,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Atlanta-GA/Summer-Student---Risk-Analytics-and-Reporting_JR0033364 | godirect | Summer Student - Risk Analytics and Reporting | Atlanta, GA | posted: 2026-11-05
 
+- [ ] https://smucker.wd5.myworkdayjobs.com/us_external_careers/job/Working-Remote-USA/Data-Science-Intern--Summer-2027_116118 | smucker | Data Science Intern, Summer 2027 | Working Remote USA | posted: 2026-11-05
+
 ## Processed
