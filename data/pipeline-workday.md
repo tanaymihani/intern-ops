@@ -387,4 +387,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581 | paypal | Machine Learning Engineer Intern - Summer 2027 | San Jose, California, United States of America | posted: 2026-11-05
 - [ ] https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-PhD-Intern---Summer-2027_R0138579 | paypal | Machine Learning Engineer PhD Intern - Summer 2027 | San Jose, California, United States of America | posted: 2026-11-05
 
+- [ ] https://cbrands.wd5.myworkdayjobs.com/cbi_external_careers/job/Rochester-New-York/Intern--AI-Innovation_R-41656 | cbrands | Intern, AI Innovation | 2 Locations | posted: 2026-11-05
+
 ## Processed
