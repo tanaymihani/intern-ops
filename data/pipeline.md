@@ -211,3 +211,5 @@
 - [ ] https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312 | palantir | Software Engineer, Internship - Sovereign AI Systems | New York, NY | posted: 2026-11-05
 
 - [ ] https://job-boards.greenhouse.io/raft/jobs/6240555004 | Raft Company Website | AI/ML Intern - Summer 2027 | McLean, Virginia, United States | posted: 2026-11-06
+
+- [ ] https://www.asm.com/open-vacancies/?gh_jid=5029228101 | ASM | Intern, Product Intelligence Engineering (AI/ML) | US > Arizona > Phoenix | posted: 2026-11-06
