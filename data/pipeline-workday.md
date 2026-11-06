@@ -393,4 +393,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://smucker.wd5.myworkdayjobs.com/us_external_careers/job/Working-Remote-USA/Data-Science-Intern--Summer-2027_116118 | smucker | Data Science Intern, Summer 2027 | Working Remote USA | posted: 2026-11-05
 
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194 | tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198 | tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765 | tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
+
 ## Processed
