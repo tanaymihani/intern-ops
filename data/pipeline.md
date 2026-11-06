@@ -213,3 +213,6 @@
 - [ ] https://job-boards.greenhouse.io/raft/jobs/6240555004 | Raft Company Website | AI/ML Intern - Summer 2027 | McLean, Virginia, United States | posted: 2026-11-06
 
 - [ ] https://www.asm.com/open-vacancies/?gh_jid=5029228101 | ASM | Intern, Product Intelligence Engineering (AI/ML) | US > Arizona > Phoenix | posted: 2026-11-06
+
+- [ ] https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff | matchgroup | Data Scientist Intern | San Francisco, California | posted: 2026-11-06
+- [ ] https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72 | matchgroup | Machine Learning Engineer Intern | Palo Alto, California | posted: 2026-11-06
