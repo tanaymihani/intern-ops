@@ -216,3 +216,5 @@
 
 - [ ] https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff | matchgroup | Data Scientist Intern | San Francisco, California | posted: 2026-11-06
 - [ ] https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72 | matchgroup | Machine Learning Engineer Intern | Palo Alto, California | posted: 2026-11-06
+
+- [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
