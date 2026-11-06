@@ -642,4 +642,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/niural/0daacf58-a15d-4c6f-bfa0-0fc069e4956e | Niural | AI Product Operator Intern | New York City | posted: 2026-11-06
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194 | Tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
 
+- [ ] https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8928923002 | Duolingo University Recruitment | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
+- [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
+
 ## Processed
