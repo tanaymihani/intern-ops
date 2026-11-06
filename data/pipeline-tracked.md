@@ -658,4 +658,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8358262 | Waymo | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) | Mountain View, California, United States | posted: 2026-11-06
 - [ ] https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1 | Samsung Electronics | Samsung Care AI Data Analytic Intern | 6625 Excellence Way, Plano, TX, USA | posted: 2026-11-06
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8351210 | Waymo | 2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation | Mountain View, California, United States | posted: 2026-11-06
+
 ## Processed
