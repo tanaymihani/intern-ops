@@ -397,4 +397,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381198 | tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ380765 | tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-1 | salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-06
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516 | salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-06
+
 ## Processed
