@@ -97,4 +97,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/raft/jobs/6240555004 | Raft Company Website | AI/ML Intern - Summer 2027 | McLean, Virginia, United States | posted: 2026-11-06
 
+- [ ] https://www.asm.com/open-vacancies/?gh_jid=5029228101 | ASM | Intern, Product Intelligence Engineering (AI/ML) | US > Arizona > Phoenix | posted: 2026-11-06
+
 ## Processed
