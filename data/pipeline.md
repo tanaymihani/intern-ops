@@ -218,3 +218,5 @@
 - [ ] https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72 | matchgroup | Machine Learning Engineer Intern | Palo Alto, California | posted: 2026-11-06
 
 - [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
+
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4480337009 | Lila Sciences | Co-op, AI for Protein Design | San Francisco, CA USA | posted: 2026-11-06
