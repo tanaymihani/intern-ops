@@ -647,4 +647,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-1 | Salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-06
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4480337009 | Lila Sciences | Co-op, AI for Protein Design | San Francisco, CA USA | posted: 2026-11-06
+
 ## Processed
