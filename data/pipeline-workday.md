@@ -402,4 +402,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279 | tmobile | Summer 2027 AI Strategist Internship | Bellevue, Washington | posted: 2026-11-06
 
+- [ ] https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1 | sec | Samsung Care AI Data Analytic Intern | 6625 Excellence Way, Plano, TX, USA | posted: 2026-11-06
+- [ ] https://marmon.wd501.myworkdayjobs.com/marmon_careers/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903 | marmon | Intern - AI Technology Solutions | Chicago, IL | posted: 2026-11-06
+- [ ] https://marmon.wd501.myworkdayjobs.com/marmon_internships/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903-1 | marmon | Intern - AI Technology Solutions | Chicago, IL | posted: 2026-11-06
+- [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship--Computational-imaging-and-metrology-summer_J-00355102 | asml | Internship- Computational imaging and metrology summer | San Jose, CA, USA | posted: 2026-11-06
+
 ## Processed
