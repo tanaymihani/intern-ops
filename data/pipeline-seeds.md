@@ -106,4 +106,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4480337009 | Lila Sciences | Co-op, AI for Protein Design | San Francisco, CA USA | posted: 2026-11-06
 - [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
 
+- [ ] https://jobs.ashbyhq.com/parspec/0a897c21-0df7-40ba-85f2-694bf6678504 | parspec | Applied AI Engineer Intern | Hybrid - San Mateo, California | posted: 2026-11-06
+- [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719408006 | SageSure | Carrier Operations Intern (Portfolio Analytics) | Jersey City, New Jersey, United States; Mountain View, California, United States | posted: 2026-11-06
+- [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725275006 | SharkNinja | Spring 2027: AI/Sharks Applied AI & Analytics Co-op (January to June) | Miami, Florida, United States; Needham, MA, United States | posted: 2026-11-06
+
 ## Processed
