@@ -639,4 +639,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312 | Palantir Technologies | Software Engineer, Internship - Sovereign AI Systems | New York, NY | posted: 2026-11-05
 - [ ] https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-Metro/Summer-2027-Generative-AI-Internship_100231 | Nationwide | Summer 2027 Generative AI Internship | Ohio Columbus Metro
 
+- [ ] https://jobs.ashbyhq.com/niural/0daacf58-a15d-4c6f-bfa0-0fc069e4956e | Niural | AI Product Operator Intern | New York City | posted: 2026-11-06
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-AI-Engineering-Internship_REQ381194 | Tmobile | Summer 2027 AI Engineering Internship | Bellevue, Washington | posted: 2026-11-06
+
 ## Processed
