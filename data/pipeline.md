@@ -220,3 +220,5 @@
 - [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
 
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4480337009 | Lila Sciences | Co-op, AI for Protein Design | San Francisco, CA USA | posted: 2026-11-06
+
+- [ ] https://job-boards.greenhouse.io/marshallwace/jobs/8933768002 | Marshall Wace | 2027 MBA Intern-Global Healthcare Non-Therapeutics | New York | posted: 2026-11-06
