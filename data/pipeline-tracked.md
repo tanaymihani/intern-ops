@@ -645,4 +645,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8928923002 | Duolingo University Recruitment | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
 - [ ] https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002 | Duolingo | AI Research Intern (PhD) | New York, NY; Pittsburgh, PA | posted: 2026-11-06
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-1 | Salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-06
+
 ## Processed
