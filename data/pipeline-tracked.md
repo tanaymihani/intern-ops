@@ -655,4 +655,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725275006 | SharkNinja | Spring 2027: AI/Sharks Applied AI & Analytics Co-op (January to June) | Miami, Florida, United States; Needham, MA, United States | posted: 2026-11-06
 
+- [ ] https://careers.withwaymo.com/jobs?gh_jid=8358262 | Waymo | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) | Mountain View, California, United States | posted: 2026-11-06
+- [ ] https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1 | Samsung Electronics | Samsung Care AI Data Analytic Intern | 6625 Excellence Way, Plano, TX, USA | posted: 2026-11-06
+
 ## Processed
