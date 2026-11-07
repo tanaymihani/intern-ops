@@ -407,4 +407,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://marmon.wd501.myworkdayjobs.com/marmon_internships/job/Chicago-IL/Intern---AI-Technology-Solutions_JR0000046903-1 | marmon | Intern - AI Technology Solutions | Chicago, IL | posted: 2026-11-06
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship--Computational-imaging-and-metrology-summer_J-00355102 | asml | Internship- Computational imaging and metrology summer | San Jose, CA, USA | posted: 2026-11-06
 
+- [ ] https://datarobot.wd1.myworkdayjobs.com/datarobot_external_careers/job/Boston-Massachusetts-US/Software-Design-Engineer-Intern_R-102764 | datarobot | Software Design Engineer Intern | 4 Locations | posted: 2026-11-07
+
 ## Processed
