@@ -110,4 +110,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719408006 | SageSure | Carrier Operations Intern (Portfolio Analytics) | Jersey City, New Jersey, United States; Mountain View, California, United States | posted: 2026-11-06
 - [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4725275006 | SharkNinja | Spring 2027: AI/Sharks Applied AI & Analytics Co-op (January to June) | Miami, Florida, United States; Needham, MA, United States | posted: 2026-11-06
 
+- [ ] https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97 | zoox | Data Science Intern \[Summer 2027\] | Foster City, CA; Boston, MA | posted: 2026-11-06
+
 ## Processed
