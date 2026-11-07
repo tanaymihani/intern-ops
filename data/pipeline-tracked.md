@@ -662,4 +662,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97 | Zoox | Data Science Intern \[Summer 2027\] | Foster City, CA; Boston, MA | posted: 2026-11-06
 
+- [ ] https://jobs.lever.co/shieldai/a2bb6f71-abcf-4938-a3a2-803b5d7c0753 | Shield AI | 2027 Summer Intern - Supplier Development Engineer - 6463 | Dallas, Texas | posted: 2026-11-07
+
 ## Processed
