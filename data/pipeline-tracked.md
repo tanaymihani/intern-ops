@@ -666,4 +666,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/nbcuniversal3/744000160649935 | NBCUniversal3 | Media Tech: Data, AI & Machine Learning Internships – Summer 2027 | Universal City, CA, United States | posted: 2026-11-09
 
+- [ ] https://jobs.smartrecruiters.com/nbcuniversal3/744000160680539 | NBCUniversal3 | Advertising & Partnerships: Data Science Internship – Summer 2027 | New York, NY, United States | posted: 2026-11-09
+- [ ] https://jobs.ashbyhq.com/TonicAI/e632d472-fbd2-475a-9878-536c0eacb5e9 | Tonic.ai | Forward Deployed Engineer, Data De-Identification (Co-op) | Remote | posted: 2026-11-09
+
 ## Processed
