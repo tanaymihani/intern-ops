@@ -674,4 +674,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a | Skydio | Systems Engineering Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-11-09
 
+- [ ] https://jobs.ashbyhq.com/cohere/cd3536d7-1518-470d-984d-d06bf189174d | Cohere | Research Internship (Winter 2027) | Canada · San Francisco · United States · Europe · European Union · London · United Kingdom · Toronto · Montreal · Remote | posted: 2026-11-09
+
 ## Processed
