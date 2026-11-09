@@ -676,4 +676,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/cohere/cd3536d7-1518-470d-984d-d06bf189174d | Cohere | Research Internship (Winter 2027) | Canada · San Francisco · United States · Europe · European Union · London · United Kingdom · Toronto · Montreal · Remote | posted: 2026-11-09
 
+- [ ] https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996 | Samsung Electronics | ePro AI Business & Data Analyst Intern | 6625 Excellence Way, Plano, TX, USA | posted: 2026-11-09
+
 ## Processed
