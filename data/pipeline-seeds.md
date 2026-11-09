@@ -112,4 +112,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97 | zoox | Data Science Intern \[Summer 2027\] | Foster City, CA; Boston, MA | posted: 2026-11-06
 
+- [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4472540009 | Lila Sciences | Co-op, Software, Applied AI Platform Engineer | San Francisco, CA USA | posted: 2026-11-09
+
 ## Processed
