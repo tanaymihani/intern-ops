@@ -413,4 +413,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Atlanta-GA/Summer-Student---Mortgage-Derivatives_JR0033396 | godirect | Summer Student - Mortgage Derivatives | Atlanta, GA | posted: 2026-11-09
 
+- [ ] https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996 | sec | ePro AI Business & Data Analyst Intern | 6625 Excellence Way, Plano, TX, USA | posted: 2026-11-09
+
 ## Processed
