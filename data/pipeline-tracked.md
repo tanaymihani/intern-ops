@@ -672,4 +672,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4477308009 | Lila Sciences | Co-Op, IT/OT Security Analyst | Cambridge, MA USA | posted: 2026-11-09
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4472540009 | Lila Sciences | Co-op, Software, Applied AI Platform Engineer | San Francisco, CA USA | posted: 2026-11-09
 
+- [ ] https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a | Skydio | Systems Engineering Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-11-09
+
 ## Processed
