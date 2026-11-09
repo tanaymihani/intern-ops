@@ -664,4 +664,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/a2bb6f71-abcf-4938-a3a2-803b5d7c0753 | Shield AI | 2027 Summer Intern - Supplier Development Engineer - 6463 | Dallas, Texas | posted: 2026-11-07
 
+- [ ] https://jobs.smartrecruiters.com/nbcuniversal3/744000160649935 | NBCUniversal3 | Media Tech: Data, AI & Machine Learning Internships – Summer 2027 | Universal City, CA, United States | posted: 2026-11-09
+
 ## Processed
