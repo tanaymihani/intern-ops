@@ -417,4 +417,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--AI-Engineer_J-00355629 | asml | Internship-Co-Op: AI Engineer | San Diego, CA, USA | posted: 2026-11-09
 
+- [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Co-Op--AI-Engineer_J-00355628 | asml | Internship- Co-Op: AI Engineer | San Diego, CA, USA | posted: 2026-11-09
+
 ## Processed
