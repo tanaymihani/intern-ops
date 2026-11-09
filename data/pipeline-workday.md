@@ -409,4 +409,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://datarobot.wd1.myworkdayjobs.com/datarobot_external_careers/job/Boston-Massachusetts-US/Software-Design-Engineer-Intern_R-102764 | datarobot | Software Design Engineer Intern | 4 Locations | posted: 2026-11-07
 
+- [ ] https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371 | analogdevices | Machine Learning for Computational Sensing Research Intern | US, MA, Boston | posted: 2026-11-09
+
 ## Processed
