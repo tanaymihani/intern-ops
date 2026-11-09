@@ -114,4 +114,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4472540009 | Lila Sciences | Co-op, Software, Applied AI Platform Engineer | San Francisco, CA USA | posted: 2026-11-09
 
+- [ ] https://epicgames.com/careers/jobs/6251540004?gh_jid=6251540004 | Epic Games | AI Programmer Intern | Cary,North Carolina,United States | posted: 2026-11-09
+- [ ] https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005 | The New York Times | ML Scientist Intern | New York, NY | posted: 2026-11-09
+
 ## Processed
