@@ -411,4 +411,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371 | analogdevices | Machine Learning for Computational Sensing Research Intern | US, MA, Boston | posted: 2026-11-09
 
+- [ ] https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Atlanta-GA/Summer-Student---Mortgage-Derivatives_JR0033396 | godirect | Summer Student - Mortgage Derivatives | Atlanta, GA | posted: 2026-11-09
+
 ## Processed
