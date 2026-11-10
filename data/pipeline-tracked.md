@@ -686,4 +686,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655 | Salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
 
+- [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034 | General Motors | 2027 Summer Intern - Machine Learning Engineer, Embodied AI | Sunnyvale, California, United States of America | posted: 2026-11-10
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655-3 | Salesforce | Summer 2027 Intern - AI Research Incubator | 2 Locations | posted: 2026-11-10
+- [ ] https://rbc.wd3.myworkdayjobs.com/RBCEarlyTalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757-1 | RBC (Early Talent) | 2028 Capital Markets, Global Markets Sales & Trading Summer Analyst | New York, New York, United States of America | posted: 2026-11-10
+
 ## Processed
