@@ -680,4 +680,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.eu.lever.co/cirrus/beaa562f-5ec2-447f-8175-8a2833a401d8 | Cirrus Logic | 2027 Internship - Applied AI Engineering | Austin, Texas | posted: 2026-11-09
 
+- [ ] https://jobs.ashbyhq.com/ctgt/36ec2e84-8b55-4c8a-b7ee-5dadecd4c01e | CTGT | AI Evaluation Research Intern | San Francisco | posted: 2026-11-10
+
 ## Processed
