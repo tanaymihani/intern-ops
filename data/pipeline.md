@@ -233,3 +233,5 @@
 - [ ] https://job-boards.greenhouse.io/lilasciences/jobs/4472540009 | Lila Sciences | Co-op, Software, Applied AI Platform Engineer | San Francisco, CA USA | posted: 2026-11-09
 
 - [ ] https://epicgames.com/careers/jobs/6251540004?gh_jid=6251540004 | Epic Games | AI Programmer Intern | Cary,North Carolina,United States | posted: 2026-11-09
+
+- [ ] https://job-boards.greenhouse.io/addepar1/jobs/8927543002 | Addepar | AI Engineering Intern - Summer 2027 | New York, NY | posted: 2026-11-10
