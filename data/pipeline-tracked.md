@@ -694,4 +694,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.tower-research.com/open-positions/?gh_jid=8372658 | Tower Research Capital | Finance Intern | New York | posted: 2026-11-10
 
+- [ ] https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03 | Skydio | Middleware Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-11-10
+
 ## Processed
