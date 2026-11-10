@@ -427,4 +427,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655 | salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
 - [ ] https://salesforce.wd12.myworkdayjobs.com/salesforce_research/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655-2 | salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
 
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757 | rbc | 2028 Capital Markets, Global Markets Sales & Trading Summer Analyst | New York, New York, United States of America | posted: 2026-11-10
+- [ ] https://rbc.wd3.myworkdayjobs.com/rbcearlytalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757-1 | rbc | 2028 Capital Markets, Global Markets Sales & Trading Summer Analyst | New York, New York, United States of America | posted: 2026-11-10
+- [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034 | generalmotors | 2027 Summer Intern - Machine Learning Engineer, Embodied AI | Sunnyvale, California, United States of America | posted: 2026-11-10
+
 ## Processed
