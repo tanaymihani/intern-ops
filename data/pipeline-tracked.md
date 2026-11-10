@@ -682,4 +682,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/ctgt/36ec2e84-8b55-4c8a-b7ee-5dadecd4c01e | CTGT | AI Evaluation Research Intern | San Francisco | posted: 2026-11-10
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Spring-Texas-United-States-of-America/Strategic-Sourcing-AI---Automation-Intern_1213039 | Hewlett Packard Enterprise | Strategic Sourcing AI & Automation Intern | Spring, Texas, United States of America | posted: 2026-11-10
+
 ## Processed
