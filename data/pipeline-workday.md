@@ -421,4 +421,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship--Co-Op--Data-Engineer_J-00355627 | asml | Internship- Co-Op: AI Engineer | San Diego, CA, USA | posted: 2026-11-09
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Spring-Texas-United-States-of-America/Strategic-Sourcing-AI---Automation-Intern_1213039 | hpe | Strategic Sourcing AI & Automation Intern | Spring, Texas, United States of America | posted: 2026-11-10
+
 ## Processed
