@@ -692,4 +692,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/Clera/1c3eb725-b3e0-414b-9a88-5fb6d6d785c7 | Clera | ML Intern | remote | posted: 2026-11-10
 
+- [ ] https://www.tower-research.com/open-positions/?gh_jid=8372658 | Tower Research Capital | Finance Intern | New York | posted: 2026-11-10
+
 ## Processed
