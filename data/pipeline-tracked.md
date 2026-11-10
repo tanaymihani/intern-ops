@@ -690,4 +690,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655-3 | Salesforce | Summer 2027 Intern - AI Research Incubator | 2 Locations | posted: 2026-11-10
 - [ ] https://rbc.wd3.myworkdayjobs.com/RBCEarlyTalent1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757-1 | RBC (Early Talent) | 2028 Capital Markets, Global Markets Sales & Trading Summer Analyst | New York, New York, United States of America | posted: 2026-11-10
 
+- [ ] https://jobs.ashbyhq.com/Clera/1c3eb725-b3e0-414b-9a88-5fb6d6d785c7 | Clera | ML Intern | remote | posted: 2026-11-10
+
 ## Processed
