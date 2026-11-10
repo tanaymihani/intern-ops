@@ -423,4 +423,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Spring-Texas-United-States-of-America/Strategic-Sourcing-AI---Automation-Intern_1213039 | hpe | Strategic Sourcing AI & Automation Intern | Spring, Texas, United States of America | posted: 2026-11-10
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655-3 | salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
+- [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655 | salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
+- [ ] https://salesforce.wd12.myworkdayjobs.com/salesforce_research/job/California---Palo-Alto/Summer-2027-Intern---AI-Foundry-Incubation_JR366655-2 | salesforce | Summer 2027 Intern - AI Foundry Incubation | 2 Locations | posted: 2026-11-10
+
 ## Processed
