@@ -117,4 +117,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://epicgames.com/careers/jobs/6251540004?gh_jid=6251540004 | Epic Games | AI Programmer Intern | Cary,North Carolina,United States | posted: 2026-11-09
 - [ ] https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005 | The New York Times | ML Scientist Intern | New York, NY | posted: 2026-11-09
 
+- [ ] https://job-boards.greenhouse.io/addepar1/jobs/8927543002 | Addepar | AI Engineering Intern - Summer 2027 | New York, NY | posted: 2026-11-10
+
 ## Processed
