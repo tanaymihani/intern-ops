@@ -434,4 +434,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643-1 | salesforce | AI Labs Rotational Fellowship, Emerging Talent | 3 Locations | posted: 2026-11-10
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643 | salesforce | AI Labs Rotational Fellowship, Emerging Talent | 3 Locations | posted: 2026-11-10
 
+- [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3 | salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-10
+
 ## Processed
