@@ -444,4 +444,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Santa-Clara-California/Quantitative-Summer-Associate_R0005746 | americancentury | Quantitative Summer Associate | Santa Clara, California | posted: 2026-11-11
 
+- [ ] https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/Data-Science-Intern_JR-25360 | bloomenergy | Data Science Intern | San Jose, California | posted: 2026-11-11
+
 ## Processed
