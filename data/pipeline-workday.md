@@ -436,4 +436,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://salesforce.wd12.myworkdayjobs.com/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3 | salesforce | Summer 2027 Intern - Applied AI Strategy & Research | California - San Francisco | posted: 2026-11-10
 
+- [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Biostatistics-and-Analytical-Data-Sciences_202611-128787 | roche | 2027 Summer Intern - Biostatistics and Analytical Data Sciences | South San Francisco | posted: 2026-11-11
+
 ## Processed
