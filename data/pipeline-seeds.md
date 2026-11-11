@@ -122,4 +122,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
 - [ ] https://jobs.ashbyhq.com/G2/64dcc04a-a0e7-493b-b899-dd4c56e561fd | g2 | Intern, AI Agent Evaluations | San Francisco, CA | posted: 2026-11-09
 
+- [ ] https://www.riotgames.com/en/work-with-us/job/8356771?gh_jid=8356771 | Riot Games | Machine Learning Engineering Intern (Masters/PhD) - Summer 2027 | Los Angeles, USA | posted: 2026-11-11
+
 ## Processed
