@@ -438,4 +438,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Biostatistics-and-Analytical-Data-Sciences_202611-128787 | roche | 2027 Summer Intern - Biostatistics and Analytical Data Sciences | South San Francisco | posted: 2026-11-11
 
+- [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---Digital--AI--and-Clinical-Outcome-Assessments_202611-128790 | roche | 2027 Summer Intern - Digital, AI, and Clinical Outcome Assessments | South San Francisco | posted: 2026-11-11
+
 ## Processed
