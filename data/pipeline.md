@@ -235,3 +235,5 @@
 - [ ] https://epicgames.com/careers/jobs/6251540004?gh_jid=6251540004 | Epic Games | AI Programmer Intern | Cary,North Carolina,United States | posted: 2026-11-09
 
 - [ ] https://job-boards.greenhouse.io/addepar1/jobs/8927543002 | Addepar | AI Engineering Intern - Summer 2027 | New York, NY | posted: 2026-11-10
+
+- [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
