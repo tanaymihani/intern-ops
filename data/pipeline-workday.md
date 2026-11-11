@@ -448,4 +448,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hubinternational.wd1.myworkdayjobs.com/hubinternational/job/Chicago-IL/AI-Engineering-Intern_R0039470 | hubinternational | AI Engineering Intern | Chicago, IL | posted: 2026-11-11
 
+- [ ] https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362 | bloomenergy | RMCC Data Science Intern | San Jose, California | posted: 2026-11-11
+
 ## Processed
