@@ -442,4 +442,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/Boston/XMLNAME-2027-Summer-Intern---Product-Development-Data-Sciences_202611-128802 | roche | 2027 Summer Intern - Product Development Data Sciences | Boston | posted: 2026-11-11
 
+- [ ] https://americancentury.wd5.myworkdayjobs.com/americancenturyinvestments/job/Santa-Clara-California/Quantitative-Summer-Associate_R0005746 | americancentury | Quantitative Summer Associate | Santa Clara, California | posted: 2026-11-11
+
 ## Processed
