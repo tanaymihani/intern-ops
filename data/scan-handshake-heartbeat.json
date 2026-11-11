@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-11T03:13:53.600Z",
+  "at": "2026-11-11T07:04:41.889Z",
   "exitCode": 0,
-  "elapsedSec": 103,
+  "elapsedSec": 109,
   "newMatches": 43,
   "total": 43,
-  "scanned": 264,
+  "scanned": 266,
   "perQuery": {
     "machine learning": 50,
     "artificial intelligence": 50,
@@ -17,6 +17,6 @@
     "algorithmic trading": 11
   },
   "loginWall": false,
-  "lastOkAt": "2026-11-11T03:13:53.600Z",
+  "lastOkAt": "2026-11-11T07:04:41.889Z",
   "mode": "handshake-own-session"
 }
