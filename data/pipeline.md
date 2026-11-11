@@ -239,3 +239,5 @@
 - [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
 
 - [ ] https://www.riotgames.com/en/work-with-us/job/8356771?gh_jid=8356771 | Riot Games | Machine Learning Engineering Intern (Masters/PhD) - Summer 2027 | Los Angeles, USA | posted: 2026-11-11
+
+- [ ] https://www.stepstonegroup.com/current-opportunities/?gh_jid=8368989 | StepStone Group | 2027 AI Quant Summer Analyst | La Jolla | posted: 2026-11-11
