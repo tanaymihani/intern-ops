@@ -237,3 +237,5 @@
 - [ ] https://job-boards.greenhouse.io/addepar1/jobs/8927543002 | Addepar | AI Engineering Intern - Summer 2027 | New York, NY | posted: 2026-11-10
 
 - [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
+
+- [ ] https://www.riotgames.com/en/work-with-us/job/8356771?gh_jid=8356771 | Riot Games | Machine Learning Engineering Intern (Masters/PhD) - Summer 2027 | Los Angeles, USA | posted: 2026-11-11
