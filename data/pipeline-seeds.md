@@ -119,4 +119,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/addepar1/jobs/8927543002 | Addepar | AI Engineering Intern - Summer 2027 | New York, NY | posted: 2026-11-10
 
+- [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
+- [ ] https://jobs.ashbyhq.com/G2/64dcc04a-a0e7-493b-b899-dd4c56e561fd | g2 | Intern, AI Agent Evaluations | San Francisco, CA | posted: 2026-11-09
+
 ## Processed
