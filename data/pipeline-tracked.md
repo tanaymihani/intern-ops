@@ -696,4 +696,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/skydio/c85af510-9fe4-4167-a914-c3ab344bef03 | Skydio | Middleware Software Engineer Intern - Summer 2027 | San Mateo, California, United States | posted: 2026-11-10
 
+- [ ] https://job-boards.greenhouse.io/bridgewater89/jobs/8937917002 | Bridgewater Associates | 2028 Investment Associate Intern | New York City | posted: 2026-11-11
+
 ## Processed
