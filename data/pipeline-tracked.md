@@ -700,4 +700,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/ServiceNow/744000161209600 | ServiceNow | Assoc AI Engineering (Cloud Security Automation) Intern | Santa Clara, CALIFORNIA, United States | posted: 2026-11-12
 
+- [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4727539006 | SharkNinja | Summer 2027: Data Science Intern (May to August) | Needham, MA, United States | posted: 2026-11-12
+
 ## Processed
