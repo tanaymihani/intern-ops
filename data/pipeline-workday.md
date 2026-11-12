@@ -454,4 +454,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Agentic-AI-Analytics-Co-op_R0277797 | freseniusmedicalcare | Agentic AI Analytics Co-op | Lawrence, MA, USA | posted: 2026-11-12
 
+- [ ] https://nrel.wd5.myworkdayjobs.com/nlr/job/Remote-Site/Year-Round-Graduate-Internship---AI-Machine-Learning-Time-Series-Modeling_R14589 | nrel | Year-Round Graduate Internship - AI/Machine Learning Time Series Modeling | Remote Site | posted: 2026-11-12
+
 ## Processed
