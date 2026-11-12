@@ -709,4 +709,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.lever.co/shieldai/1bcb2094-e52d-4af9-9eee-2bcd655536ca | Shield AI | 2027 Summer Intern - Solution Systems Engineer (6537, 6540, 6541) | San Diego, California; Washington, D.C. | posted: 2026-11-12
 
+- [ ] https://astrazeneca.wd3.myworkdayjobs.com/careers/job/US---Boston---MA/Summer-2027-Quantitative-Intern-PhD_R-264278 | AstraZeneca | Summer 2027 Quantitative Intern PhD | US - Boston - MA | posted: 2026-11-12
+
 ## Processed
