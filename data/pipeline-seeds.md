@@ -127,4 +127,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003 | Samsung Semiconductor | Intern, AI System Architecture Research Scientist | San Jose, California, United States | posted: 2026-11-11
 - [ ] https://www.stepstonegroup.com/current-opportunities/?gh_jid=8368989 | StepStone Group | 2027 AI Quant Summer Analyst | La Jolla | posted: 2026-11-11
 
+- [ ] https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4727539006 | SharkNinja | Summer 2027: Data Science Intern (May to August) | Needham, MA, United States | posted: 2026-11-12
+
 ## Processed
