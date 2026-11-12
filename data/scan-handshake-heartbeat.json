@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-12T14:56:22.728Z",
+  "at": "2026-11-12T20:26:18.494Z",
   "exitCode": 0,
-  "elapsedSec": 117,
-  "newMatches": 54,
-  "total": 54,
-  "scanned": 273,
+  "elapsedSec": 118,
+  "newMatches": 56,
+  "total": 56,
+  "scanned": 287,
   "perQuery": {
     "machine learning": 50,
     "artificial intelligence": 50,
@@ -13,10 +13,10 @@
     "computer vision": 49,
     "research scientist": 50,
     "quantitative": 50,
-    "quant trading": 24,
-    "algorithmic trading": 28
+    "quant trading": 23,
+    "algorithmic trading": 29
   },
   "loginWall": false,
-  "lastOkAt": "2026-11-12T14:56:22.728Z",
+  "lastOkAt": "2026-11-12T20:26:18.494Z",
   "mode": "handshake-own-session"
 }
