@@ -450,4 +450,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/RMCC-Data-Science-Intern_JR-25362 | bloomenergy | RMCC Data Science Intern | San Jose, California | posted: 2026-11-11
 
+- [ ] https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361 | bloomenergy | AI Solutions Engineer Intern | San Jose, California | posted: 2026-11-12
+
 ## Processed
