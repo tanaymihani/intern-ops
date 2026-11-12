@@ -452,4 +452,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://bloomenergy.wd1.myworkdayjobs.com/bloomenergycareers/job/San-Jose-California/AI-Solutions-Engineer-Intern_JR-25361 | bloomenergy | AI Solutions Engineer Intern | San Jose, California | posted: 2026-11-12
 
+- [ ] https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Agentic-AI-Analytics-Co-op_R0277797 | freseniusmedicalcare | Agentic AI Analytics Co-op | Lawrence, MA, USA | posted: 2026-11-12
+
 ## Processed
