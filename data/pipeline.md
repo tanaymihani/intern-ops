@@ -248,3 +248,5 @@
 
 - [ ] https://jobs.lever.co/zoox/79cd1de5-c540-4917-8820-960f65fb8f9e | zoox | Contract Student Worker - Machine Learning Engineer | Boston, MA; Foster City, CA; Seattle, WA; San Diego, CA | posted: 2026-11-12
 - [ ] https://jobs.lever.co/zoox/54be0f19-9a45-466d-89bc-bc72dd3f9d68 | zoox | Contract Student Worker – Firmware Engineer (FW Core System Services) | Foster City, CA; San Diego, CA; Seattle, WA | posted: 2026-11-11
+
+- [ ] https://job-boards.greenhouse.io/stackav/jobs/5287594007 | Stack AV | Research Intern (PhD), Autonomy | Pittsburgh, PA or Remote (US) | posted: 2026-11-12
