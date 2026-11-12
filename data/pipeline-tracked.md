@@ -711,4 +711,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://astrazeneca.wd3.myworkdayjobs.com/careers/job/US---Boston---MA/Summer-2027-Quantitative-Intern-PhD_R-264278 | AstraZeneca | Summer 2027 Quantitative Intern PhD | US - Boston - MA | posted: 2026-11-12
 
+- [ ] https://astrazeneca.wd3.myworkdayjobs.com/careers/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1 | AstraZeneca | Summer 2027 Innovation and AI Transformation Intern | US - Boston - MA | posted: 2026-11-12
+
 ## Processed
