@@ -260,3 +260,5 @@
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003 | Samsung Semiconductor | Intern, AI Systems Performance Engineer | San Jose, California, United States | posted: 2026-11-13
 
 - [ ] https://job-boards.greenhouse.io/arcesiumllc/jobs/5257251007 | Arcesium LLC | AI Transformation Intern | New York | posted: 2026-11-11
+
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Neuroscience | Seattle, WA | posted: 2026-11-13
