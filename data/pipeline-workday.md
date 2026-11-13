@@ -464,4 +464,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877 | cigna | Graduate AI/Machine Learning Engineer Intern (TX, NJ, MO) | 3 Locations | posted: 2026-11-13
 
+- [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717 | asml | Internship - EUV Data Science and Analytics | Austin, TX, USA | posted: 2026-11-13
+
 ## Processed
