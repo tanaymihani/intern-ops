@@ -456,4 +456,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nrel.wd5.myworkdayjobs.com/nlr/job/Remote-Site/Year-Round-Graduate-Internship---AI-Machine-Learning-Time-Series-Modeling_R14589 | nrel | Year-Round Graduate Internship - AI/Machine Learning Time Series Modeling | Remote Site | posted: 2026-11-12
 
+- [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Data-Scientist_J-00356462 | asml | Internship - Data Scientist | Wilton, CT, USA | posted: 2026-11-13
+
 ## Processed
