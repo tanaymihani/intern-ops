@@ -460,4 +460,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W | corteva | R & D Intern - Computer & Data Science | Indianapolis, Indiana, United States | posted: 2026-11-13
 
+- [ ] https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519 | freseniusmedicalcare | Analytics and AI Business Analyst Co-op | Lawrence, MA, USA | posted: 2026-11-13
+
 ## Processed
