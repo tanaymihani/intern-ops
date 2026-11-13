@@ -255,3 +255,6 @@
 
 - [ ] https://www.tower-research.com/open-positions/?gh_jid=8372658 | Tower Research Capital | Finance Intern | New York | posted: 2026-11-10
 - [ ] https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005 | The New York Times | ML Scientist Intern | New York, NY | posted: 2026-11-09
+
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003 | Samsung Semiconductor | Intern, ML Compiler (Kernel Auto-Tuning) | San Jose, California, United States | posted: 2026-11-13
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003 | Samsung Semiconductor | Intern, AI Systems Performance Engineer | San Jose, California, United States | posted: 2026-11-13
