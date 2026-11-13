@@ -720,4 +720,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Neuroscience | Seattle, WA | posted: 2026-11-13
 
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000161594249 | ServiceNow | AI Identity Intern | Kirkland, Washington, United States | posted: 2026-11-13
+
 ## Processed
