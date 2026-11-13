@@ -716,4 +716,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.smartrecruiters.com/ServiceNow/744000161548289 | ServiceNow | AI Security Engineer Intern | San Diego, California, United States | posted: 2026-11-13
 - [ ] https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2 | Horizon3.ai | Research Intern, Adversarial Intelligence | Chicago, Illinois · West Lafayette, Indiana | posted: 2026-11-13
 
+- [ ] https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Operations-Intern--AI-Tool-Integration-and-Operational-Testing---Summer-2027_334905-1 | CACI | Operations Intern (AI Tool Integration and Operational Testing - Summer 2027 | 2 Locations | posted: 2026-11-13
+
 ## Processed
