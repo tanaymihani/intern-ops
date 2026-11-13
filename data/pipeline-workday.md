@@ -458,4 +458,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/Wilton-CT-USA/Internship---Data-Scientist_J-00356462 | asml | Internship - Data Scientist | Wilton, CT, USA | posted: 2026-11-13
 
+- [ ] https://corteva.wd5.myworkdayjobs.com/corteva/job/Indianapolis-Indiana-United-States/R---D-Intern---Computer---Data-Science_248131W | corteva | R & D Intern - Computer & Data Science | Indianapolis, Indiana, United States | posted: 2026-11-13
+
 ## Processed
