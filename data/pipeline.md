@@ -252,3 +252,6 @@
 - [ ] https://job-boards.greenhouse.io/stackav/jobs/5287594007 | Stack AV | Research Intern (PhD), Autonomy | Pittsburgh, PA or Remote (US) | posted: 2026-11-12
 
 - [ ] https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008 | Lightmatter | Data & AI Platform, Intern - Summer 2027 | Boston, MA | posted: 2026-11-12
+
+- [ ] https://www.tower-research.com/open-positions/?gh_jid=8372658 | Tower Research Capital | Finance Intern | New York | posted: 2026-11-10
+- [ ] https://job-boards.greenhouse.io/thenewyorktimes/jobs/4752926005 | The New York Times | ML Scientist Intern | New York, NY | posted: 2026-11-09
