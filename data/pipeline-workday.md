@@ -462,4 +462,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/Analytics-and-AI-Business-Analyst-Co-op_R0277519 | freseniusmedicalcare | Analytics and AI Business Analyst Co-op | Lawrence, MA, USA | posted: 2026-11-13
 
+- [ ] https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Austin-TX/AI-ML-Engineer-Intern_26010877 | cigna | Graduate AI/Machine Learning Engineer Intern (TX, NJ, MO) | 3 Locations | posted: 2026-11-13
+
 ## Processed
