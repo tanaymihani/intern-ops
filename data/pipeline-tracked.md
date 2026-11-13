@@ -718,4 +718,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Operations-Intern--AI-Tool-Integration-and-Operational-Testing---Summer-2027_334905-1 | CACI | Operations Intern (AI Tool Integration and Operational Testing - Summer 2027 | 2 Locations | posted: 2026-11-13
 
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Neuroscience | Seattle, WA | posted: 2026-11-13
+
 ## Processed
