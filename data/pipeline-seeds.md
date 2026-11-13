@@ -136,4 +136,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://boards.greenhouse.io/lightmatter/jobs/5474807008?gh_jid=5474807008 | Lightmatter | Data & AI Platform, Intern - Summer 2027 | Boston, MA | posted: 2026-11-12
 
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003 | Samsung Semiconductor | Intern, ML Compiler (Kernel Auto-Tuning) | San Jose, California, United States | posted: 2026-11-13
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003 | Samsung Semiconductor | Intern, AI Systems Performance Engineer | San Jose, California, United States | posted: 2026-11-13
+
 ## Processed
