@@ -713,4 +713,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://astrazeneca.wd3.myworkdayjobs.com/careers/job/US---Boston---MA/Summer-2027-Innovation-and-AI-Transformation-Intern_R-264282-1 | AstraZeneca | Summer 2027 Innovation and AI Transformation Intern | US - Boston - MA | posted: 2026-11-12
 
+- [ ] https://jobs.smartrecruiters.com/ServiceNow/744000161548289 | ServiceNow | AI Security Engineer Intern | San Diego, California, United States | posted: 2026-11-13
+- [ ] https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2 | Horizon3.ai | Research Intern, Adversarial Intelligence | Chicago, Illinois · West Lafayette, Indiana | posted: 2026-11-13
+
 ## Processed
