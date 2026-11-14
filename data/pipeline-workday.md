@@ -466,4 +466,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717 | asml | Internship - EUV Data Science and Analytics | Austin, TX, USA | posted: 2026-11-13
 
+- [ ] https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Operations-Intern--AI-Tool-Integration-and-Operational-Testing---Summer-2027_334905-1 | caci | Operations Intern (AI Tool Integration and Operational Testing - Summer 2027 | 2 Locations | posted: 2026-11-14
+
 ## Processed
