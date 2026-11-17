@@ -724,4 +724,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Intern_REQ381273 | Tmobile | Summer 2027 Software Engineering AI Intern | Atlanta, Georgia | posted: 2026-11-17
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2030004 | NVIDIA | PhD Research Intern, AI for Climate and Weather Simulation - 2027 | 2 Locations | posted: 2026-11-17
+
 ## Processed
