@@ -722,4 +722,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/ServiceNow/744000161594249 | ServiceNow | AI Identity Intern | Kirkland, Washington, United States | posted: 2026-11-13
 
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Intern_REQ381273 | Tmobile | Summer 2027 Software Engineering AI Intern | Atlanta, Georgia | posted: 2026-11-17
+
 ## Processed
