@@ -264,3 +264,5 @@
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636 | The Allen Institute for Artificial Intelligence | Research Internship, AI for Neuroscience | Seattle, WA | posted: 2026-11-13
 
 - [ ] https://job-boards.greenhouse.io/familyoffice/jobs/8202862003 | Soros Fund Management | Trading, Middle and Back Office Dev – Summer Intern 2027 | New York | posted: 2026-11-13
+
+- [ ] https://job-boards.greenhouse.io/familyoffice/jobs/8202834003 | Soros Fund Management | Quantitative Strategist Intern | New York | posted: 2026-11-17
