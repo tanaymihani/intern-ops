@@ -728,4 +728,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/United-States---Remote/Grad-Intern---Knowledge-Graph-Applications--Summer-2027-_R-260625 | Amgen | Grad Intern – AI-Enabled Knowledge Graphs for Patient Journey Analytics (Summer 2027) | United States - Remote | posted: 2026-11-17
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/HPE-Labs---AI-Enablement-Intern_1217939 | Hewlett Packard Enterprise | HPE Labs - AI Enablement Intern | Milpitas, California, United States of America | posted: 2026-11-17
+
 ## Processed
