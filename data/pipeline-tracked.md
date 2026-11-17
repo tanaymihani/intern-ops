@@ -730,4 +730,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/HPE-Labs---AI-Enablement-Intern_1217939 | Hewlett Packard Enterprise | HPE Labs - AI Enablement Intern | Milpitas, California, United States of America | posted: 2026-11-17
 
+- [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---South-San-Francisco/Grad-Intern---Quantitative-Pharmacology--Summer-2027-_R-261804 | Amgen | Grad Intern - Quantitative Pharmacology (Summer 2027) | US - California - South San Francisco | posted: 2026-11-17
+
 ## Processed
