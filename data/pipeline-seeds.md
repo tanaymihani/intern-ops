@@ -146,4 +146,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/familyoffice/jobs/8202834003 | Soros Fund Management | Quantitative Strategist Intern | New York | posted: 2026-11-17
 
+- [ ] https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007 | Anduril Industries | 2027 Machine Learning Engineer Intern | Santa Ana, California, United States | posted: 2026-11-17
+
 ## Processed
