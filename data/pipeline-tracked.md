@@ -732,4 +732,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---South-San-Francisco/Grad-Intern---Quantitative-Pharmacology--Summer-2027-_R-261804 | Amgen | Grad Intern - Quantitative Pharmacology (Summer 2027) | US - California - South San Francisco | posted: 2026-11-17
 
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Cambridge-Massachusetts/AI-Engineering-Intern---Full-time-Internship--Jan---June-2027-_R-801273 | Statestreet | AI Engineering Intern - Full-time Internship (Jan - June 2027) | Cambridge, Massachusetts | posted: 2026-11-18
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213 | Statestreet | State Street Investment Management - Data Scientist - Summer Internship 2027 | Boston, Massachusetts | posted: 2026-11-17
+
 ## Processed
