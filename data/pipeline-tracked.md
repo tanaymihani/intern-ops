@@ -737,4 +737,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.eu.lever.co/cirrus/c5c67b95-e487-470b-97db-4c84e78e7f61 | Cirrus Logic | 2027 Internship - Software Engineer (AI/ML) | Austin, Texas | posted: 2026-11-18
 
+- [ ] https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/New-York---300-Vesey-Street/Quantitative-Data---AI-Analytics-Intern---Year-Round_35061 | CME Group | Quantitative Data & AI Analytics Intern - Year Round | New York - 300 Vesey Street | posted: 2026-11-18
+
 ## Processed
