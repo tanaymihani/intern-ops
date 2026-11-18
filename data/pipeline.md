@@ -268,3 +268,5 @@
 - [ ] https://job-boards.greenhouse.io/familyoffice/jobs/8202834003 | Soros Fund Management | Quantitative Strategist Intern | New York | posted: 2026-11-17
 
 - [ ] https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007 | Anduril Industries | 2027 Machine Learning Engineer Intern | Santa Ana, California, United States | posted: 2026-11-17
+
+- [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208494003 | Samsung Semiconductor | Intern, Architecture Research Engineer (MoE Placement for Serving at Scale) | San Jose, California, United States | posted: 2026-11-18
