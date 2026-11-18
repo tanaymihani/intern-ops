@@ -739,4 +739,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/New-York---300-Vesey-Street/Quantitative-Data---AI-Analytics-Intern---Year-Round_35061 | CME Group | Quantitative Data & AI Analytics Intern - Year Round | New York - 300 Vesey Street | posted: 2026-11-18
 
+- [ ] https://jobs.ashbyhq.com/Crusoe/8d1d162e-7bed-44fb-aff8-6af75b62937b | Crusoe | AI Applied Research PhD Intern, Summer 2027 | San Francisco, CA - US · Sunnyvale, CA - US · Sunnyvale · United States | posted: 2026-11-18
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Austin-Texas/AI-Security---Cybersecurity--Technology-Intern---Full-time-Internship--Jan--June-2027-_R-801284 | Statestreet | AI Security & Cybersecurity, Technology Intern - Full-time Internship (Jan -June 2027) | 3 Locations | posted: 2026-11-18
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Burlington-Massachusetts/Agentic-AI-Engineering--Technology-Intern---Full-time-Internship--Jan---June-2027-_R-801282 | Statestreet | Agentic AI Engineering, Technology Intern - Full-time Internship (Jan - June 2027) | 2 Locations | posted: 2026-11-18
+
 ## Processed
