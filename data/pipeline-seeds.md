@@ -155,4 +155,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/Crusoe/8d1d162e-7bed-44fb-aff8-6af75b62937b | crusoe | AI Applied Research PhD Intern, Summer 2027 | San Francisco, CA - US · Sunnyvale, CA - US · Sunnyvale · United States | posted: 2026-11-18
 - [ ] https://job-boards.greenhouse.io/integra/jobs/5487065008 | Integra FEC | Junior Data Scientist (Summer 2027) | Austin, Texas | posted: 2026-11-18
 
+- [ ] https://jobs.ashbyhq.com/inferact/2b6032f9-12a5-4083-b5e6-4bec5376cbaa | inferact | Inference Engineering, Co-op | San Francisco | posted: 2026-11-19
+
 ## Processed
