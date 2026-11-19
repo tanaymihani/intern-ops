@@ -157,4 +157,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/inferact/2b6032f9-12a5-4083-b5e6-4bec5376cbaa | inferact | Inference Engineering, Co-op | San Francisco | posted: 2026-11-19
 
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
+
 ## Processed
