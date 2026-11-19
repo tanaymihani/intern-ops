@@ -747,4 +747,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://transunion.wd5.myworkdayjobs.com/transunion/job/Chicago-Illinois/Data-Science---Analytics-Internship---Summer-2027_19043450 | Transunion | Data Science & Analytics Internship - Summer 2027 | Chicago, Illinois | posted: 2026-11-19
 
+- [ ] https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907 | Snowflake | Software Engineer Intern (AI / ML) - Summer 2027 | US-CA-Menlo Park · US-WA-Bellevue · Bellevue · United States | posted: 2026-11-19
+
 ## Processed
