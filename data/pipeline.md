@@ -279,3 +279,5 @@
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003 | Samsung Semiconductor | Intern, Architecture Research Engineer (Agentic AI Workload Characterization) | San Jose, California, United States | posted: 2026-11-18
 
 - [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
+
+- [ ] https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907 | snowflake | Software Engineer Intern (AI / ML) - Summer 2027 | US-CA-Menlo Park · US-WA-Bellevue · Bellevue · United States | posted: 2026-11-19
