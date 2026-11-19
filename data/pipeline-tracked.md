@@ -751,4 +751,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://careers.withwaymo.com/jobs?gh_jid=8401116 | Waymo | 2027 Summer Intern, PhD, Agentic AI | Mountain View, California, United States | posted: 2026-11-19
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California/AI-Engineering-Technical-Intern_1218702 | Hewlett Packard Enterprise | AI Engineering Technical Intern | Sunnyvale, California | posted: 2026-11-19
+
 ## Processed
