@@ -745,4 +745,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
 
+- [ ] https://transunion.wd5.myworkdayjobs.com/transunion/job/Chicago-Illinois/Data-Science---Analytics-Internship---Summer-2027_19043450 | Transunion | Data Science & Analytics Internship - Summer 2027 | Chicago, Illinois | posted: 2026-11-19
+
 ## Processed
