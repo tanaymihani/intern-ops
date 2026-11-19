@@ -743,4 +743,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Austin-Texas/AI-Security---Cybersecurity--Technology-Intern---Full-time-Internship--Jan--June-2027-_R-801284 | Statestreet | AI Security & Cybersecurity, Technology Intern - Full-time Internship (Jan -June 2027) | 3 Locations | posted: 2026-11-18
 - [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Burlington-Massachusetts/Agentic-AI-Engineering--Technology-Intern---Full-time-Internship--Jan---June-2027-_R-801282 | Statestreet | Agentic AI Engineering, Technology Intern - Full-time Internship (Jan - June 2027) | 2 Locations | posted: 2026-11-18
 
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
+
 ## Processed
