@@ -277,3 +277,5 @@
 
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003 | Samsung Semiconductor | Intern, LLM Inference Acceleration Architecture (Distributed Memory-Centric Accelerators) | San Jose, California, United States | posted: 2026-11-18
 - [ ] https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003 | Samsung Semiconductor | Intern, Architecture Research Engineer (Agentic AI Workload Characterization) | San Jose, California, United States | posted: 2026-11-18
+
+- [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
