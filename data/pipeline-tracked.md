@@ -756,4 +756,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162623639 | LinkedIn3 | AI/ML Engineer Intern – Generative AI, PhD – Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
 - [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162623368 | LinkedIn3 | AI/ML Engineer Intern – Search and Recommender Systems, PhD – Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
 
+- [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162628808 | LinkedIn3 | AI/ML Engineer Intern, Master's - Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
+
 ## Processed
