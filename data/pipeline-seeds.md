@@ -162,4 +162,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907 | snowflake | Software Engineer Intern (AI / ML) - Summer 2027 | US-CA-Menlo Park · US-WA-Bellevue · Bellevue · United States | posted: 2026-11-19
 - [ ] https://job-boards.greenhouse.io/scoutspace/jobs/5489231008 | Scout Space | Computer Vision (AI/ML) Engineering Intern (Summer 2027) | Reston, VA - Remote | posted: 2026-11-19
 
+- [ ] https://jobs.ashbyhq.com/opusclip/1966160d-8b4a-40f8-96c5-39a6d81122c2 | opusclip | AI Research Intern | Mountain View · Remote · United States | posted: 2026-11-20
+
 ## Processed
