@@ -159,4 +159,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.mongodb.com/careers/job/?gh_jid=8346138 | MongoDB | 2027 - AI and People Transformation Intern, NYC | New York City | posted: 2026-11-19
 
+- [ ] https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907 | snowflake | Software Engineer Intern (AI / ML) - Summer 2027 | US-CA-Menlo Park · US-WA-Bellevue · Bellevue · United States | posted: 2026-11-19
+- [ ] https://job-boards.greenhouse.io/scoutspace/jobs/5489231008 | Scout Space | Computer Vision (AI/ML) Engineering Intern (Summer 2027) | Reston, VA - Remote | posted: 2026-11-19
+
 ## Processed
