@@ -762,4 +762,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067 | Tmobile | Summer 2027 Software Engineering AI Internship | Atlanta, Georgia | posted: 2026-11-20
 - [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239 | Tmobile | Summer 2027 AI Engineering Internship - Site Reliability & Automation | Atlanta, Georgia | posted: 2026-11-20
 
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Boston-Massachusetts/State-Street-Model-Risk-Management---Quantitative-Analyst---2027-Summer-Internship_R-801343 | Statestreet | State Street Model Risk Management - Quantitative Analyst - 2027 Summer Internship | Boston, Massachusetts | posted: 2026-11-20
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Boston-Massachusetts/State-Street-s-Model-Risk-Management---Quantitative-Analyst---2027-Summer-Internship_R-801342 | Statestreet | State Street’s Model Risk Management - Quantitative Analyst - 2027 Summer Internship | Boston, Massachusetts | posted: 2026-11-20
+
 ## Processed
