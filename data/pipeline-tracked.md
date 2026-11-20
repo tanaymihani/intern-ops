@@ -753,4 +753,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Sunnyvale-California/AI-Engineering-Technical-Intern_1218702 | Hewlett Packard Enterprise | AI Engineering Technical Intern | Sunnyvale, California | posted: 2026-11-19
 
+- [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162623639 | LinkedIn3 | AI/ML Engineer Intern – Generative AI, PhD – Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
+- [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162623368 | LinkedIn3 | AI/ML Engineer Intern – Search and Recommender Systems, PhD – Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
+
 ## Processed
