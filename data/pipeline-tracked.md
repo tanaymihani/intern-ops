@@ -767,4 +767,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Clifton-New-Jersey/State-Street-Enterprise-Risk-Management---Quantitative-Risk-Internship---2027-Summer-Internship_R-801341 | Statestreet | State Street Enterprise Risk Management - Quantitative Risk Internship - 2027 Summer Internship | Clifton, New Jersey | posted: 2026-11-20
 
+- [ ] https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-2 | Rockwell Automation | Intern - ISM, Cyber Security and AI | Mayfield Heights, Ohio, United States | posted: 2026-11-20
+
 ## Processed
