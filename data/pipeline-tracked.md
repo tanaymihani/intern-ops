@@ -765,4 +765,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Boston-Massachusetts/State-Street-Model-Risk-Management---Quantitative-Analyst---2027-Summer-Internship_R-801343 | Statestreet | State Street Model Risk Management - Quantitative Analyst - 2027 Summer Internship | Boston, Massachusetts | posted: 2026-11-20
 - [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Boston-Massachusetts/State-Street-s-Model-Risk-Management---Quantitative-Analyst---2027-Summer-Internship_R-801342 | Statestreet | State Street’s Model Risk Management - Quantitative Analyst - 2027 Summer Internship | Boston, Massachusetts | posted: 2026-11-20
 
+- [ ] https://statestreet.wd1.myworkdayjobs.com/global/job/Clifton-New-Jersey/State-Street-Enterprise-Risk-Management---Quantitative-Risk-Internship---2027-Summer-Internship_R-801341 | Statestreet | State Street Enterprise Risk Management - Quantitative Risk Internship - 2027 Summer Internship | Clifton, New Jersey | posted: 2026-11-20
+
 ## Processed
