@@ -769,4 +769,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://rockwellautomation.wd1.myworkdayjobs.com/external_rockwell_automation/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-2 | Rockwell Automation | Intern - ISM, Cyber Security and AI | Mayfield Heights, Ohio, United States | posted: 2026-11-20
 
+- [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8404052 | The Allen Institute for Artificial Intelligence | Research Internship, Climate Modeling | Seattle, WA | posted: 2026-11-20
+
 ## Processed
