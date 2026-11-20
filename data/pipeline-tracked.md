@@ -771,4 +771,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/thealleninstitute/jobs/8404052 | The Allen Institute for Artificial Intelligence | Research Internship, Climate Modeling | Seattle, WA | posted: 2026-11-20
 
+- [ ] https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Markets---Quantitative-Analysis--Summer-Analyst---New-York-City---US--2027_25928747 | Citi | Markets - Quantitative Analysis, Summer Analyst - New York City - US, 2027 | New York New York United States | posted: 2026-11-20
+
 ## Processed
