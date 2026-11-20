@@ -758,4 +758,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.smartrecruiters.com/LinkedIn3/744000162628808 | LinkedIn3 | AI/ML Engineer Intern, Master's - Summer 2027 (Mountain View, CA) | Mountain View, CA, United States | posted: 2026-11-20
 
+- [ ] https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/HPE-Labs---Business-Analyst-Intern---AI-and-Data-Science_1217924 | Hewlett Packard Enterprise | HPE Labs – Business Analyst Intern – AI and Data Science | 2 Locations | posted: 2026-11-20
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-AI-Internship_REQ382067 | Tmobile | Summer 2027 Software Engineering AI Internship | Atlanta, Georgia | posted: 2026-11-20
+- [ ] https://tmobile.wd1.myworkdayjobs.com/external/job/Atlanta-Georgia/Summer-2027-AI-Engineering-Internship---Site-Reliability---Automation_REQ383239 | Tmobile | Summer 2027 AI Engineering Internship - Site Reliability & Automation | Atlanta, Georgia | posted: 2026-11-20
+
 ## Processed
