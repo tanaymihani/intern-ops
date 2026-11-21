@@ -287,3 +287,5 @@
 - [ ] https://jobs.ashbyhq.com/opusclip/1966160d-8b4a-40f8-96c5-39a6d81122c2 | opusclip | AI Research Intern | Mountain View · Remote · United States | posted: 2026-11-20
 
 - [ ] https://job-boards.greenhouse.io/biohub/jobs/8400682 | Biohub | AI Research Scientist Intern | New York, NY (Hybrid); Redwood City, CA (Hybrid) | posted: 2026-11-20
+
+- [ ] https://job-boards.greenhouse.io/nerostechnologies/jobs/5273167007 | Neros Technologies | Autonomy Intern - Summer 2027 | Torrance, California, United States | posted: 2026-11-21
