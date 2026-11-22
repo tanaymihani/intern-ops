@@ -1,1405 +1,4 @@
 timestamp	company	status
-2026-11-22T15:13:32.341Z	SWIFT	unknown
-2026-11-22T15:13:32.341Z	Hewlett Packard Enterprise	unknown
-2026-11-22T15:13:32.341Z	Hewlett Packard Enterprise	unknown
-2026-11-22T15:13:32.341Z	CDM Smith	unknown
-2026-11-22T15:13:32.341Z	Michels	reachable
-2026-11-22T15:13:32.341Z	Coffman Engineers	reachable
-2026-11-22T15:13:32.341Z	NCR Voyix	unknown
-2026-11-22T15:13:32.341Z	Fidelity Investments	unknown
-2026-11-22T15:13:32.341Z	Vanden Recycling	reachable
-2026-11-22T15:13:32.341Z	Omnissa	reachable
-2026-11-22T15:13:32.341Z	Varda Space Industries	reachable
-2026-11-22T15:13:32.341Z	Langan	reachable
-2026-11-22T15:13:32.341Z	Accordion	reachable
-2026-11-22T15:13:32.341Z	Acme Corp	slug_gone
-2026-11-22T15:13:32.341Z	Alpaca	reachable
-2026-11-22T15:13:32.341Z	Amperesand	reachable
-2026-11-22T15:13:32.341Z	Applytocuebox	reachable
-2026-11-22T15:13:32.341Z	Aptoslabs	reachable
-2026-11-22T15:13:32.341Z	Armada	reachable
-2026-11-22T15:13:32.341Z	Arvaintelligence	reachable
-2026-11-22T15:13:32.341Z	Aurora Innovation	slug_gone
-2026-11-22T15:13:32.341Z	Bandwidth	reachable
-2026-11-22T15:13:32.341Z	Boxinc	reachable
-2026-11-22T15:13:32.341Z	Btig27	reachable
-2026-11-22T15:13:32.341Z	Calyxo	reachable
-2026-11-22T15:13:32.341Z	Chainguard	reachable
-2026-11-22T15:13:32.341Z	Chime	reachable
-2026-11-22T15:13:32.341Z	Clear	reachable
-2026-11-22T15:13:32.341Z	Clockworksystems	reachable
-2026-11-22T15:13:32.341Z	Cloudflare	unknown
-2026-11-22T15:13:32.341Z	Cssmerge	reachable
-2026-11-22T15:13:32.341Z	Ctccampusboard	reachable
-2026-11-22T15:13:32.341Z	Debtbook	slug_gone
-2026-11-22T15:13:32.341Z	Discord	reachable
-2026-11-22T15:13:32.341Z	Dnsfilter	slug_gone
-2026-11-22T15:13:32.341Z	Drweng	reachable
-2026-11-22T15:13:32.341Z	Flexport	reachable
-2026-11-22T15:13:32.341Z	Flock Homes	reachable
-2026-11-22T15:13:32.341Z	Forwardnetworks	reachable
-2026-11-22T15:13:32.341Z	Fourkites	reachable
-2026-11-22T15:13:32.341Z	Gitlab	reachable
-2026-11-22T15:13:32.341Z	Goldenstate	reachable
-2026-11-22T15:13:32.341Z	Hyannisportresearch	reachable
-2026-11-22T15:13:32.341Z	Impact	reachable
-2026-11-22T15:13:32.341Z	Incidentiq	reachable
-2026-11-22T15:13:32.341Z	Instawork	reachable
-2026-11-22T15:13:32.341Z	Katalyst	reachable
-2026-11-22T15:13:32.341Z	Li Thermal Works	reachable
-2026-11-22T15:13:32.341Z	Lumimeds	reachable
-2026-11-22T15:13:32.341Z	Mitratech	reachable
-2026-11-22T15:13:32.341Z	Mozilla	reachable
-2026-11-22T15:13:32.341Z	Muonspace	reachable
-2026-11-22T15:13:32.341Z	Mw Tech Grad	reachable
-2026-11-22T15:13:32.341Z	Neo4j	reachable
-2026-11-22T15:13:32.341Z	Neweratech	reachable
-2026-11-22T15:13:32.341Z	Nortal	reachable
-2026-11-22T15:13:32.341Z	OneTrust	reachable
-2026-11-22T15:13:32.341Z	Pansophiclearning	reachable
-2026-11-22T15:13:32.341Z	Pathrobotics	reachable
-2026-11-22T15:13:32.341Z	Perfectserve	reachable
-2026-11-22T15:13:32.341Z	Prophet	reachable
-2026-11-22T15:13:32.341Z	Qualia	reachable
-2026-11-22T15:13:32.341Z	Radiclehealth	reachable
-2026-11-22T15:13:32.341Z	Reddit	reachable
-2026-11-22T15:13:32.341Z	Reliant	reachable
-2026-11-22T15:13:32.341Z	Roo	reachable
-2026-11-22T15:13:32.341Z	Scaleai	reachable
-2026-11-22T15:13:32.341Z	Scopely	reachable
-2026-11-22T15:13:32.341Z	Scotch	reachable
-2026-11-22T15:13:32.341Z	Simplisafe	reachable
-2026-11-22T15:13:32.341Z	Slideinsurance	slug_gone
-2026-11-22T15:13:32.341Z	Smartbear	reachable
-2026-11-22T15:13:32.341Z	Smartsheet	reachable
-2026-11-22T15:13:32.341Z	Sonyinteractiveentertainmentglobal	reachable
-2026-11-22T15:13:32.341Z	Thetradedesk	reachable
-2026-11-22T15:13:32.341Z	Theweathercompany	reachable
-2026-11-22T15:13:32.341Z	Togetherai	reachable
-2026-11-22T15:13:32.341Z	Topsort	reachable
-2026-11-22T15:13:32.341Z	Tripledotstudios	reachable
-2026-11-22T15:13:32.341Z	Twilio	reachable
-2026-11-22T15:13:32.341Z	Zyngacareers	reachable
-2026-11-22T15:13:32.341Z	a2z Radiology AI	reachable
-2026-11-22T15:13:32.341Z	AKASA	reachable
-2026-11-22T15:13:32.341Z	Ambrook	reachable
-2026-11-22T15:13:32.341Z	Anomaly	empty
-2026-11-22T15:13:32.341Z	Applied Intuition	reachable
-2026-11-22T15:13:32.341Z	Augmodo	reachable
-2026-11-22T15:13:32.341Z	Beacon AI	reachable
-2026-11-22T15:13:32.341Z	Blissway Inc.	reachable
-2026-11-22T15:13:32.341Z	Blossom Health	reachable
-2026-11-22T15:13:32.341Z	Careerswift	reachable
-2026-11-22T15:13:32.341Z	Centerfield	reachable
-2026-11-22T15:13:32.341Z	Ciridae	reachable
-2026-11-22T15:13:32.341Z	Clark	reachable
-2026-11-22T15:13:32.341Z	Clera	reachable
-2026-11-22T15:13:32.341Z	Cogent Security	reachable
-2026-11-22T15:13:32.341Z	Cohere	reachable
-2026-11-22T15:13:32.341Z	Conversion	reachable
-2026-11-22T15:13:32.341Z	Crogl	reachable
-2026-11-22T15:13:32.341Z	Crusoe	reachable
-2026-11-22T15:13:32.341Z	Edra	reachable
-2026-11-22T15:13:32.341Z	Ent	reachable
-2026-11-22T15:13:32.341Z	Exa	reachable
-2026-11-22T15:13:32.341Z	Exegy	reachable
-2026-11-22T15:13:32.341Z	Finch	reachable
-2026-11-22T15:13:32.341Z	Fireworks	slug_gone
-2026-11-22T15:13:32.341Z	Folio	reachable
-2026-11-22T15:13:32.341Z	Forward Deployed Engineer @ Sift Stack, Inc.	reachable
-2026-11-22T15:13:32.341Z	GovWell	reachable
-2026-11-22T15:13:32.341Z	GrabAGun	reachable
-2026-11-22T15:13:32.341Z	Gumloop	reachable
-2026-11-22T15:13:32.341Z	Harvey	reachable
-2026-11-22T15:13:32.341Z	Hatz AI	empty
-2026-11-22T15:13:32.341Z	Hinge Health	reachable
-2026-11-22T15:13:32.341Z	interface.ai	reachable
-2026-11-22T15:13:32.341Z	Julius AI	reachable
-2026-11-22T15:13:32.341Z	Kustomer	empty
-2026-11-22T15:13:32.341Z	Lambda	reachable
-2026-11-22T15:13:32.341Z	Lightfield	reachable
-2026-11-22T15:13:32.341Z	LiteLLM	reachable
-2026-11-22T15:13:32.341Z	LlamaIndex	reachable
-2026-11-22T15:13:32.341Z	LM Studio	reachable
-2026-11-22T15:13:32.341Z	Melius	reachable
-2026-11-22T15:13:32.341Z	MeridianLink	reachable
-2026-11-22T15:13:32.341Z	MintMCP	slug_gone
-2026-11-22T15:13:32.341Z	Mirage	reachable
-2026-11-22T15:13:32.341Z	Namespace	reachable
-2026-11-22T15:13:32.341Z	Niural	reachable
-2026-11-22T15:13:32.341Z	Northwood Space	reachable
-2026-11-22T15:13:32.341Z	Novig	slug_gone
-2026-11-22T15:13:32.341Z	Nuna	reachable
-2026-11-22T15:13:32.341Z	Ollama	reachable
-2026-11-22T15:13:32.341Z	Oscilar	reachable
-2026-11-22T15:13:32.341Z	Outpost	reachable
-2026-11-22T15:13:32.341Z	Pariveda	reachable
-2026-11-22T15:13:32.341Z	Plane Software, Inc.	reachable
-2026-11-22T15:13:32.341Z	Plaud	reachable
-2026-11-22T15:13:32.341Z	Pogo Technologies, Inc.	reachable
-2026-11-22T15:13:32.341Z	Polymarket	reachable
-2026-11-22T15:13:32.341Z	Reframe Systems	reachable
-2026-11-22T15:13:32.341Z	Retell AI	reachable
-2026-11-22T15:13:32.341Z	Runpod	reachable
-2026-11-22T15:13:32.341Z	Sage Care Inc	reachable
-2026-11-22T15:13:32.341Z	SecureBio	reachable
-2026-11-22T15:13:32.341Z	Snowflake	reachable
-2026-11-22T15:13:32.341Z	SPAN	reachable
-2026-11-22T15:13:32.341Z	Spear AI	reachable
-2026-11-22T15:13:32.341Z	Strala	reachable
-2026-11-22T15:13:32.341Z	Tempo	reachable
-2026-11-22T15:13:32.341Z	Terranova	reachable
-2026-11-22T15:13:32.341Z	Thinking Machines Lab	reachable
-2026-11-22T15:13:32.341Z	Trovy	reachable
-2026-11-22T15:13:32.341Z	Valstad	reachable
-2026-11-22T15:13:32.341Z	Watershed	reachable
-2026-11-22T15:13:32.341Z	WeaveGrid, Inc.	reachable
-2026-11-22T15:13:32.341Z	Whatnot	slug_gone
-2026-11-22T15:13:32.341Z	Whoop	reachable
-2026-11-22T15:13:32.341Z	Zoomlogi	reachable
-2026-11-22T15:13:32.341Z	Agate Software	reachable
-2026-11-22T15:13:32.341Z	AIFund	reachable
-2026-11-22T15:13:32.341Z	FieldAI	reachable
-2026-11-22T15:13:32.341Z	Greenlight Financial Technology	reachable
-2026-11-22T15:13:32.341Z	Ketch	reachable
-2026-11-22T15:13:32.341Z	Lyra Health	reachable
-2026-11-22T15:13:32.341Z	Palantir Technologies	reachable
-2026-11-22T15:13:32.341Z	PlusAI	reachable
-2026-11-22T15:13:32.341Z	Qrypt	reachable
-2026-11-22T15:13:32.341Z	Simbe Robotics	reachable
-2026-11-22T15:13:32.341Z	Software Engineer	reachable
-2026-11-22T15:13:32.341Z	Zanskar	reachable
-2026-11-22T15:13:32.341Z	Aaon	unknown
-2026-11-22T15:13:32.341Z	Abbott	unknown
-2026-11-22T15:13:32.341Z	Amainc	unknown
-2026-11-22T15:13:32.341Z	Amgen	unknown
-2026-11-22T15:13:32.341Z	Arrowstreetcapital	unknown
-2026-11-22T15:13:32.341Z	Aveva	unknown
-2026-11-22T15:13:32.341Z	Axos	unknown
-2026-11-22T15:13:32.341Z	Ballardspahr	unknown
-2026-11-22T15:13:32.341Z	Bcbst	unknown
-2026-11-22T15:13:32.341Z	Bmo	unknown
-2026-11-22T15:13:32.341Z	Cboe	unknown
-2026-11-22T15:13:32.341Z	Cisco	unknown
-2026-11-22T15:13:32.341Z	Costar	unknown
-2026-11-22T15:13:32.341Z	Crateandbarrel	unknown
-2026-11-22T15:13:32.341Z	Cvshealth	unknown
-2026-11-22T15:13:32.341Z	Enovis	reachable
-2026-11-22T15:13:32.341Z	Entrust	unknown
-2026-11-22T15:13:32.341Z	Equiniti	unknown
-2026-11-22T15:13:32.341Z	Expedia	reachable
-2026-11-22T15:13:32.341Z	Fiserv	unknown
-2026-11-22T15:13:32.341Z	Gartner	unknown
-2026-11-22T15:13:32.341Z	Genpact	reachable
-2026-11-22T15:13:32.341Z	Gtlaw	unknown
-2026-11-22T15:13:32.341Z	Harbourvest	reachable
-2026-11-22T15:13:32.341Z	Hmhw	unknown
-2026-11-22T15:13:32.341Z	Hpe	unknown
-2026-11-22T15:13:32.341Z	Intel	unknown
-2026-11-22T15:13:32.341Z	Jd	unknown
-2026-11-22T15:13:32.341Z	Jj	unknown
-2026-11-22T15:13:32.341Z	Lowes	unknown
-2026-11-22T15:13:32.341Z	Manh	unknown
-2026-11-22T15:13:32.341Z	Masco	unknown
-2026-11-22T15:13:32.341Z	Medtronic	unknown
-2026-11-22T15:13:32.341Z	Mimecast	unknown
-2026-11-22T15:13:32.341Z	My7elevenhr	unknown
-2026-11-22T15:13:32.341Z	Ncino	unknown
-2026-11-22T15:13:32.341Z	Ncr	unknown
-2026-11-22T15:13:32.341Z	Nike	unknown
-2026-11-22T15:13:32.341Z	Nordsonhcm	reachable
-2026-11-22T15:13:32.341Z	Nordstrom	reachable
-2026-11-22T15:13:32.341Z	Onedigital	reachable
-2026-11-22T15:13:32.341Z	Onehealthineers	unknown
-2026-11-22T15:13:32.341Z	Osv Amerisure	unknown
-2026-11-22T15:13:32.341Z	Pnc	unknown
-2026-11-22T15:13:32.341Z	Redfcu	unknown
-2026-11-22T15:13:32.341Z	Redhat	unknown
-2026-11-22T15:13:32.341Z	Regeneron	reachable
-2026-11-22T15:13:32.341Z	Remitly	reachable
-2026-11-22T15:13:32.341Z	Repligen	reachable
-2026-11-22T15:13:32.341Z	Rockwellautomation	unknown
-2026-11-22T15:13:32.341Z	Sailpoint	unknown
-2026-11-22T15:13:32.341Z	Salesforce	unknown
-2026-11-22T15:13:32.341Z	Sallie Mae	unknown
-2026-11-22T15:13:32.341Z	Scj	reachable
-2026-11-22T15:13:32.341Z	Shipt	unknown
-2026-11-22T15:13:32.341Z	Signetjewelers	unknown
-2026-11-22T15:13:32.341Z	Statestreet	unknown
-2026-11-22T15:13:32.341Z	Synchronyfinancial	reachable
-2026-11-22T15:13:32.341Z	Tamus	unknown
-2026-11-22T15:13:32.341Z	Td	unknown
-2026-11-22T15:13:32.341Z	Tmobile	reachable
-2026-11-22T15:13:32.341Z	Towerloan	unknown
-2026-11-22T15:13:32.341Z	Transunion	unknown
-2026-11-22T15:13:32.341Z	Travelers	unknown
-2026-11-22T15:13:32.341Z	Truist	unknown
-2026-11-22T15:13:32.341Z	Uhaul	unknown
-2026-11-22T15:13:32.341Z	vanguard	unknown
-2026-11-22T15:13:32.341Z	Verizon	unknown
-2026-11-22T15:13:32.341Z	Walmart	reachable
-2026-11-22T15:13:32.341Z	Warnerbros	unknown
-2026-11-22T15:13:32.341Z	Afficiency	reachable
-2026-11-22T15:13:32.341Z	Bertelsmann Jobs	reachable
-2026-11-22T15:13:32.341Z	Cint	empty
-2026-11-22T15:13:32.341Z	Eurofins	reachable
-2026-11-22T15:13:32.341Z	Experian	reachable
-2026-11-22T15:13:32.341Z	IPTGlobal	reachable
-2026-11-22T15:13:32.341Z	LinkedIn3	reachable
-2026-11-22T15:13:32.341Z	NBCUniversal3	reachable
-2026-11-22T15:13:32.341Z	ServiceNow	reachable
-2026-11-22T15:13:32.341Z	WellmarkInc	reachable
-2026-11-22T15:13:32.341Z	Alaskaair	unknown
-2026-11-22T15:13:32.341Z	Arccorp	unknown
-2026-11-22T15:13:32.341Z	Benjaminmoore	unknown
-2026-11-22T15:13:32.341Z	Berkley	unknown
-2026-11-22T15:13:32.341Z	Cadmusgroup	unknown
-2026-11-22T15:13:32.341Z	Career Schwab	unknown
-2026-11-22T15:13:32.341Z	Cdcmcareers Ulta	unknown
-2026-11-22T15:13:32.341Z	Cirrusaircraft	unknown
-2026-11-22T15:13:32.341Z	Confidential Mheducation	unknown
-2026-11-22T15:13:32.341Z	Directapply Origamirisk	unknown
-2026-11-22T15:13:32.341Z	External Firstcitizens	unknown
-2026-11-22T15:13:32.341Z	Githubinc	unknown
-2026-11-22T15:13:32.341Z	Greensky	unknown
-2026-11-22T15:13:32.341Z	Heb	unknown
-2026-11-22T15:13:32.341Z	Hrblock	unknown
-2026-11-22T15:13:32.341Z	Iehp	unknown
-2026-11-22T15:13:32.341Z	Kimley Horn	unknown
-2026-11-22T15:13:32.341Z	Leviton	unknown
-2026-11-22T15:13:32.341Z	Nffinc	unknown
-2026-11-22T15:13:32.341Z	Nfiindustries	unknown
-2026-11-22T15:13:32.341Z	Panasonic	unknown
-2026-11-22T15:13:32.341Z	Primehealthcare	unknown
-2026-11-22T15:13:32.341Z	Publicis Groupe	unknown
-2026-11-22T15:13:32.341Z	Publicisgroupe	unknown
-2026-11-22T15:13:32.341Z	Republic Finance	unknown
-2026-11-22T15:13:32.341Z	Sas	unknown
-2026-11-22T15:13:32.341Z	Studentopportunities Lutron	unknown
-2026-11-22T15:13:32.341Z	Tdindustries	unknown
-2026-11-22T15:13:32.341Z	Uhsinc	unknown
-2026-11-22T15:13:32.341Z	Us Careers Rivian	unknown
-2026-11-22T15:13:32.341Z	Uscareers Docusign	unknown
-2026-11-22T15:13:32.341Z	Uscareers2 Asm	unknown
-2026-11-22T15:13:32.341Z	Wendys	unknown
-2026-11-22T15:13:32.341Z	Applied	reachable
-2026-11-22T15:13:32.341Z	Battleface	reachable
-2026-11-22T15:13:32.341Z	Investure	reachable
-2026-11-22T15:13:32.341Z	Selector	reachable
-2026-11-22T15:13:32.341Z	Softerware	empty
-2026-11-22T15:13:32.341Z	Visiquate	reachable
-2026-11-22T15:13:32.341Z	BrightPlan	reachable
-2026-11-22T15:13:32.341Z	Solidigm	reachable
-2026-11-22T15:13:32.341Z	NewsBreak	reachable
-2026-11-22T15:13:32.341Z	Facet	reachable
-2026-11-22T15:13:32.341Z	SiFive	unknown
-2026-11-22T15:13:32.341Z	Wells Fargo	unknown
-2026-11-22T15:13:32.341Z	Waymo	reachable
-2026-11-22T15:13:32.341Z	SBT Global	reachable
-2026-11-22T15:13:32.341Z	K2 Space	reachable
-2026-11-22T15:13:32.341Z	Radiant	reachable
-2026-11-22T15:13:32.341Z	SpaceX	reachable
-2026-11-22T15:13:32.341Z	Axon	reachable
-2026-11-22T15:13:32.341Z	Redwood Materials	reachable
-2026-11-22T15:13:32.341Z	Freeform	reachable
-2026-11-22T15:13:32.341Z	Greenhouse	reachable
-2026-11-22T15:13:32.341Z	BIP Ventures	slug_gone
-2026-11-22T15:13:32.341Z	JobNimbus	reachable
-2026-11-22T15:13:32.341Z	Glydways	reachable
-2026-11-22T15:13:32.341Z	KPFF	reachable
-2026-11-22T15:13:32.341Z	Kelso Industries	reachable
-2026-11-22T15:13:32.341Z	GRVTY	reachable
-2026-11-22T15:13:32.341Z	Eventual	reachable
-2026-11-22T15:13:32.341Z	K Health	reachable
-2026-11-22T15:13:32.341Z	Mach Industries	slug_gone
-2026-11-22T15:13:32.341Z	Burns Engineering	reachable
-2026-11-22T15:13:32.341Z	GPTZero	empty
-2026-11-22T15:13:32.341Z	Zoox	reachable
-2026-11-22T15:13:32.341Z	Latitude AI	reachable
-2026-11-22T15:13:32.341Z	SageOx	reachable
-2026-11-22T15:13:32.341Z	K Group Companies	reachable
-2026-11-22T15:13:32.341Z	Systems Engineering Solutions	slug_gone
-2026-11-22T15:13:32.341Z	The Nuclear Company	reachable
-2026-11-22T15:13:32.341Z	Skilled Wound Care	reachable
-2026-11-22T15:13:32.341Z	Worldwide TechServices	reachable
-2026-11-22T15:13:32.341Z	TeleTracking	reachable
-2026-11-22T15:13:32.341Z	GrayMatter Robotics	reachable
-2026-11-22T15:13:32.341Z	Renew Home	slug_gone
-2026-11-22T15:13:32.341Z	Translucent	reachable
-2026-11-22T15:13:32.341Z	Trillium	reachable
-2026-11-22T15:13:32.341Z	Ziosk	reachable
-2026-11-22T15:13:32.341Z	RealPage	unknown
-2026-11-22T15:13:32.341Z	The Wonderful Company	reachable
-2026-11-22T15:13:32.341Z	Massive Rocket	reachable
-2026-11-22T15:13:32.341Z	SoFi	reachable
-2026-11-22T15:13:32.341Z	AECOM	reachable
-2026-11-22T15:13:32.341Z	Abnormal AI	reachable
-2026-11-22T15:13:32.341Z	Nimble Gravity	reachable
-2026-11-22T15:13:32.341Z	Compass	reachable
-2026-11-22T15:13:32.341Z	Phoenix Contact	reachable
-2026-11-22T15:13:32.341Z	SimplePractice	reachable
-2026-11-22T15:13:32.341Z	City of New York	reachable
-2026-11-22T15:13:32.341Z	Merkle Science	reachable
-2026-11-22T15:13:32.341Z	Riverside Research	unknown
-2026-11-22T15:13:32.341Z	Navitus Health Solutions	unknown
-2026-11-22T15:13:32.341Z	Liberty Mutual	unknown
-2026-11-22T15:13:32.341Z	Charles Schwab	unknown
-2026-11-22T15:13:32.341Z	Intercontinental Exchange	unknown
-2026-11-22T15:13:32.341Z	Kimley-Horn	unknown
-2026-11-22T15:13:32.341Z	Sargent & Lundy	unknown
-2026-11-22T15:13:32.341Z	Inland Empire Health Plan	unknown
-2026-11-22T15:13:32.341Z	Kastle	reachable
-2026-11-22T15:13:32.341Z	The Coca-Cola Company	unknown
-2026-11-22T15:13:32.341Z	Northwestern Mutual	unknown
-2026-11-22T15:13:32.341Z	Bose	unknown
-2026-11-22T15:13:32.341Z	Abbott	unknown
-2026-11-22T15:13:32.341Z	T. Rowe Price	unknown
-2026-11-22T15:13:32.341Z	Everfox	unknown
-2026-11-22T15:13:32.341Z	SS&C Technologies	reachable
-2026-11-22T15:13:32.341Z	U.S. Bank	reachable
-2026-11-22T15:13:32.341Z	CAI	unknown
-2026-11-22T15:13:32.341Z	Cox Enterprises	unknown
-2026-11-22T15:13:32.341Z	Nelnet	unknown
-2026-11-22T15:13:32.341Z	Rocket Companies	reachable
-2026-11-22T15:13:32.341Z	CNA Financial	reachable
-2026-11-22T15:13:32.341Z	CACI	unknown
-2026-11-22T15:13:32.341Z	Blue Origin	unknown
-2026-11-22T15:13:32.341Z	Fortune	unknown
-2026-11-22T15:13:32.341Z	Magellan Health	unknown
-2026-11-22T15:13:32.341Z	Netsmart	unknown
-2026-11-22T15:13:32.341Z	Blackstone	unknown
-2026-11-22T15:13:32.341Z	Hitachi	unknown
-2026-11-22T15:13:32.341Z	Iowa State University	unknown
-2026-11-22T15:13:32.341Z	Agiliti	unknown
-2026-11-22T15:13:32.341Z	HNTB	unknown
-2026-11-22T15:13:32.341Z	Crystal Group	unknown
-2026-11-22T15:13:32.341Z	Tokyo Electron	unknown
-2026-11-22T15:13:32.341Z	USAA	unknown
-2026-11-22T15:13:32.341Z	The Carlyle Group	unknown
-2026-11-22T15:13:32.341Z	NXP Semiconductors	unknown
-2026-11-22T15:13:32.341Z	Light & Wonder	unknown
-2026-11-22T15:13:32.341Z	Washington University in St. Louis	unknown
-2026-11-22T15:13:32.341Z	Ensemble Health Partners	unknown
-2026-11-22T15:13:32.341Z	Kohl's	unknown
-2026-11-22T15:13:32.341Z	Huntington	unknown
-2026-11-22T15:13:32.341Z	gravity9	reachable
-2026-11-22T15:13:32.341Z	Aderant	unknown
-2026-11-22T15:13:32.341Z	Deepgram	reachable
-2026-11-22T15:13:32.341Z	Best Egg	reachable
-2026-11-22T15:13:32.341Z	EliseAI	reachable
-2026-11-22T15:13:32.341Z	Montefiore Health System	unknown
-2026-11-22T15:13:32.341Z	Allied Universal	unknown
-2026-11-22T15:13:32.341Z	Ricardo	unknown
-2026-11-22T15:13:32.341Z	NewYork-Presbyterian Hospital	unknown
-2026-11-22T15:13:32.341Z	Nasscomm	reachable
-2026-11-22T15:13:32.341Z	TTEC Digital	reachable
-2026-11-22T15:13:32.341Z	8090 Solutions Inc.	reachable
-2026-11-22T15:13:32.341Z	a37	slug_gone
-2026-11-22T15:13:32.341Z	Adaptive	reachable
-2026-11-22T15:13:32.341Z	AIM Intelligent Machines Inc.	reachable
-2026-11-22T15:13:32.341Z	Airwallex	reachable
-2026-11-22T15:13:32.341Z	Alan	reachable
-2026-11-22T15:13:32.341Z	Ande	reachable
-2026-11-22T15:13:32.341Z	Antares	reachable
-2026-11-22T15:13:32.341Z	Antimetal	reachable
-2026-11-22T15:13:32.341Z	Antioch	reachable
-2026-11-22T15:13:32.341Z	Applied Compute	reachable
-2026-11-22T15:13:32.341Z	Apron	empty
-2026-11-22T15:13:32.341Z	Arcade	reachable
-2026-11-22T15:13:32.341Z	Lam Research	slug_gone
-2026-11-22T15:13:32.341Z	Architect	reachable
-2026-11-22T15:13:32.341Z	Arena	reachable
-2026-11-22T15:13:32.341Z	Armadin	reachable
-2026-11-22T15:13:32.341Z	LARQ	reachable
-2026-11-22T15:13:32.341Z	Arta	reachable
-2026-11-22T15:13:32.341Z	Artemis	reachable
-2026-11-22T15:13:32.341Z	Ashby	reachable
-2026-11-22T15:13:32.341Z	Astromech	reachable
-2026-11-22T15:13:32.341Z	August	reachable
-2026-11-22T15:13:32.341Z	Augustus	reachable
-2026-11-22T15:13:32.341Z	Aurelius Systems	reachable
-2026-11-22T15:13:32.341Z	Aurora Innovation, Inc.	reachable
-2026-11-22T15:13:32.341Z	Autoscience	reachable
-2026-11-22T15:13:32.341Z	Axelera AI	reachable
-2026-11-22T15:13:32.341Z	BASE	reachable
-2026-11-22T15:13:32.341Z	Basecamp Research	reachable
-2026-11-22T15:13:32.341Z	Baseten	reachable
-2026-11-22T15:13:32.341Z	Basic Capital	reachable
-2026-11-22T15:13:32.341Z	Beacon Software	slug_gone
-2026-11-22T15:13:32.341Z	Bedrock Robotics	reachable
-2026-11-22T15:13:32.341Z	Benchling	reachable
-2026-11-22T15:13:32.341Z	Bespoke Labs	reachable
-2026-11-22T15:13:32.341Z	Bevel	reachable
-2026-11-22T15:13:32.341Z	Boon	reachable
-2026-11-22T15:13:32.341Z	Brain Co.	reachable
-2026-11-22T15:13:32.341Z	Brellium	reachable
-2026-11-22T15:13:32.341Z	Brinc	reachable
-2026-11-22T15:13:32.341Z	Callosum	reachable
-2026-11-22T15:13:32.341Z	Cambio	reachable
-2026-11-22T15:13:32.341Z	Candid Health	reachable
-2026-11-22T15:13:32.341Z	Cartesia	reachable
-2026-11-22T15:13:32.341Z	Casca	reachable
-2026-11-22T15:13:32.341Z	Chai Discovery	reachable
-2026-11-22T15:13:32.341Z	Chalk	reachable
-2026-11-22T15:13:32.341Z	CircuitHub	reachable
-2026-11-22T15:13:32.341Z	CivilGrid	reachable
-2026-11-22T15:13:32.341Z	Clipbook	reachable
-2026-11-22T15:13:32.341Z	Cloaked	reachable
-2026-11-22T15:13:32.341Z	Code Metal	reachable
-2026-11-22T15:13:32.341Z	CodeRabbit	reachable
-2026-11-22T15:13:32.341Z	Cognition	reachable
-2026-11-22T15:13:32.341Z	Column	reachable
-2026-11-22T15:13:32.341Z	Comfy Org	reachable
-2026-11-22T15:13:32.341Z	Convex	reachable
-2026-11-22T15:13:32.341Z	Coram AI	reachable
-2026-11-22T15:13:32.341Z	Corridor	slug_gone
-2026-11-22T15:13:32.341Z	Cosine	reachable
-2026-11-22T15:13:32.341Z	Coverbase	reachable
-2026-11-22T15:13:32.341Z	Cowboy Space Corporation	reachable
-2026-11-22T15:13:32.341Z	Crosby	reachable
-2026-11-22T15:13:32.341Z	CTGT	reachable
-2026-11-22T15:13:32.341Z	Cursor	reachable
-2026-11-22T15:13:32.341Z	CuspAI	reachable
-2026-11-22T15:13:32.341Z	Cylake	reachable
-2026-11-22T15:13:32.341Z	Delos Data	reachable
-2026-11-22T15:13:32.341Z	Delphi	reachable
-2026-11-22T15:13:32.341Z	depthfirst	reachable
-2026-11-22T15:13:32.341Z	Dimensional	reachable
-2026-11-22T15:13:32.341Z	Divine Design Center	reachable
-2026-11-22T15:13:32.341Z	Dominion Dynamics	reachable
-2026-11-22T15:13:32.341Z	Doppel	reachable
-2026-11-22T15:13:32.341Z	DOSS.COM	reachable
-2026-11-22T15:13:32.341Z	Dream	reachable
-2026-11-22T15:13:32.341Z	Drogue	reachable
-2026-11-22T15:13:32.341Z	Dust	reachable
-2026-11-22T15:13:32.341Z	American Eagle Outfitters	reachable
-2026-11-22T15:13:32.341Z	Elliptic	reachable
-2026-11-22T15:13:32.341Z	EMA	reachable
-2026-11-22T15:13:32.341Z	Emerald AI	reachable
-2026-11-22T15:13:32.341Z	Empirical Security	reachable
-2026-11-22T15:13:32.341Z	Encord	reachable
-2026-11-22T15:13:32.341Z	Epsilon Health	reachable
-2026-11-22T15:13:32.341Z	Etched	reachable
-2026-11-22T15:13:32.341Z	Eventual	reachable
-2026-11-22T15:13:32.341Z	Extend	reachable
-2026-11-22T15:13:32.341Z	Eyebot	reachable
-2026-11-22T15:13:32.341Z	fal	reachable
-2026-11-22T15:13:32.341Z	Fieldguide	reachable
-2026-11-22T15:13:32.341Z	Fin	reachable
-2026-11-22T15:13:32.341Z	Firefly	reachable
-2026-11-22T15:13:32.341Z	FleetWorks	reachable
-2026-11-22T15:13:32.341Z	Flink	reachable
-2026-11-22T15:13:32.341Z	Flock Safety	reachable
-2026-11-22T15:13:32.341Z	Flossy	reachable
-2026-11-22T15:13:32.341Z	Flow Engineering	reachable
-2026-11-22T15:13:32.341Z	Fluidstack	reachable
-2026-11-22T15:13:32.341Z	Flux	empty
-2026-11-22T15:13:32.341Z	Forus	reachable
-2026-11-22T15:13:32.341Z	Freehand	reachable
-2026-11-22T15:13:32.341Z	Front	reachable
-2026-11-22T15:13:32.341Z	Fundamental Research Labs	slug_gone
-2026-11-22T15:13:32.341Z	Gallatin AI	reachable
-2026-11-22T15:13:32.341Z	General Medicine	reachable
-2026-11-22T15:13:32.341Z	General Intuition	reachable
-2026-11-22T15:13:32.341Z	Generalist AI	reachable
-2026-11-22T15:13:32.341Z	Genesis	reachable
-2026-11-22T15:13:32.341Z	Glimpse	reachable
-2026-11-22T15:13:32.341Z	Gray Swan AI	reachable
-2026-11-22T15:13:32.341Z	GridCARE	reachable
-2026-11-22T15:13:32.341Z	Ground News	reachable
-2026-11-22T15:13:32.341Z	Hadrian	reachable
-2026-11-22T15:13:32.341Z	Halluminate	reachable
-2026-11-22T15:13:32.341Z	Harmattan AI	reachable
-2026-11-22T15:13:32.341Z	Harmonic	reachable
-2026-11-22T15:13:32.341Z	HavocAI	reachable
-2026-11-22T15:13:32.341Z	H Company	reachable
-2026-11-22T15:13:32.341Z	Heidi	reachable
-2026-11-22T15:13:32.341Z	Helicon	reachable
-2026-11-22T15:13:32.341Z	Helion	reachable
-2026-11-22T15:13:32.341Z	Hex	reachable
-2026-11-22T15:13:32.341Z	Higgsfield AI	reachable
-2026-11-22T15:13:32.341Z	Higharc	reachable
-2026-11-22T15:13:32.341Z	Highlight AI	reachable
-2026-11-22T15:13:32.341Z	Hilbert's AI	slug_gone
-2026-11-22T15:13:32.341Z	Hippocratic AI	reachable
-2026-11-22T15:13:32.341Z	Hone	reachable
-2026-11-22T15:13:32.341Z	Hud	reachable
-2026-11-22T15:13:32.341Z	Human Archive	reachable
-2026-11-22T15:13:32.341Z	ICEYE	reachable
-2026-11-22T15:13:32.341Z	Imprint	reachable
-2026-11-22T15:13:32.341Z	Impulse	reachable
-2026-11-22T15:13:32.341Z	Inferact	reachable
-2026-11-22T15:13:32.341Z	Infinity Constellation	reachable
-2026-11-22T15:13:32.341Z	Infisical	reachable
-2026-11-22T15:13:32.341Z	Inherent	reachable
-2026-11-22T15:13:32.341Z	Inkeep	reachable
-2026-11-22T15:13:32.341Z	InterAction	slug_gone
-2026-11-22T15:13:32.341Z	Variance	reachable
-2026-11-22T15:13:32.341Z	Isometric	reachable
-2026-11-22T15:13:32.341Z	Junction	reachable
-2026-11-22T15:13:32.341Z	Kandou AI	reachable
-2026-11-22T15:13:32.341Z	Kindred	reachable
-2026-11-22T15:13:32.341Z	Payward, Inc.	reachable
-2026-11-22T15:13:32.341Z	Krea	reachable
-2026-11-22T15:13:32.341Z	Laurel	reachable
-2026-11-22T15:13:32.341Z	LemFi	reachable
-2026-11-22T15:13:32.341Z	Leona Health	reachable
-2026-11-22T15:13:32.341Z	Lightdash	reachable
-2026-11-22T15:13:32.341Z	Lio	reachable
-2026-11-22T15:13:32.341Z	Listen Labs	reachable
-2026-11-22T15:13:32.341Z	LiveKit	reachable
-2026-11-22T15:13:32.341Z	Lumilens	reachable
-2026-11-22T15:13:32.341Z	Magic Patterns	reachable
-2026-11-22T15:13:32.341Z	Manifest OS	reachable
-2026-11-22T15:13:32.341Z	Mariana Minerals	reachable
-2026-11-22T15:13:32.341Z	Matic Robots	reachable
-2026-11-22T15:13:32.341Z	Matter Health	reachable
-2026-11-22T15:13:32.341Z	Maxima	reachable
-2026-11-22T15:13:32.341Z	Maze	reachable
-2026-11-22T15:13:32.341Z	Mecka AI	reachable
-2026-11-22T15:13:32.341Z	Medal	slug_gone
-2026-11-22T15:13:32.341Z	Medra	reachable
-2026-11-22T15:13:32.341Z	Mem0	reachable
-2026-11-22T15:13:32.341Z	Merge Labs	reachable
-2026-11-22T15:13:32.341Z	Method	reachable
-2026-11-22T15:13:32.341Z	Mind Moves	reachable
-2026-11-22T15:13:32.341Z	Mirendil	reachable
-2026-11-22T15:13:32.341Z	Miter	reachable
-2026-11-22T15:13:32.341Z	Mithrl	reachable
-2026-11-22T15:13:32.341Z	Mobasi	slug_gone
-2026-11-22T15:13:32.341Z	Modal	reachable
-2026-11-22T15:13:32.341Z	Modus	reachable
-2026-11-22T15:13:32.341Z	Monk	reachable
-2026-11-22T15:13:32.341Z	Monumental	reachable
-2026-11-22T15:13:32.341Z	Natter	reachable
-2026-11-22T15:13:32.341Z	Nebulock	reachable
-2026-11-22T15:13:32.341Z	Nectar Social	slug_gone
-2026-11-22T15:13:32.341Z	Neko Health	reachable
-2026-11-22T15:13:32.341Z	Nelo	reachable
-2026-11-22T15:13:32.341Z	NerdWallet	reachable
-2026-11-22T15:13:32.341Z	Nestmed	reachable
-2026-11-22T15:13:32.341Z	Netic	reachable
-2026-11-22T15:13:32.341Z	Neural Concept	reachable
-2026-11-22T15:13:32.341Z	Neurophos	reachable
-2026-11-22T15:13:32.341Z	Norm Ai	slug_gone
-2026-11-22T15:13:32.341Z	Normal Computing	reachable
-2026-11-22T15:13:32.341Z	Nova Intelligence	reachable
-2026-11-22T15:13:32.341Z	Novita AI	reachable
-2026-11-22T15:13:32.341Z	Nox Metals	reachable
-2026-11-22T15:13:32.341Z	Numeral	reachable
-2026-11-22T15:13:32.341Z	Olix	reachable
-2026-11-22T15:13:32.341Z	OneCrew	reachable
-2026-11-22T15:13:32.341Z	OpenAI	reachable
-2026-11-22T15:13:32.341Z	OpenEvidence	reachable
-2026-11-22T15:13:32.341Z	OpenRouter	reachable
-2026-11-22T15:13:32.341Z	Oratomic	reachable
-2026-11-22T15:13:32.341Z	Orbital Industries	reachable
-2026-11-22T15:13:32.341Z	Outmarket AI	reachable
-2026-11-22T15:13:32.341Z	Pangram Labs	reachable
-2026-11-22T15:13:32.341Z	Paradigm	reachable
-2026-11-22T15:13:32.341Z	Partiful	reachable
-2026-11-22T15:13:32.341Z	Pathwork	reachable
-2026-11-22T15:13:32.341Z	Patreon	reachable
-2026-11-22T15:13:32.341Z	Pennylane	reachable
-2026-11-22T15:13:32.341Z	Perfect Venue	reachable
-2026-11-22T15:13:32.341Z	Periodic	reachable
-2026-11-22T15:13:32.341Z	PermitFlow	reachable
-2026-11-22T15:13:32.341Z	Perry Weather	reachable
-2026-11-22T15:13:32.341Z	Persona AI	reachable
-2026-11-22T15:13:32.341Z	Phantom	reachable
-2026-11-22T15:13:32.341Z	Phoebe	reachable
-2026-11-22T15:13:32.341Z	Physical Intelligence	reachable
-2026-11-22T15:13:32.341Z	Plain	reachable
-2026-11-22T15:13:32.341Z	Poolside AI	reachable
-2026-11-22T15:13:32.341Z	Poseidon Aerospace	reachable
-2026-11-22T15:13:32.341Z	PostHog	reachable
-2026-11-22T15:13:32.341Z	Prime Intellect	reachable
-2026-11-22T15:13:32.341Z	Probook	reachable
-2026-11-22T15:13:32.341Z	Project Eleven	reachable
-2026-11-22T15:13:32.341Z	Protege	reachable
-2026-11-22T15:13:32.341Z	Proxima Fusion	reachable
-2026-11-22T15:13:32.341Z	QuantWare	reachable
-2026-11-22T15:13:32.341Z	Quartermaster	reachable
-2026-11-22T15:13:32.341Z	Quindar	reachable
-2026-11-22T15:13:32.341Z	Railway	reachable
-2026-11-22T15:13:32.341Z	Rain	reachable
-2026-11-22T15:13:32.341Z	Rainmaker Technology Corporation	reachable
-2026-11-22T15:13:32.341Z	Ramp	reachable
-2026-11-22T15:13:32.341Z	Realm Alliance	reachable
-2026-11-22T15:13:32.341Z	Redesign Health	reachable
-2026-11-22T15:13:32.341Z	ReflectionAI	reachable
-2026-11-22T15:13:32.341Z	Relay	reachable
-2026-11-22T15:13:32.341Z	Relevance AI	reachable
-2026-11-22T15:13:32.341Z	Reliable Robotics	reachable
-2026-11-22T15:13:32.341Z	Render	reachable
-2026-11-22T15:13:32.341Z	Replit	reachable
-2026-11-22T15:13:32.341Z	Restate	reachable
-2026-11-22T15:13:32.341Z	Revel	reachable
-2026-11-22T15:13:32.341Z	Rho	reachable
-2026-11-22T15:13:32.341Z	Rhoda AI	reachable
-2026-11-22T15:13:32.341Z	Ricursive Intelligence	reachable
-2026-11-22T15:13:32.341Z	Also.	reachable
-2026-11-22T15:13:32.341Z	River	reachable
-2026-11-22T15:13:32.341Z	Root Access	reachable
-2026-11-22T15:13:32.341Z	RUNE	reachable
-2026-11-22T15:13:32.341Z	Runlayer	reachable
-2026-11-22T15:13:32.341Z	Runway	reachable
-2026-11-22T15:13:32.341Z	Sable	reachable
-2026-11-22T15:13:32.341Z	Sapiom	reachable
-2026-11-22T15:13:32.341Z	Saris	reachable
-2026-11-22T15:13:32.341Z	Sarvam AI	reachable
-2026-11-22T15:13:32.341Z	Wordware	reachable
-2026-11-22T15:13:32.341Z	Scan.com	reachable
-2026-11-22T15:13:32.341Z	Scribe	reachable
-2026-11-22T15:13:32.341Z	Seneca	reachable
-2026-11-22T15:13:32.341Z	Sequence	reachable
-2026-11-22T15:13:32.341Z	Sereact	reachable
-2026-11-22T15:13:32.341Z	Serval	reachable
-2026-11-22T15:13:32.341Z	Sesame	reachable
-2026-11-22T15:13:32.341Z	Siena AI	reachable
-2026-11-22T15:13:32.341Z	Silna	reachable
-2026-11-22T15:13:32.341Z	Slash	reachable
-2026-11-22T15:13:32.341Z	Socket	reachable
-2026-11-22T15:13:32.341Z	Socure	reachable
-2026-11-22T15:13:32.341Z	Sola	reachable
-2026-11-22T15:13:32.341Z	Solstice	reachable
-2026-11-22T15:13:32.341Z	Speakeasy	reachable
-2026-11-22T15:13:32.341Z	SpotOn	reachable
-2026-11-22T15:13:32.341Z	Stacks	reachable
-2026-11-22T15:13:32.341Z	Starbridge	reachable
-2026-11-22T15:13:32.341Z	Strava	reachable
-2026-11-22T15:13:32.341Z	Stuut	reachable
-2026-11-22T15:13:32.341Z	Summation	reachable
-2026-11-22T15:13:32.341Z	sunday	reachable
-2026-11-22T15:13:32.341Z	Suno	reachable
-2026-11-22T15:13:32.341Z	Swarm Aero	reachable
-2026-11-22T15:13:32.341Z	SweatPals	reachable
-2026-11-22T15:13:32.341Z	Synthflow AI	slug_gone
-2026-11-22T15:13:32.341Z	Tabs	reachable
-2026-11-22T15:13:32.341Z	Tacit	reachable
-2026-11-22T15:13:32.341Z	Take2 AI	reachable
-2026-11-22T15:13:32.341Z	Taktile	reachable
-2026-11-22T15:13:32.341Z	Tandem Health	reachable
-2026-11-22T15:13:32.341Z	TAR	reachable
-2026-11-22T15:13:32.341Z	Tarro	reachable
-2026-11-22T15:13:32.341Z	Taxo	reachable
-2026-11-22T15:13:32.341Z	Tenex	reachable
-2026-11-22T15:13:32.341Z	Tennr	reachable
-2026-11-22T15:13:32.341Z	Titan	reachable
-2026-11-22T15:13:32.341Z	TLDR	reachable
-2026-11-22T15:13:32.341Z	Tonic.ai	reachable
-2026-11-22T15:13:32.341Z	Tools for Humanity	reachable
-2026-11-22T15:13:32.341Z	Traba	reachable
-2026-11-22T15:13:32.341Z	Trajectory	reachable
-2026-11-22T15:13:32.341Z	TriEdge Investments	reachable
-2026-11-22T15:13:32.341Z	Turnkey	reachable
-2026-11-22T15:13:32.341Z	Turquoise Health	reachable
-2026-11-22T15:13:32.341Z	Twelve Labs	reachable
-2026-11-22T15:13:32.341Z	Two Dots	slug_gone
-2026-11-22T15:13:32.341Z	TypeSafe AI	reachable
-2026-11-22T15:13:32.341Z	UFORCE	reachable
-2026-11-22T15:13:32.341Z	Unit	reachable
-2026-11-22T15:13:32.341Z	PRO Unlimited	reachable
-2026-11-22T15:13:32.341Z	Upside	reachable
-2026-11-22T15:13:32.341Z	Valinor	reachable
-2026-11-22T15:13:32.341Z	Valon	reachable
-2026-11-22T15:13:32.341Z	Vanta	reachable
-2026-11-22T15:13:32.341Z	Vendelux	reachable
-2026-11-22T15:13:32.341Z	Venn	reachable
-2026-11-22T15:13:32.341Z	Vesta	reachable
-2026-11-22T15:13:32.341Z	Viktorious Holdings	empty
-2026-11-22T15:13:32.341Z	Vitalize	reachable
-2026-11-22T15:13:32.341Z	Vizcom	reachable
-2026-11-22T15:13:32.341Z	Vocca	reachable
-2026-11-22T15:13:32.341Z	Volta Infrastructure Holdings Limited	reachable
-2026-11-22T15:13:32.341Z	Warp	reachable
-2026-11-22T15:13:32.341Z	Watney Robotics Inc	reachable
-2026-11-22T15:13:32.341Z	webAI	reachable
-2026-11-22T15:13:32.341Z	WindBorne	reachable
-2026-11-22T15:13:32.341Z	Wispr Flow	reachable
-2026-11-22T15:13:32.341Z	Daydream	reachable
-2026-11-22T15:13:32.341Z	Pace	reachable
-2026-11-22T15:13:32.341Z	Wordsmith AI	reachable
-2026-11-22T15:13:32.341Z	XBOW	reachable
-2026-11-22T15:13:32.341Z	XONA	reachable
-2026-11-22T15:13:32.341Z	Zip	reachable
-2026-11-22T15:13:32.341Z	AcuityMD	reachable
-2026-11-22T15:13:32.341Z	Allen Control Systems	slug_gone
-2026-11-22T15:13:32.341Z	Arc Institute	reachable
-2026-11-22T15:13:32.341Z	Array	unknown
-2026-11-22T15:13:32.341Z	Blend	reachable
-2026-11-22T15:13:32.341Z	Bluefish AI	reachable
-2026-11-22T15:13:32.341Z	Capitolis	empty
-2026-11-22T15:13:32.341Z	Carta	reachable
-2026-11-22T15:13:32.341Z	Chan Zuckerberg Initiative	slug_gone
-2026-11-22T15:13:32.341Z	Checkr	reachable
-2026-11-22T15:13:32.341Z	Claros	slug_gone
-2026-11-22T15:13:32.341Z	Clear Street	reachable
-2026-11-22T15:13:32.341Z	ClickHouse	slug_gone
-2026-11-22T15:13:32.341Z	Cortex	reachable
-2026-11-22T15:13:32.341Z	Curaleaf	reachable
-2026-11-22T15:13:32.341Z	Databento	reachable
-2026-11-22T15:13:32.341Z	Datacor, Inc.	reachable
-2026-11-22T15:13:32.341Z	Dirac, Inc.	reachable
-2026-11-22T15:13:32.341Z	Duolingo	reachable
-2026-11-22T15:13:32.341Z	Efficient Computer	reachable
-2026-11-22T15:13:32.341Z	EQT Corporation	reachable
-2026-11-22T15:13:32.341Z	Farther	reachable
-2026-11-22T15:13:32.341Z	Fay	reachable
-2026-11-22T15:13:32.341Z	Fractile	slug_gone
-2026-11-22T15:13:32.341Z	Garner Health	reachable
-2026-11-22T15:13:32.341Z	Gather AI	reachable
-2026-11-22T15:13:32.341Z	Gelber Group	reachable
-2026-11-22T15:13:32.341Z	GOAT Group	reachable
-2026-11-22T15:13:32.341Z	Gradial	reachable
-2026-11-22T15:13:32.341Z	Hark	reachable
-2026-11-22T15:13:32.341Z	Harness	reachable
-2026-11-22T15:13:32.341Z	Hasbro	reachable
-2026-11-22T15:13:32.341Z	Honeycomb	reachable
-2026-11-22T15:13:32.341Z	Island	reachable
-2026-11-22T15:13:32.341Z	Kargo	reachable
-2026-11-22T15:13:32.341Z	Lightmatter	unknown
-2026-11-22T15:13:32.341Z	Lila Sciences	reachable
-2026-11-22T15:13:32.341Z	Lithic	reachable
-2026-11-22T15:13:32.341Z	Loop	slug_gone
-2026-11-22T15:13:32.341Z	Lucid Bots	empty
-2026-11-22T15:13:32.341Z	M0	reachable
-2026-11-22T15:13:32.341Z	Maven Robotics	reachable
-2026-11-22T15:13:32.341Z	MEMX	reachable
-2026-11-22T15:13:32.341Z	Mixpanel	reachable
-2026-11-22T15:13:32.341Z	Nava	reachable
-2026-11-22T15:13:32.341Z	NavVis	reachable
-2026-11-22T15:13:32.341Z	Nex	reachable
-2026-11-22T15:13:32.341Z	Novig	slug_gone
-2026-11-22T15:13:32.341Z	Orkes	reachable
-2026-11-22T15:13:32.341Z	Pacific Fusion	reachable
-2026-11-22T15:13:32.341Z	Panthalassa	reachable
-2026-11-22T15:13:32.341Z	Parallel Systems	reachable
-2026-11-22T15:13:32.341Z	Pave	reachable
-2026-11-22T15:13:32.341Z	Perplexity	slug_gone
-2026-11-22T15:13:32.341Z	Podium	reachable
-2026-11-22T15:13:32.341Z	Quince	reachable
-2026-11-22T15:13:32.341Z	Relay	reachable
-2026-11-22T15:13:32.341Z	Retool	slug_gone
-2026-11-22T15:13:32.341Z	RF-SMART	reachable
-2026-11-22T15:13:32.341Z	River AI	reachable
-2026-11-22T15:13:32.341Z	RoboForce	reachable
-2026-11-22T15:13:32.341Z	Sage	reachable
-2026-11-22T15:13:32.341Z	SambaNova	reachable
-2026-11-22T15:13:32.341Z	Skyryse	reachable
-2026-11-22T15:13:32.341Z	Spade	empty
-2026-11-22T15:13:32.341Z	State Affairs	reachable
-2026-11-22T15:13:32.341Z	Pillar	reachable
-2026-11-22T15:13:32.341Z	Suki	reachable
-2026-11-22T15:13:32.341Z	Tia	reachable
-2026-11-22T15:13:32.341Z	Tines	reachable
-2026-11-22T15:13:32.341Z	True Anomaly	reachable
-2026-11-22T15:13:32.341Z	Twin Health	reachable
-2026-11-22T15:13:32.341Z	Unframe AI	reachable
-2026-11-22T15:13:32.341Z	Vast	unknown
-2026-11-22T15:13:32.341Z	Vestwell	reachable
-2026-11-22T15:13:32.341Z	Visia	slug_gone
-2026-11-22T15:13:32.341Z	Woolpert	reachable
-2026-11-22T15:13:32.341Z	World Labs	slug_gone
-2026-11-22T15:13:32.341Z	You.com	reachable
-2026-11-22T15:13:32.341Z	Acron Aviation	reachable
-2026-11-22T15:13:32.341Z	Airalo	reachable
-2026-11-22T15:13:32.341Z	Alice	reachable
-2026-11-22T15:13:32.341Z	Azul Systems	reachable
-2026-11-22T15:13:32.341Z	Collate	reachable
-2026-11-22T15:13:32.341Z	Finch	reachable
-2026-11-22T15:13:32.341Z	Hustle Fund	reachable
-2026-11-22T15:13:32.341Z	Grand Games	reachable
-2026-11-22T15:13:32.341Z	Gravis Robotics	reachable
-2026-11-22T15:13:32.341Z	Hermeus	reachable
-2026-11-22T15:13:32.341Z	Humble Robotics	reachable
-2026-11-22T15:13:32.341Z	Pivotal Software	empty
-2026-11-22T15:13:32.341Z	Layup Parts	reachable
-2026-11-22T15:13:32.341Z	Lumafield	reachable
-2026-11-22T15:13:32.341Z	Mythic	reachable
-2026-11-22T15:13:32.341Z	Rylo Inc.	reachable
-2026-11-22T15:13:32.341Z	Shield AI	empty
-2026-11-22T15:13:32.341Z	Superstate	reachable
-2026-11-22T15:13:32.341Z	UNTIL	reachable
-2026-11-22T15:13:32.341Z	Valarian	reachable
-2026-11-22T15:13:32.341Z	WHOOP	empty
-2026-11-22T15:13:32.341Z	Yuno	reachable
-2026-11-22T15:13:32.341Z	Accenture	unknown
-2026-11-22T15:13:32.341Z	Nissan	unknown
-2026-11-22T15:13:32.341Z	Allstate	unknown
-2026-11-22T15:13:32.341Z	American Family Insurance	unknown
-2026-11-22T15:13:32.341Z	Berkadia	unknown
-2026-11-22T15:13:32.341Z	Boeing	unknown
-2026-11-22T15:13:32.341Z	Boeing	unknown
-2026-11-22T15:13:32.341Z	Boston Dynamics	unknown
-2026-11-22T15:13:32.341Z	Marigold USA, Inc.	unknown
-2026-11-22T15:13:32.341Z	Caterpillar Inc.	unknown
-2026-11-22T15:13:32.341Z	CME Group	unknown
-2026-11-22T15:13:32.341Z	Comcast	unknown
-2026-11-22T15:13:32.341Z	DTN	unknown
-2026-11-22T15:13:32.341Z	Duke Energy	unknown
-2026-11-22T15:13:32.341Z	eBay	unknown
-2026-11-22T15:13:32.341Z	Equifax	unknown
-2026-11-22T15:13:32.341Z	General Dynamics Information Technology	unknown
-2026-11-22T15:13:32.341Z	GE Aerospace	unknown
-2026-11-22T15:13:32.341Z	General Motors	unknown
-2026-11-22T15:13:32.341Z	Gordon Food Service	unknown
-2026-11-22T15:13:32.341Z	RTX	unknown
-2026-11-22T15:13:32.341Z	Highmark Health	unknown
-2026-11-22T15:13:32.341Z	HonorHealth	unknown
-2026-11-22T15:13:32.341Z	IMEG	unknown
-2026-11-22T15:13:32.341Z	Lanteris Space Systems	unknown
-2026-11-22T15:13:32.341Z	Illinois Tool Works	unknown
-2026-11-22T15:13:32.341Z	Blue Yonder	unknown
-2026-11-22T15:13:32.341Z	Blue Yonder	unknown
-2026-11-22T15:13:32.341Z	JLL	unknown
-2026-11-22T15:13:32.341Z	Relativity	unknown
-2026-11-22T15:13:32.341Z	KION Group	unknown
-2026-11-22T15:13:32.341Z	KLA Corporation	unknown
-2026-11-22T15:13:32.341Z	KLA Corporation	unknown
-2026-11-22T15:13:32.341Z	Kohl's	unknown
-2026-11-22T15:13:32.341Z	Life Fitness	unknown
-2026-11-22T15:13:32.341Z	Eli Lilly and Company	unknown
-2026-11-22T15:13:32.341Z	McKesson Corporation	unknown
-2026-11-22T15:13:32.341Z	Medtronic	unknown
-2026-11-22T15:13:32.341Z	Moog	unknown
-2026-11-22T15:13:32.341Z	Motorola Solutions	unknown
-2026-11-22T15:13:32.341Z	Nationwide	unknown
-2026-11-22T15:13:32.341Z	NVIDIA	unknown
-2026-11-22T15:13:32.341Z	Parsons	unknown
-2026-11-22T15:13:32.341Z	Priority1	unknown
-2026-11-22T15:13:32.341Z	Prologis	unknown
-2026-11-22T15:13:32.341Z	RELX	unknown
-2026-11-22T15:13:32.341Z	Rockwell Automation	unknown
-2026-11-22T15:13:32.341Z	Ryan Companies	unknown
-2026-11-22T15:13:32.341Z	SchoolsFirst Federal Credit Union	unknown
-2026-11-22T15:13:32.341Z	Service Corporation International	reachable
-2026-11-22T15:13:32.341Z	Samsung Electronics	unknown
-2026-11-22T15:13:32.341Z	Schweitzer Engineering Laboratories	unknown
-2026-11-22T15:13:32.341Z	State of Nebraska	unknown
-2026-11-22T15:13:32.341Z	St. Jude Children's Research Hospital	unknown
-2026-11-22T15:13:32.341Z	Stord	reachable
-2026-11-22T15:13:32.341Z	SUSE	unknown
-2026-11-22T15:13:32.341Z	Tandem Diabetes Care	unknown
-2026-11-22T15:13:32.341Z	Callaway	unknown
-2026-11-22T15:13:32.341Z	Thomson Reuters	unknown
-2026-11-22T15:13:32.341Z	Trane Technologies	unknown
-2026-11-22T15:13:32.341Z	Vanguard	reachable
-2026-11-22T15:13:32.341Z	Victaulic	unknown
-2026-11-22T15:13:32.341Z	The Washington Post	unknown
-2026-11-22T15:13:32.341Z	Workiva	reachable
-2026-11-22T15:13:32.341Z	Worldwide Clinical Trials	unknown
-2026-11-22T15:13:32.341Z	Conner Strong & Buckelew	reachable
-2026-11-22T15:13:32.341Z	Gallup	reachable
-2026-11-22T15:13:32.341Z	Nimble Robotics	reachable
-2026-11-22T15:13:32.341Z	Lennar	unknown
-2026-11-22T15:13:32.341Z	Binance.US	reachable
-2026-11-22T15:13:32.341Z	Capable Labs	reachable
-2026-11-22T15:13:32.341Z	Eka Robotics	reachable
-2026-11-22T15:13:32.341Z	LatchBio	reachable
-2026-11-22T15:13:32.341Z	Affirm	reachable
-2026-11-22T15:13:32.341Z	Anduril Industries	unknown
-2026-11-22T15:13:32.341Z	Astera Labs	reachable
-2026-11-22T15:13:32.341Z	Cymulate	reachable
-2026-11-22T15:13:32.341Z	DoorDash	reachable
-2026-11-22T15:13:32.341Z	DV Trading	reachable
-2026-11-22T15:13:32.341Z	Electra.aero	reachable
-2026-11-22T15:13:32.341Z	Enformion	reachable
-2026-11-22T15:13:32.341Z	Figma	unknown
-2026-11-22T15:13:32.341Z	Hyliion	reachable
-2026-11-22T15:13:32.341Z	Justworks	unknown
-2026-11-22T15:13:32.341Z	Neuralink	unknown
-2026-11-22T15:13:32.341Z	OpenEye	reachable
-2026-11-22T15:13:32.341Z	Vestmark	reachable
-2026-11-22T15:13:32.341Z	Voloridge Investment Management	reachable
-2026-11-22T15:13:32.341Z	Cirrus Logic	reachable
-2026-11-22T15:13:32.341Z	EnableComp	reachable
-2026-11-22T15:13:32.341Z	Rainmaker Technology Corporation	reachable
-2026-11-22T15:13:32.341Z	Thea Energy	reachable
-2026-11-22T15:13:32.341Z	Venus Aerospace	reachable
-2026-11-22T15:13:32.341Z	Very Good Security	reachable
-2026-11-22T15:13:32.341Z	Applied Materials	unknown
-2026-11-22T15:13:32.341Z	Ambarella	unknown
-2026-11-22T15:13:32.341Z	AssuranceAmerica	unknown
-2026-11-22T15:13:32.341Z	The Baldwin Group	unknown
-2026-11-22T15:13:32.341Z	Brooks Automation	unknown
-2026-11-22T15:13:32.341Z	Canvas, Inc.	unknown
-2026-11-22T15:13:32.341Z	Capital One	unknown
-2026-11-22T15:13:32.341Z	Solar Turbines	unknown
-2026-11-22T15:13:32.341Z	Cenovus Energy	unknown
-2026-11-22T15:13:32.341Z	CGB Enterprises	unknown
-2026-11-22T15:13:32.341Z	Danaher Corporation	unknown
-2026-11-22T15:13:32.341Z	DaVita	unknown
-2026-11-22T15:13:32.341Z	Fannie Mae	unknown
-2026-11-22T15:13:32.341Z	First Quality Enterprises	unknown
-2026-11-22T15:13:32.341Z	Flex	unknown
-2026-11-22T15:13:32.341Z	Globus Medical	unknown
-2026-11-22T15:13:32.341Z	Harris Computer	unknown
-2026-11-22T15:13:32.341Z	The Home Depot	unknown
-2026-11-22T15:13:32.341Z	ING Group	unknown
-2026-11-22T15:13:32.341Z	Jain Global	unknown
-2026-11-22T15:13:32.341Z	J.B. Hunt Transport Services	unknown
-2026-11-22T15:13:32.341Z	Lighthouse Electric Company, Inc.	unknown
-2026-11-22T15:13:32.341Z	Mars, Incorporated	unknown
-2026-11-22T15:13:32.341Z	McKesson Corporation	unknown
-2026-11-22T15:13:32.341Z	The Mosaic Company	unknown
-2026-11-22T15:13:32.341Z	DPR Construction	unknown
-2026-11-22T15:13:32.341Z	Cencora	unknown
-2026-11-22T15:13:32.341Z	National Indemnity Company	reachable
-2026-11-22T15:13:32.341Z	Parkland Health	unknown
-2026-11-22T15:13:32.341Z	Procter & Gamble	unknown
-2026-11-22T15:13:32.341Z	PHINIA	unknown
-2026-11-22T15:13:32.341Z	ProMach	unknown
-2026-11-22T15:13:32.341Z	San José State University Research Foundation	unknown
-2026-11-22T15:13:32.341Z	Corewell Health	unknown
-2026-11-22T15:13:32.341Z	Surescripts	unknown
-2026-11-22T15:13:32.341Z	Perseus Group	unknown
-2026-11-22T15:13:32.341Z	Tempus AI	unknown
-2026-11-22T15:13:32.341Z	Trinity Life Sciences	unknown
-2026-11-22T15:13:32.341Z	University of Arkansas System	unknown
-2026-11-22T15:13:32.341Z	Wayve	reachable
-2026-11-22T15:13:32.341Z	Micron Technology	unknown
-2026-11-22T15:13:32.341Z	Skydio	reachable
-2026-11-22T15:13:32.341Z	Humana	unknown
-2026-11-22T15:13:32.341Z	Medline	unknown
-2026-11-22T15:13:32.341Z	Stryker	unknown
-2026-11-22T15:13:32.341Z	AnySignal	reachable
-2026-11-22T15:13:32.341Z	Chainalysis	reachable
-2026-11-22T15:13:32.341Z	NTT DATA AIVista	reachable
-2026-11-22T15:13:32.341Z	Outset	reachable
-2026-11-22T15:13:32.341Z	PAR Technology	reachable
-2026-11-22T15:13:32.341Z	Poesis	reachable
-2026-11-22T15:13:32.341Z	Pramaana Labs	reachable
-2026-11-22T15:13:32.341Z	Recall.ai	reachable
-2026-11-22T15:13:32.341Z	Substack	reachable
-2026-11-22T15:13:32.341Z	Whop	reachable
-2026-11-22T15:13:32.341Z	Zefr	reachable
-2026-11-22T15:13:32.341Z	Anaplan	reachable
-2026-11-22T15:13:32.341Z	Cloudflare	unknown
-2026-11-22T15:13:32.341Z	Cayuse	reachable
-2026-11-22T15:13:32.341Z	Element Biosciences	reachable
-2026-11-22T15:13:32.341Z	Minitab	reachable
-2026-11-22T15:13:32.341Z	Planet Labs	reachable
-2026-11-22T15:13:32.341Z	Ridgeline	unknown
-2026-11-22T15:13:32.341Z	Tenstorrent	reachable
-2026-11-22T15:13:32.341Z	Prime Electric	reachable
-2026-11-22T15:13:32.341Z	Rhombus	reachable
-2026-11-22T15:13:32.341Z	CSAA Insurance Group	unknown
-2026-11-22T15:13:32.341Z	Dauch Corporation	unknown
-2026-11-22T15:13:32.341Z	The AES Corporation	unknown
-2026-11-22T15:13:32.341Z	Alkegen	reachable
-2026-11-22T15:13:32.341Z	Viridien	unknown
-2026-11-22T15:13:32.341Z	CIBC	unknown
-2026-11-22T15:13:32.341Z	Jet Propulsion Laboratory	unknown
-2026-11-22T15:13:32.341Z	Extra Space Storage	unknown
-2026-11-22T15:13:32.341Z	Fidelity Investments	unknown
-2026-11-22T15:13:32.341Z	Granite Construction Incorporated	unknown
-2026-11-22T15:13:32.341Z	Greystone Asset Management	unknown
-2026-11-22T15:13:32.341Z	Jain Global	unknown
-2026-11-22T15:13:32.341Z	KLA Corporation	unknown
-2026-11-22T15:13:32.341Z	Kyndryl	reachable
-2026-11-22T15:13:32.341Z	Siemens Healthineers	reachable
-2026-11-22T15:13:32.341Z	The Ohio State University	unknown
-2026-11-22T15:13:32.341Z	Pape-Dawson Engineers	reachable
-2026-11-22T15:13:32.341Z	GBH	unknown
-2026-11-22T15:13:32.341Z	PwC	unknown
-2026-11-22T15:13:32.341Z	Rakuten Group	unknown
-2026-11-22T15:13:32.341Z	Rite-Hite	unknown
-2026-11-22T15:13:32.341Z	Rolls-Royce	unknown
-2026-11-22T15:13:32.341Z	Schnuck Markets	unknown
-2026-11-22T15:13:32.341Z	Southwest Airlines	unknown
-2026-11-22T15:13:32.341Z	Thales	unknown
-2026-11-22T15:13:32.341Z	Thales	unknown
-2026-11-22T15:13:32.341Z	Wilbur-Ellis	unknown
-2026-11-22T15:13:32.341Z	Wonder	unknown
-2026-11-22T15:13:32.341Z	Airbound	reachable
-2026-11-22T15:13:32.341Z	Alta Ares	reachable
-2026-11-22T15:13:32.341Z	Atira	reachable
-2026-11-22T15:13:32.341Z	Braintrust	reachable
-2026-11-22T15:13:32.341Z	Commure	reachable
-2026-11-22T15:13:32.341Z	Convey	reachable
-2026-11-22T15:13:32.341Z	Eight Sleep	reachable
-2026-11-22T15:13:32.341Z	Gimlet Labs, Inc.	reachable
-2026-11-22T15:13:32.341Z	Horizon3.ai	reachable
-2026-11-22T15:13:32.341Z	MERCOR	reachable
-2026-11-22T15:13:32.341Z	Morpho	reachable
-2026-11-22T15:13:32.341Z	Partly	reachable
-2026-11-22T15:13:32.341Z	Salmon	reachable
-2026-11-22T15:13:32.341Z	Sandbar	reachable
-2026-11-22T15:13:32.341Z	Saronic Technologies	reachable
-2026-11-22T15:13:32.341Z	Simile	reachable
-2026-11-22T15:13:32.341Z	Standard Bots	reachable
-2026-11-22T15:13:32.341Z	TensorWave	reachable
-2026-11-22T15:13:32.341Z	Terra AI	reachable
-2026-11-22T15:13:32.341Z	Vega	reachable
-2026-11-22T15:13:32.341Z	AutoNation	unknown
-2026-11-22T15:13:32.341Z	Weave	reachable
-2026-11-22T15:13:32.341Z	GuidePoint Security	unknown
-2026-11-22T15:13:32.341Z	Orenda	reachable
-2026-11-22T15:13:32.341Z	Everpure	reachable
-2026-11-22T15:13:32.341Z	CrowdHealth	reachable
-2026-11-22T15:13:32.341Z	Reply S.p.A.	reachable
-2026-11-22T15:13:32.341Z	Veeva Systems	reachable
-2026-11-22T15:13:32.341Z	Jurgensen Companies	unknown
-2026-11-22T15:13:32.341Z	Latent Health	reachable
-2026-11-22T15:13:32.341Z	Peec AI	reachable
-2026-11-22T15:13:32.341Z	SideShift	reachable
-2026-11-22T15:13:32.341Z	Widget Factory	reachable
-2026-11-22T15:13:32.341Z	AvidXchange	reachable
-2026-11-22T15:13:32.341Z	CHAOS Industries	reachable
-2026-11-22T15:13:32.341Z	American Cancer Society	unknown
-2026-11-22T15:13:32.341Z	City of Baltimore	unknown
-2026-11-22T15:13:32.341Z	BP	unknown
-2026-11-22T15:13:32.341Z	The Chemours Company	reachable
-2026-11-22T15:13:32.341Z	Enbridge	unknown
-2026-11-22T15:13:32.341Z	Teledyne Technologies	unknown
-2026-11-22T15:13:32.341Z	Freddie Mac	unknown
-2026-11-22T15:13:32.341Z	GE Vernova	unknown
-2026-11-22T15:13:32.341Z	Inspire Brands	unknown
-2026-11-22T15:13:32.341Z	State of Maine	unknown
-2026-11-22T15:13:32.341Z	Ryder	unknown
-2026-11-22T15:13:32.341Z	SHI International	unknown
-2026-11-22T15:13:32.341Z	University Medical Center	unknown
-2026-11-22T15:13:32.341Z	WaterBridge	unknown
-2026-11-22T15:13:32.341Z	Backblaze	reachable
-2026-11-22T15:13:32.341Z	Horace Mann Educators Corporation	reachable
-2026-11-22T15:13:32.341Z	IMC	reachable
-2026-11-22T15:13:32.341Z	Point72 Asset Management	unknown
-2026-11-22T15:13:32.341Z	The Farmer's Dog	reachable
-2026-11-22T15:13:32.341Z	Twitch Interactive	reachable
-2026-11-22T15:13:32.341Z	Assurant	unknown
-2026-11-22T15:13:32.341Z	Citi	unknown
-2026-11-22T15:13:32.341Z	Gundersen Health System	unknown
-2026-11-22T15:13:32.341Z	Jabil	unknown
-2026-11-22T15:13:32.341Z	London Stock Exchange Group	unknown
-2026-11-22T15:13:32.341Z	PacificSource	unknown
-2026-11-22T15:13:32.341Z	ProPetro Services	unknown
-2026-11-22T15:13:32.341Z	ProPetro Services	unknown
-2026-11-22T15:13:32.341Z	Lyric	unknown
-2026-11-22T15:13:32.341Z	AeroVironment	unknown
-2026-11-22T15:13:32.341Z	Bright Horizons	unknown
-2026-11-22T15:13:32.341Z	Business Integra	unknown
-2026-11-22T15:13:32.341Z	Caris Life Sciences	unknown
-2026-11-22T15:13:32.341Z	Clark Construction	reachable
-2026-11-22T15:13:32.341Z	Copart	unknown
-2026-11-22T15:13:32.341Z	Covestro	unknown
-2026-11-22T15:13:32.341Z	GE HealthCare	unknown
-2026-11-22T15:13:32.341Z	Bank of America	unknown
-2026-11-22T15:13:32.341Z	Hunt Electric	reachable
-2026-11-22T15:13:32.341Z	KION Group	unknown
-2026-11-22T15:13:32.341Z	Microchip Technology	unknown
-2026-11-22T15:13:32.341Z	M&T Bank	unknown
-2026-11-22T15:13:32.341Z	Panera Bread	unknown
-2026-11-22T15:13:32.341Z	Sonos	unknown
-2026-11-22T15:13:32.341Z	The University of Texas at Austin	unknown
-2026-11-22T15:13:32.341Z	The Weitz Company	reachable
-2026-11-22T15:13:32.341Z	Yale University	unknown
-2026-11-22T15:13:32.341Z	Affiniti	reachable
-2026-11-22T15:13:32.341Z	Lightyear	reachable
-2026-11-22T15:13:32.341Z	Pursuit	reachable
-2026-11-22T15:13:32.341Z	Spectral Labs	reachable
-2026-11-22T15:13:32.341Z	Upchurch	reachable
-2026-11-22T15:13:32.341Z	Zus Health	reachable
-2026-11-22T15:13:32.341Z	Figure	reachable
-2026-11-22T15:13:32.341Z	iCON	reachable
-2026-11-22T15:13:32.341Z	Inversion Space	reachable
-2026-11-22T15:13:32.341Z	Levanta	reachable
-2026-11-22T15:13:32.341Z	MA Capital	reachable
-2026-11-22T15:13:32.341Z	The Pokémon Company International, Inc.	reachable
-2026-11-22T15:13:32.341Z	SharkNinja	reachable
-2026-11-22T15:13:32.341Z	SirenOpt	reachable
-2026-11-22T15:13:32.341Z	SmartAsset	reachable
-2026-11-22T15:13:32.341Z	Truveta	reachable
-2026-11-22T15:13:32.341Z	Commonwealth Fusion Systems	reachable
-2026-11-22T15:13:32.341Z	Aristocrat	unknown
-2026-11-22T15:13:32.341Z	Avis Budget Group	reachable
-2026-11-22T15:13:32.341Z	Booz Allen Hamilton	reachable
-2026-11-22T15:13:32.341Z	BlackRock	unknown
-2026-11-22T15:13:32.341Z	Broadridge	reachable
-2026-11-22T15:13:32.341Z	Viridien	unknown
-2026-11-22T15:13:32.341Z	Carnegie Mellon University	reachable
-2026-11-22T15:13:32.341Z	Cornell University	reachable
-2026-11-22T15:13:32.341Z	Etsy	reachable
-2026-11-22T15:13:32.341Z	Evolent Health	unknown
-2026-11-22T15:13:32.341Z	FINRA	unknown
-2026-11-22T15:13:32.341Z	Health Care Service Corporation	unknown
-2026-11-22T15:13:32.341Z	Health Research, Inc.	unknown
-2026-11-22T15:13:32.341Z	Johnson & Johnson	unknown
-2026-11-22T15:13:32.341Z	JPI	unknown
-2026-11-22T15:13:32.341Z	KeyCorp	unknown
-2026-11-22T15:13:32.341Z	Lee Company	unknown
-2026-11-22T15:13:32.341Z	Nasdaq	unknown
-2026-11-22T15:13:32.341Z	The Pennant Group	unknown
-2026-11-22T15:13:32.341Z	Primerica	unknown
-2026-11-22T15:13:32.341Z	Qualys	reachable
-2026-11-22T15:13:32.341Z	Federal Reserve System	reachable
-2026-11-22T15:13:32.341Z	Rosendin	unknown
-2026-11-22T15:13:32.341Z	Stout	unknown
-2026-11-22T15:13:32.341Z	Stout	unknown
-2026-11-22T15:13:32.341Z	Target	unknown
-2026-11-22T15:13:32.341Z	Thrivent	unknown
-2026-11-22T15:13:32.341Z	TRUMPF	unknown
-2026-11-22T15:13:32.341Z	Milwaukee Tool	unknown
-2026-11-22T15:13:32.341Z	Verizon	unknown
-2026-11-22T15:13:32.341Z	Graphcore	reachable
-2026-11-22T15:13:32.341Z	Eat Just	reachable
-2026-11-22T15:13:32.341Z	Pathstone	reachable
-2026-11-22T15:13:32.341Z	Agilent Technologies	unknown
-2026-11-22T15:13:32.341Z	Ferrovial	unknown
-2026-11-22T15:13:32.341Z	Generac	unknown
-2026-11-22T15:13:32.341Z	Guidewire Software	unknown
-2026-11-22T15:13:32.341Z	Itron	unknown
-2026-11-22T15:13:32.341Z	Itron	unknown
-2026-11-22T15:13:32.341Z	Manulife	unknown
-2026-11-22T15:13:32.341Z	Royal Philips	unknown
-2026-11-22T15:13:32.341Z	Salesforce	unknown
-2026-11-22T15:13:32.341Z	Sandvik	unknown
-2026-11-22T15:13:32.341Z	Sandvik	unknown
-2026-11-22T15:13:32.341Z	Abby Care	reachable
-2026-11-22T15:13:32.341Z	Bernard	reachable
-2026-11-22T15:13:32.341Z	ClarityPay	reachable
-2026-11-22T15:13:32.341Z	Paraform	reachable
-2026-11-22T15:13:32.341Z	Tessera Labs	reachable
-2026-11-22T15:13:32.341Z	Extend	reachable
-2026-11-22T15:13:32.341Z	EverService	reachable
-2026-11-22T15:13:32.341Z	Cornell University	reachable
-2026-11-22T15:13:32.341Z	Johnson & Johnson	unknown
-2026-11-22T15:13:32.341Z	SpaceXAI	reachable
-2026-11-22T15:13:32.341Z	HP Inc.	unknown
-2026-11-22T15:13:32.341Z	Uline	unknown
-2026-11-22T15:13:32.341Z	Ghost	reachable
-2026-11-22T15:13:32.341Z	Thumbtack	reachable
-2026-11-22T15:13:32.341Z	NOETIK	reachable
-2026-11-22T15:13:32.341Z	Nova Credit	reachable
-2026-11-22T15:13:32.341Z	Re:Build Manufacturing	reachable
-2026-11-22T15:13:32.341Z	Schonfeld	reachable
-2026-11-22T15:13:32.341Z	Tusker	reachable
-2026-11-22T15:13:32.341Z	The Aspen Group	unknown
-2026-11-22T15:13:32.341Z	Viridien	unknown
-2026-11-22T15:13:32.341Z	Cambridge Investment Research	unknown
-2026-11-22T15:13:32.341Z	HP Inc.	unknown
-2026-11-22T15:13:32.341Z	PJM Interconnection	unknown
-2026-11-22T15:13:32.341Z	QTS Data Centers	unknown
-2026-11-22T15:13:32.341Z	ChipAgents	reachable
-2026-11-22T15:13:32.341Z	Clair	reachable
-2026-11-22T15:13:32.341Z	Crux	reachable
-2026-11-22T15:13:32.341Z	Humanoid	reachable
-2026-11-22T15:13:32.341Z	Mintlify	reachable
-2026-11-22T15:13:32.341Z	Moxie	reachable
-2026-11-22T15:13:32.341Z	Neara	reachable
-2026-11-22T15:13:32.341Z	Salient	reachable
-2026-11-22T15:13:32.341Z	Lee Company	unknown
-2026-11-22T15:13:32.341Z	Aaru	reachable
-2026-11-22T15:13:32.341Z	Cyberhaven	reachable
-2026-11-22T15:13:32.341Z	Telnyx	reachable
-2026-11-22T15:13:32.341Z	LG Energy Solution Arizona	reachable
-2026-11-22T15:13:32.341Z	AstraZeneca	unknown
-2026-11-22T15:13:32.341Z	Cadence Design Systems	unknown
-2026-11-22T15:13:32.341Z	Freudenberg	unknown
-2026-11-22T15:13:32.341Z	Haleon	unknown
-2026-11-22T15:13:32.341Z	Miami University	unknown
-2026-11-22T15:13:32.341Z	Amentum	unknown
-2026-11-22T15:13:32.341Z	d-Matrix	reachable
-2026-11-22T15:13:32.341Z	Quora	reachable
-2026-11-22T15:13:32.341Z	Tin Can	reachable
-2026-11-22T15:13:32.341Z	Cadence Design Systems	unknown
-2026-11-22T15:13:32.341Z	Jane Street	reachable
-2026-11-22T15:13:32.341Z	Hudson River Trading	reachable
-2026-11-22T15:13:32.341Z	Jump Trading	reachable
-2026-11-22T15:13:32.341Z	Jump Crypto	reachable
-2026-11-22T15:13:32.341Z	Optiver	reachable
-2026-11-22T15:13:32.341Z	IMC Trading	reachable
-2026-11-22T15:13:32.341Z	Five Rings	reachable
-2026-11-22T15:13:32.341Z	Akuna Capital	reachable
-2026-11-22T15:13:32.341Z	Virtu Financial	reachable
-2026-11-22T15:13:32.341Z	Tower Research Capital	reachable
-2026-11-22T15:13:32.341Z	Old Mission	slug_gone
-2026-11-22T15:13:32.341Z	Belvedere Trading	reachable
-2026-11-22T15:13:32.341Z	Bridgewater Associates	reachable
-2026-11-22T15:13:32.341Z	AQR Capital Management	reachable
-2026-11-22T15:13:32.341Z	Squarepoint Capital	reachable
-2026-11-22T15:13:32.341Z	Radix Trading (University)	reachable
-2026-11-22T15:13:32.341Z	Radix Trading (Experienced)	reachable
-2026-11-22T15:13:32.341Z	Headlands Technologies	reachable
-2026-11-22T15:13:32.341Z	Voleon	reachable
-2026-11-22T15:13:32.341Z	PDT Partners	reachable
-2026-11-22T15:13:32.341Z	Qube Research & Technologies	reachable
-2026-11-22T15:13:32.341Z	Flow Traders	reachable
-2026-11-22T15:13:32.341Z	Chicago Trading Company	reachable
-2026-11-22T15:13:32.341Z	Chicago Trading Company (Campus)	reachable
-2026-11-22T15:13:32.341Z	Geneva Trading	reachable
-2026-11-22T15:13:32.341Z	TransMarket Group	reachable
-2026-11-22T15:13:32.341Z	Maven Securities	reachable
-2026-11-22T15:13:32.341Z	Vatic Labs	reachable
-2026-11-22T15:13:32.341Z	WorldQuant	reachable
-2026-11-22T15:13:32.341Z	Engineers Gate	reachable
-2026-11-22T15:13:32.341Z	Graham Capital Management	reachable
-2026-11-22T15:13:32.341Z	Marshall Wace	empty
-2026-11-22T15:13:32.341Z	ExodusPoint	reachable
-2026-11-22T15:13:32.341Z	Tudor Investment Corp	reachable
-2026-11-22T15:13:32.341Z	Verition Fund Management	reachable
-2026-11-22T15:13:32.341Z	Garda Capital Partners	reachable
-2026-11-22T15:13:32.341Z	Davidson Kempner	reachable
-2026-11-22T15:13:32.341Z	Valkyrie Trading	reachable
-2026-11-22T15:13:32.341Z	Ansatz Capital	reachable
-2026-11-22T15:13:32.341Z	Teza Technologies	reachable
-2026-11-22T15:13:32.341Z	Aquatic Capital Management	reachable
-2026-11-22T15:13:32.341Z	Grasshopper	reachable
-2026-11-22T15:13:32.341Z	Mako Trading	reachable
-2026-11-22T15:13:32.341Z	Eclipse Trading	reachable
-2026-11-22T15:13:32.341Z	Simplex Trading	reachable
-2026-11-22T15:13:32.341Z	Trexquant	reachable
-2026-11-22T15:13:32.341Z	Walleye Capital (Internships)	reachable
-2026-11-22T15:13:32.341Z	Weiss Asset Management	reachable
-2026-11-22T15:13:32.341Z	Man Group	reachable
-2026-11-22T15:13:32.341Z	Winton	reachable
-2026-11-22T15:13:32.341Z	XTX Markets	reachable
-2026-11-22T15:13:32.341Z	Capstone Investment Advisors	reachable
-2026-11-22T15:13:32.341Z	Da Vinci Trading	reachable
-2026-11-22T15:13:32.341Z	Quantbot Technologies	reachable
-2026-11-22T15:13:32.341Z	Atto Trading Technologies	reachable
-2026-11-22T15:13:32.341Z	BlackEdge Capital	reachable
-2026-11-22T15:13:32.341Z	Quadrature Capital	reachable
-2026-11-22T15:13:32.341Z	Acadian Asset Management	reachable
-2026-11-22T15:13:32.341Z	AlphaGrep	reachable
-2026-11-22T15:13:32.341Z	Graviton Research Capital	reachable
-2026-11-22T15:13:32.341Z	BlueCrest Capital Management	slug_gone
-2026-11-22T15:13:32.341Z	Selini Capital	reachable
-2026-11-22T15:13:32.341Z	GSR	reachable
-2026-11-22T15:13:32.341Z	Wintermute	reachable
-2026-11-22T15:13:32.341Z	B2C2	reachable
-2026-11-22T15:13:32.341Z	Galaxy Digital	reachable
-2026-11-22T15:13:32.341Z	FalconX	reachable
-2026-11-22T15:13:32.341Z	Talos	reachable
-2026-11-22T15:13:32.341Z	Pico	reachable
-2026-11-22T15:13:32.341Z	IEX Group	reachable
-2026-11-22T15:13:32.341Z	MarketAxess	reachable
-2026-11-22T15:13:32.341Z	Robinhood	reachable
-2026-11-22T15:13:32.341Z	Coinbase	reachable
-2026-11-22T15:13:32.341Z	Kalshi	reachable
-2026-11-22T15:13:32.341Z	Gemini	reachable
-2026-11-22T15:13:32.341Z	PEAK6	unknown
-2026-11-22T15:13:32.341Z	Apex Fintech Solutions (PEAK6)	unknown
-2026-11-22T15:13:32.341Z	G-Research	unknown
-2026-11-22T15:13:32.341Z	Options Clearing Corporation (OCC)	reachable
-2026-11-22T15:13:32.341Z	LSEG	unknown
-2026-11-22T15:13:32.341Z	S&P Global	unknown
-2026-11-22T15:13:32.341Z	FactSet	reachable
-2026-11-22T15:13:32.341Z	Barclays	reachable
-2026-11-22T15:13:32.341Z	Morgan Stanley	unknown
-2026-11-22T15:13:32.341Z	Wells Fargo	unknown
-2026-11-22T15:13:32.341Z	Deutsche Bank	unknown
-2026-11-22T15:13:32.341Z	RBC (Early Talent)	unknown
-2026-11-22T15:13:32.341Z	Mizuho Americas	unknown
-2026-11-22T15:13:32.341Z	Wellington Management (Campus)	unknown
-2026-11-22T15:13:32.341Z	Wellington Management	reachable
-2026-11-22T15:13:32.341Z	PIMCO	unknown
-2026-11-22T15:13:32.341Z	Dimensional Fund Advisors	reachable
-2026-11-22T15:13:32.341Z	Mistral AI	reachable
-2026-11-22T15:13:32.341Z	Character.AI	reachable
-2026-11-22T15:13:32.341Z	Reka AI	reachable
-2026-11-22T15:13:32.341Z	Imbue	reachable
-2026-11-22T15:13:32.341Z	Liquid AI	reachable
-2026-11-22T15:13:32.341Z	Magic	reachable
-2026-11-22T15:13:32.341Z	World Labs	slug_gone
-2026-11-22T15:13:32.341Z	Skild AI	reachable
-2026-11-22T15:13:32.341Z	1X Technologies	reachable
-2026-11-22T15:13:32.341Z	Agility Robotics	reachable
-2026-11-22T15:13:32.341Z	Nuro	reachable
-2026-11-22T15:13:32.341Z	Motional	reachable
-2026-11-22T15:13:32.341Z	Hebbia	reachable
-2026-11-22T15:13:32.341Z	Abridge	reachable
-2026-11-22T15:13:32.341Z	Recursion	reachable
-2026-11-22T15:13:32.341Z	insitro	reachable
-2026-11-22T15:13:32.341Z	Genesis Molecular AI (fka Genesis Therapeutics)	reachable
-2026-11-22T15:13:32.341Z	Fireworks AI	reachable
-2026-11-22T15:13:32.341Z	Cerebras	reachable
-2026-11-22T15:13:32.341Z	CoreWeave (Europe)	reachable
-2026-11-22T15:13:32.341Z	Weights & Biases (CoreWeave)	slug_gone
-2026-11-22T15:13:32.341Z	Anyscale	reachable
-2026-11-22T15:13:32.341Z	Weaviate	reachable
-2026-11-22T15:13:32.341Z	Chroma	reachable
-2026-11-22T15:13:32.341Z	Writer	reachable
-2026-11-22T15:13:32.341Z	Jasper	reachable
-2026-11-22T15:13:32.341Z	Descript	reachable
-2026-11-22T15:13:32.341Z	Notion	reachable
-2026-11-22T15:13:32.341Z	Duolingo	reachable
-2026-11-22T15:13:32.341Z	Pinterest	reachable
-2026-11-22T15:13:32.341Z	Airbnb	reachable
-2026-11-22T15:13:32.341Z	Lyft	reachable
-2026-11-22T15:13:32.341Z	Instacart	reachable
-2026-11-22T15:13:32.341Z	Stripe	reachable
-2026-11-22T15:13:32.341Z	Brex	reachable
-2026-11-22T15:13:32.341Z	Plaid	reachable
-2026-11-22T15:13:32.341Z	Roblox	reachable
-2026-11-22T15:13:32.341Z	Snap	unknown
-2026-11-22T15:13:32.341Z	Samsara	reachable
-2026-11-22T15:13:32.341Z	Adobe	unknown
-2026-11-22T15:13:32.341Z	Databricks	reachable
-2026-11-22T15:13:32.341Z	Runway	reachable
-2026-11-22T15:13:32.341Z	Pika	reachable
-2026-11-22T15:13:32.341Z	Luma AI	reachable
-2026-11-22T15:13:32.341Z	Black Forest Labs	reachable
-2026-11-22T15:13:32.341Z	Midjourney	reachable
-2026-11-22T15:13:32.341Z	Snorkel AI	reachable
-2026-11-22T15:13:32.341Z	Labelbox	reachable
-2026-11-22T15:13:32.341Z	Handshake (incl. Handshake AI)	reachable
-2026-11-22T15:13:32.341Z	Ambience Healthcare	reachable
-2026-11-22T15:13:32.341Z	AssemblyAI	reachable
-2026-11-22T15:13:32.341Z	HeyGen	reachable
-2026-11-22T15:13:32.341Z	Ideogram	reachable
-2026-11-22T15:13:32.341Z	Hedra	reachable
-2026-11-22T15:13:32.341Z	Tavus	reachable
-2026-11-22T15:13:32.341Z	Factory	reachable
-2026-11-22T15:13:32.341Z	Sourcegraph	reachable
-2026-11-22T15:13:32.341Z	MatX	reachable
-2026-11-22T15:13:32.341Z	Tenstorrent	reachable
-2026-11-22T15:13:32.341Z	Unstructured	reachable
-2026-11-22T15:13:32.341Z	Goodfire	reachable
-2026-11-22T15:13:32.341Z	Apollo Research	reachable
-2026-11-22T15:13:32.341Z	Ai2 (Allen Institute for AI)	reachable
-2026-11-22T15:13:32.341Z	Generate Biomedicines	reachable
-2026-11-22T15:13:32.341Z	Xaira Therapeutics	reachable
-2026-11-22T15:13:32.341Z	Formation Bio	reachable
-2026-11-22T15:13:32.341Z	PathAI	reachable
-2026-11-22T15:13:32.341Z	Apptronik	reachable
-2026-11-22T15:13:32.341Z	Zipline	reachable
-2026-11-22T15:13:32.341Z	Kodiak	reachable
-2026-11-22T15:13:32.341Z	Waabi	reachable
-2026-11-22T15:13:32.341Z	Stack AV	reachable
-2026-11-22T15:13:32.341Z	May Mobility	reachable
-2026-11-22T15:13:32.341Z	Toyota Research Institute	reachable
-2026-11-22T15:13:32.341Z	Samsung Research America	reachable
-2026-11-22T15:13:32.341Z	Samsung Research America (Internships)	reachable
-2026-11-22T15:13:32.341Z	QuantCo	reachable
-2026-11-22T15:13:32.341Z	Collaborative Robotics	reachable
-2026-11-22T15:13:32.341Z	Datadog	reachable
-2026-11-22T15:13:32.341Z	MongoDB	reachable
-2026-11-22T15:13:32.341Z	Workday (Early Career)	unknown
-2026-11-22T15:13:32.341Z	Autodesk	unknown
-2026-11-22T15:13:32.341Z	Autodesk (University)	unknown
-2026-11-22T15:13:32.341Z	Kensho (S&P Global)	unknown
-2026-11-22T15:13:32.341Z	Inflection AI	reachable
-2026-11-22T15:13:32.341Z	Zyphra	reachable
-2026-11-22T15:13:32.341Z	Gamma	reachable
-2026-11-22T15:13:32.341Z	Turing	reachable
-2026-11-22T15:13:32.341Z	Invisible Technologies	reachable
-2026-11-22T15:13:32.341Z	Surge AI	reachable
-2026-11-22T15:13:32.341Z	Cresta	reachable
-2026-11-22T15:13:32.341Z	Observe.AI	reachable
-2026-11-22T15:13:32.341Z	Gong	reachable
-2026-11-22T15:13:32.341Z	Rogo	reachable
-2026-11-22T15:13:32.341Z	Dyna Robotics	reachable
-2026-11-22T15:13:32.341Z	The Bot Company	reachable
-2026-11-22T15:13:32.341Z	Formic	reachable
-2026-11-22T15:13:32.341Z	Locus Robotics	reachable
-2026-11-22T15:13:32.341Z	Torc Robotics	reachable
-2026-11-22T15:13:32.341Z	RAI Institute	reachable
-2026-11-22T15:13:32.341Z	Pony.ai	reachable
-2026-11-22T15:13:32.341Z	Gatik	reachable
-2026-11-22T15:13:32.341Z	National Life Group - Interns	reachable
-2026-11-22T15:13:32.341Z	Ardian	unknown
-2026-11-22T15:13:32.341Z	Cystic Fibrosis Foundation	reachable
 2026-11-22T15:34:31.431Z	SWIFT	unknown
 2026-11-22T15:34:31.431Z	Hewlett Packard Enterprise	unknown
 2026-11-22T15:34:31.431Z	Hewlett Packard Enterprise	unknown
@@ -14009,3 +12608,1404 @@ timestamp	company	status
 2026-11-22T18:09:50.877Z	National Life Group - Interns	reachable
 2026-11-22T18:09:50.877Z	Ardian	reachable
 2026-11-22T18:09:50.877Z	Cystic Fibrosis Foundation	reachable
+2026-11-22T18:30:53.496Z	SWIFT	unknown
+2026-11-22T18:30:53.496Z	Hewlett Packard Enterprise	reachable
+2026-11-22T18:30:53.496Z	Hewlett Packard Enterprise	reachable
+2026-11-22T18:30:53.496Z	CDM Smith	unknown
+2026-11-22T18:30:53.496Z	Michels	reachable
+2026-11-22T18:30:53.496Z	Coffman Engineers	reachable
+2026-11-22T18:30:53.496Z	NCR Voyix	unknown
+2026-11-22T18:30:53.496Z	Fidelity Investments	unknown
+2026-11-22T18:30:53.496Z	Vanden Recycling	reachable
+2026-11-22T18:30:53.496Z	Omnissa	unknown
+2026-11-22T18:30:53.496Z	Varda Space Industries	reachable
+2026-11-22T18:30:53.496Z	Langan	reachable
+2026-11-22T18:30:53.496Z	Accordion	reachable
+2026-11-22T18:30:53.496Z	Acme Corp	slug_gone
+2026-11-22T18:30:53.496Z	Alpaca	reachable
+2026-11-22T18:30:53.496Z	Amperesand	reachable
+2026-11-22T18:30:53.496Z	Applytocuebox	reachable
+2026-11-22T18:30:53.496Z	Aptoslabs	reachable
+2026-11-22T18:30:53.496Z	Armada	reachable
+2026-11-22T18:30:53.496Z	Arvaintelligence	reachable
+2026-11-22T18:30:53.496Z	Aurora Innovation	slug_gone
+2026-11-22T18:30:53.496Z	Bandwidth	reachable
+2026-11-22T18:30:53.496Z	Boxinc	reachable
+2026-11-22T18:30:53.496Z	Btig27	reachable
+2026-11-22T18:30:53.496Z	Calyxo	reachable
+2026-11-22T18:30:53.496Z	Chainguard	reachable
+2026-11-22T18:30:53.496Z	Chime	reachable
+2026-11-22T18:30:53.496Z	Clear	reachable
+2026-11-22T18:30:53.496Z	Clockworksystems	reachable
+2026-11-22T18:30:53.496Z	Cloudflare	unknown
+2026-11-22T18:30:53.496Z	Cssmerge	reachable
+2026-11-22T18:30:53.496Z	Ctccampusboard	reachable
+2026-11-22T18:30:53.496Z	Debtbook	slug_gone
+2026-11-22T18:30:53.496Z	Discord	reachable
+2026-11-22T18:30:53.496Z	Dnsfilter	slug_gone
+2026-11-22T18:30:53.496Z	Drweng	reachable
+2026-11-22T18:30:53.496Z	Flexport	reachable
+2026-11-22T18:30:53.496Z	Flock Homes	reachable
+2026-11-22T18:30:53.496Z	Forwardnetworks	reachable
+2026-11-22T18:30:53.496Z	Fourkites	reachable
+2026-11-22T18:30:53.496Z	Gitlab	reachable
+2026-11-22T18:30:53.496Z	Goldenstate	reachable
+2026-11-22T18:30:53.496Z	Hyannisportresearch	reachable
+2026-11-22T18:30:53.496Z	Impact	reachable
+2026-11-22T18:30:53.496Z	Incidentiq	reachable
+2026-11-22T18:30:53.496Z	Instawork	reachable
+2026-11-22T18:30:53.496Z	Katalyst	reachable
+2026-11-22T18:30:53.496Z	Li Thermal Works	reachable
+2026-11-22T18:30:53.496Z	Lumimeds	reachable
+2026-11-22T18:30:53.496Z	Mitratech	reachable
+2026-11-22T18:30:53.496Z	Mozilla	reachable
+2026-11-22T18:30:53.496Z	Muonspace	reachable
+2026-11-22T18:30:53.496Z	Mw Tech Grad	reachable
+2026-11-22T18:30:53.496Z	Neo4j	reachable
+2026-11-22T18:30:53.496Z	Neweratech	reachable
+2026-11-22T18:30:53.496Z	Nortal	reachable
+2026-11-22T18:30:53.496Z	OneTrust	reachable
+2026-11-22T18:30:53.496Z	Pansophiclearning	reachable
+2026-11-22T18:30:53.496Z	Pathrobotics	reachable
+2026-11-22T18:30:53.496Z	Perfectserve	reachable
+2026-11-22T18:30:53.496Z	Prophet	reachable
+2026-11-22T18:30:53.496Z	Qualia	reachable
+2026-11-22T18:30:53.496Z	Radiclehealth	reachable
+2026-11-22T18:30:53.496Z	Reddit	reachable
+2026-11-22T18:30:53.496Z	Reliant	reachable
+2026-11-22T18:30:53.496Z	Roo	reachable
+2026-11-22T18:30:53.496Z	Scaleai	reachable
+2026-11-22T18:30:53.496Z	Scopely	reachable
+2026-11-22T18:30:53.496Z	Scotch	reachable
+2026-11-22T18:30:53.496Z	Simplisafe	reachable
+2026-11-22T18:30:53.496Z	Slideinsurance	slug_gone
+2026-11-22T18:30:53.496Z	Smartbear	reachable
+2026-11-22T18:30:53.496Z	Smartsheet	reachable
+2026-11-22T18:30:53.496Z	Sonyinteractiveentertainmentglobal	reachable
+2026-11-22T18:30:53.496Z	Thetradedesk	reachable
+2026-11-22T18:30:53.496Z	Theweathercompany	reachable
+2026-11-22T18:30:53.496Z	Togetherai	reachable
+2026-11-22T18:30:53.496Z	Topsort	reachable
+2026-11-22T18:30:53.496Z	Tripledotstudios	reachable
+2026-11-22T18:30:53.496Z	Twilio	reachable
+2026-11-22T18:30:53.496Z	Zyngacareers	reachable
+2026-11-22T18:30:53.496Z	a2z Radiology AI	reachable
+2026-11-22T18:30:53.496Z	AKASA	reachable
+2026-11-22T18:30:53.496Z	Ambrook	reachable
+2026-11-22T18:30:53.496Z	Anomaly	empty
+2026-11-22T18:30:53.496Z	Applied Intuition	reachable
+2026-11-22T18:30:53.496Z	Augmodo	reachable
+2026-11-22T18:30:53.496Z	Beacon AI	reachable
+2026-11-22T18:30:53.496Z	Blissway Inc.	reachable
+2026-11-22T18:30:53.496Z	Blossom Health	reachable
+2026-11-22T18:30:53.496Z	Careerswift	reachable
+2026-11-22T18:30:53.496Z	Centerfield	reachable
+2026-11-22T18:30:53.496Z	Ciridae	reachable
+2026-11-22T18:30:53.496Z	Clark	reachable
+2026-11-22T18:30:53.496Z	Clera	reachable
+2026-11-22T18:30:53.496Z	Cogent Security	reachable
+2026-11-22T18:30:53.496Z	Cohere	reachable
+2026-11-22T18:30:53.496Z	Conversion	reachable
+2026-11-22T18:30:53.496Z	Crogl	reachable
+2026-11-22T18:30:53.496Z	Crusoe	reachable
+2026-11-22T18:30:53.496Z	Edra	reachable
+2026-11-22T18:30:53.496Z	Ent	reachable
+2026-11-22T18:30:53.496Z	Exa	reachable
+2026-11-22T18:30:53.496Z	Exegy	reachable
+2026-11-22T18:30:53.496Z	Finch	reachable
+2026-11-22T18:30:53.496Z	Fireworks	slug_gone
+2026-11-22T18:30:53.496Z	Folio	reachable
+2026-11-22T18:30:53.496Z	Forward Deployed Engineer @ Sift Stack, Inc.	reachable
+2026-11-22T18:30:53.496Z	GovWell	reachable
+2026-11-22T18:30:53.496Z	GrabAGun	reachable
+2026-11-22T18:30:53.496Z	Gumloop	reachable
+2026-11-22T18:30:53.496Z	Harvey	reachable
+2026-11-22T18:30:53.496Z	Hatz AI	empty
+2026-11-22T18:30:53.496Z	Hinge Health	reachable
+2026-11-22T18:30:53.496Z	interface.ai	reachable
+2026-11-22T18:30:53.496Z	Julius AI	reachable
+2026-11-22T18:30:53.496Z	Kustomer	empty
+2026-11-22T18:30:53.496Z	Lambda	reachable
+2026-11-22T18:30:53.496Z	Lightfield	reachable
+2026-11-22T18:30:53.496Z	LiteLLM	reachable
+2026-11-22T18:30:53.496Z	LlamaIndex	reachable
+2026-11-22T18:30:53.496Z	LM Studio	reachable
+2026-11-22T18:30:53.496Z	Melius	reachable
+2026-11-22T18:30:53.496Z	MeridianLink	reachable
+2026-11-22T18:30:53.496Z	MintMCP	slug_gone
+2026-11-22T18:30:53.496Z	Mirage	reachable
+2026-11-22T18:30:53.496Z	Namespace	reachable
+2026-11-22T18:30:53.496Z	Niural	reachable
+2026-11-22T18:30:53.496Z	Northwood Space	reachable
+2026-11-22T18:30:53.496Z	Novig	slug_gone
+2026-11-22T18:30:53.496Z	Nuna	reachable
+2026-11-22T18:30:53.496Z	Ollama	reachable
+2026-11-22T18:30:53.496Z	Oscilar	reachable
+2026-11-22T18:30:53.496Z	Outpost	reachable
+2026-11-22T18:30:53.496Z	Pariveda	reachable
+2026-11-22T18:30:53.496Z	Plane Software, Inc.	reachable
+2026-11-22T18:30:53.496Z	Plaud	reachable
+2026-11-22T18:30:53.496Z	Pogo Technologies, Inc.	reachable
+2026-11-22T18:30:53.496Z	Polymarket	reachable
+2026-11-22T18:30:53.496Z	Reframe Systems	reachable
+2026-11-22T18:30:53.496Z	Retell AI	reachable
+2026-11-22T18:30:53.496Z	Runpod	reachable
+2026-11-22T18:30:53.496Z	Sage Care Inc	reachable
+2026-11-22T18:30:53.496Z	SecureBio	reachable
+2026-11-22T18:30:53.496Z	Snowflake	reachable
+2026-11-22T18:30:53.496Z	SPAN	reachable
+2026-11-22T18:30:53.496Z	Spear AI	reachable
+2026-11-22T18:30:53.496Z	Strala	reachable
+2026-11-22T18:30:53.496Z	Tempo	reachable
+2026-11-22T18:30:53.496Z	Terranova	reachable
+2026-11-22T18:30:53.496Z	Thinking Machines Lab	reachable
+2026-11-22T18:30:53.496Z	Trovy	reachable
+2026-11-22T18:30:53.496Z	Valstad	reachable
+2026-11-22T18:30:53.496Z	Watershed	reachable
+2026-11-22T18:30:53.496Z	WeaveGrid, Inc.	reachable
+2026-11-22T18:30:53.496Z	Whatnot	slug_gone
+2026-11-22T18:30:53.496Z	Whoop	reachable
+2026-11-22T18:30:53.496Z	Zoomlogi	reachable
+2026-11-22T18:30:53.496Z	Agate Software	reachable
+2026-11-22T18:30:53.496Z	AIFund	reachable
+2026-11-22T18:30:53.496Z	FieldAI	reachable
+2026-11-22T18:30:53.496Z	Greenlight Financial Technology	reachable
+2026-11-22T18:30:53.496Z	Ketch	reachable
+2026-11-22T18:30:53.496Z	Lyra Health	reachable
+2026-11-22T18:30:53.496Z	Palantir Technologies	reachable
+2026-11-22T18:30:53.496Z	PlusAI	reachable
+2026-11-22T18:30:53.496Z	Qrypt	reachable
+2026-11-22T18:30:53.496Z	Simbe Robotics	reachable
+2026-11-22T18:30:53.496Z	Software Engineer	reachable
+2026-11-22T18:30:53.496Z	Zanskar	reachable
+2026-11-22T18:30:53.496Z	Aaon	reachable
+2026-11-22T18:30:53.496Z	Abbott	unknown
+2026-11-22T18:30:53.496Z	Amainc	unknown
+2026-11-22T18:30:53.496Z	Amgen	unknown
+2026-11-22T18:30:53.496Z	Arrowstreetcapital	unknown
+2026-11-22T18:30:53.496Z	Aveva	unknown
+2026-11-22T18:30:53.496Z	Axos	unknown
+2026-11-22T18:30:53.496Z	Ballardspahr	unknown
+2026-11-22T18:30:53.496Z	Bcbst	unknown
+2026-11-22T18:30:53.496Z	Bmo	unknown
+2026-11-22T18:30:53.496Z	Cboe	unknown
+2026-11-22T18:30:53.496Z	Cisco	unknown
+2026-11-22T18:30:53.496Z	Costar	unknown
+2026-11-22T18:30:53.496Z	Crateandbarrel	unknown
+2026-11-22T18:30:53.496Z	Cvshealth	unknown
+2026-11-22T18:30:53.496Z	Enovis	unknown
+2026-11-22T18:30:53.496Z	Entrust	unknown
+2026-11-22T18:30:53.496Z	Equiniti	unknown
+2026-11-22T18:30:53.496Z	Expedia	unknown
+2026-11-22T18:30:53.496Z	Fiserv	unknown
+2026-11-22T18:30:53.496Z	Gartner	unknown
+2026-11-22T18:30:53.496Z	Genpact	unknown
+2026-11-22T18:30:53.496Z	Gtlaw	unknown
+2026-11-22T18:30:53.496Z	Harbourvest	unknown
+2026-11-22T18:30:53.496Z	Hmhw	unknown
+2026-11-22T18:30:53.496Z	Hpe	unknown
+2026-11-22T18:30:53.496Z	Intel	unknown
+2026-11-22T18:30:53.496Z	Jd	unknown
+2026-11-22T18:30:53.496Z	Jj	unknown
+2026-11-22T18:30:53.496Z	Lowes	unknown
+2026-11-22T18:30:53.496Z	Manh	unknown
+2026-11-22T18:30:53.496Z	Masco	unknown
+2026-11-22T18:30:53.496Z	Medtronic	unknown
+2026-11-22T18:30:53.496Z	Mimecast	unknown
+2026-11-22T18:30:53.496Z	My7elevenhr	unknown
+2026-11-22T18:30:53.496Z	Ncino	unknown
+2026-11-22T18:30:53.496Z	Ncr	unknown
+2026-11-22T18:30:53.496Z	Nike	unknown
+2026-11-22T18:30:53.496Z	Nordsonhcm	unknown
+2026-11-22T18:30:53.496Z	Nordstrom	unknown
+2026-11-22T18:30:53.496Z	Onedigital	unknown
+2026-11-22T18:30:53.496Z	Onehealthineers	reachable
+2026-11-22T18:30:53.496Z	Osv Amerisure	unknown
+2026-11-22T18:30:53.496Z	Pnc	unknown
+2026-11-22T18:30:53.496Z	Redfcu	reachable
+2026-11-22T18:30:53.496Z	Redhat	unknown
+2026-11-22T18:30:53.496Z	Regeneron	unknown
+2026-11-22T18:30:53.496Z	Remitly	unknown
+2026-11-22T18:30:53.496Z	Repligen	reachable
+2026-11-22T18:30:53.496Z	Rockwellautomation	unknown
+2026-11-22T18:30:53.496Z	Sailpoint	unknown
+2026-11-22T18:30:53.496Z	Salesforce	reachable
+2026-11-22T18:30:53.496Z	Sallie Mae	unknown
+2026-11-22T18:30:53.496Z	Scj	unknown
+2026-11-22T18:30:53.496Z	Shipt	unknown
+2026-11-22T18:30:53.496Z	Signetjewelers	unknown
+2026-11-22T18:30:53.496Z	Statestreet	unknown
+2026-11-22T18:30:53.496Z	Synchronyfinancial	unknown
+2026-11-22T18:30:53.496Z	Tamus	unknown
+2026-11-22T18:30:53.496Z	Td	unknown
+2026-11-22T18:30:53.496Z	Tmobile	unknown
+2026-11-22T18:30:53.496Z	Towerloan	reachable
+2026-11-22T18:30:53.496Z	Transunion	unknown
+2026-11-22T18:30:53.496Z	Travelers	unknown
+2026-11-22T18:30:53.496Z	Truist	unknown
+2026-11-22T18:30:53.496Z	Uhaul	unknown
+2026-11-22T18:30:53.496Z	vanguard	unknown
+2026-11-22T18:30:53.496Z	Verizon	reachable
+2026-11-22T18:30:53.496Z	Walmart	unknown
+2026-11-22T18:30:53.496Z	Warnerbros	unknown
+2026-11-22T18:30:53.496Z	Afficiency	reachable
+2026-11-22T18:30:53.496Z	Bertelsmann Jobs	reachable
+2026-11-22T18:30:53.496Z	Cint	empty
+2026-11-22T18:30:53.496Z	Eurofins	reachable
+2026-11-22T18:30:53.496Z	Experian	reachable
+2026-11-22T18:30:53.496Z	IPTGlobal	reachable
+2026-11-22T18:30:53.496Z	LinkedIn3	reachable
+2026-11-22T18:30:53.496Z	NBCUniversal3	reachable
+2026-11-22T18:30:53.496Z	ServiceNow	reachable
+2026-11-22T18:30:53.496Z	WellmarkInc	reachable
+2026-11-22T18:30:53.496Z	Alaskaair	unknown
+2026-11-22T18:30:53.496Z	Arccorp	unknown
+2026-11-22T18:30:53.496Z	Benjaminmoore	unknown
+2026-11-22T18:30:53.496Z	Berkley	unknown
+2026-11-22T18:30:53.496Z	Cadmusgroup	unknown
+2026-11-22T18:30:53.496Z	Career Schwab	unknown
+2026-11-22T18:30:53.496Z	Cdcmcareers Ulta	unknown
+2026-11-22T18:30:53.496Z	Cirrusaircraft	unknown
+2026-11-22T18:30:53.496Z	Confidential Mheducation	unknown
+2026-11-22T18:30:53.496Z	Directapply Origamirisk	unknown
+2026-11-22T18:30:53.496Z	External Firstcitizens	unknown
+2026-11-22T18:30:53.496Z	Githubinc	unknown
+2026-11-22T18:30:53.496Z	Greensky	unknown
+2026-11-22T18:30:53.496Z	Heb	unknown
+2026-11-22T18:30:53.496Z	Hrblock	unknown
+2026-11-22T18:30:53.496Z	Iehp	unknown
+2026-11-22T18:30:53.496Z	Kimley Horn	unknown
+2026-11-22T18:30:53.496Z	Leviton	unknown
+2026-11-22T18:30:53.496Z	Nffinc	unknown
+2026-11-22T18:30:53.496Z	Nfiindustries	unknown
+2026-11-22T18:30:53.496Z	Panasonic	unknown
+2026-11-22T18:30:53.496Z	Primehealthcare	unknown
+2026-11-22T18:30:53.496Z	Publicis Groupe	unknown
+2026-11-22T18:30:53.496Z	Publicisgroupe	unknown
+2026-11-22T18:30:53.496Z	Republic Finance	unknown
+2026-11-22T18:30:53.496Z	Sas	unknown
+2026-11-22T18:30:53.496Z	Studentopportunities Lutron	unknown
+2026-11-22T18:30:53.496Z	Tdindustries	unknown
+2026-11-22T18:30:53.496Z	Uhsinc	unknown
+2026-11-22T18:30:53.496Z	Us Careers Rivian	unknown
+2026-11-22T18:30:53.496Z	Uscareers Docusign	unknown
+2026-11-22T18:30:53.496Z	Uscareers2 Asm	unknown
+2026-11-22T18:30:53.496Z	Wendys	unknown
+2026-11-22T18:30:53.496Z	Applied	reachable
+2026-11-22T18:30:53.496Z	Battleface	reachable
+2026-11-22T18:30:53.496Z	Investure	reachable
+2026-11-22T18:30:53.496Z	Selector	reachable
+2026-11-22T18:30:53.496Z	Softerware	empty
+2026-11-22T18:30:53.496Z	Visiquate	reachable
+2026-11-22T18:30:53.496Z	BrightPlan	reachable
+2026-11-22T18:30:53.496Z	Solidigm	reachable
+2026-11-22T18:30:53.496Z	NewsBreak	reachable
+2026-11-22T18:30:53.496Z	Facet	reachable
+2026-11-22T18:30:53.496Z	SiFive	unknown
+2026-11-22T18:30:53.496Z	Wells Fargo	unknown
+2026-11-22T18:30:53.496Z	Waymo	reachable
+2026-11-22T18:30:53.496Z	SBT Global	reachable
+2026-11-22T18:30:53.496Z	K2 Space	reachable
+2026-11-22T18:30:53.496Z	Radiant	reachable
+2026-11-22T18:30:53.496Z	SpaceX	reachable
+2026-11-22T18:30:53.496Z	Axon	reachable
+2026-11-22T18:30:53.496Z	Redwood Materials	reachable
+2026-11-22T18:30:53.496Z	Freeform	reachable
+2026-11-22T18:30:53.496Z	Greenhouse	reachable
+2026-11-22T18:30:53.496Z	BIP Ventures	slug_gone
+2026-11-22T18:30:53.496Z	JobNimbus	reachable
+2026-11-22T18:30:53.496Z	Glydways	reachable
+2026-11-22T18:30:53.496Z	KPFF	reachable
+2026-11-22T18:30:53.496Z	Kelso Industries	reachable
+2026-11-22T18:30:53.496Z	GRVTY	reachable
+2026-11-22T18:30:53.496Z	Eventual	reachable
+2026-11-22T18:30:53.496Z	K Health	reachable
+2026-11-22T18:30:53.496Z	Mach Industries	slug_gone
+2026-11-22T18:30:53.496Z	Burns Engineering	reachable
+2026-11-22T18:30:53.496Z	GPTZero	empty
+2026-11-22T18:30:53.496Z	Zoox	reachable
+2026-11-22T18:30:53.496Z	Latitude AI	reachable
+2026-11-22T18:30:53.496Z	SageOx	reachable
+2026-11-22T18:30:53.496Z	K Group Companies	reachable
+2026-11-22T18:30:53.496Z	Systems Engineering Solutions	slug_gone
+2026-11-22T18:30:53.496Z	The Nuclear Company	reachable
+2026-11-22T18:30:53.496Z	Skilled Wound Care	reachable
+2026-11-22T18:30:53.496Z	Worldwide TechServices	reachable
+2026-11-22T18:30:53.496Z	TeleTracking	reachable
+2026-11-22T18:30:53.496Z	GrayMatter Robotics	reachable
+2026-11-22T18:30:53.496Z	Renew Home	slug_gone
+2026-11-22T18:30:53.496Z	Translucent	reachable
+2026-11-22T18:30:53.496Z	Trillium	reachable
+2026-11-22T18:30:53.496Z	Ziosk	reachable
+2026-11-22T18:30:53.496Z	RealPage	unknown
+2026-11-22T18:30:53.496Z	The Wonderful Company	reachable
+2026-11-22T18:30:53.496Z	Massive Rocket	reachable
+2026-11-22T18:30:53.496Z	SoFi	reachable
+2026-11-22T18:30:53.496Z	AECOM	reachable
+2026-11-22T18:30:53.496Z	Abnormal AI	reachable
+2026-11-22T18:30:53.496Z	Nimble Gravity	reachable
+2026-11-22T18:30:53.496Z	Compass	reachable
+2026-11-22T18:30:53.496Z	Phoenix Contact	reachable
+2026-11-22T18:30:53.496Z	SimplePractice	reachable
+2026-11-22T18:30:53.496Z	City of New York	reachable
+2026-11-22T18:30:53.496Z	Merkle Science	reachable
+2026-11-22T18:30:53.496Z	Riverside Research	unknown
+2026-11-22T18:30:53.496Z	Navitus Health Solutions	unknown
+2026-11-22T18:30:53.496Z	Liberty Mutual	unknown
+2026-11-22T18:30:53.496Z	Charles Schwab	unknown
+2026-11-22T18:30:53.496Z	Intercontinental Exchange	unknown
+2026-11-22T18:30:53.496Z	Kimley-Horn	unknown
+2026-11-22T18:30:53.496Z	Sargent & Lundy	unknown
+2026-11-22T18:30:53.496Z	Inland Empire Health Plan	unknown
+2026-11-22T18:30:53.496Z	Kastle	reachable
+2026-11-22T18:30:53.496Z	The Coca-Cola Company	unknown
+2026-11-22T18:30:53.496Z	Northwestern Mutual	unknown
+2026-11-22T18:30:53.496Z	Bose	reachable
+2026-11-22T18:30:53.496Z	Abbott	unknown
+2026-11-22T18:30:53.496Z	T. Rowe Price	unknown
+2026-11-22T18:30:53.496Z	Everfox	unknown
+2026-11-22T18:30:53.496Z	SS&C Technologies	unknown
+2026-11-22T18:30:53.496Z	U.S. Bank	unknown
+2026-11-22T18:30:53.496Z	CAI	unknown
+2026-11-22T18:30:53.496Z	Cox Enterprises	unknown
+2026-11-22T18:30:53.496Z	Nelnet	unknown
+2026-11-22T18:30:53.496Z	Rocket Companies	unknown
+2026-11-22T18:30:53.496Z	CNA Financial	unknown
+2026-11-22T18:30:53.496Z	CACI	unknown
+2026-11-22T18:30:53.496Z	Blue Origin	unknown
+2026-11-22T18:30:53.496Z	Fortune	unknown
+2026-11-22T18:30:53.496Z	Magellan Health	unknown
+2026-11-22T18:30:53.496Z	Netsmart	unknown
+2026-11-22T18:30:53.496Z	Blackstone	unknown
+2026-11-22T18:30:53.496Z	Hitachi	unknown
+2026-11-22T18:30:53.496Z	Iowa State University	unknown
+2026-11-22T18:30:53.496Z	Agiliti	unknown
+2026-11-22T18:30:53.496Z	HNTB	unknown
+2026-11-22T18:30:53.496Z	Crystal Group	unknown
+2026-11-22T18:30:53.496Z	Tokyo Electron	unknown
+2026-11-22T18:30:53.496Z	USAA	unknown
+2026-11-22T18:30:53.496Z	The Carlyle Group	unknown
+2026-11-22T18:30:53.496Z	NXP Semiconductors	unknown
+2026-11-22T18:30:53.496Z	Light & Wonder	unknown
+2026-11-22T18:30:53.496Z	Washington University in St. Louis	unknown
+2026-11-22T18:30:53.496Z	Ensemble Health Partners	unknown
+2026-11-22T18:30:53.496Z	Kohl's	unknown
+2026-11-22T18:30:53.496Z	Huntington	unknown
+2026-11-22T18:30:53.496Z	gravity9	reachable
+2026-11-22T18:30:53.496Z	Aderant	unknown
+2026-11-22T18:30:53.496Z	Deepgram	reachable
+2026-11-22T18:30:53.496Z	Best Egg	reachable
+2026-11-22T18:30:53.496Z	EliseAI	reachable
+2026-11-22T18:30:53.496Z	Montefiore Health System	unknown
+2026-11-22T18:30:53.496Z	Allied Universal	unknown
+2026-11-22T18:30:53.496Z	Ricardo	unknown
+2026-11-22T18:30:53.496Z	NewYork-Presbyterian Hospital	reachable
+2026-11-22T18:30:53.496Z	Nasscomm	reachable
+2026-11-22T18:30:53.496Z	TTEC Digital	reachable
+2026-11-22T18:30:53.496Z	8090 Solutions Inc.	reachable
+2026-11-22T18:30:53.496Z	a37	slug_gone
+2026-11-22T18:30:53.496Z	Adaptive	reachable
+2026-11-22T18:30:53.496Z	AIM Intelligent Machines Inc.	reachable
+2026-11-22T18:30:53.496Z	Airwallex	reachable
+2026-11-22T18:30:53.496Z	Alan	reachable
+2026-11-22T18:30:53.496Z	Ande	reachable
+2026-11-22T18:30:53.496Z	Antares	reachable
+2026-11-22T18:30:53.496Z	Antimetal	reachable
+2026-11-22T18:30:53.496Z	Antioch	reachable
+2026-11-22T18:30:53.496Z	Applied Compute	reachable
+2026-11-22T18:30:53.496Z	Apron	empty
+2026-11-22T18:30:53.496Z	Arcade	reachable
+2026-11-22T18:30:53.496Z	Lam Research	slug_gone
+2026-11-22T18:30:53.496Z	Architect	reachable
+2026-11-22T18:30:53.496Z	Arena	reachable
+2026-11-22T18:30:53.496Z	Armadin	reachable
+2026-11-22T18:30:53.496Z	LARQ	reachable
+2026-11-22T18:30:53.496Z	Arta	reachable
+2026-11-22T18:30:53.496Z	Artemis	reachable
+2026-11-22T18:30:53.496Z	Ashby	reachable
+2026-11-22T18:30:53.496Z	Astromech	reachable
+2026-11-22T18:30:53.496Z	August	reachable
+2026-11-22T18:30:53.496Z	Augustus	reachable
+2026-11-22T18:30:53.496Z	Aurelius Systems	reachable
+2026-11-22T18:30:53.496Z	Aurora Innovation, Inc.	reachable
+2026-11-22T18:30:53.496Z	Autoscience	reachable
+2026-11-22T18:30:53.496Z	Axelera AI	reachable
+2026-11-22T18:30:53.496Z	BASE	reachable
+2026-11-22T18:30:53.496Z	Basecamp Research	reachable
+2026-11-22T18:30:53.496Z	Baseten	reachable
+2026-11-22T18:30:53.496Z	Basic Capital	reachable
+2026-11-22T18:30:53.496Z	Beacon Software	slug_gone
+2026-11-22T18:30:53.496Z	Bedrock Robotics	reachable
+2026-11-22T18:30:53.496Z	Benchling	reachable
+2026-11-22T18:30:53.496Z	Bespoke Labs	reachable
+2026-11-22T18:30:53.496Z	Bevel	reachable
+2026-11-22T18:30:53.496Z	Boon	reachable
+2026-11-22T18:30:53.496Z	Brain Co.	reachable
+2026-11-22T18:30:53.496Z	Brellium	reachable
+2026-11-22T18:30:53.496Z	Brinc	reachable
+2026-11-22T18:30:53.496Z	Callosum	reachable
+2026-11-22T18:30:53.496Z	Cambio	reachable
+2026-11-22T18:30:53.496Z	Candid Health	reachable
+2026-11-22T18:30:53.496Z	Cartesia	reachable
+2026-11-22T18:30:53.496Z	Casca	reachable
+2026-11-22T18:30:53.496Z	Chai Discovery	reachable
+2026-11-22T18:30:53.496Z	Chalk	reachable
+2026-11-22T18:30:53.496Z	CircuitHub	reachable
+2026-11-22T18:30:53.496Z	CivilGrid	reachable
+2026-11-22T18:30:53.496Z	Clipbook	reachable
+2026-11-22T18:30:53.496Z	Cloaked	reachable
+2026-11-22T18:30:53.496Z	Code Metal	reachable
+2026-11-22T18:30:53.496Z	CodeRabbit	reachable
+2026-11-22T18:30:53.496Z	Cognition	reachable
+2026-11-22T18:30:53.496Z	Column	reachable
+2026-11-22T18:30:53.496Z	Comfy Org	reachable
+2026-11-22T18:30:53.496Z	Convex	reachable
+2026-11-22T18:30:53.496Z	Coram AI	reachable
+2026-11-22T18:30:53.496Z	Corridor	slug_gone
+2026-11-22T18:30:53.496Z	Cosine	reachable
+2026-11-22T18:30:53.496Z	Coverbase	reachable
+2026-11-22T18:30:53.496Z	Cowboy Space Corporation	reachable
+2026-11-22T18:30:53.496Z	Crosby	reachable
+2026-11-22T18:30:53.496Z	CTGT	reachable
+2026-11-22T18:30:53.496Z	Cursor	reachable
+2026-11-22T18:30:53.496Z	CuspAI	reachable
+2026-11-22T18:30:53.496Z	Cylake	reachable
+2026-11-22T18:30:53.496Z	Delos Data	reachable
+2026-11-22T18:30:53.496Z	Delphi	reachable
+2026-11-22T18:30:53.496Z	depthfirst	reachable
+2026-11-22T18:30:53.496Z	Dimensional	reachable
+2026-11-22T18:30:53.496Z	Divine Design Center	reachable
+2026-11-22T18:30:53.496Z	Dominion Dynamics	reachable
+2026-11-22T18:30:53.496Z	Doppel	reachable
+2026-11-22T18:30:53.496Z	DOSS.COM	reachable
+2026-11-22T18:30:53.496Z	Dream	reachable
+2026-11-22T18:30:53.496Z	Drogue	reachable
+2026-11-22T18:30:53.496Z	Dust	reachable
+2026-11-22T18:30:53.496Z	American Eagle Outfitters	reachable
+2026-11-22T18:30:53.496Z	Elliptic	reachable
+2026-11-22T18:30:53.496Z	EMA	reachable
+2026-11-22T18:30:53.496Z	Emerald AI	reachable
+2026-11-22T18:30:53.496Z	Empirical Security	reachable
+2026-11-22T18:30:53.496Z	Encord	reachable
+2026-11-22T18:30:53.496Z	Epsilon Health	reachable
+2026-11-22T18:30:53.496Z	Etched	reachable
+2026-11-22T18:30:53.496Z	Eventual	reachable
+2026-11-22T18:30:53.496Z	Extend	reachable
+2026-11-22T18:30:53.496Z	Eyebot	reachable
+2026-11-22T18:30:53.496Z	fal	reachable
+2026-11-22T18:30:53.496Z	Fieldguide	reachable
+2026-11-22T18:30:53.496Z	Fin	reachable
+2026-11-22T18:30:53.496Z	Firefly	reachable
+2026-11-22T18:30:53.496Z	FleetWorks	reachable
+2026-11-22T18:30:53.496Z	Flink	reachable
+2026-11-22T18:30:53.496Z	Flock Safety	reachable
+2026-11-22T18:30:53.496Z	Flossy	reachable
+2026-11-22T18:30:53.496Z	Flow Engineering	reachable
+2026-11-22T18:30:53.496Z	Fluidstack	reachable
+2026-11-22T18:30:53.496Z	Flux	empty
+2026-11-22T18:30:53.496Z	Forus	reachable
+2026-11-22T18:30:53.496Z	Freehand	reachable
+2026-11-22T18:30:53.496Z	Front	reachable
+2026-11-22T18:30:53.496Z	Fundamental Research Labs	slug_gone
+2026-11-22T18:30:53.496Z	Gallatin AI	reachable
+2026-11-22T18:30:53.496Z	General Medicine	reachable
+2026-11-22T18:30:53.496Z	General Intuition	reachable
+2026-11-22T18:30:53.496Z	Generalist AI	reachable
+2026-11-22T18:30:53.496Z	Genesis	reachable
+2026-11-22T18:30:53.496Z	Glimpse	reachable
+2026-11-22T18:30:53.496Z	Gray Swan AI	reachable
+2026-11-22T18:30:53.496Z	GridCARE	reachable
+2026-11-22T18:30:53.496Z	Ground News	reachable
+2026-11-22T18:30:53.496Z	Hadrian	reachable
+2026-11-22T18:30:53.496Z	Halluminate	reachable
+2026-11-22T18:30:53.496Z	Harmattan AI	reachable
+2026-11-22T18:30:53.496Z	Harmonic	reachable
+2026-11-22T18:30:53.496Z	HavocAI	reachable
+2026-11-22T18:30:53.496Z	H Company	reachable
+2026-11-22T18:30:53.496Z	Heidi	reachable
+2026-11-22T18:30:53.496Z	Helicon	reachable
+2026-11-22T18:30:53.496Z	Helion	reachable
+2026-11-22T18:30:53.496Z	Hex	reachable
+2026-11-22T18:30:53.496Z	Higgsfield AI	reachable
+2026-11-22T18:30:53.496Z	Higharc	reachable
+2026-11-22T18:30:53.496Z	Highlight AI	reachable
+2026-11-22T18:30:53.496Z	Hilbert's AI	slug_gone
+2026-11-22T18:30:53.496Z	Hippocratic AI	reachable
+2026-11-22T18:30:53.496Z	Hone	reachable
+2026-11-22T18:30:53.496Z	Hud	reachable
+2026-11-22T18:30:53.496Z	Human Archive	reachable
+2026-11-22T18:30:53.496Z	ICEYE	reachable
+2026-11-22T18:30:53.496Z	Imprint	reachable
+2026-11-22T18:30:53.496Z	Impulse	reachable
+2026-11-22T18:30:53.496Z	Inferact	reachable
+2026-11-22T18:30:53.496Z	Infinity Constellation	reachable
+2026-11-22T18:30:53.496Z	Infisical	reachable
+2026-11-22T18:30:53.496Z	Inherent	reachable
+2026-11-22T18:30:53.496Z	Inkeep	reachable
+2026-11-22T18:30:53.496Z	InterAction	slug_gone
+2026-11-22T18:30:53.496Z	Variance	reachable
+2026-11-22T18:30:53.496Z	Isometric	reachable
+2026-11-22T18:30:53.496Z	Junction	reachable
+2026-11-22T18:30:53.496Z	Kandou AI	reachable
+2026-11-22T18:30:53.496Z	Kindred	reachable
+2026-11-22T18:30:53.496Z	Payward, Inc.	reachable
+2026-11-22T18:30:53.496Z	Krea	reachable
+2026-11-22T18:30:53.496Z	Laurel	reachable
+2026-11-22T18:30:53.496Z	LemFi	reachable
+2026-11-22T18:30:53.496Z	Leona Health	reachable
+2026-11-22T18:30:53.496Z	Lightdash	reachable
+2026-11-22T18:30:53.496Z	Lio	reachable
+2026-11-22T18:30:53.496Z	Listen Labs	reachable
+2026-11-22T18:30:53.496Z	LiveKit	reachable
+2026-11-22T18:30:53.496Z	Lumilens	reachable
+2026-11-22T18:30:53.496Z	Magic Patterns	reachable
+2026-11-22T18:30:53.496Z	Manifest OS	reachable
+2026-11-22T18:30:53.496Z	Mariana Minerals	reachable
+2026-11-22T18:30:53.496Z	Matic Robots	reachable
+2026-11-22T18:30:53.496Z	Matter Health	reachable
+2026-11-22T18:30:53.496Z	Maxima	reachable
+2026-11-22T18:30:53.496Z	Maze	reachable
+2026-11-22T18:30:53.496Z	Mecka AI	reachable
+2026-11-22T18:30:53.496Z	Medal	slug_gone
+2026-11-22T18:30:53.496Z	Medra	reachable
+2026-11-22T18:30:53.496Z	Mem0	reachable
+2026-11-22T18:30:53.496Z	Merge Labs	reachable
+2026-11-22T18:30:53.496Z	Method	reachable
+2026-11-22T18:30:53.496Z	Mind Moves	reachable
+2026-11-22T18:30:53.496Z	Mirendil	reachable
+2026-11-22T18:30:53.496Z	Miter	reachable
+2026-11-22T18:30:53.496Z	Mithrl	reachable
+2026-11-22T18:30:53.496Z	Mobasi	slug_gone
+2026-11-22T18:30:53.496Z	Modal	reachable
+2026-11-22T18:30:53.496Z	Modus	reachable
+2026-11-22T18:30:53.496Z	Monk	reachable
+2026-11-22T18:30:53.496Z	Monumental	reachable
+2026-11-22T18:30:53.496Z	Natter	reachable
+2026-11-22T18:30:53.496Z	Nebulock	reachable
+2026-11-22T18:30:53.496Z	Nectar Social	slug_gone
+2026-11-22T18:30:53.496Z	Neko Health	reachable
+2026-11-22T18:30:53.496Z	Nelo	reachable
+2026-11-22T18:30:53.496Z	NerdWallet	reachable
+2026-11-22T18:30:53.496Z	Nestmed	reachable
+2026-11-22T18:30:53.496Z	Netic	reachable
+2026-11-22T18:30:53.496Z	Neural Concept	reachable
+2026-11-22T18:30:53.496Z	Neurophos	reachable
+2026-11-22T18:30:53.496Z	Norm Ai	slug_gone
+2026-11-22T18:30:53.496Z	Normal Computing	reachable
+2026-11-22T18:30:53.496Z	Nova Intelligence	reachable
+2026-11-22T18:30:53.496Z	Novita AI	reachable
+2026-11-22T18:30:53.496Z	Nox Metals	reachable
+2026-11-22T18:30:53.496Z	Numeral	reachable
+2026-11-22T18:30:53.496Z	Olix	reachable
+2026-11-22T18:30:53.496Z	OneCrew	reachable
+2026-11-22T18:30:53.496Z	OpenAI	reachable
+2026-11-22T18:30:53.496Z	OpenEvidence	reachable
+2026-11-22T18:30:53.496Z	OpenRouter	reachable
+2026-11-22T18:30:53.496Z	Oratomic	reachable
+2026-11-22T18:30:53.496Z	Orbital Industries	reachable
+2026-11-22T18:30:53.496Z	Outmarket AI	reachable
+2026-11-22T18:30:53.496Z	Pangram Labs	reachable
+2026-11-22T18:30:53.496Z	Paradigm	reachable
+2026-11-22T18:30:53.496Z	Partiful	reachable
+2026-11-22T18:30:53.496Z	Pathwork	reachable
+2026-11-22T18:30:53.496Z	Patreon	reachable
+2026-11-22T18:30:53.496Z	Pennylane	reachable
+2026-11-22T18:30:53.496Z	Perfect Venue	reachable
+2026-11-22T18:30:53.496Z	Periodic	reachable
+2026-11-22T18:30:53.496Z	PermitFlow	reachable
+2026-11-22T18:30:53.496Z	Perry Weather	reachable
+2026-11-22T18:30:53.496Z	Persona AI	reachable
+2026-11-22T18:30:53.496Z	Phantom	reachable
+2026-11-22T18:30:53.496Z	Phoebe	reachable
+2026-11-22T18:30:53.496Z	Physical Intelligence	reachable
+2026-11-22T18:30:53.496Z	Plain	reachable
+2026-11-22T18:30:53.496Z	Poolside AI	reachable
+2026-11-22T18:30:53.496Z	Poseidon Aerospace	reachable
+2026-11-22T18:30:53.496Z	PostHog	reachable
+2026-11-22T18:30:53.496Z	Prime Intellect	reachable
+2026-11-22T18:30:53.496Z	Probook	reachable
+2026-11-22T18:30:53.496Z	Project Eleven	reachable
+2026-11-22T18:30:53.496Z	Protege	reachable
+2026-11-22T18:30:53.496Z	Proxima Fusion	reachable
+2026-11-22T18:30:53.496Z	QuantWare	reachable
+2026-11-22T18:30:53.496Z	Quartermaster	reachable
+2026-11-22T18:30:53.496Z	Quindar	reachable
+2026-11-22T18:30:53.496Z	Railway	reachable
+2026-11-22T18:30:53.496Z	Rain	reachable
+2026-11-22T18:30:53.496Z	Rainmaker Technology Corporation	reachable
+2026-11-22T18:30:53.496Z	Ramp	reachable
+2026-11-22T18:30:53.496Z	Realm Alliance	reachable
+2026-11-22T18:30:53.496Z	Redesign Health	reachable
+2026-11-22T18:30:53.496Z	ReflectionAI	reachable
+2026-11-22T18:30:53.496Z	Relay	reachable
+2026-11-22T18:30:53.496Z	Relevance AI	reachable
+2026-11-22T18:30:53.496Z	Reliable Robotics	reachable
+2026-11-22T18:30:53.496Z	Render	reachable
+2026-11-22T18:30:53.496Z	Replit	reachable
+2026-11-22T18:30:53.496Z	Restate	reachable
+2026-11-22T18:30:53.496Z	Revel	reachable
+2026-11-22T18:30:53.496Z	Rho	reachable
+2026-11-22T18:30:53.496Z	Rhoda AI	reachable
+2026-11-22T18:30:53.496Z	Ricursive Intelligence	reachable
+2026-11-22T18:30:53.496Z	Also.	reachable
+2026-11-22T18:30:53.496Z	River	reachable
+2026-11-22T18:30:53.496Z	Root Access	reachable
+2026-11-22T18:30:53.496Z	RUNE	reachable
+2026-11-22T18:30:53.496Z	Runlayer	reachable
+2026-11-22T18:30:53.496Z	Runway	reachable
+2026-11-22T18:30:53.496Z	Sable	reachable
+2026-11-22T18:30:53.496Z	Sapiom	reachable
+2026-11-22T18:30:53.496Z	Saris	reachable
+2026-11-22T18:30:53.496Z	Sarvam AI	reachable
+2026-11-22T18:30:53.496Z	Wordware	reachable
+2026-11-22T18:30:53.496Z	Scan.com	reachable
+2026-11-22T18:30:53.496Z	Scribe	reachable
+2026-11-22T18:30:53.496Z	Seneca	reachable
+2026-11-22T18:30:53.496Z	Sequence	reachable
+2026-11-22T18:30:53.496Z	Sereact	reachable
+2026-11-22T18:30:53.496Z	Serval	reachable
+2026-11-22T18:30:53.496Z	Sesame	reachable
+2026-11-22T18:30:53.496Z	Siena AI	reachable
+2026-11-22T18:30:53.496Z	Silna	reachable
+2026-11-22T18:30:53.496Z	Slash	reachable
+2026-11-22T18:30:53.496Z	Socket	reachable
+2026-11-22T18:30:53.496Z	Socure	reachable
+2026-11-22T18:30:53.496Z	Sola	reachable
+2026-11-22T18:30:53.496Z	Solstice	reachable
+2026-11-22T18:30:53.496Z	Speakeasy	reachable
+2026-11-22T18:30:53.496Z	SpotOn	reachable
+2026-11-22T18:30:53.496Z	Stacks	reachable
+2026-11-22T18:30:53.496Z	Starbridge	reachable
+2026-11-22T18:30:53.496Z	Strava	reachable
+2026-11-22T18:30:53.496Z	Stuut	reachable
+2026-11-22T18:30:53.496Z	Summation	reachable
+2026-11-22T18:30:53.496Z	sunday	reachable
+2026-11-22T18:30:53.496Z	Suno	reachable
+2026-11-22T18:30:53.496Z	Swarm Aero	reachable
+2026-11-22T18:30:53.496Z	SweatPals	reachable
+2026-11-22T18:30:53.496Z	Synthflow AI	slug_gone
+2026-11-22T18:30:53.496Z	Tabs	reachable
+2026-11-22T18:30:53.496Z	Tacit	reachable
+2026-11-22T18:30:53.496Z	Take2 AI	reachable
+2026-11-22T18:30:53.496Z	Taktile	reachable
+2026-11-22T18:30:53.496Z	Tandem Health	reachable
+2026-11-22T18:30:53.496Z	TAR	reachable
+2026-11-22T18:30:53.496Z	Tarro	reachable
+2026-11-22T18:30:53.496Z	Taxo	reachable
+2026-11-22T18:30:53.496Z	Tenex	reachable
+2026-11-22T18:30:53.496Z	Tennr	reachable
+2026-11-22T18:30:53.496Z	Titan	reachable
+2026-11-22T18:30:53.496Z	TLDR	reachable
+2026-11-22T18:30:53.496Z	Tonic.ai	reachable
+2026-11-22T18:30:53.496Z	Tools for Humanity	reachable
+2026-11-22T18:30:53.496Z	Traba	reachable
+2026-11-22T18:30:53.496Z	Trajectory	reachable
+2026-11-22T18:30:53.496Z	TriEdge Investments	reachable
+2026-11-22T18:30:53.496Z	Turnkey	reachable
+2026-11-22T18:30:53.496Z	Turquoise Health	reachable
+2026-11-22T18:30:53.496Z	Twelve Labs	reachable
+2026-11-22T18:30:53.496Z	Two Dots	slug_gone
+2026-11-22T18:30:53.496Z	TypeSafe AI	reachable
+2026-11-22T18:30:53.496Z	UFORCE	reachable
+2026-11-22T18:30:53.496Z	Unit	reachable
+2026-11-22T18:30:53.496Z	PRO Unlimited	reachable
+2026-11-22T18:30:53.496Z	Upside	reachable
+2026-11-22T18:30:53.496Z	Valinor	reachable
+2026-11-22T18:30:53.496Z	Valon	reachable
+2026-11-22T18:30:53.496Z	Vanta	reachable
+2026-11-22T18:30:53.496Z	Vendelux	reachable
+2026-11-22T18:30:53.496Z	Venn	reachable
+2026-11-22T18:30:53.496Z	Vesta	reachable
+2026-11-22T18:30:53.496Z	Viktorious Holdings	empty
+2026-11-22T18:30:53.496Z	Vitalize	reachable
+2026-11-22T18:30:53.496Z	Vizcom	reachable
+2026-11-22T18:30:53.496Z	Vocca	reachable
+2026-11-22T18:30:53.496Z	Volta Infrastructure Holdings Limited	reachable
+2026-11-22T18:30:53.496Z	Warp	reachable
+2026-11-22T18:30:53.496Z	Watney Robotics Inc	reachable
+2026-11-22T18:30:53.496Z	webAI	reachable
+2026-11-22T18:30:53.496Z	WindBorne	reachable
+2026-11-22T18:30:53.496Z	Wispr Flow	reachable
+2026-11-22T18:30:53.496Z	Daydream	reachable
+2026-11-22T18:30:53.496Z	Pace	reachable
+2026-11-22T18:30:53.496Z	Wordsmith AI	reachable
+2026-11-22T18:30:53.496Z	XBOW	reachable
+2026-11-22T18:30:53.496Z	XONA	reachable
+2026-11-22T18:30:53.496Z	Zip	reachable
+2026-11-22T18:30:53.496Z	AcuityMD	reachable
+2026-11-22T18:30:53.496Z	Allen Control Systems	slug_gone
+2026-11-22T18:30:53.496Z	Arc Institute	reachable
+2026-11-22T18:30:53.496Z	Array	unknown
+2026-11-22T18:30:53.496Z	Blend	reachable
+2026-11-22T18:30:53.496Z	Bluefish AI	reachable
+2026-11-22T18:30:53.496Z	Capitolis	empty
+2026-11-22T18:30:53.496Z	Carta	reachable
+2026-11-22T18:30:53.496Z	Chan Zuckerberg Initiative	slug_gone
+2026-11-22T18:30:53.496Z	Checkr	reachable
+2026-11-22T18:30:53.496Z	Claros	slug_gone
+2026-11-22T18:30:53.496Z	Clear Street	reachable
+2026-11-22T18:30:53.496Z	ClickHouse	slug_gone
+2026-11-22T18:30:53.496Z	Cortex	reachable
+2026-11-22T18:30:53.496Z	Curaleaf	reachable
+2026-11-22T18:30:53.496Z	Databento	reachable
+2026-11-22T18:30:53.496Z	Datacor, Inc.	reachable
+2026-11-22T18:30:53.496Z	Dirac, Inc.	reachable
+2026-11-22T18:30:53.496Z	Duolingo	reachable
+2026-11-22T18:30:53.496Z	Efficient Computer	reachable
+2026-11-22T18:30:53.496Z	EQT Corporation	reachable
+2026-11-22T18:30:53.496Z	Farther	reachable
+2026-11-22T18:30:53.496Z	Fay	reachable
+2026-11-22T18:30:53.496Z	Fractile	slug_gone
+2026-11-22T18:30:53.496Z	Garner Health	reachable
+2026-11-22T18:30:53.496Z	Gather AI	reachable
+2026-11-22T18:30:53.496Z	Gelber Group	reachable
+2026-11-22T18:30:53.496Z	GOAT Group	reachable
+2026-11-22T18:30:53.496Z	Gradial	reachable
+2026-11-22T18:30:53.496Z	Hark	reachable
+2026-11-22T18:30:53.496Z	Harness	reachable
+2026-11-22T18:30:53.496Z	Hasbro	reachable
+2026-11-22T18:30:53.496Z	Honeycomb	reachable
+2026-11-22T18:30:53.496Z	Island	reachable
+2026-11-22T18:30:53.496Z	Kargo	reachable
+2026-11-22T18:30:53.496Z	Lightmatter	unknown
+2026-11-22T18:30:53.496Z	Lila Sciences	reachable
+2026-11-22T18:30:53.496Z	Lithic	reachable
+2026-11-22T18:30:53.496Z	Loop	slug_gone
+2026-11-22T18:30:53.496Z	Lucid Bots	empty
+2026-11-22T18:30:53.496Z	M0	reachable
+2026-11-22T18:30:53.496Z	Maven Robotics	reachable
+2026-11-22T18:30:53.496Z	MEMX	reachable
+2026-11-22T18:30:53.496Z	Mixpanel	reachable
+2026-11-22T18:30:53.496Z	Nava	reachable
+2026-11-22T18:30:53.496Z	NavVis	reachable
+2026-11-22T18:30:53.496Z	Nex	reachable
+2026-11-22T18:30:53.496Z	Novig	slug_gone
+2026-11-22T18:30:53.496Z	Orkes	reachable
+2026-11-22T18:30:53.496Z	Pacific Fusion	reachable
+2026-11-22T18:30:53.496Z	Panthalassa	reachable
+2026-11-22T18:30:53.496Z	Parallel Systems	reachable
+2026-11-22T18:30:53.496Z	Pave	reachable
+2026-11-22T18:30:53.496Z	Perplexity	slug_gone
+2026-11-22T18:30:53.496Z	Podium	reachable
+2026-11-22T18:30:53.496Z	Quince	reachable
+2026-11-22T18:30:53.496Z	Relay	reachable
+2026-11-22T18:30:53.496Z	Retool	slug_gone
+2026-11-22T18:30:53.496Z	RF-SMART	reachable
+2026-11-22T18:30:53.496Z	River AI	reachable
+2026-11-22T18:30:53.496Z	RoboForce	reachable
+2026-11-22T18:30:53.496Z	Sage	reachable
+2026-11-22T18:30:53.496Z	SambaNova	reachable
+2026-11-22T18:30:53.496Z	Skyryse	reachable
+2026-11-22T18:30:53.496Z	Spade	empty
+2026-11-22T18:30:53.496Z	State Affairs	reachable
+2026-11-22T18:30:53.496Z	Pillar	reachable
+2026-11-22T18:30:53.496Z	Suki	reachable
+2026-11-22T18:30:53.496Z	Tia	reachable
+2026-11-22T18:30:53.496Z	Tines	reachable
+2026-11-22T18:30:53.496Z	True Anomaly	reachable
+2026-11-22T18:30:53.496Z	Twin Health	reachable
+2026-11-22T18:30:53.496Z	Unframe AI	reachable
+2026-11-22T18:30:53.496Z	Vast	unknown
+2026-11-22T18:30:53.496Z	Vestwell	reachable
+2026-11-22T18:30:53.496Z	Visia	slug_gone
+2026-11-22T18:30:53.496Z	Woolpert	reachable
+2026-11-22T18:30:53.496Z	World Labs	slug_gone
+2026-11-22T18:30:53.496Z	You.com	reachable
+2026-11-22T18:30:53.496Z	Acron Aviation	reachable
+2026-11-22T18:30:53.496Z	Airalo	reachable
+2026-11-22T18:30:53.496Z	Alice	reachable
+2026-11-22T18:30:53.496Z	Azul Systems	reachable
+2026-11-22T18:30:53.496Z	Collate	reachable
+2026-11-22T18:30:53.496Z	Finch	reachable
+2026-11-22T18:30:53.496Z	Hustle Fund	reachable
+2026-11-22T18:30:53.496Z	Grand Games	reachable
+2026-11-22T18:30:53.496Z	Gravis Robotics	reachable
+2026-11-22T18:30:53.496Z	Hermeus	reachable
+2026-11-22T18:30:53.496Z	Humble Robotics	reachable
+2026-11-22T18:30:53.496Z	Pivotal Software	empty
+2026-11-22T18:30:53.496Z	Layup Parts	reachable
+2026-11-22T18:30:53.496Z	Lumafield	reachable
+2026-11-22T18:30:53.496Z	Mythic	reachable
+2026-11-22T18:30:53.496Z	Rylo Inc.	reachable
+2026-11-22T18:30:53.496Z	Shield AI	empty
+2026-11-22T18:30:53.496Z	Superstate	reachable
+2026-11-22T18:30:53.496Z	UNTIL	reachable
+2026-11-22T18:30:53.496Z	Valarian	reachable
+2026-11-22T18:30:53.496Z	WHOOP	empty
+2026-11-22T18:30:53.496Z	Yuno	reachable
+2026-11-22T18:30:53.496Z	Accenture	unknown
+2026-11-22T18:30:53.496Z	Nissan	unknown
+2026-11-22T18:30:53.496Z	Allstate	reachable
+2026-11-22T18:30:53.496Z	American Family Insurance	unknown
+2026-11-22T18:30:53.496Z	Berkadia	unknown
+2026-11-22T18:30:53.496Z	Boeing	unknown
+2026-11-22T18:30:53.496Z	Boeing	unknown
+2026-11-22T18:30:53.496Z	Boston Dynamics	unknown
+2026-11-22T18:30:53.496Z	Marigold USA, Inc.	reachable
+2026-11-22T18:30:53.496Z	Caterpillar Inc.	reachable
+2026-11-22T18:30:53.496Z	CME Group	unknown
+2026-11-22T18:30:53.496Z	Comcast	unknown
+2026-11-22T18:30:53.496Z	DTN	unknown
+2026-11-22T18:30:53.496Z	Duke Energy	unknown
+2026-11-22T18:30:53.496Z	eBay	unknown
+2026-11-22T18:30:53.496Z	Equifax	unknown
+2026-11-22T18:30:53.496Z	General Dynamics Information Technology	unknown
+2026-11-22T18:30:53.496Z	GE Aerospace	unknown
+2026-11-22T18:30:53.496Z	General Motors	unknown
+2026-11-22T18:30:53.496Z	Gordon Food Service	unknown
+2026-11-22T18:30:53.496Z	RTX	unknown
+2026-11-22T18:30:53.496Z	Highmark Health	unknown
+2026-11-22T18:30:53.496Z	HonorHealth	unknown
+2026-11-22T18:30:53.496Z	IMEG	unknown
+2026-11-22T18:30:53.496Z	Lanteris Space Systems	reachable
+2026-11-22T18:30:53.496Z	Illinois Tool Works	unknown
+2026-11-22T18:30:53.496Z	Blue Yonder	unknown
+2026-11-22T18:30:53.496Z	Blue Yonder	unknown
+2026-11-22T18:30:53.496Z	JLL	unknown
+2026-11-22T18:30:53.496Z	Relativity	unknown
+2026-11-22T18:30:53.496Z	KION Group	unknown
+2026-11-22T18:30:53.496Z	KLA Corporation	unknown
+2026-11-22T18:30:53.496Z	KLA Corporation	unknown
+2026-11-22T18:30:53.496Z	Kohl's	unknown
+2026-11-22T18:30:53.496Z	Life Fitness	unknown
+2026-11-22T18:30:53.496Z	Eli Lilly and Company	reachable
+2026-11-22T18:30:53.496Z	McKesson Corporation	unknown
+2026-11-22T18:30:53.496Z	Medtronic	unknown
+2026-11-22T18:30:53.496Z	Moog	unknown
+2026-11-22T18:30:53.496Z	Motorola Solutions	unknown
+2026-11-22T18:30:53.496Z	Nationwide	unknown
+2026-11-22T18:30:53.496Z	NVIDIA	unknown
+2026-11-22T18:30:53.496Z	Parsons	unknown
+2026-11-22T18:30:53.496Z	Priority1	unknown
+2026-11-22T18:30:53.496Z	Prologis	unknown
+2026-11-22T18:30:53.496Z	RELX	unknown
+2026-11-22T18:30:53.496Z	Rockwell Automation	unknown
+2026-11-22T18:30:53.496Z	Ryan Companies	unknown
+2026-11-22T18:30:53.496Z	SchoolsFirst Federal Credit Union	unknown
+2026-11-22T18:30:53.496Z	Service Corporation International	unknown
+2026-11-22T18:30:53.496Z	Samsung Electronics	reachable
+2026-11-22T18:30:53.496Z	Schweitzer Engineering Laboratories	unknown
+2026-11-22T18:30:53.496Z	State of Nebraska	unknown
+2026-11-22T18:30:53.496Z	St. Jude Children's Research Hospital	unknown
+2026-11-22T18:30:53.496Z	Stord	reachable
+2026-11-22T18:30:53.496Z	SUSE	reachable
+2026-11-22T18:30:53.496Z	Tandem Diabetes Care	unknown
+2026-11-22T18:30:53.496Z	Callaway	unknown
+2026-11-22T18:30:53.496Z	Thomson Reuters	unknown
+2026-11-22T18:30:53.496Z	Trane Technologies	unknown
+2026-11-22T18:30:53.496Z	Vanguard	unknown
+2026-11-22T18:30:53.496Z	Victaulic	unknown
+2026-11-22T18:30:53.496Z	The Washington Post	unknown
+2026-11-22T18:30:53.496Z	Workiva	reachable
+2026-11-22T18:30:53.496Z	Worldwide Clinical Trials	unknown
+2026-11-22T18:30:53.496Z	Conner Strong & Buckelew	reachable
+2026-11-22T18:30:53.496Z	Gallup	reachable
+2026-11-22T18:30:53.496Z	Nimble Robotics	reachable
+2026-11-22T18:30:53.496Z	Lennar	unknown
+2026-11-22T18:30:53.496Z	Binance.US	reachable
+2026-11-22T18:30:53.496Z	Capable Labs	reachable
+2026-11-22T18:30:53.496Z	Eka Robotics	reachable
+2026-11-22T18:30:53.496Z	LatchBio	reachable
+2026-11-22T18:30:53.496Z	Affirm	reachable
+2026-11-22T18:30:53.496Z	Anduril Industries	unknown
+2026-11-22T18:30:53.496Z	Astera Labs	reachable
+2026-11-22T18:30:53.496Z	Cymulate	reachable
+2026-11-22T18:30:53.496Z	DoorDash	reachable
+2026-11-22T18:30:53.496Z	DV Trading	reachable
+2026-11-22T18:30:53.496Z	Electra.aero	reachable
+2026-11-22T18:30:53.496Z	Enformion	reachable
+2026-11-22T18:30:53.496Z	Figma	unknown
+2026-11-22T18:30:53.496Z	Hyliion	reachable
+2026-11-22T18:30:53.496Z	Justworks	unknown
+2026-11-22T18:30:53.496Z	Neuralink	unknown
+2026-11-22T18:30:53.496Z	OpenEye	reachable
+2026-11-22T18:30:53.496Z	Vestmark	reachable
+2026-11-22T18:30:53.496Z	Voloridge Investment Management	reachable
+2026-11-22T18:30:53.496Z	Cirrus Logic	reachable
+2026-11-22T18:30:53.496Z	EnableComp	reachable
+2026-11-22T18:30:53.496Z	Rainmaker Technology Corporation	reachable
+2026-11-22T18:30:53.496Z	Thea Energy	reachable
+2026-11-22T18:30:53.496Z	Venus Aerospace	reachable
+2026-11-22T18:30:53.496Z	Very Good Security	reachable
+2026-11-22T18:30:53.496Z	Applied Materials	unknown
+2026-11-22T18:30:53.496Z	Ambarella	unknown
+2026-11-22T18:30:53.496Z	AssuranceAmerica	reachable
+2026-11-22T18:30:53.496Z	The Baldwin Group	unknown
+2026-11-22T18:30:53.496Z	Brooks Automation	unknown
+2026-11-22T18:30:53.496Z	Canvas, Inc.	unknown
+2026-11-22T18:30:53.496Z	Capital One	unknown
+2026-11-22T18:30:53.496Z	Solar Turbines	unknown
+2026-11-22T18:30:53.496Z	Cenovus Energy	unknown
+2026-11-22T18:30:53.496Z	CGB Enterprises	unknown
+2026-11-22T18:30:53.496Z	Danaher Corporation	unknown
+2026-11-22T18:30:53.496Z	DaVita	unknown
+2026-11-22T18:30:53.496Z	Fannie Mae	unknown
+2026-11-22T18:30:53.496Z	First Quality Enterprises	unknown
+2026-11-22T18:30:53.496Z	Flex	unknown
+2026-11-22T18:30:53.496Z	Globus Medical	unknown
+2026-11-22T18:30:53.496Z	Harris Computer	unknown
+2026-11-22T18:30:53.496Z	The Home Depot	unknown
+2026-11-22T18:30:53.496Z	ING Group	unknown
+2026-11-22T18:30:53.496Z	Jain Global	unknown
+2026-11-22T18:30:53.496Z	J.B. Hunt Transport Services	unknown
+2026-11-22T18:30:53.496Z	Lighthouse Electric Company, Inc.	unknown
+2026-11-22T18:30:53.496Z	Mars, Incorporated	unknown
+2026-11-22T18:30:53.496Z	McKesson Corporation	unknown
+2026-11-22T18:30:53.496Z	The Mosaic Company	unknown
+2026-11-22T18:30:53.496Z	DPR Construction	unknown
+2026-11-22T18:30:53.496Z	Cencora	unknown
+2026-11-22T18:30:53.496Z	National Indemnity Company	unknown
+2026-11-22T18:30:53.496Z	Parkland Health	unknown
+2026-11-22T18:30:53.496Z	Procter & Gamble	unknown
+2026-11-22T18:30:53.496Z	PHINIA	unknown
+2026-11-22T18:30:53.496Z	ProMach	unknown
+2026-11-22T18:30:53.496Z	San José State University Research Foundation	unknown
+2026-11-22T18:30:53.496Z	Corewell Health	unknown
+2026-11-22T18:30:53.496Z	Surescripts	unknown
+2026-11-22T18:30:53.496Z	Perseus Group	unknown
+2026-11-22T18:30:53.496Z	Tempus AI	unknown
+2026-11-22T18:30:53.496Z	Trinity Life Sciences	unknown
+2026-11-22T18:30:53.496Z	University of Arkansas System	unknown
+2026-11-22T18:30:53.496Z	Wayve	reachable
+2026-11-22T18:30:53.496Z	Micron Technology	unknown
+2026-11-22T18:30:53.496Z	Skydio	reachable
+2026-11-22T18:30:53.496Z	Humana	unknown
+2026-11-22T18:30:53.496Z	Medline	unknown
+2026-11-22T18:30:53.496Z	Stryker	unknown
+2026-11-22T18:30:53.496Z	AnySignal	reachable
+2026-11-22T18:30:53.496Z	Chainalysis	reachable
+2026-11-22T18:30:53.496Z	NTT DATA AIVista	reachable
+2026-11-22T18:30:53.496Z	Outset	reachable
+2026-11-22T18:30:53.496Z	PAR Technology	reachable
+2026-11-22T18:30:53.496Z	Poesis	reachable
+2026-11-22T18:30:53.496Z	Pramaana Labs	reachable
+2026-11-22T18:30:53.496Z	Recall.ai	reachable
+2026-11-22T18:30:53.496Z	Substack	reachable
+2026-11-22T18:30:53.496Z	Whop	reachable
+2026-11-22T18:30:53.496Z	Zefr	reachable
+2026-11-22T18:30:53.496Z	Anaplan	reachable
+2026-11-22T18:30:53.496Z	Cloudflare	unknown
+2026-11-22T18:30:53.496Z	Cayuse	reachable
+2026-11-22T18:30:53.496Z	Element Biosciences	reachable
+2026-11-22T18:30:53.496Z	Minitab	reachable
+2026-11-22T18:30:53.496Z	Planet Labs	reachable
+2026-11-22T18:30:53.496Z	Ridgeline	unknown
+2026-11-22T18:30:53.496Z	Tenstorrent	reachable
+2026-11-22T18:30:53.496Z	Prime Electric	reachable
+2026-11-22T18:30:53.496Z	Rhombus	reachable
+2026-11-22T18:30:53.496Z	CSAA Insurance Group	unknown
+2026-11-22T18:30:53.496Z	Dauch Corporation	unknown
+2026-11-22T18:30:53.496Z	The AES Corporation	unknown
+2026-11-22T18:30:53.496Z	Alkegen	unknown
+2026-11-22T18:30:53.496Z	Viridien	unknown
+2026-11-22T18:30:53.496Z	CIBC	unknown
+2026-11-22T18:30:53.496Z	Jet Propulsion Laboratory	unknown
+2026-11-22T18:30:53.496Z	Extra Space Storage	unknown
+2026-11-22T18:30:53.496Z	Fidelity Investments	unknown
+2026-11-22T18:30:53.496Z	Granite Construction Incorporated	unknown
+2026-11-22T18:30:53.496Z	Greystone Asset Management	unknown
+2026-11-22T18:30:53.496Z	Jain Global	unknown
+2026-11-22T18:30:53.496Z	KLA Corporation	unknown
+2026-11-22T18:30:53.496Z	Kyndryl	unknown
+2026-11-22T18:30:53.496Z	Siemens Healthineers	unknown
+2026-11-22T18:30:53.496Z	The Ohio State University	unknown
+2026-11-22T18:30:53.496Z	Pape-Dawson Engineers	unknown
+2026-11-22T18:30:53.496Z	GBH	unknown
+2026-11-22T18:30:53.496Z	PwC	unknown
+2026-11-22T18:30:53.496Z	Rakuten Group	unknown
+2026-11-22T18:30:53.496Z	Rite-Hite	unknown
+2026-11-22T18:30:53.496Z	Rolls-Royce	unknown
+2026-11-22T18:30:53.496Z	Schnuck Markets	unknown
+2026-11-22T18:30:53.496Z	Southwest Airlines	reachable
+2026-11-22T18:30:53.496Z	Thales	unknown
+2026-11-22T18:30:53.496Z	Thales	unknown
+2026-11-22T18:30:53.496Z	Wilbur-Ellis	unknown
+2026-11-22T18:30:53.496Z	Wonder	slug_gone
+2026-11-22T18:30:53.496Z	Airbound	reachable
+2026-11-22T18:30:53.496Z	Alta Ares	reachable
+2026-11-22T18:30:53.496Z	Atira	reachable
+2026-11-22T18:30:53.496Z	Braintrust	reachable
+2026-11-22T18:30:53.496Z	Commure	reachable
+2026-11-22T18:30:53.496Z	Convey	reachable
+2026-11-22T18:30:53.496Z	Eight Sleep	reachable
+2026-11-22T18:30:53.496Z	Gimlet Labs, Inc.	reachable
+2026-11-22T18:30:53.496Z	Horizon3.ai	reachable
+2026-11-22T18:30:53.496Z	MERCOR	reachable
+2026-11-22T18:30:53.496Z	Morpho	reachable
+2026-11-22T18:30:53.496Z	Partly	reachable
+2026-11-22T18:30:53.496Z	Salmon	reachable
+2026-11-22T18:30:53.496Z	Sandbar	reachable
+2026-11-22T18:30:53.496Z	Saronic Technologies	reachable
+2026-11-22T18:30:53.496Z	Simile	reachable
+2026-11-22T18:30:53.496Z	Standard Bots	reachable
+2026-11-22T18:30:53.496Z	TensorWave	reachable
+2026-11-22T18:30:53.496Z	Terra AI	reachable
+2026-11-22T18:30:53.496Z	Vega	reachable
+2026-11-22T18:30:53.496Z	AutoNation	unknown
+2026-11-22T18:30:53.496Z	Weave	reachable
+2026-11-22T18:30:53.496Z	GuidePoint Security	unknown
+2026-11-22T18:30:53.496Z	Orenda	reachable
+2026-11-22T18:30:53.496Z	Everpure	reachable
+2026-11-22T18:30:53.496Z	CrowdHealth	reachable
+2026-11-22T18:30:53.496Z	Reply S.p.A.	reachable
+2026-11-22T18:30:53.496Z	Veeva Systems	reachable
+2026-11-22T18:30:53.496Z	Jurgensen Companies	unknown
+2026-11-22T18:30:53.496Z	Latent Health	reachable
+2026-11-22T18:30:53.496Z	Peec AI	reachable
+2026-11-22T18:30:53.496Z	SideShift	reachable
+2026-11-22T18:30:53.496Z	Widget Factory	reachable
+2026-11-22T18:30:53.496Z	AvidXchange	reachable
+2026-11-22T18:30:53.496Z	CHAOS Industries	reachable
+2026-11-22T18:30:53.496Z	American Cancer Society	unknown
+2026-11-22T18:30:53.496Z	City of Baltimore	unknown
+2026-11-22T18:30:53.496Z	BP	unknown
+2026-11-22T18:30:53.496Z	The Chemours Company	reachable
+2026-11-22T18:30:53.496Z	Enbridge	unknown
+2026-11-22T18:30:53.496Z	Teledyne Technologies	unknown
+2026-11-22T18:30:53.496Z	Freddie Mac	unknown
+2026-11-22T18:30:53.496Z	GE Vernova	reachable
+2026-11-22T18:30:53.496Z	Inspire Brands	reachable
+2026-11-22T18:30:53.496Z	State of Maine	reachable
+2026-11-22T18:30:53.496Z	Ryder	reachable
+2026-11-22T18:30:53.496Z	SHI International	unknown
+2026-11-22T18:30:53.496Z	University Medical Center	unknown
+2026-11-22T18:30:53.496Z	WaterBridge	unknown
+2026-11-22T18:30:53.496Z	Backblaze	reachable
+2026-11-22T18:30:53.496Z	Horace Mann Educators Corporation	reachable
+2026-11-22T18:30:53.496Z	IMC	reachable
+2026-11-22T18:30:53.496Z	Point72 Asset Management	unknown
+2026-11-22T18:30:53.496Z	The Farmer's Dog	reachable
+2026-11-22T18:30:53.496Z	Twitch Interactive	reachable
+2026-11-22T18:30:53.496Z	Assurant	unknown
+2026-11-22T18:30:53.496Z	Citi	unknown
+2026-11-22T18:30:53.496Z	Gundersen Health System	unknown
+2026-11-22T18:30:53.496Z	Jabil	unknown
+2026-11-22T18:30:53.496Z	London Stock Exchange Group	unknown
+2026-11-22T18:30:53.496Z	PacificSource	unknown
+2026-11-22T18:30:53.496Z	ProPetro Services	unknown
+2026-11-22T18:30:53.496Z	ProPetro Services	unknown
+2026-11-22T18:30:53.496Z	Lyric	unknown
+2026-11-22T18:30:53.496Z	AeroVironment	unknown
+2026-11-22T18:30:53.496Z	Bright Horizons	unknown
+2026-11-22T18:30:53.496Z	Business Integra	unknown
+2026-11-22T18:30:53.496Z	Caris Life Sciences	unknown
+2026-11-22T18:30:53.496Z	Clark Construction	unknown
+2026-11-22T18:30:53.496Z	Copart	unknown
+2026-11-22T18:30:53.496Z	Covestro	unknown
+2026-11-22T18:30:53.496Z	GE HealthCare	unknown
+2026-11-22T18:30:53.496Z	Bank of America	unknown
+2026-11-22T18:30:53.496Z	Hunt Electric	unknown
+2026-11-22T18:30:53.496Z	KION Group	unknown
+2026-11-22T18:30:53.496Z	Microchip Technology	unknown
+2026-11-22T18:30:53.496Z	M&T Bank	unknown
+2026-11-22T18:30:53.496Z	Panera Bread	unknown
+2026-11-22T18:30:53.496Z	Sonos	unknown
+2026-11-22T18:30:53.496Z	The University of Texas at Austin	unknown
+2026-11-22T18:30:53.496Z	The Weitz Company	reachable
+2026-11-22T18:30:53.496Z	Yale University	unknown
+2026-11-22T18:30:53.496Z	Affiniti	reachable
+2026-11-22T18:30:53.496Z	Lightyear	reachable
+2026-11-22T18:30:53.496Z	Pursuit	reachable
+2026-11-22T18:30:53.496Z	Spectral Labs	reachable
+2026-11-22T18:30:53.496Z	Upchurch	reachable
+2026-11-22T18:30:53.496Z	Zus Health	reachable
+2026-11-22T18:30:53.496Z	Figure	reachable
+2026-11-22T18:30:53.496Z	iCON	reachable
+2026-11-22T18:30:53.496Z	Inversion Space	reachable
+2026-11-22T18:30:53.496Z	Levanta	reachable
+2026-11-22T18:30:53.496Z	MA Capital	reachable
+2026-11-22T18:30:53.496Z	The Pokémon Company International, Inc.	reachable
+2026-11-22T18:30:53.496Z	SharkNinja	reachable
+2026-11-22T18:30:53.496Z	SirenOpt	reachable
+2026-11-22T18:30:53.496Z	SmartAsset	reachable
+2026-11-22T18:30:53.496Z	Truveta	reachable
+2026-11-22T18:30:53.496Z	Commonwealth Fusion Systems	reachable
+2026-11-22T18:30:53.496Z	Aristocrat	unknown
+2026-11-22T18:30:53.496Z	Avis Budget Group	unknown
+2026-11-22T18:30:53.496Z	Booz Allen Hamilton	unknown
+2026-11-22T18:30:53.496Z	BlackRock	unknown
+2026-11-22T18:30:53.496Z	Broadridge	unknown
+2026-11-22T18:30:53.496Z	Viridien	unknown
+2026-11-22T18:30:53.496Z	Carnegie Mellon University	unknown
+2026-11-22T18:30:53.496Z	Cornell University	unknown
+2026-11-22T18:30:53.496Z	Etsy	unknown
+2026-11-22T18:30:53.496Z	Evolent Health	unknown
+2026-11-22T18:30:53.496Z	FINRA	unknown
+2026-11-22T18:30:53.496Z	Health Care Service Corporation	unknown
+2026-11-22T18:30:53.496Z	Health Research, Inc.	unknown
+2026-11-22T18:30:53.496Z	Johnson & Johnson	unknown
+2026-11-22T18:30:53.496Z	JPI	unknown
+2026-11-22T18:30:53.496Z	KeyCorp	unknown
+2026-11-22T18:30:53.496Z	Lee Company	unknown
+2026-11-22T18:30:53.496Z	Nasdaq	unknown
+2026-11-22T18:30:53.496Z	The Pennant Group	unknown
+2026-11-22T18:30:53.496Z	Primerica	unknown
+2026-11-22T18:30:53.496Z	Qualys	unknown
+2026-11-22T18:30:53.496Z	Federal Reserve System	unknown
+2026-11-22T18:30:53.496Z	Rosendin	unknown
+2026-11-22T18:30:53.496Z	Stout	unknown
+2026-11-22T18:30:53.496Z	Stout	unknown
+2026-11-22T18:30:53.496Z	Target	unknown
+2026-11-22T18:30:53.496Z	Thrivent	unknown
+2026-11-22T18:30:53.496Z	TRUMPF	reachable
+2026-11-22T18:30:53.496Z	Milwaukee Tool	reachable
+2026-11-22T18:30:53.496Z	Verizon	reachable
+2026-11-22T18:30:53.496Z	Graphcore	reachable
+2026-11-22T18:30:53.496Z	Eat Just	reachable
+2026-11-22T18:30:53.496Z	Pathstone	reachable
+2026-11-22T18:30:53.496Z	Agilent Technologies	unknown
+2026-11-22T18:30:53.496Z	Ferrovial	unknown
+2026-11-22T18:30:53.496Z	Generac	unknown
+2026-11-22T18:30:53.496Z	Guidewire Software	unknown
+2026-11-22T18:30:53.496Z	Itron	unknown
+2026-11-22T18:30:53.496Z	Itron	unknown
+2026-11-22T18:30:53.496Z	Manulife	reachable
+2026-11-22T18:30:53.496Z	Royal Philips	unknown
+2026-11-22T18:30:53.496Z	Salesforce	reachable
+2026-11-22T18:30:53.496Z	Sandvik	unknown
+2026-11-22T18:30:53.496Z	Sandvik	unknown
+2026-11-22T18:30:53.496Z	Abby Care	reachable
+2026-11-22T18:30:53.496Z	Bernard	reachable
+2026-11-22T18:30:53.496Z	ClarityPay	reachable
+2026-11-22T18:30:53.496Z	Paraform	reachable
+2026-11-22T18:30:53.496Z	Tessera Labs	reachable
+2026-11-22T18:30:53.496Z	Extend	reachable
+2026-11-22T18:30:53.496Z	EverService	reachable
+2026-11-22T18:30:53.496Z	Cornell University	unknown
+2026-11-22T18:30:53.496Z	Johnson & Johnson	unknown
+2026-11-22T18:30:53.496Z	SpaceXAI	reachable
+2026-11-22T18:30:53.496Z	HP Inc.	unknown
+2026-11-22T18:30:53.496Z	Uline	unknown
+2026-11-22T18:30:53.496Z	Ghost	reachable
+2026-11-22T18:30:53.496Z	Thumbtack	reachable
+2026-11-22T18:30:53.496Z	NOETIK	reachable
+2026-11-22T18:30:53.496Z	Nova Credit	reachable
+2026-11-22T18:30:53.496Z	Re:Build Manufacturing	reachable
+2026-11-22T18:30:53.496Z	Schonfeld	reachable
+2026-11-22T18:30:53.496Z	Tusker	reachable
+2026-11-22T18:30:53.496Z	The Aspen Group	unknown
+2026-11-22T18:30:53.496Z	Viridien	unknown
+2026-11-22T18:30:53.496Z	Cambridge Investment Research	unknown
+2026-11-22T18:30:53.496Z	HP Inc.	unknown
+2026-11-22T18:30:53.496Z	PJM Interconnection	unknown
+2026-11-22T18:30:53.496Z	QTS Data Centers	unknown
+2026-11-22T18:30:53.496Z	ChipAgents	reachable
+2026-11-22T18:30:53.496Z	Clair	reachable
+2026-11-22T18:30:53.496Z	Crux	reachable
+2026-11-22T18:30:53.496Z	Humanoid	reachable
+2026-11-22T18:30:53.496Z	Mintlify	reachable
+2026-11-22T18:30:53.496Z	Moxie	reachable
+2026-11-22T18:30:53.496Z	Neara	reachable
+2026-11-22T18:30:53.496Z	Salient	reachable
+2026-11-22T18:30:53.496Z	Lee Company	unknown
+2026-11-22T18:30:53.496Z	Aaru	reachable
+2026-11-22T18:30:53.496Z	Cyberhaven	reachable
+2026-11-22T18:30:53.496Z	Telnyx	reachable
+2026-11-22T18:30:53.496Z	LG Energy Solution Arizona	reachable
+2026-11-22T18:30:53.496Z	AstraZeneca	unknown
+2026-11-22T18:30:53.496Z	Cadence Design Systems	unknown
+2026-11-22T18:30:53.496Z	Freudenberg	unknown
+2026-11-22T18:30:53.496Z	Haleon	unknown
+2026-11-22T18:30:53.496Z	Miami University	unknown
+2026-11-22T18:30:53.496Z	Amentum	unknown
+2026-11-22T18:30:53.496Z	d-Matrix	reachable
+2026-11-22T18:30:53.496Z	Quora	reachable
+2026-11-22T18:30:53.496Z	Tin Can	reachable
+2026-11-22T18:30:53.496Z	Cadence Design Systems	unknown
+2026-11-22T18:30:53.496Z	Jane Street	reachable
+2026-11-22T18:30:53.496Z	Hudson River Trading	reachable
+2026-11-22T18:30:53.496Z	Jump Trading	reachable
+2026-11-22T18:30:53.496Z	Jump Crypto	reachable
+2026-11-22T18:30:53.496Z	Optiver	reachable
+2026-11-22T18:30:53.496Z	IMC Trading	reachable
+2026-11-22T18:30:53.496Z	Five Rings	reachable
+2026-11-22T18:30:53.496Z	Akuna Capital	reachable
+2026-11-22T18:30:53.496Z	Virtu Financial	reachable
+2026-11-22T18:30:53.496Z	Tower Research Capital	reachable
+2026-11-22T18:30:53.496Z	Old Mission	slug_gone
+2026-11-22T18:30:53.496Z	Belvedere Trading	reachable
+2026-11-22T18:30:53.496Z	Bridgewater Associates	reachable
+2026-11-22T18:30:53.496Z	AQR Capital Management	reachable
+2026-11-22T18:30:53.496Z	Squarepoint Capital	reachable
+2026-11-22T18:30:53.496Z	Radix Trading (University)	reachable
+2026-11-22T18:30:53.496Z	Radix Trading (Experienced)	reachable
+2026-11-22T18:30:53.496Z	Headlands Technologies	reachable
+2026-11-22T18:30:53.496Z	Voleon	reachable
+2026-11-22T18:30:53.496Z	PDT Partners	reachable
+2026-11-22T18:30:53.496Z	Qube Research & Technologies	reachable
+2026-11-22T18:30:53.496Z	Flow Traders	reachable
+2026-11-22T18:30:53.496Z	Chicago Trading Company	reachable
+2026-11-22T18:30:53.496Z	Chicago Trading Company (Campus)	reachable
+2026-11-22T18:30:53.496Z	Geneva Trading	reachable
+2026-11-22T18:30:53.496Z	TransMarket Group	reachable
+2026-11-22T18:30:53.496Z	Maven Securities	reachable
+2026-11-22T18:30:53.496Z	Vatic Labs	reachable
+2026-11-22T18:30:53.496Z	WorldQuant	reachable
+2026-11-22T18:30:53.496Z	Engineers Gate	reachable
+2026-11-22T18:30:53.496Z	Graham Capital Management	reachable
+2026-11-22T18:30:53.496Z	Marshall Wace	empty
+2026-11-22T18:30:53.496Z	ExodusPoint	reachable
+2026-11-22T18:30:53.496Z	Tudor Investment Corp	reachable
+2026-11-22T18:30:53.496Z	Verition Fund Management	reachable
+2026-11-22T18:30:53.496Z	Garda Capital Partners	reachable
+2026-11-22T18:30:53.496Z	Davidson Kempner	reachable
+2026-11-22T18:30:53.496Z	Valkyrie Trading	reachable
+2026-11-22T18:30:53.496Z	Ansatz Capital	reachable
+2026-11-22T18:30:53.496Z	Teza Technologies	reachable
+2026-11-22T18:30:53.496Z	Aquatic Capital Management	reachable
+2026-11-22T18:30:53.496Z	Grasshopper	reachable
+2026-11-22T18:30:53.496Z	Mako Trading	reachable
+2026-11-22T18:30:53.496Z	Eclipse Trading	reachable
+2026-11-22T18:30:53.496Z	Simplex Trading	reachable
+2026-11-22T18:30:53.496Z	Trexquant	reachable
+2026-11-22T18:30:53.496Z	Walleye Capital (Internships)	reachable
+2026-11-22T18:30:53.496Z	Weiss Asset Management	reachable
+2026-11-22T18:30:53.496Z	Man Group	reachable
+2026-11-22T18:30:53.496Z	Winton	reachable
+2026-11-22T18:30:53.496Z	XTX Markets	reachable
+2026-11-22T18:30:53.496Z	Capstone Investment Advisors	reachable
+2026-11-22T18:30:53.496Z	Da Vinci Trading	reachable
+2026-11-22T18:30:53.496Z	Quantbot Technologies	reachable
+2026-11-22T18:30:53.496Z	Atto Trading Technologies	reachable
+2026-11-22T18:30:53.496Z	BlackEdge Capital	reachable
+2026-11-22T18:30:53.496Z	Quadrature Capital	reachable
+2026-11-22T18:30:53.496Z	Acadian Asset Management	reachable
+2026-11-22T18:30:53.496Z	AlphaGrep	reachable
+2026-11-22T18:30:53.496Z	Graviton Research Capital	reachable
+2026-11-22T18:30:53.496Z	BlueCrest Capital Management	slug_gone
+2026-11-22T18:30:53.496Z	Selini Capital	reachable
+2026-11-22T18:30:53.496Z	GSR	reachable
+2026-11-22T18:30:53.496Z	Wintermute	reachable
+2026-11-22T18:30:53.496Z	B2C2	reachable
+2026-11-22T18:30:53.496Z	Galaxy Digital	reachable
+2026-11-22T18:30:53.496Z	FalconX	reachable
+2026-11-22T18:30:53.496Z	Talos	reachable
+2026-11-22T18:30:53.496Z	Pico	reachable
+2026-11-22T18:30:53.496Z	IEX Group	reachable
+2026-11-22T18:30:53.496Z	MarketAxess	reachable
+2026-11-22T18:30:53.496Z	Robinhood	reachable
+2026-11-22T18:30:53.496Z	Coinbase	reachable
+2026-11-22T18:30:53.496Z	Kalshi	reachable
+2026-11-22T18:30:53.496Z	Gemini	reachable
+2026-11-22T18:30:53.496Z	PEAK6	unknown
+2026-11-22T18:30:53.496Z	Apex Fintech Solutions (PEAK6)	unknown
+2026-11-22T18:30:53.496Z	G-Research	unknown
+2026-11-22T18:30:53.496Z	Options Clearing Corporation (OCC)	unknown
+2026-11-22T18:30:53.496Z	LSEG	unknown
+2026-11-22T18:30:53.496Z	S&P Global	unknown
+2026-11-22T18:30:53.496Z	FactSet	unknown
+2026-11-22T18:30:53.496Z	Barclays	unknown
+2026-11-22T18:30:53.496Z	Morgan Stanley	unknown
+2026-11-22T18:30:53.496Z	Wells Fargo	unknown
+2026-11-22T18:30:53.496Z	Deutsche Bank	unknown
+2026-11-22T18:30:53.496Z	RBC (Early Talent)	unknown
+2026-11-22T18:30:53.496Z	Mizuho Americas	unknown
+2026-11-22T18:30:53.496Z	Wellington Management (Campus)	unknown
+2026-11-22T18:30:53.496Z	Wellington Management	unknown
+2026-11-22T18:30:53.496Z	PIMCO	unknown
+2026-11-22T18:30:53.496Z	Dimensional Fund Advisors	unknown
+2026-11-22T18:30:53.496Z	Mistral AI	reachable
+2026-11-22T18:30:53.496Z	Character.AI	reachable
+2026-11-22T18:30:53.496Z	Reka AI	reachable
+2026-11-22T18:30:53.496Z	Imbue	reachable
+2026-11-22T18:30:53.496Z	Liquid AI	reachable
+2026-11-22T18:30:53.496Z	Magic	reachable
+2026-11-22T18:30:53.496Z	World Labs	slug_gone
+2026-11-22T18:30:53.496Z	Skild AI	reachable
+2026-11-22T18:30:53.496Z	1X Technologies	reachable
+2026-11-22T18:30:53.496Z	Agility Robotics	reachable
+2026-11-22T18:30:53.496Z	Nuro	reachable
+2026-11-22T18:30:53.496Z	Motional	reachable
+2026-11-22T18:30:53.496Z	Hebbia	reachable
+2026-11-22T18:30:53.496Z	Abridge	reachable
+2026-11-22T18:30:53.496Z	Recursion	reachable
+2026-11-22T18:30:53.496Z	insitro	reachable
+2026-11-22T18:30:53.496Z	Genesis Molecular AI (fka Genesis Therapeutics)	reachable
+2026-11-22T18:30:53.496Z	Fireworks AI	reachable
+2026-11-22T18:30:53.496Z	Cerebras	reachable
+2026-11-22T18:30:53.496Z	CoreWeave (Europe)	reachable
+2026-11-22T18:30:53.496Z	Weights & Biases (CoreWeave)	slug_gone
+2026-11-22T18:30:53.496Z	Anyscale	reachable
+2026-11-22T18:30:53.496Z	Weaviate	reachable
+2026-11-22T18:30:53.496Z	Chroma	reachable
+2026-11-22T18:30:53.496Z	Writer	reachable
+2026-11-22T18:30:53.496Z	Jasper	reachable
+2026-11-22T18:30:53.496Z	Descript	reachable
+2026-11-22T18:30:53.496Z	Notion	reachable
+2026-11-22T18:30:53.496Z	Duolingo	reachable
+2026-11-22T18:30:53.496Z	Pinterest	reachable
+2026-11-22T18:30:53.496Z	Airbnb	reachable
+2026-11-22T18:30:53.496Z	Lyft	reachable
+2026-11-22T18:30:53.496Z	Instacart	reachable
+2026-11-22T18:30:53.496Z	Stripe	reachable
+2026-11-22T18:30:53.496Z	Brex	reachable
+2026-11-22T18:30:53.496Z	Plaid	reachable
+2026-11-22T18:30:53.496Z	Roblox	reachable
+2026-11-22T18:30:53.496Z	Snap	unknown
+2026-11-22T18:30:53.496Z	Samsara	reachable
+2026-11-22T18:30:53.496Z	Adobe	unknown
+2026-11-22T18:30:53.496Z	Databricks	reachable
+2026-11-22T18:30:53.496Z	Runway	reachable
+2026-11-22T18:30:53.496Z	Pika	reachable
+2026-11-22T18:30:53.496Z	Luma AI	reachable
+2026-11-22T18:30:53.496Z	Black Forest Labs	reachable
+2026-11-22T18:30:53.496Z	Midjourney	reachable
+2026-11-22T18:30:53.496Z	Snorkel AI	reachable
+2026-11-22T18:30:53.496Z	Labelbox	reachable
+2026-11-22T18:30:53.496Z	Handshake (incl. Handshake AI)	reachable
+2026-11-22T18:30:53.496Z	Ambience Healthcare	reachable
+2026-11-22T18:30:53.496Z	AssemblyAI	reachable
+2026-11-22T18:30:53.496Z	HeyGen	reachable
+2026-11-22T18:30:53.496Z	Ideogram	reachable
+2026-11-22T18:30:53.496Z	Hedra	reachable
+2026-11-22T18:30:53.496Z	Tavus	reachable
+2026-11-22T18:30:53.496Z	Factory	reachable
+2026-11-22T18:30:53.496Z	Sourcegraph	reachable
+2026-11-22T18:30:53.496Z	MatX	reachable
+2026-11-22T18:30:53.496Z	Tenstorrent	reachable
+2026-11-22T18:30:53.496Z	Unstructured	reachable
+2026-11-22T18:30:53.496Z	Goodfire	reachable
+2026-11-22T18:30:53.496Z	Apollo Research	reachable
+2026-11-22T18:30:53.496Z	Ai2 (Allen Institute for AI)	reachable
+2026-11-22T18:30:53.496Z	Generate Biomedicines	reachable
+2026-11-22T18:30:53.496Z	Xaira Therapeutics	reachable
+2026-11-22T18:30:53.496Z	Formation Bio	reachable
+2026-11-22T18:30:53.496Z	PathAI	reachable
+2026-11-22T18:30:53.496Z	Apptronik	reachable
+2026-11-22T18:30:53.496Z	Zipline	reachable
+2026-11-22T18:30:53.496Z	Kodiak	reachable
+2026-11-22T18:30:53.496Z	Waabi	reachable
+2026-11-22T18:30:53.496Z	Stack AV	reachable
+2026-11-22T18:30:53.496Z	May Mobility	reachable
+2026-11-22T18:30:53.496Z	Toyota Research Institute	reachable
+2026-11-22T18:30:53.496Z	Samsung Research America	reachable
+2026-11-22T18:30:53.496Z	Samsung Research America (Internships)	reachable
+2026-11-22T18:30:53.496Z	QuantCo	reachable
+2026-11-22T18:30:53.496Z	Collaborative Robotics	reachable
+2026-11-22T18:30:53.496Z	Datadog	reachable
+2026-11-22T18:30:53.496Z	MongoDB	reachable
+2026-11-22T18:30:53.496Z	Workday (Early Career)	unknown
+2026-11-22T18:30:53.496Z	Autodesk	unknown
+2026-11-22T18:30:53.496Z	Autodesk (University)	unknown
+2026-11-22T18:30:53.496Z	Kensho (S&P Global)	unknown
+2026-11-22T18:30:53.496Z	Inflection AI	reachable
+2026-11-22T18:30:53.496Z	Zyphra	reachable
+2026-11-22T18:30:53.496Z	Gamma	reachable
+2026-11-22T18:30:53.496Z	Turing	reachable
+2026-11-22T18:30:53.496Z	Invisible Technologies	reachable
+2026-11-22T18:30:53.496Z	Surge AI	reachable
+2026-11-22T18:30:53.496Z	Cresta	reachable
+2026-11-22T18:30:53.496Z	Observe.AI	reachable
+2026-11-22T18:30:53.496Z	Gong	reachable
+2026-11-22T18:30:53.496Z	Rogo	reachable
+2026-11-22T18:30:53.496Z	Dyna Robotics	reachable
+2026-11-22T18:30:53.496Z	The Bot Company	reachable
+2026-11-22T18:30:53.496Z	Formic	reachable
+2026-11-22T18:30:53.496Z	Locus Robotics	reachable
+2026-11-22T18:30:53.496Z	Torc Robotics	reachable
+2026-11-22T18:30:53.496Z	RAI Institute	reachable
+2026-11-22T18:30:53.496Z	Pony.ai	reachable
+2026-11-22T18:30:53.496Z	Gatik	reachable
+2026-11-22T18:30:53.496Z	National Life Group - Interns	reachable
+2026-11-22T18:30:53.496Z	Ardian	unknown
+2026-11-22T18:30:53.496Z	Cystic Fibrosis Foundation	unknown
