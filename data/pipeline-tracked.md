@@ -773,4 +773,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Markets---Quantitative-Analysis--Summer-Analyst---New-York-City---US--2027_25928747 | Citi | Markets - Quantitative Analysis, Summer Analyst - New York City - US, 2027 | New York New York United States | posted: 2026-11-20
 
+- [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Applied-AI-Engineer-Intern--m-f-d----Spring-2027_R5043333-1 | GE Aerospace | Applied AI Engineer Intern (m/f/d) – Spring 2027 | Remote | posted: 2026-11-23
+
 ## Processed
