@@ -1,20 +1,20 @@
 {
-  "at": "2026-11-23T04:26:03.763Z",
-  "exitCode": 0,
-  "elapsedSec": 149,
-  "newMatches": 33,
-  "total": 2170,
+  "at": "2026-11-23T06:52:06.462Z",
+  "exitCode": 1,
+  "elapsedSec": 91,
+  "newMatches": 0,
+  "total": 2165,
   "blocked": "LinkedIn blocked (429)",
   "errors": 0,
   "days": 2,
-  "queries": 5,
+  "queries": 0,
   "batch": [
-    "quantitative trading intern",
-    "quantitative developer intern",
-    "quantitative analyst intern",
-    "quant intern",
-    "trading intern",
-    "algorithmic trading intern"
+    "algorithmic trading intern",
+    "quant co-op",
+    "machine learning intern",
+    "machine learning engineer intern",
+    "AI engineer intern",
+    "artificial intelligence intern"
   ],
   "mode": "linkedin-guest-search"
 }
