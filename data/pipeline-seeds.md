@@ -168,4 +168,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://job-boards.greenhouse.io/nerostechnologies/jobs/5273167007 | Neros Technologies | Autonomy Intern - Summer 2027 | Torrance, California, United States | posted: 2026-11-21
 
+- [ ] https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958079002 | LinkedIn Job Wrapping | AI Adoption Intern | 135 W 26th Street, New York, NY 10001 | posted: 2026-11-23
+- [ ] https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958074002 | LinkedIn Job Wrapping | AI Engineering Intern | 135 W 26th Street, New York, NY 10001 | posted: 2026-11-23
+- [ ] https://job-boards.greenhouse.io/artefactlinkedin/jobs/8958071002 | LinkedIn Job Wrapping | AI Strategy Intern | 135 W 26th Street, New York, NY 10001 | posted: 2026-11-23
+
 ## Processed
