@@ -775,4 +775,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Remote/Applied-AI-Engineer-Intern--m-f-d----Spring-2027_R5043333-1 | GE Aerospace | Applied AI Engineer Intern (m/f/d) – Spring 2027 | Remote | posted: 2026-11-23
 
+- [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955762002 | Samsung Research America Internship | 2027 PhD Intern, AI Research | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-23
+- [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002 | Samsung Research America Internship | 2027 Summer Intern, Computer Vision | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-23
+
 ## Processed
