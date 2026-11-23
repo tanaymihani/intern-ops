@@ -778,4 +778,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955762002 | Samsung Research America Internship | 2027 PhD Intern, AI Research | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-23
 - [ ] https://job-boards.greenhouse.io/samsungresearchamericainternship/jobs/8955802002 | Samsung Research America Internship | 2027 Summer Intern, Computer Vision | 665 Clyde Avenue, Mountain View, CA, USA | posted: 2026-11-23
 
+- [ ] https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---Thousand-Oaks/Grad-Intern---siRNA-Stability-and-Data-Science--Summer-2027-_R-261404 | Amgen | Grad Intern - siRNA Stability and Data Science (Summer 2027) | US - California - Thousand Oaks | posted: 2026-11-23
+- [ ] https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Principle-Engineer---AI-Research-and-Fellows-Program_JR-202624689 | General Motors | Principle Engineer – AI Research and Fellows Program | Warren, Michigan, United States of America | posted: 2026-11-23
+
 ## Processed
