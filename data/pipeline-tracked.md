@@ -783,4 +783,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/Intern---AI-Agentic-Embedded-Software-Development---Bothell--WA---Summer-2027_594989 | Royal Philips | Intern – AI-Agentic Embedded Software Development - Bothell, WA - Summer 2027 | Bothell, Washington, United States | posted: 2026-11-23
 
+- [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6270727004 | SambaNova | Runtime Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-24
+
 ## Processed
