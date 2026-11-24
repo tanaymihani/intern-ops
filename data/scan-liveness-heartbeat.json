@@ -1,11 +1,11 @@
 {
-  "at": "2026-11-23T22:36:27.253Z",
+  "at": "2026-11-24T00:19:24.180Z",
   "exitCode": 0,
-  "elapsedSec": 21,
-  "boards": 120,
-  "checked": 261,
-  "newlyClosed": 4,
+  "elapsedSec": 1,
+  "boards": 121,
+  "checked": 263,
+  "newlyClosed": 0,
   "totalClosed": 87,
-  "errors": 3,
+  "errors": 2,
   "mode": "ats-board-liveness"
 }
