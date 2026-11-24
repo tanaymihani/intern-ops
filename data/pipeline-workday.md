@@ -468,4 +468,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://caci.wd1.myworkdayjobs.com/external/job/Remote-Any-State/Operations-Intern--AI-Tool-Integration-and-Operational-Testing---Summer-2027_334905-1 | caci | Operations Intern (AI Tool Integration and Operational Testing - Summer 2027 | 2 Locations | posted: 2026-11-14
 
+- [ ] https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Summer-Intern---AI-for-Drug-Discovery_202611-129909 | roche | 2027 Summer Intern - AI for Drug Discovery | South San Francisco | posted: 2026-11-24
+
 ## Processed
