@@ -175,4 +175,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/contoro/6a1f0c10-3e5f-4899-ad86-38036a9cd434 | contoro | Robotics Software Engineer Intern, Autonomy \[Automation\] | Austin, TX | posted: 2026-11-23
 - [ ] https://jobs.lever.co/exowatt/86589116-72a5-44f1-893a-1c688d15f2cf | exowatt | Software & AI Spring Intern (Austin, TX) | Austin, TX | posted: 2026-11-23
 
+- [ ] https://jobs.ashbyhq.com/illumio/78a9e57d-c213-405b-9cf3-6e68109a4ce7 | illumio | AI-Based Scale & Performance Test Automation Intern | Sunnyvale, California - HQ | posted: 2026-11-24
+
 ## Processed
