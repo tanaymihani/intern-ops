@@ -177,4 +177,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ashbyhq.com/illumio/78a9e57d-c213-405b-9cf3-6e68109a4ce7 | illumio | AI-Based Scale & Performance Test Automation Intern | Sunnyvale, California - HQ | posted: 2026-11-24
 
+- [ ] https://jobs.ashbyhq.com/base-power/b6b2332e-1226-4575-b2c9-9e5258f2540e | base-power | Quantitative Developer Intern | Austin, TX | posted: 2026-11-25
+
 ## Processed
