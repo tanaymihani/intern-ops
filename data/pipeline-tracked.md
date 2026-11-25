@@ -796,4 +796,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6271345004 | SambaNova | DFT Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-25
 - [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6271338004 | SambaNova | Physical Design Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-25
 
+- [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6271395004 | SambaNova | Machine Learning Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-25
+
 ## Processed
