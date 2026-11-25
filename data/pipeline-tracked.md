@@ -790,4 +790,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6271289004 | SambaNova | ML Infrastructure Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-25
 
+- [ ] https://sambanova.ai/sambanova-available-positions/?gh_jid=6271308004 | SambaNova | Design Verification Engineer Intern | Austin, Texas, United States; San Jose, California, United States | posted: 2026-11-25
+
 ## Processed
